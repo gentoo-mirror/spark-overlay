@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* app-arch/unzip >=dev-java/osgi-core-6.0.0:6 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=snappy-java: A fast compression/decompression library
+EAPI=7
+HOMEPAGE=https://github.com/xerial/snappy-java
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=elibc_FreeBSD doc source
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+SLOT=1.1
+SRC_URI=https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.5/snappy-java-1.1.7.5-sources.jar -> snappy-1.1.7.5-sources.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=1d7e67dde015b21362a3252f68105fdf

@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* app-arch/unzip !binary? ( >=dev-java/jakarta-annotation-api-1.3.5:0 >=dev-java/jakarta-inject-2.6.1:0 >=dev-java/osgi-resource-locator-1.0.3:0 java-virtuals/ws-rs-api:0 >=dev-java/osgi-core-6.0.0:6 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Jersey core common packages
+EAPI=7
+HOMEPAGE=https://projects.eclipse.org/projects/ee4j.jersey/jersey-common
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=GPL-2-with-classpath-exception public-domain Apache-2.0 EPL-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/jakarta-annotation-api-1.3.5:0 >=dev-java/jakarta-inject-2.6.1:0 >=dev-java/osgi-resource-locator-1.0.3:0 java-virtuals/ws-rs-api:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=2
+SRC_URI=https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.29.1/jersey-common-2.29.1-sources.jar https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.29.1/jersey-common-2.29.1.jar -> jersey-common-2.29.1-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=d4e82d80e83754995454de516e9b38e6

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* >=dev-java/objectfile-19.2.1 >=dev-java/pointsto-19.2.1 >=dev-java/graal-sdk-19.2.1 >=dev-java/graalvm-compiler-19.2.1 dev-java/truffle-nfi app-arch/unzip >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=SubstrateVM image builder components
+EAPI=7
+HOMEPAGE=https://github.com/oracle/graal/tree/master/substratevm
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=+binary elibc_FreeBSD doc source binary
+KEYWORDS=~amd64
+LICENSE=GPL-2-with-classpath-exception
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/objectfile-19.2.1 >=dev-java/pointsto-19.2.1 >=dev-java/graal-sdk-19.2.1 >=dev-java/graalvm-compiler-19.2.1 dev-java/truffle-nfi >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=https://repo.maven.apache.org/maven2/com/oracle/substratevm/svm/19.2.1/svm-19.2.1-sources.jar https://repo.maven.apache.org/maven2/com/oracle/substratevm/svm/19.2.1/svm-19.2.1.jar -> svm-19.2.1-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=d9c22461629654a831904bdb72cece4a

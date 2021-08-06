@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* dev-java/kotlin-stdlib:1.4 dev-java/okio:2.6 dev-java/android-all:0 >=dev-java/bctls-jdk15on-1.65:0 dev-java/conscrypt-openjdk-uber:2.4 dev-java/openjsse:1.1.0 dev-java/jetbrains-annotations:13 dev-java/animal-sniffer-annotations:0 test? ( dev-java/kotlin-test:1.4 dev-java/kotlin-test-junit:1.4 dev-java/assertj-core:2 ) >=dev-java/java-config-2.2.0-r3 >=virtual/kotlin-1.4:* source? ( app-arch/zip ) test? ( dev-java/junit:4 )
+DESCRIPTION=Square's meticulous HTTP client for Java and Kotlin
+EAPI=7
+HOMEPAGE=https://square.github.io/okhttp/
+INHERIT=kotlin
+IUSE=elibc_FreeBSD source test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* dev-java/kotlin-stdlib:1.4 dev-java/okio:2.6 dev-java/android-all:0 >=dev-java/bctls-jdk15on-1.65:0 dev-java/conscrypt-openjdk-uber:2.4 dev-java/openjsse:1.1.0 >=dev-java/java-config-2.2.0-r3
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/square/okhttp/archive/refs/tags/parent-4.7.2.tar.gz -> okhttp-4.7.2.tar.gz
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	kotlin-utils	94e76620ab040ff865ed724b0954289e	kotlin	0d6a75233218cd39a6cde6f254aabcf2
+_md5_=f51b83ec5404cf509458c2a76a89c189

@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* app-arch/unzip !binary? ( >=dev-java/jetty-util-6.1.26:6 >=dev-java/servlet-api-2.5.20081211:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Jetty server core
+EAPI=7
+HOMEPAGE=http://www.eclipse.org/jetty/jetty-parent/project/modules/jetty
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 EPL-1.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/jetty-util-6.1.26:6 >=dev-java/servlet-api-2.5.20081211:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=6
+SRC_URI=https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26-sources.jar https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar -> jetty-6.1.26-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=f8d17717134bfd82efc0fb1cff71e65e

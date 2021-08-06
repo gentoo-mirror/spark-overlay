@@ -1,0 +1,16 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=!binary? ( ~dev-java/kotlin-stdlib-1.5.20:1.5 dev-java/jetbrains-annotations:13 ) test? ( ~dev-java/kotlin-stdlib-1.5.20:1.5 ~dev-java/kotlin-test-junit-1.5.20:1.5 dev-java/jetbrains-annotations:13 ) >=dev-java/java-config-2.2.0-r3 >=virtual/jdk-1.8:* !binary? ( >=virtual/kotlin-1.5:* source? ( app-arch/zip ) ) test? ( >=virtual/kotlin-1.5:* ) test? ( dev-java/junit:4 amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Kotlin Test Multiplatform library
+EAPI=7
+HOMEPAGE=https://kotlinlang.org
+INHERIT=kotlin-libs
+IUSE=elibc_FreeBSD binary test source
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 BSD MIT NPL-1.1
+RDEPEND=~dev-java/kotlin-stdlib-1.5.20:1.5 >=dev-java/java-config-2.2.0-r3 >=virtual/jre-1.8:*
+REQUIRED_USE=
+RESTRICT=!test? ( test )
+SLOT=1.5
+SRC_URI=!binary? ( https://github.com/JetBrains/kotlin/archive/refs/tags/v1.5.20.tar.gz -> kotlin-1.5.20.tar.gz test? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-test/1.5.20/kotlin-test-1.5.20.jar ) ) binary? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-test/1.5.20/kotlin-test-1.5.20.jar source? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-test/1.5.20/kotlin-test-1.5.20-sources.jar ) test? ( https://github.com/JetBrains/kotlin/archive/refs/tags/v1.5.20.tar.gz -> kotlin-1.5.20.tar.gz ) )
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	kotlin-utils	94e76620ab040ff865ed724b0954289e	kotlin-libs	0c97b14855ad3024ed4deaa20d1c7658
+_md5_=9d91820f895ea29cd7e5351be7c58411

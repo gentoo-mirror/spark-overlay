@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* !binary? ( >=dev-java/maven-artifact-2.2.1:0 >=dev-java/maven-plugin-api-2.2.1:0 >=dev-java/maven-project-2.2.1:0 >=dev-java/plexus-utils-1.5.15:0 >=dev-java/ant-core-1.10.7:0 >=dev-java/bcpg-1.50:1.50 >=dev-java/commons-compress-1.10:0 >=dev-java/commons-io-2.4:1 >=dev-java/maven-bin-3.8.1:3.8 >=dev-java/maven-plugin-annotations-3.2:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Create Debian packages from Java builds in a truly cross platform manner
+EAPI=7
+HOMEPAGE=https://github.com/tcurdt/jdeb
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=+binary elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/maven-artifact-2.2.1:0 >=dev-java/maven-plugin-api-2.2.1:0 >=dev-java/maven-project-2.2.1:0 >=dev-java/plexus-utils-1.5.15:0 >=dev-java/ant-core-1.10.7:0 >=dev-java/bcpg-1.50:1.50 >=dev-java/commons-compress-1.10:0 >=dev-java/commons-io-2.4:1 >=dev-java/maven-bin-3.8.1:3.8 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/org/vafer/jdeb/1.1.1/jdeb-1.1.1-sources.jar https://repo1.maven.org/maven2/org/vafer/jdeb/1.1.1/jdeb-1.1.1.jar -> jdeb-1.1.1-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=e111676430f6524a84c58a0449bdcbe1

@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* app-arch/unzip !binary? ( >=dev-java/commons-logging-1.2:0 >=dev-java/log4j-1.2.17:0 >=dev-java/log4j-api-2.7:0 >=dev-java/slf4j-api-1.7.28:0 dev-java/jctools-core:2.1 >=dev-java/svm-19.2.1:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Asynchronous event-driven network application framework
+EAPI=7
+HOMEPAGE=https://netty.io/netty-common/
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/commons-logging-1.2:0 >=dev-java/log4j-1.2.17:0 >=dev-java/log4j-api-2.7:0 >=dev-java/slf4j-api-1.7.28:0 dev-java/jctools-core:2.1 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final-sources.jar -> netty-common-4.1.42-sources.jar https://repo1.maven.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.jar -> netty-common-4.1.42-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=c1c484381e2df87656dbe6aa35441f89

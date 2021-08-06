@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* app-arch/unzip !binary? ( >=dev-java/reactive-streams-1.0.2:0 >=dev-java/jsr305-3.0.2:0 dev-java/kotlin-stdlib:1.4 >=dev-java/slf4j-api-1.7.28:0 dev-java/java9-concurrent-backport:0 >=virtual/kotlin-1.4:* dev-java/jetbrains-annotations:13 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Non-Blocking Reactive Foundation for the JVM
+EAPI=7
+HOMEPAGE=https://github.com/reactor/reactor-core
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven kotlin-utils
+IUSE=elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/reactive-streams-1.0.2:0 >=dev-java/jsr305-3.0.2:0 dev-java/kotlin-stdlib:1.4 >=dev-java/slf4j-api-1.7.28:0 dev-java/java9-concurrent-backport:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/io/projectreactor/reactor-core/3.1.4.RELEASE/reactor-core-3.1.4.RELEASE-sources.jar -> reactor-core-3.1.4-sources.jar https://repo1.maven.org/maven2/io/projectreactor/reactor-core/3.1.4.RELEASE/reactor-core-3.1.4.RELEASE.jar -> reactor-core-3.1.4-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	kotlin-utils	94e76620ab040ff865ed724b0954289e
+_md5_=f12f6794c4a7b7d995b187b59724708c

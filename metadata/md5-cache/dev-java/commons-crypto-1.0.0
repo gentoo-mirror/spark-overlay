@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* >=dev-java/jna-4.2.2:4 app-arch/unzip >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=Apache Commons Crypto is a cryptographic library optimized with AES-NI (Advanced Encryption Standard New Instructions).
+EAPI=7
+HOMEPAGE=http://commons.apache.org/proper/commons-crypto/
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=elibc_FreeBSD doc source
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/jna-4.2.2:4 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=https://repo.maven.apache.org/maven2/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0-sources.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=af2a47197a74881fe8dad656040bbf76

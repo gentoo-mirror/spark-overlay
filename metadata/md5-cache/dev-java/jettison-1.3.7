@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* test? ( dev-java/junit:4 dev-java/wstx:3.2 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=A JSON StAX implementation
+EAPI=7
+HOMEPAGE=https://github.com/codehaus/jettison
+INHERIT=java-pkg-2 java-pkg-simple
+IUSE=test elibc_FreeBSD doc source
+KEYWORDS=~amd64 ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~x86-solaris
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/codehaus/jettison/archive/jettison-1.3.7.tar.gz
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c
+_md5_=79fb1e7f5c725254adb70da2567c5744

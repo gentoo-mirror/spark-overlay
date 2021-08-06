@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* >=dev-java/jnr-constants-0.8.7:0 >=dev-java/jnr-ffi-2.0.3:0 app-arch/unzip >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=Common cross-project/cross-platform POSIX APIs
+EAPI=7
+HOMEPAGE=http://nexus.sonatype.org/oss-repository-hosting.html/jnr-posix
+INHERIT=java-pkg-2 java-pkg-simple
+IUSE=elibc_FreeBSD doc source
+KEYWORDS=~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux ~x86-solaris
+LICENSE=LGPL-2.1 CPL-1.0 GPL-2
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/jnr-constants-0.8.7:0 >=dev-java/jnr-ffi-2.0.3:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.0.12/jnr-posix-3.0.12-sources.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c
+_md5_=b99c48e097de5e105a2f5b1ac57129da

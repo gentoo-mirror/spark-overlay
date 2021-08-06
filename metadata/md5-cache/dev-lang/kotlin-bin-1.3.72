@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst postrm preinst
+DEPEND=app-arch/unzip
+DESCRIPTION=Statically typed programming language for modern multiplatform applications
+EAPI=7
+HOMEPAGE=https://kotlinlang.org/
+INHERIT=kotlin-compiler
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0 BSD MIT NPL-1.1
+PDEPEND=virtual/kotlin:1.3
+RDEPEND=app-shells/bash >=virtual/jdk-1.8 >=virtual/jre-1.8 app-eselect/eselect-kotlin
+SLOT=1.3
+SRC_URI=https://github.com/JetBrains/kotlin/releases/download/v1.3.72/kotlin-compiler-1.3.72.zip
+_eclasses_=kotlin-compiler	40f38d83c5175c8b40df685a3c021b04
+_md5_=2f9f2c0b1a0046c64591ef15bb120957

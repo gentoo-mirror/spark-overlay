@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* app-arch/unzip !binary? ( >=dev-java/jboss-ejb-api-1.0.0:3.1_spec >=dev-java/jboss-interceptors-api-1.0.0:1.1_spec >=dev-java/jsf-api-2.0:0 >=dev-java/jta-1.1:0 >=dev-java/persistence-api-1.0:0 >=dev-java/weld-api-1.1:0 >=dev-java/cdi-api-1.2:1.2 >=dev-java/jsr250-1.2:0 >=dev-java/validation-api-1.1.0:1.0 java-virtuals/servlet-api:4.0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=APIs for Weld, the reference implementation of JSR 299: Contexts and Dependency Injection for Java EE
+EAPI=7
+HOMEPAGE=http://www.seamframework.org/Weld
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/jboss-ejb-api-1.0.0:3.1_spec >=dev-java/jboss-interceptors-api-1.0.0:1.1_spec >=dev-java/jsf-api-2.0:0 >=dev-java/jta-1.1:0 >=dev-java/persistence-api-1.0:0 >=dev-java/weld-api-1.1:0 >=dev-java/cdi-api-1.2:1.2 >=dev-java/jsr250-1.2:0 >=dev-java/validation-api-1.1.0:1.0 java-virtuals/servlet-api:4.0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/org/jboss/weld/weld-spi/1.1.Final/weld-spi-1.1.Final-sources.jar -> weld-spi-1.1-sources.jar https://repo1.maven.org/maven2/org/jboss/weld/weld-spi/1.1.Final/weld-spi-1.1.Final.jar -> weld-spi-1.1-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=ae30d4f342084bba690016df81003d14

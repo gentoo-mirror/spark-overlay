@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* app-arch/unzip >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=args4j is a small Java class library that makes it easy to parse command line options/arguments in your CUI application.
+EAPI=7
+HOMEPAGE=https://github.com/kohsuke/args4j
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=elibc_FreeBSD doc source binary test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=1
+SRC_URI=https://repo1.maven.org/maven2/args4j/args4j/1.0/args4j-1.0-sources.jar https://repo1.maven.org/maven2/args4j/args4j/1.0/args4j-1.0.jar -> args4j-1.0-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=886533e1cf0da04de923b2f7076ceed3

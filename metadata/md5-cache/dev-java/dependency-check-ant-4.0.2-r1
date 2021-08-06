@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* app-arch/unzip !binary? ( >=dev-java/dependency-check-core-4.0.2:0 >=dev-java/dependency-check-utils-4.0.2:0 >=dev-java/ant-core-1.10.7:0 >=dev-java/findbugs-annotations-3.0.12:3 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=dependency-check-ant is an Ant Task that uses dependency-check-core to detect publicly disclosed vulnerabilities associated with the project's dependencies. The task will generate a report listing the dependency, any identified Common Platform Enumeration (CPE) identifiers, and the associated Common Vulnerability and Exposure (CVE) entries.
+EAPI=7
+HOMEPAGE=https://github.com/jeremylong/DependencyCheck.git/dependency-check-ant
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/dependency-check-core-4.0.2:0 >=dev-java/dependency-check-utils-4.0.2:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/org/owasp/dependency-check-ant/4.0.2/dependency-check-ant-4.0.2-sources.jar https://repo1.maven.org/maven2/org/owasp/dependency-check-ant/4.0.2/dependency-check-ant-4.0.2.jar -> dependency-check-ant-4.0.2-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=863d3c237d03c4393f120661ac50085a

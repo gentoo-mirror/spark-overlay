@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* !binary? ( >=dev-java/jackson-databind-2.10.0:0 >=dev-java/metrics-core-4.1.1:0 >=dev-java/unused-1.0.0:0 >=dev-java/commons-crypto-1.0.0:0 >=dev-java/commons-lang-3.12.0:3.6 >=dev-java/jackson-annotations-2.11.0:2 >=dev-java/jsr305-3.0.1:0 >=dev-java/leveldbjni-1.8:0 >=dev-java/netty-all-4.1.42:0 >=dev-java/scala-common-bin-2.12.4:2.12 dev-java/scala-xml:2.12 >=dev-java/slf4j-api-1.7.28:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Spark Project Networking
+EAPI=7
+HOMEPAGE=https://spark.apache.org/
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=+binary elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/jackson-databind-2.10.0:0 >=dev-java/metrics-core-4.1.1:0 >=dev-java/unused-1.0.0:0 >=dev-java/commons-crypto-1.0.0:0 >=dev-java/commons-lang-3.12.0:3.6 >=dev-java/jackson-annotations-2.11.0:2 >=dev-java/jsr305-3.0.1:0 >=dev-java/leveldbjni-1.8:0 >=dev-java/netty-all-4.1.42:0 >=dev-java/scala-common-bin-2.12.4:2.12 dev-java/scala-xml:2.12 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=2.12
+SRC_URI=https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.12/3.0.0-preview2/spark-network-common_2.12-3.0.0-preview2-sources.jar -> spark-network-common-3.0.0-sources.jar https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.12/3.0.0-preview2/spark-network-common_2.12-3.0.0-preview2.jar -> spark-network-common-3.0.0-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=0090aa298511266e98d709c9b80fe1ce

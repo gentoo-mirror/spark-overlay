@@ -1,0 +1,17 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install postinst postrm preinst prepare setup test
+DEPEND=~dev-java/kotlin-common-bin-1.3.72:1.3 dev-java/jetbrains-annotations:13 dev-java/jetbrains-trove:0 >=virtual/jdk-1.8:* test? ( dev-java/junit:4 ) >=dev-java/java-config-2.2.0-r3
+DESCRIPTION=Statically typed programming language for modern multiplatform applications
+EAPI=7
+HOMEPAGE=https://kotlinlang.org/
+INHERIT=java-pkg-2 kotlin-compiler
+IUSE=test elibc_FreeBSD
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 BSD MIT NPL-1.1
+PDEPEND=virtual/kotlin:1.3
+RDEPEND=~dev-java/kotlin-common-bin-1.3.72:1.3 dev-java/jetbrains-annotations:13 dev-java/jetbrains-trove:0 >=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3 app-eselect/eselect-kotlin
+RESTRICT=!test? ( test )
+SLOT=1.3
+SRC_URI=https://github.com/JetBrains/kotlin/releases/download/v1.3.72/kotlin-compiler-1.3.72.zip test? ( https://github.com/JetBrains/kotlin/archive/refs/tags/v1.3.72.tar.gz -> kotlin-1.3.72.tar.gz )
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	kotlin-compiler	40f38d83c5175c8b40df685a3c021b04
+_md5_=b9fbf9c43fd286baf8caf960986bdb6e

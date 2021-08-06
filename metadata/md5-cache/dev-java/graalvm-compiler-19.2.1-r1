@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* app-arch/unzip !binary? ( >=dev-java/graal-sdk-19.2.1:0 >=dev-java/truffle-api-20.1.0:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=The GraalVM compiler and the Graal-truffle optimizer.
+EAPI=7
+HOMEPAGE=https://www.graalvm.org/
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=+binary elibc_FreeBSD doc source binary test
+KEYWORDS=~amd64
+LICENSE=GPL-2-with-classpath-exception
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/graal-sdk-19.2.1:0 >=dev-java/truffle-api-20.1.0:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo.maven.apache.org/maven2/org/graalvm/compiler/compiler/19.2.1/compiler-19.2.1-sources.jar -> graalvm-compiler-19.2.1-sources.jar https://repo.maven.apache.org/maven2/org/graalvm/compiler/compiler/19.2.1/compiler-19.2.1.jar -> graalvm-compiler-19.2.1-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=f96dd3c132320bfeef21c24eabf6e1fa

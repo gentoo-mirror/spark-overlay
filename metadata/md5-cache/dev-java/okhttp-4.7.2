@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* >=dev-java/kotlin-common-bin-1.3.72:0 dev-java/okio:2.6 app-arch/unzip >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=Square's meticulous HTTP client for Java and Kotlin.
+EAPI=7
+HOMEPAGE=https://square.github.io/okhttp/
+INHERIT=java-pkg-2 java-pkg-binjar
+IUSE=elibc_FreeBSD doc source
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/kotlin-common-bin-1.3.72:0 dev-java/okio:2.6 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/4.7.2/okhttp-4.7.2.jar -> okhttp-4.7.2-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-binjar	8defcc77070fc68fa13d547bacfca0d2
+_md5_=3fc01f236afd4e13280ab04f35e3ec11

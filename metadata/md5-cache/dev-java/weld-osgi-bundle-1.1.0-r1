@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* app-arch/unzip !binary? ( >=dev-java/jboss-interceptor-core-2.0.0:0 >=dev-java/jboss-interceptor-spi-2.0.0:0 >=dev-java/weld-api-1.1:0 >=dev-java/weld-core-1.1.0:0 >=dev-java/weld-spi-1.1:0 >=dev-java/cdi-api-1.2:1.2 >=dev-java/guava-29.0:0 >=dev-java/javassist-3.18.2:3 >=dev-java/javax-inject-1:0 >=dev-java/slf4j-jdk14-1.5.10:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Weld runtime packaged as an OSGi bundle
+EAPI=7
+HOMEPAGE=https://weld.cdi-spec.org/
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=+binary elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/jboss-interceptor-core-2.0.0:0 >=dev-java/jboss-interceptor-spi-2.0.0:0 >=dev-java/weld-api-1.1:0 >=dev-java/weld-core-1.1.0:0 >=dev-java/weld-spi-1.1:0 >=dev-java/cdi-api-1.2:1.2 >=dev-java/guava-29.0:0 >=dev-java/javassist-3.18.2:3 >=dev-java/javax-inject-1:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/org/jboss/weld/weld-osgi-bundle/1.1.0.Final/weld-osgi-bundle-1.1.0.Final-sources.jar -> weld-osgi-bundle-1.1.0-sources.jar https://repo1.maven.org/maven2/org/jboss/weld/weld-osgi-bundle/1.1.0.Final/weld-osgi-bundle-1.1.0.Final.jar -> weld-osgi-bundle-1.1.0-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=ff5041436cf44e1c8cc1316e2ba3f6a1

@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* app-arch/unzip !binary? ( >=dev-java/jakarta-inject-2.6.1:0 >=dev-java/jersey-common-2.29.1:2 >=dev-java/jersey-server-2.29.1:2 java-virtuals/ws-rs-api:0 >=dev-java/jakarta-persistence-api-2.2.3:0 >=dev-java/jakarta-servlet-api-4.0.3:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Jersey core Servlet 2.x implementation
+EAPI=7
+HOMEPAGE=https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-container-servlet-core
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=BSD-2 EPL-2.0 W3C BSD GPL-2-with-classpath-exception EPL-1.0 MIT Apache-2.0 CC0-1.0 public-domain
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/jakarta-inject-2.6.1:0 >=dev-java/jersey-common-2.29.1:2 >=dev-java/jersey-server-2.29.1:2 java-virtuals/ws-rs-api:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=2
+SRC_URI=https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.29.1/jersey-container-servlet-core-2.29.1-sources.jar https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.29.1/jersey-container-servlet-core-2.29.1.jar -> jersey-container-servlet-core-2.29.1-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=ab061d1d0d3129c9fe526f48d5bb9f09
