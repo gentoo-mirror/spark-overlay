@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* !binary? ( ~dev-java/jetty-util-9.4.11_p20180605:9 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=JMX management artifact for Jetty
+EAPI=7
+HOMEPAGE=https://www.eclipse.org/jetty
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 EPL-1.0
+RDEPEND=>=virtual/jre-1.8:* ~dev-java/jetty-util-9.4.11_p20180605:9 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=9
+SRC_URI=https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jmx/9.4.11.v20180605/jetty-jmx-9.4.11.v20180605-sources.jar -> jetty-jmx-9.4.11_p20180605-sources.jar https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jmx/9.4.11.v20180605/jetty-jmx-9.4.11.v20180605.jar -> jetty-jmx-9.4.11_p20180605-bin.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=5cc588885968b10780d5350451e6ffaf

@@ -62,6 +62,8 @@ dev-java/graalvm-compiler:binary - install binary jar from maven central.
 dev-java/groovy-all:binary - install binary jar from maven central.
 dev-java/guava:binary - install binary jar from maven central.
 dev-java/h2:binary - install binary jar from maven central.
+dev-java/h2o:flow - Enable H2O Flow, a web-based interactive computational environment for H2O
+dev-java/h2o:target-encoder - Enable the H2O Target Encoder plugin
 dev-java/hadoop-annotations:binary - install binary jar from maven central.
 dev-java/hadoop-auth:binary - install binary jar from maven central.
 dev-java/hadoop-client:binary - install binary jar from maven central.
@@ -148,12 +150,7 @@ dev-java/jersey-media-sse:binary - install binary jar from maven central.
 dev-java/jersey-server:binary - install binary jar from maven central.
 dev-java/jets3t:binary - install binary jar from maven central.
 dev-java/jetty:binary - install binary jar from maven central.
-dev-java/jetty-http:binary - install binary jar from maven central.
-dev-java/jetty-io:binary - install binary jar from maven central.
-dev-java/jetty-jmx:binary - install binary jar from maven central.
-dev-java/jetty-server:binary - install binary jar from maven central.
 dev-java/jetty-sslengine:binary - install binary jar from maven central.
-dev-java/jetty-util:binary - install binary jar from maven central.
 dev-java/jnr-ffi:binary - install binary jar from maven central.
 dev-java/jruby:binary - install binary jar from maven central.
 dev-java/jruby-complete:binary - install binary jar from maven central.
@@ -179,9 +176,6 @@ dev-java/log4j-core:binary - install binary jar from maven central.
 dev-java/logback-classic:binary - install binary jar from maven central.
 dev-java/logback-core:binary - install binary jar from maven central.
 dev-java/lombok:binary - install binary jar from maven central.
-dev-java/lucene:binary - install binary jar from maven central.
-dev-java/lucene-analyzers-common:binary - install binary jar from maven central.
-dev-java/lucene-queries:binary - install binary jar from maven central.
 dev-java/lucene-queryparser:binary - install binary jar from maven central.
 dev-java/lucene-sandbox:binary - install binary jar from maven central.
 dev-java/lz4-java:binary - install binary jar from maven central.

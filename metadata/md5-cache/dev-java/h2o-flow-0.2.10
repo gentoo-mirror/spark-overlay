@@ -1,0 +1,15 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3
+DESCRIPTION=Web based interactive computing environment for H2O
+EAPI=7
+HOMEPAGE=https://www.h2o.ai/
+INHERIT=java-pkg-2 java-pkg-simple
+IUSE=elibc_FreeBSD
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/ai/h2o/h2o-flow/0.2.10/h2o-flow-0.2.10.jar
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c
+_md5_=8edeb4b479e5381b74cf7a95c9036269

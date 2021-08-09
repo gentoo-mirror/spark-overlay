@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install postinst postrm preinst prepare setup
+DEPEND=~dev-java/kotlin-stdlib-1.5.21:1.5 ~dev-java/kotlin-reflect-1.5.21:1.5 dev-java/kotlinx-coroutines-core-bin:1.3.8 dev-java/jetbrains-annotations:13 dev-java/jetbrains-trove:0 >=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3
+DESCRIPTION=Statically typed programming language for modern multiplatform applications
+EAPI=7
+HOMEPAGE=https://kotlinlang.org/
+INHERIT=java-pkg-2 kotlin-compiler
+IUSE=javascript elibc_FreeBSD
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 BSD MIT NPL-1.1
+PDEPEND=javascript? ( ~dev-java/kotlin-stdlib-js-1.5.21:1.5 ) virtual/kotlin:1.5
+RDEPEND=~dev-java/kotlin-stdlib-1.5.21:1.5 ~dev-java/kotlin-reflect-1.5.21:1.5 dev-java/kotlinx-coroutines-core-bin:1.3.8 dev-java/jetbrains-annotations:13 dev-java/jetbrains-trove:0 >=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3 app-eselect/eselect-kotlin
+SLOT=1.5
+SRC_URI=https://github.com/JetBrains/kotlin/releases/download/v1.5.21/kotlin-compiler-1.5.21.zip
+_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	kotlin-compiler	40f38d83c5175c8b40df685a3c021b04
+_md5_=2037ec4863509b8d95a69ff84dd7fdbd
