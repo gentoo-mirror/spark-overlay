@@ -12,5 +12,5 @@ REQUIRED_USE=
 RESTRICT=!test? ( test )
 SLOT=1.5
 SRC_URI=!binary? ( https://github.com/JetBrains/kotlin/archive/refs/tags/v1.5.21.tar.gz -> kotlin-1.5.21.tar.gz test? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-annotations-jvm/1.5.21/kotlin-annotations-jvm-1.5.21.jar ) ) binary? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-annotations-jvm/1.5.21/kotlin-annotations-jvm-1.5.21.jar source? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-annotations-jvm/1.5.21/kotlin-annotations-jvm-1.5.21-sources.jar ) )
-_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	kotlin-utils	94e76620ab040ff865ed724b0954289e	kotlin-libs	0c97b14855ad3024ed4deaa20d1c7658
+_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	kotlin-utils	94e76620ab040ff865ed724b0954289e	kotlin-libs	0c97b14855ad3024ed4deaa20d1c7658
 _md5_=0ff507b7ea6ba536542b7a92ac81ecfd

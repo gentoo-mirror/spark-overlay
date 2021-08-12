@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jboss-ejb-api-1.0.0:3.1_spec >=dev-java/j
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/jboss/weld/weld-core/1.1.0.Final/weld-core-1.1.0.Final-sources.jar -> weld-core-1.1.0-sources.jar https://repo1.maven.org/maven2/org/jboss/weld/weld-core/1.1.0.Final/weld-core-1.1.0.Final.jar -> weld-core-1.1.0-bin.jar
-_eclasses_=java-utils-2	bd56fb0d459d0bad9d07fa32febe53cb	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	37e38ed0662a78bfde9cb4f6d11ed6dc	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=04c1995cdd21d00895bb6a81280f75bd
