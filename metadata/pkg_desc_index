@@ -271,30 +271,30 @@ dev-java/jts-core 1.17.0: The JTS Topology Suite is an API for 2D linear geometr
 dev-java/jug 2.0.0: org.safehaus.jug:jug:2.0.0
 dev-java/jul-to-slf4j 1.7.16-r1: JUL to SLF4J bridge
 dev-java/kafka-clients 0.10.0.1: org.apache.kafka:kafka-clients:0.10.0.1
-dev-java/kotlin-annotations-jvm 1.4.32 1.5.21: Kotlin annotations for JVM
+dev-java/kotlin-annotations-jvm 1.4.32 1.5.21 1.5.30: Kotlin annotations for JVM
 dev-java/kotlin-common-bin 1.3.72 1.3.72-r1: Kotlin Common Libraries
-dev-java/kotlin-core-builtins 1.4.32 1.5.21: Kotlin library component kotlin-core-builtins
-dev-java/kotlin-core-compiler-common 1.4.32 1.5.21: Kotlin library build-time dependency kotlin-core-compiler-common
-dev-java/kotlin-core-compiler-common-jvm 1.4.32 1.5.21: Kotlin library build-time dependency kotlin-core-compiler-common-jvm
-dev-java/kotlin-core-descriptors 1.4.32 1.5.21: Kotlin library build-time dependency kotlin-core-descriptors
-dev-java/kotlin-core-descriptors-jvm 1.4.32 1.5.21: Kotlin library build-time dependency kotlin-core-descriptors-jvm
-dev-java/kotlin-core-descriptors-runtime 1.4.32 1.5.21: Kotlin library build-time dependency kotlin-core-descriptors-runtime
-dev-java/kotlin-core-deserialization 1.4.32 1.5.21: Kotlin library build-time dependency kotlin-core-deserialization
-dev-java/kotlin-core-deserialization-common 1.4.32 1.5.21: Kotlin library build-time dependency kotlin-core-deserialization-common
-dev-java/kotlin-core-deserialization-common-jvm 1.4.32 1.5.21: Kotlin library build-time dependency kotlin-core-deserialization-common-jvm
-dev-java/kotlin-core-metadata 1.4.32 1.5.21: Kotlin library build-time dependency kotlin-core-metadata
-dev-java/kotlin-core-metadata-jvm 1.4.32 1.5.21: Kotlin library build-time dependency kotlin-core-metadata-jvm
-dev-java/kotlin-core-util-runtime 1.4.32 1.5.21: Kotlin library build-time dependency kotlin-core-util-runtime
+dev-java/kotlin-core-builtins 1.4.32 1.5.21 1.5.30: Kotlin library component kotlin-core-builtins
+dev-java/kotlin-core-compiler-common 1.4.32 1.5.21 1.5.30: Kotlin library build-time dependency kotlin-core-compiler-common
+dev-java/kotlin-core-compiler-common-jvm 1.4.32 1.5.21 1.5.30: Kotlin library build-time dependency kotlin-core-compiler-common-jvm
+dev-java/kotlin-core-descriptors 1.4.32 1.5.21 1.5.30: Kotlin library build-time dependency kotlin-core-descriptors
+dev-java/kotlin-core-descriptors-jvm 1.4.32 1.5.21 1.5.30: Kotlin library build-time dependency kotlin-core-descriptors-jvm
+dev-java/kotlin-core-descriptors-runtime 1.4.32 1.5.21 1.5.30: Kotlin library build-time dependency kotlin-core-descriptors-runtime
+dev-java/kotlin-core-deserialization 1.4.32 1.5.21 1.5.30: Kotlin library build-time dependency kotlin-core-deserialization
+dev-java/kotlin-core-deserialization-common 1.4.32 1.5.21 1.5.30: Kotlin library build-time dependency kotlin-core-deserialization-common
+dev-java/kotlin-core-deserialization-common-jvm 1.4.32 1.5.21 1.5.30: Kotlin library build-time dependency kotlin-core-deserialization-common-jvm
+dev-java/kotlin-core-metadata 1.4.32 1.5.21 1.5.30: Kotlin library build-time dependency kotlin-core-metadata
+dev-java/kotlin-core-metadata-jvm 1.4.32 1.5.21 1.5.30: Kotlin library build-time dependency kotlin-core-metadata-jvm
+dev-java/kotlin-core-util-runtime 1.4.32 1.5.21 1.5.30: Kotlin library build-time dependency kotlin-core-util-runtime
 dev-java/kotlin-coroutines-experimental-compat 1.4.32: Kotlin library component kotlin-coroutines-experimental-compat
 dev-java/kotlin-protobuf-lite 2.6.1: Fork of protobuf used by JetBrains for building Kotlin
-dev-java/kotlin-reflect 1.4.32 1.5.21: Kotlin Full Reflection Library
-dev-java/kotlin-stdlib 1.4.32 1.5.21: Kotlin Standard Library for JVM
-dev-java/kotlin-stdlib-jdk7 1.4.32 1.5.21: Kotlin Standard Library JDK 7 extension
-dev-java/kotlin-stdlib-jdk8 1.4.32 1.5.21: Kotlin Standard Library JDK 8 extension
-dev-java/kotlin-stdlib-js 1.4.32 1.5.21: Kotlin Standard Library for JS
-dev-java/kotlin-test 1.4.32 1.5.21: Kotlin Test Multiplatform library
-dev-java/kotlin-test-js 1.4.32 1.5.21: Kotlin Test for JS
-dev-java/kotlin-test-junit 1.4.32 1.5.21: Kotlin Test Support for JUnit 4
+dev-java/kotlin-reflect 1.4.32 1.5.21 1.5.30: Kotlin Full Reflection Library
+dev-java/kotlin-stdlib 1.4.32 1.5.21 1.5.30: Kotlin Standard Library for JVM
+dev-java/kotlin-stdlib-jdk7 1.4.32 1.5.21 1.5.30: Kotlin Standard Library JDK 7 extension
+dev-java/kotlin-stdlib-jdk8 1.4.32 1.5.21 1.5.30: Kotlin Standard Library JDK 8 extension
+dev-java/kotlin-stdlib-js 1.4.32 1.5.21 1.5.30: Kotlin Standard Library for JS
+dev-java/kotlin-test 1.4.32 1.5.21 1.5.30: Kotlin Test Multiplatform library
+dev-java/kotlin-test-js 1.4.32 1.5.21 1.5.30: Kotlin Test for JS
+dev-java/kotlin-test-junit 1.4.32 1.5.21 1.5.30: Kotlin Test Support for JUnit 4
 dev-java/kotlinx-coroutines-core-bin 1.3.8 1.5.0: Coroutines support libraries for Kotlin
 dev-java/kryo-shaded 4.0.2-r1: Fast, efficient Java serialization. This contains the shaded reflectasm jar to prevent conflicts with other versions of asm.
 dev-java/leveldb-api 0.6-r1: High level Java API for LevelDB
@@ -469,7 +469,7 @@ dev-java/xmlpull 1.1.3.1: xmlpull:xmlpull:1.1.3.1
 dev-java/xstream 1.4.2-r2 1.4.7-r2: XStream is a serialization library from Java objects to XML and back
 dev-java/yecht 1.0-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/zookeeper 3.4.14-r2: org.apache.zookeeper:zookeeper:3.4.14
-dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.21: Statically typed programming language for modern multiplatform applications
+dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.21 1.5.30: Statically typed programming language for modern multiplatform applications
 dev-libs/apache-arrow 3.0.0 4.0.1: A cross-language development platform for in-memory data.
 dev-libs/leveldb 1.20 1.23: A fast key-value storage library written at Google
 dev-libs/thrift 0.14.2: Software framework for cross-language services development
