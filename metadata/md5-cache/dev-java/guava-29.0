@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/checker-qual-2.11.1:0 >=dev-java/failurea
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo.maven.apache.org/maven2/com/google/guava/guava/29.0-jre/guava-29.0-jre-sources.jar -> guava-29.0-sources.jar https://repo.maven.apache.org/maven2/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar -> guava-29.0-bin.jar
-_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	90d7e777563b0e16400c8b8418a7c447	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	java-pkg-simple	148ea0f0bf459bdb4768a56036df3cc2	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=c28368aefa6736f7ebf8acd968d5606e

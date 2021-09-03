@@ -12,5 +12,5 @@ REQUIRED_USE=
 RESTRICT=!test? ( test )
 SLOT=1.5
 SRC_URI=!binary? ( https://github.com/JetBrains/kotlin/archive/refs/tags/v1.5.30.tar.gz -> kotlin-1.5.30.tar.gz test? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.30/kotlin-stdlib-jdk8-1.5.30.jar ) ) binary? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.30/kotlin-stdlib-jdk8-1.5.30.jar source? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.30/kotlin-stdlib-jdk8-1.5.30-sources.jar ) test? ( https://github.com/JetBrains/kotlin/archive/refs/tags/v1.5.30.tar.gz -> kotlin-1.5.30.tar.gz ) )
-_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	90d7e777563b0e16400c8b8418a7c447	java-pkg-simple	f54286e86669dd9944a492f8586e744c	kotlin-utils	991e6a94236e02ed9df814d0c92377bb	kotlin-libs	0c97b14855ad3024ed4deaa20d1c7658
+_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	java-pkg-simple	148ea0f0bf459bdb4768a56036df3cc2	kotlin-utils	991e6a94236e02ed9df814d0c92377bb	kotlin-libs	0c97b14855ad3024ed4deaa20d1c7658
 _md5_=721ae2d3c114f894b317ba98814d6a1f

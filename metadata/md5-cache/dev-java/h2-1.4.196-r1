@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/lucene:3.6 dev-java/slf4j-api:0 dev-java/jt
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/com/h2database/h2/1.4.196/h2-1.4.196-sources.jar https://repo1.maven.org/maven2/com/h2database/h2/1.4.196/h2-1.4.196.jar -> h2-1.4.196-bin.jar
-_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	90d7e777563b0e16400c8b8418a7c447	java-pkg-simple	f54286e86669dd9944a492f8586e744c	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	java-pkg-simple	148ea0f0bf459bdb4768a56036df3cc2	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=8bb793e23b0d96164e0ddceef83b73b7
