@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* !binary? ( dev-java/commons-codec:0 java-virtuals/servlet-api:3.1 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Module isolating H2O functionality from specific HTTP server implementation
+EAPI=7
+HOMEPAGE=https://www.h2o.ai/
+INHERIT=java-pkg-2 java-pkg-simple
+IUSE=elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* dev-java/commons-codec:0 java-virtuals/servlet-api:3.1 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=3.32
+SRC_URI=https://github.com/h2oai/h2o-3/archive/refs/tags/jenkins-3.32.1.7.tar.gz -> h2o-3.32.1.7.tar.gz https://repo1.maven.org/maven2/ai/h2o/h2o-webserver-iface/3.32.1.7/h2o-webserver-iface-3.32.1.7.jar -> h2o-webserver-iface-3.32.1.7-bin.jar
+_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	java-pkg-simple	148ea0f0bf459bdb4768a56036df3cc2
+_md5_=c5e44ba920b5702b6d122db764b079e8
