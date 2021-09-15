@@ -3,35 +3,33 @@
 
 EAPI=7
 
-MAVEN_ID="ai.h2o:h2o-jetty-9:${PV}"
+MAVEN_ID="ai.h2o:${PN}:${PV}"
 
 JAVA_PKG_IUSE="doc source test binary"
 JAVA_TESTING_FRAMEWORKS="pkgdiff"
 
 inherit java-pkg-2 java-pkg-simple
 
-MY_PN="h2o-jetty-9"
-MY_P="${MY_PN}-${PV}"
-
-DESCRIPTION="H2O Jetty 9"
+DESCRIPTION="H2O Algorithms"
 HOMEPAGE="https://www.h2o.ai/"
 SRC_URI="
 	https://github.com/h2oai/h2o-3/archive/refs/tags/jenkins-${PV}.tar.gz -> h2o-${PV}.tar.gz
-	https://repo1.maven.org/maven2/ai/h2o/${MY_PN}/${PV}/${MY_P}.jar -> ${P}-bin.jar
+	https://repo1.maven.org/maven2/ai/h2o/${PN}/${PV}/${P}.jar -> ${P}-bin.jar
 "
 LICENSE="Apache-2.0"
 SLOT="$(ver_cut 1-2)"
 KEYWORDS="~amd64"
 
 CP_DEPEND="
-	~dev-java/h2o-webserver-iface-${PV}:${SLOT}
-	dev-java/jetty-jaas:9
-	dev-java/jetty-proxy:9
-	dev-java/jetty-server:9
-	dev-java/jetty-servlet:9
-	dev-java/jetty-servlets:9
-	dev-java/websocket-api:9
-	dev-java/websocket-server:9
+	~dev-java/h2o-core-${PV}:${SLOT}
+	dev-java/fommil-netlib-core:0
+	dev-java/fommil-netlib-native-ref:0
+	dev-java/fommil-netlib-native-system:0
+	dev-java/fommil-matrix-toolkits:0
+	dev-java/jama:0
+	dev-java/arpack-combined-all-bin:0
+	dev-java/jmh-core:0
+	dev-java/jmh-generator-annprocess:0
 "
 
 BDEPEND="
@@ -50,7 +48,7 @@ RDEPEND="
 	${CP_DEPEND}
 "
 
-S="${WORKDIR}/h2o-3-jenkins-${PV}/${MY_PN}"
+S="${WORKDIR}/h2o-3-jenkins-${PV}/${PN}"
 
 JAVA_RESOURCE_DIRS="src/main/resources"
 JAVA_SRC_DIR="src/main/java"
