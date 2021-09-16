@@ -7,6 +7,7 @@
 # @AUTHOR:
 # Yuan Liao <liaoyuan@gmail.com>
 # @SUPPORTED_EAPIS: 6 7
+# @PROVIDES: kotlin-utils
 # @BLURB: An eclass for building Kotlin library packages
 # @DESCRIPTION:
 # This eclass provides an abstraction of the Kotlin compiler to support
@@ -17,8 +18,6 @@ case "${EAPI:-0}" in
 	6|7) ;;
 	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
-
-EXPORT_FUNCTIONS pkg_setup src_unpack src_compile src_test src_install
 
 # Allow use of EAPI 7 version manipulators in older EAPIs for both this eclass
 # and consumer ebuilds
@@ -185,6 +184,8 @@ unset _KOTLIN_LIBS_TEST_SRC
 unset _KOTLIN_LIBS_KOTLIN_VERSIONS
 unset _KOTLIN_LIBS_PREF_ORDER
 unset _KOTLIN_LIBS_DEPEND
+
+EXPORT_FUNCTIONS pkg_setup src_unpack src_compile src_test src_install
 
 # @FUNCTION: kotlin-libs_pkg_setup
 # @DESCRIPTION:

@@ -7,6 +7,7 @@
 # @AUTHOR:
 # Yuan Liao <liaoyuan@gmail.com>
 # @SUPPORTED_EAPIS: 6 7
+# @PROVIDES: kotlin-libs
 # @BLURB: An eclass for building dev-java/kotlin-core-* packages
 # @DESCRIPTION:
 # This eclass provides functionality to relocate the sources for a
@@ -26,8 +27,6 @@ case "${EAPI:-0}" in
 	6|7) ;;
 	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
-
-EXPORT_FUNCTIONS src_prepare
 
 # @ECLASS-VARIABLE: KOTLIN_CORE_DEPS_MODULE_NAME
 # @DEFAULT_UNSET
@@ -111,6 +110,8 @@ if [[ -z "${KOTLIN_JAVAC_ARGS[@]}" ]]; then
 		-XDuseUnsharedTable=true
 	)
 fi
+
+EXPORT_FUNCTIONS src_prepare
 
 # @FUNCTION: kotlin-core-deps_src_prepare
 # @DESCRIPTION:

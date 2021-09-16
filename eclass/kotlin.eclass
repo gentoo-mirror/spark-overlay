@@ -7,6 +7,7 @@
 # @AUTHOR:
 # Yuan Liao <liaoyuan@gmail.com>
 # @SUPPORTED_EAPIS: 6 7
+# @PROVIDES: kotlin-utils
 # @BLURB: The eclass for Kotlin packages
 # @DESCRIPTION:
 # This eclass can be inherited by ebuilds for a Kotlin package to select a
@@ -20,8 +21,6 @@ case "${EAPI:-0}" in
 	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
 
-EXPORT_FUNCTIONS pkg_setup src_compile src_install src_test
-
 # Allow use of EAPI 7 version manipulators in older EAPIs for both this eclass
 # and consumer ebuilds
 [[ "${EAPI:-0}" -eq 6 ]] && inherit eapi7-ver
@@ -32,6 +31,8 @@ DEPEND="
 	$(kotlin-utils_kotlin_depend)
 	$(kotlin-utils_iuse_depend)
 "
+
+EXPORT_FUNCTIONS pkg_setup src_compile src_install src_test
 
 # @FUNCTION: kotlin_pkg_setup
 # @DESCRIPTION:
