@@ -11,5 +11,5 @@ RDEPEND=>=dev-java/java-config-2.2.0-r3 >=virtual/jre-1.8:*
 REQUIRED_USE=
 SLOT=1.4
 SRC_URI=https://github.com/JetBrains/kotlin/archive/refs/tags/v1.4.32.tar.gz -> kotlin-1.4.32.tar.gz
-_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	java-pkg-simple	148ea0f0bf459bdb4768a56036df3cc2	kotlin-utils	991e6a94236e02ed9df814d0c92377bb	kotlin-libs	0c97b14855ad3024ed4deaa20d1c7658	kotlin-core-deps	3b6b8d0aa5cd7a4a9298eba36e9cf8a0
+_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	java-pkg-simple	148ea0f0bf459bdb4768a56036df3cc2	kotlin-utils	d738e3ba707aa1305e372af720be9b5c	kotlin-libs	cd5f5d561329daa68bf15d34cc589c62	kotlin-core-deps	e590aae162635b2bc5dc5020dd481779
 _md5_=6e2ea40bd3c13175fda7bf567f56f26c

@@ -410,10 +410,8 @@ dev-java/serpent 1.23-r1: Serpent serializes an object tree into a Python ast.li
 dev-java/servlet-api 2.5.20081211-r1: Servlet Specification API
 dev-java/shims 0.7.45-r1: Roaring bitmaps are compressed bitmaps (also called bitsets) which tend to outperform conventional compressed bitmaps such as WAH or Concise.
 dev-java/simpleclient 0.0.16: Core instrumentation library for the simpleclient.
-dev-java/slf4j-api 1.7.28: Simple Logging Facade for Java
 dev-java/slf4j-ext 1.7.30: Extensions to the SLF4J API
 dev-java/slf4j-jdk14 1.5.10-r1 1.6.1-r1: The slf4j JDK14 binding
-dev-java/slf4j-log4j12 1.7.28: SLF4J LOG4J-12 Binding
 dev-java/snappy 1.1.7.5: snappy-java: A fast compression/decompression library
 dev-java/spark-core 3.0.0-r2: Unified analytics engine for large-scale data processing
 dev-java/spark-demo 0.1: A demo that uses spark-core to perform Monte Carlo simulations
