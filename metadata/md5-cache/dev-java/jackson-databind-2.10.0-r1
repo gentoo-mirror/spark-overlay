@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jackson-2.11.0:2 >=dev-java/jackson-annot
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0-sources.jar https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar -> jackson-databind-2.10.0-bin.jar
-_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	java-pkg-simple	148ea0f0bf459bdb4768a56036df3cc2	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	8a3af9303fdbeca4510a6ba6e91b1460	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	java-pkg-simple	148ea0f0bf459bdb4768a56036df3cc2	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=26b02bc28ae121d635d2524bf535a311

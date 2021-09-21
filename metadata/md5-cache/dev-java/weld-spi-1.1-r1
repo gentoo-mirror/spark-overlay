@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jboss-ejb-api-1.0.0:3.1_spec >=dev-java/j
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/jboss/weld/weld-spi/1.1.Final/weld-spi-1.1.Final-sources.jar -> weld-spi-1.1-sources.jar https://repo1.maven.org/maven2/org/jboss/weld/weld-spi/1.1.Final/weld-spi-1.1.Final.jar -> weld-spi-1.1-bin.jar
-_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	java-pkg-simple	148ea0f0bf459bdb4768a56036df3cc2	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	8a3af9303fdbeca4510a6ba6e91b1460	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	java-pkg-simple	148ea0f0bf459bdb4768a56036df3cc2	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=ae30d4f342084bba690016df81003d14
