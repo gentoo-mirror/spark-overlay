@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* !binary? ( ~dev-java/h2o-core-3.34.0.3:3.34 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=H2O Application Runner
+EAPI=7
+HOMEPAGE=https://www.h2o.ai/
+INHERIT=java-pkg-2 java-pkg-simple
+IUSE=elibc_FreeBSD doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* ~dev-java/h2o-core-3.34.0.3:3.34 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=3.34
+SRC_URI=https://github.com/h2oai/h2o-3/archive/refs/tags/jenkins-3.34.0.3.tar.gz -> h2o-3.34.0.3.tar.gz https://repo1.maven.org/maven2/ai/h2o/h2o-app/3.34.0.3/h2o-app-3.34.0.3.jar -> h2o-app-3.34.0.3-bin.jar
+_eclasses_=java-utils-2	8a3af9303fdbeca4510a6ba6e91b1460	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	java-pkg-simple	148ea0f0bf459bdb4768a56036df3cc2
+_md5_=18b7d7d83a22420a060a1ea5bc0ff83d
