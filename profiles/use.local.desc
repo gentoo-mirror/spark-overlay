@@ -170,7 +170,6 @@ dev-java/jul-to-slf4j:binary - install binary jar from maven central.
 dev-java/kafka-clients:binary - install binary jar from maven central.
 dev-java/kryo-shaded:binary - install binary jar from maven central.
 dev-java/leveldb-api:binary - install binary jar from maven central.
-dev-java/leveldbjni:binary - install binary jar from maven central.
 dev-java/log4j-api:binary - install binary jar from maven central.
 dev-java/log4j-core:binary - install binary jar from maven central.
 dev-java/logback-classic:binary - install binary jar from maven central.

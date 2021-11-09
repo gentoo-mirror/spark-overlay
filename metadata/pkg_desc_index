@@ -100,7 +100,7 @@ dev-java/graalvm-compiler 19.2.1-r1: The GraalVM compiler and the Graal-truffle 
 dev-java/groovy-all 2.4.0-r2: Groovy: A powerful, dynamic language for the JVM
 dev-java/guava 29.0: Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.
 dev-java/guice-servlet 4.1: Guice servlet extension
-dev-java/h2 1.4.196-r1: H2 Database Engine
+dev-java/h2 1.4.196-r2: H2 Database Engine
 dev-java/h2o 3.32.1.7 3.34.0.3: Meta package for H2O, a distributed, fast & scalable machine learning platform
 dev-java/h2o-algos 3.32.1.7 3.34.0.3: H2O Algorithms
 dev-java/h2o-app 3.32.1.7 3.34.0.3: H2O Application Runner
@@ -299,7 +299,7 @@ dev-java/kotlin-test-junit 1.4.32 1.5.31: Kotlin Test Support for JUnit 4
 dev-java/kotlinx-coroutines-core-bin 1.3.8-r1 1.5.0: Coroutines support libraries for Kotlin
 dev-java/kryo-shaded 4.0.2-r1: Fast, efficient Java serialization. This contains the shaded reflectasm jar to prevent conflicts with other versions of asm.
 dev-java/leveldb-api 0.6-r1: High level Java API for LevelDB
-dev-java/leveldbjni 1.8: leveldbjni is a jni library for acessing leveldb.
+dev-java/leveldbjni 1.8-r1: A JNI library for acessing leveldb
 dev-java/libpam4j 1.11: Java binding for libpam.so
 dev-java/log4j-api 2.3-r1 2.7: The Apache Log4j API
 dev-java/log4j-core 2.7-r1: The Apache Log4j Implementation
