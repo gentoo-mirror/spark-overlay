@@ -260,7 +260,7 @@ dev-java/json4s-ast 3.6.6-r1: json4s-ast
 dev-java/json4s-core 3.6.6-r1: json4s-core
 dev-java/json4s-jackson 3.6.6-r1: Json4s Jackson module
 dev-java/json4s-scalap 3.6.6-r1: json4s-scalap
-dev-java/jsoup 1.11.3: jsoup is a Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods. jsoup implements the WHATWG HTML5 specification, and parses HTML to the same DOM as modern browsers do.
+dev-java/jsoup 1.14.3: Java HTML parser that makes sense of real-world HTML soup
 dev-java/jsr166y 1.7.0-r1: org.codehaus.jsr166-mirror:jsr166y:1.7.0
 dev-java/jsr292-mock 1.1-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/jstl 1.2: jstl:jstl:1.2
