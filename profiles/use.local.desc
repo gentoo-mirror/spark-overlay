@@ -94,14 +94,8 @@ dev-java/htrace-core:binary - install binary jar from maven central.
 dev-java/hystrix-core:binary - install binary jar from maven central.
 dev-java/istack-commons-runtime:binary - install binary jar from maven central.
 dev-java/jackson-core-asl:binary - install binary jar from maven central.
-dev-java/jackson-databind:binary - install binary jar from maven central.
-dev-java/jackson-dataformat-xml:binary - install binary jar from maven central.
-dev-java/jackson-dataformat-yaml:binary - install binary jar from maven central.
 dev-java/jackson-jaxrs:binary - install binary jar from maven central.
 dev-java/jackson-mapper-asl:binary - install binary jar from maven central.
-dev-java/jackson-module-jaxb-annotations:binary - install binary jar from maven central.
-dev-java/jackson-module-paranamer:binary - install binary jar from maven central.
-dev-java/jackson-module-scala:binary - install binary jar from maven central.
 dev-java/jackson-xc:binary - install binary jar from maven central.
 dev-java/jakarta-activation:binary - install binary jar from maven central.
 dev-java/jakarta-activation-api:binary - install binary jar from maven central.

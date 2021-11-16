@@ -146,17 +146,17 @@ dev-java/hystrix-core 1.5.12-r1: hystrix-core
 dev-java/icu4j 67.1: A set of Java libraries providing Unicode and Globalization support
 dev-java/istack-commons-runtime 4.0.0: istack common utility code
 dev-java/j2objc-annotations 1.3: Annotations for the J2ObjC Java to Objective-C translator
-dev-java/jackson 2.8.3 2.11.0: High-performance JSON processor
-dev-java/jackson-annotations 2.11.0: Annotations for the Java Jackson data processor
+dev-java/jackson 2.11.0 2.13.0: High-performance JSON processor
+dev-java/jackson-annotations 2.11.0 2.13.0: Annotations for the Java Jackson data processor
 dev-java/jackson-core-asl 1.9.13-r1: Jackson is a high-performance JSON processor (parser, generator)
-dev-java/jackson-databind 2.8.3 2.10.0-r1: General data-binding functionality for Jackson: works on core streaming API
-dev-java/jackson-dataformat-xml 2.8.3-r1: Data format extension for Jackson for serializing and deserializing POJOs
-dev-java/jackson-dataformat-yaml 2.8.3: Support for reading and writing YAML-encoded data via Jackson abstractions.
+dev-java/jackson-databind 2.10.0-r1 2.13.0: General data-binding functionality for Jackson: works on core streaming API
+dev-java/jackson-dataformat-xml 2.13.0: Data format extension for Jackson for serializing and deserializing POJOs as XML
+dev-java/jackson-dataformat-yaml 2.13.0: Jackson textual format backend for YAML
 dev-java/jackson-jaxrs 1.9.13-r1: Jax-RS provider for JSON content type
 dev-java/jackson-mapper-asl 1.9.13-r1: Data Mapper package is a high-performance data binding package built on Jackson JSON processor
-dev-java/jackson-module-jaxb-annotations 2.8.3: Support for using JAXB annotations as an alternative to "native" Jackson annotations, for configuring data binding.
-dev-java/jackson-module-paranamer 2.10.0-r1: AnnotationIntrospectors that use Paranamer (http://paranamer.codehaus.org) to introspect names of constructor (and factory method) parameters.
-dev-java/jackson-module-scala 2.10.0-r1: Jackson Module for Scala
+dev-java/jackson-module-jaxb-annotations 2.13.0: Jackson extension module for JAXB annotations support
+dev-java/jackson-module-paranamer 2.10.0-r1 2.13.0: Jackson extension module for creator method names detection with Paranamer
+dev-java/jackson-module-scala 2.10.0-r1 2.13.0: Jackson Module for Scala
 dev-java/jackson-xc 1.8.3-r1 1.9.13-r1: Extensions that provide interoperability support for Jackson JSON processor's data binding functionality.
 dev-java/jaffl 0.5.11: An abstracted interface to invoking native functions from java
 dev-java/jakarta-activation 2.0.1: Jakarta Activation
