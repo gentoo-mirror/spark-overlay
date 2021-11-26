@@ -145,7 +145,6 @@ dev-java/jersey-server:binary - install binary jar from maven central.
 dev-java/jets3t:binary - install binary jar from maven central.
 dev-java/jetty:binary - install binary jar from maven central.
 dev-java/jetty-sslengine:binary - install binary jar from maven central.
-dev-java/jnr-ffi:binary - install binary jar from maven central.
 dev-java/jruby:binary - install binary jar from maven central.
 dev-java/jruby-complete:binary - install binary jar from maven central.
 dev-java/jruby-core:binary - install binary jar from maven central.
