@@ -168,6 +168,7 @@ dev-java/jakarta-servlet-api 4.0.3-r1: Eclipse Enterprise for Java (EE4J) is an 
 dev-java/jakarta-validation-api 2.0.2-r1: Jakarta Bean Validation API
 dev-java/jakarta-ws-rs-api 2.1.6: Jakarta RESTful Web Services API
 dev-java/jakarta-xml-bind-api 3.0.0-r1: Jakarta XML Binding API
+dev-java/jama 1.0.3-r2: A Java Matrix Package
 dev-java/jandex 2.0.3-r1: Parent POM for JBoss projects. Provides default project build configuration.
 dev-java/janino 3.0.6: Janino is a super-small, super-fast Java compiler.
 dev-java/jasper-compiler 5.5.23: The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.
@@ -262,6 +263,7 @@ dev-java/json4s-scalap 3.6.6-r1: json4s-scalap
 dev-java/jsoup 1.14.3: Java HTML parser that makes sense of real-world HTML soup
 dev-java/jsr166y 1.7.0-r1: org.codehaus.jsr166-mirror:jsr166y:1.7.0
 dev-java/jsr292-mock 1.1-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
+dev-java/jsr311-api 1.1.1-r1: JAX-RS: Java API for RESTful Web Services
 dev-java/jstl 1.2: jstl:jstl:1.2
 dev-java/jta 1.1-r1: The javax.transaction package. It is appropriate for inclusion in a classpath, and may be added to a Java 2 installation.
 dev-java/jtransforms 3.1: Multithreaded FFT library written in pure Java
