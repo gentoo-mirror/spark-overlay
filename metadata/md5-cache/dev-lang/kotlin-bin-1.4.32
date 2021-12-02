@@ -12,5 +12,5 @@ PDEPEND=javascript? ( ~dev-java/kotlin-stdlib-js-1.4.32:1.4 ) virtual/kotlin:1.4
 RDEPEND=~dev-java/kotlin-stdlib-1.4.32:1.4 ~dev-java/kotlin-reflect-1.4.32:1.4 dev-java/kotlinx-coroutines-core-bin:1.3.8 dev-java/jetbrains-annotations:13 dev-java/jetbrains-trove:0 >=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3 app-eselect/eselect-kotlin
 SLOT=1.4
 SRC_URI=https://github.com/JetBrains/kotlin/releases/download/v1.4.32/kotlin-compiler-1.4.32.zip
-_eclasses_=java-utils-2	8a3af9303fdbeca4510a6ba6e91b1460	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	kotlin-compiler	8a55341c57533082827e10b83ea8c8fc
+_eclasses_=java-utils-2	32fe52795e36e76dcbcf92d89bb1c4d0	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	kotlin-compiler	8a55341c57533082827e10b83ea8c8fc
 _md5_=e0c3d58e0830551dde4da1ced78a3fa9
