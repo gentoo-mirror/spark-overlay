@@ -240,6 +240,7 @@ dev-java/jetty-webapp 9.4.11_p20180605: Jetty web application support
 dev-java/jetty-xml 9.4.11_p20180605: Jetty XML Utilities
 dev-java/jffi 1.0.6 1.0.8: Java wrapper around libffi
 dev-java/jlargearrays 1.6: Library of one-dimensional arrays that can store up to 2^63 elements.
+dev-java/jline 1.0-r2: Handle console input in Java
 dev-java/jmh-generator-annprocess 1.32: JMH benchmark generator, based on annotation processors
 dev-java/jnr-constants 0.8.7: A set of platform constants (e.g. errno values)
 dev-java/jnr-enxio 0.9-r1: Native I/O access for java
@@ -433,7 +434,7 @@ dev-java/stream 2.9.8-r1: A library for summarizing data in streams for which it
 dev-java/svm 19.2.1-r1: SubstrateVM image builder components
 dev-java/t-digest 3.1-r1: Data structure which allows accurate estimation of quantiles and related rank statistics
 dev-java/terracotta-toolkit-api 2.7 3.2.0: org.terracotta.toolkit:terracotta-toolkit-api:3.2.0
-dev-java/terracotta-toolkit-api-internal 2.2.0: org.terracotta.toolkit:terracotta-toolkit-api-internal:2.2.0
+dev-java/terracotta-toolkit-api-internal 2.2.0-r1: Terracotta Toolkit API Internal
 dev-java/tomcat-annotations-api 8.5.28-r1: Annotations Package
 dev-java/tomcat-embed-core 8.5.28-r1: Core Tomcat implementation
 dev-java/tomcat-jni 10.0.0-r1: Interface code to the native connector
