@@ -160,7 +160,6 @@ dev-java/jta:binary - install binary jar from maven central.
 dev-java/jts-core:binary - install binary jar from maven central.
 dev-java/jug:binary - install binary jar from maven central.
 dev-java/jul-to-slf4j:binary - install binary jar from maven central.
-dev-java/kafka-clients:binary - install binary jar from maven central.
 dev-java/kryo-shaded:binary - install binary jar from maven central.
 dev-java/leveldb-api:binary - install binary jar from maven central.
 dev-java/log4j-api:binary - install binary jar from maven central.
@@ -170,7 +169,6 @@ dev-java/logback-core:binary - install binary jar from maven central.
 dev-java/lombok:binary - install binary jar from maven central.
 dev-java/lucene-queryparser:binary - install binary jar from maven central.
 dev-java/lucene-sandbox:binary - install binary jar from maven central.
-dev-java/lz4-java:binary - install binary jar from maven central.
 dev-java/lzma-java:binary - install binary jar from maven central.
 dev-java/mahout-math:binary - install binary jar from maven central.
 dev-java/mail:binary - install binary jar from maven central.
