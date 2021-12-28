@@ -58,7 +58,6 @@ dev-java/commons-compress 1.20: Apache Commons Compress software defines an API 
 dev-java/commons-configuration 1.8: Tools to assist in the reading of configuration/preferences files in various formats
 dev-java/commons-crypto 1.0.0: Apache Commons Crypto is a cryptographic library optimized with AES-NI (Advanced Encryption Standard New Instructions).
 dev-java/commons-csv 1.4: The Apache Commons CSV library provides a simple interface for reading and writing CSV files of various types.
-dev-java/commons-io 2.6: The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.
 dev-java/commons-lang 3.10: Commons components to manipulate core java classes
 dev-java/commons-math 3.6.1: The Apache Commons Math project is a library of lightweight, self-contained mathematics and statistics components addressing the most common practical problems not immediately available in the Java programming language or commons-lang.
 dev-java/commons-text 1.6-r2: Apache Commons Text is a library focused on algorithms working on strings.
@@ -78,7 +77,7 @@ dev-java/dependency-check-ant 4.0.2-r1: dependency-check-ant is an Ant Task that
 dev-java/dependency-check-core 4.0.2-r3: Identify and report publicly disclosed vulnerabilities in project's dependencies
 dev-java/dependency-check-utils 4.0.2-r3: Utilities used within dependency-check that might be useful in other projects
 dev-java/disruptor 3.4.2: Disruptor - Concurrent Programming Framework
-dev-java/duke 1.2: A configurable record linkage engine
+dev-java/duke 1.2 1.2-r1: A fast and flexible deduplication engine
 dev-java/ehcache 2.6.11 2.10.4: Cache used to boost performance, offload database and simplify scalability
 dev-java/error-prone-annotations 2.4.0: Java annotations for the Error Prone static analysis tool
 dev-java/failureaccess 1.0.1-r1: Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes is conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).
@@ -101,19 +100,19 @@ dev-java/groovy-all 2.4.0-r2: Groovy: A powerful, dynamic language for the JVM
 dev-java/guava 29.0: Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.
 dev-java/guice-servlet 4.1: Guice servlet extension
 dev-java/h2 1.4.196-r2: H2 Database Engine
-dev-java/h2o 3.32.1.7 3.34.0.4: Meta package for H2O, a distributed, fast & scalable machine learning platform
-dev-java/h2o-algos 3.32.1.7 3.34.0.4: H2O Algorithms
-dev-java/h2o-app 3.32.1.7 3.34.0.4: H2O Application Runner
-dev-java/h2o-core 3.32.1.7 3.34.0.4: The core module of H2O, a distributed, fast & scalable machine learning platform
-dev-java/h2o-ext-target-encoder 3.32.1.7 3.34.0.4: H2O Target Encoder plugin
+dev-java/h2o 3.32.1.7 3.34.0.4 3.34.0.7: Meta package for H2O, a distributed, fast & scalable machine learning platform
+dev-java/h2o-algos 3.32.1.7 3.34.0.4 3.34.0.7: H2O Algorithms
+dev-java/h2o-app 3.32.1.7 3.34.0.4 3.34.0.7: H2O Application Runner
+dev-java/h2o-core 3.32.1.7 3.34.0.4 3.34.0.7: The core module of H2O, a distributed, fast & scalable machine learning platform
+dev-java/h2o-ext-target-encoder 3.32.1.7 3.34.0.4 3.34.0.7: H2O Target Encoder plugin
 dev-java/h2o-flow 0.2.10: Web based interactive computing environment for H2O
-dev-java/h2o-genmodel 3.32.1.7 3.34.0.4: H2O GenModel
-dev-java/h2o-jaas-pam 3.32.1.7 3.34.0.4: H2O JAAS PAM Module
-dev-java/h2o-jetty9 3.32.1.7 3.34.0.4: H2O Jetty 9
-dev-java/h2o-logger 3.32.1.7 3.34.0.4: H2O Logger
-dev-java/h2o-logging-impl-classic 3.32.1.7 3.34.0.4: H2O logging implementation based on Log4j 1.x
+dev-java/h2o-genmodel 3.32.1.7 3.34.0.4 3.34.0.7: H2O GenModel
+dev-java/h2o-jaas-pam 3.32.1.7 3.34.0.4 3.34.0.7: H2O JAAS PAM Module
+dev-java/h2o-jetty9 3.32.1.7 3.34.0.4 3.34.0.7: H2O Jetty 9
+dev-java/h2o-logger 3.32.1.7 3.34.0.4 3.34.0.7: H2O Logger
+dev-java/h2o-logging-impl-classic 3.32.1.7 3.34.0.4 3.34.0.7: H2O logging implementation based on Log4j 1.x
 dev-java/h2o-tree-api 0.3.18: Pure Java implementation of XGBoost predictor for online prediction tasks
-dev-java/h2o-webserver-iface 3.32.1.7 3.34.0.4: Module isolating H2O functionality from specific HTTP server implementation
+dev-java/h2o-webserver-iface 3.32.1.7 3.34.0.4 3.34.0.7: Module isolating H2O functionality from specific HTTP server implementation
 dev-java/hadoop-annotations 2.7.4-r1: Apache Hadoop Annotations
 dev-java/hadoop-auth 2.7.4-r2: Apache Hadoop Auth - Java HTTP SPNEGO
 dev-java/hadoop-client 2.7.4-r1: Apache Hadoop Client
@@ -307,12 +306,12 @@ dev-java/log4j-over-slf4j 1.7.32: Log4j implemented over SLF4J
 dev-java/logback-classic 1.2.3-r1: logback-classic module
 dev-java/logback-core 1.2.3-r2: logback-core module
 dev-java/lombok 1.16.16-r1: Automatic resource management and method generation
-dev-java/lucene 4.0.0 7.6.0: Apache Lucene Java Core
-dev-java/lucene-analyzers-common 4.0.0 7.6.0-r1: Additional Analyzers
-dev-java/lucene-queries 4.0.0 7.6.0-r1: Lucene Queries Module
+dev-java/lucene 4.0.0 4.0.0-r1 7.6.0: Apache Lucene Java Core
+dev-java/lucene-analyzers-common 4.0.0 4.0.0-r1 7.6.0-r1: Additional Analyzers
+dev-java/lucene-queries 4.0.0 4.0.0-r1 7.6.0-r1: Lucene Queries Module
 dev-java/lucene-queryparser 3.6.2-r1 7.6.0-r1: Lucene QueryParsers module
 dev-java/lucene-sandbox 7.6.0-r1: Lucene Sandbox
-dev-java/lucene-spatial 4.0.0: Spatial Strategies for Apache Lucene
+dev-java/lucene-spatial 4.0.0 4.0.0-r1: Spatial Strategies for Apache Lucene
 dev-java/lz4-java 1.8.0: LZ4 compression for Java
 dev-java/lzma-java 1.3-r1: LZMA library for Java
 dev-java/mahout-math 0.13.0-r1: High performance scientific and technical computing data structures and methods, mostly based on CERN's Colt Java API
@@ -426,7 +425,7 @@ dev-java/spark-network-common 3.0.0-r2: Spark Project Networking
 dev-java/spark-network-shuffle 3.0.0-r1: Spark Project Shuffle Streaming Service
 dev-java/spark-tags 3.0.0-r1: The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.
 dev-java/spark-unsafe 3.0.0-r1: The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.
-dev-java/spatial4j 0.3: A Geospatial Library for Java
+dev-java/spatial4j 0.3 0.3-r1: A Geospatial Library for Java
 dev-java/spotbugs-annotations 3.1.9-r1: Annotations the SpotBugs tool supports
 dev-java/stax 1.2.0-r1: StAX is the reference implementation of the StAX API
 dev-java/stax-ex 1.8.3: Extensions to complement JSR-173 StAX API
@@ -477,7 +476,7 @@ dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.31: Statically typed programming
 dev-libs/apache-arrow 3.0.0 4.0.1: A cross-language development platform for in-memory data.
 dev-libs/bitshuffle 0.3.5: Bitshuffle C library
 dev-libs/thrift 0.14.2: Software framework for cross-language services development
-dev-python/h2o-py 3.32.1.7 3.34.0.4: H2O Python Package
+dev-python/h2o-py 3.32.1.7 3.34.0.4 3.34.0.7: H2O Python Package
 dev-python/py4j 0.10.9.2-r1: Apache Spark Python API
 dev-python/pyarrow 3.0.0 4.0.1: Python library for Apache Arrow
 dev-python/pyspark 3.1.2: Apache Spark Python API
