@@ -93,6 +93,7 @@ dev-java/fommil-netlib-native-ref 1.1: Mission-critical components for linear al
 dev-java/fommil-netlib-native-system 1.1: Mission-critical components for linear algebra systems
 dev-java/freemarker 2.3.23-r1: A generic tool to generate text output based on templates
 dev-java/geronimo-jms 1.0: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.0
+dev-java/glassfish-ejb-api 3.2-r1: Project GlassFish Enterprise JavaBean API
 dev-java/gpars 1.2.1-r1: The Groovy and Java high-level concurrency library offering actors, dataflow, CSP, agents, parallel collections, fork/join and more
 dev-java/graal-sdk 19.2.1-r1 20.1.0-r1: GraalVM is an ecosystem for compiling and running applications written in multiple languages. GraalVM removes the isolation between programming languages and enables interoperability in a shared runtime.
 dev-java/graalvm-compiler 19.2.1-r1: The GraalVM compiler and the Graal-truffle optimizer.
