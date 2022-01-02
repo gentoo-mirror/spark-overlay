@@ -5,12 +5,12 @@ DESCRIPTION=Create Debian packages from Java builds in a truly cross platform ma
 EAPI=7
 HOMEPAGE=https://github.com/tcurdt/jdeb
 INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
-IUSE=+binary elibc_FreeBSD doc source test binary
+IUSE=+binary doc source test binary
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-1.8:* >=dev-java/maven-artifact-2.2.1:0 >=dev-java/maven-plugin-api-2.2.1:0 >=dev-java/maven-project-2.2.1:0 >=dev-java/plexus-utils-1.5.15:0 >=dev-java/ant-core-1.10.7:0 >=dev-java/bcpg-1.50:1.50 >=dev-java/commons-compress-1.10:0 >=dev-java/commons-io-2.4:1 >=dev-java/maven-bin-3.8.1:3.8 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/vafer/jdeb/1.1.1/jdeb-1.1.1-sources.jar https://repo1.maven.org/maven2/org/vafer/jdeb/1.1.1/jdeb-1.1.1.jar -> jdeb-1.1.1-bin.jar
-_eclasses_=java-utils-2	32fe52795e36e76dcbcf92d89bb1c4d0	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=e111676430f6524a84c58a0449bdcbe1

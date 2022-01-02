@@ -4,12 +4,12 @@ DESCRIPTION=A modern I/O library for Android, Kotlin, and Java
 EAPI=7
 HOMEPAGE=https://square.github.io/okio/
 INHERIT=kotlin
-IUSE=elibc_FreeBSD source test
+IUSE=source test
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-1.8:* dev-java/kotlin-stdlib:1.4 >=dev-java/java-config-2.2.0-r3
 RESTRICT=!test? ( test )
 SLOT=2.6
 SRC_URI=https://github.com/square/okio/archive/refs/tags/parent-2.6.0.tar.gz -> okio-2.6.0.tar.gz
-_eclasses_=java-utils-2	32fe52795e36e76dcbcf92d89bb1c4d0	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	fcbcab86b33485bfaa8ac8d44d7d4439	kotlin	1eb50981c320a7c12f3272a7a673c391
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	fcbcab86b33485bfaa8ac8d44d7d4439	kotlin	1eb50981c320a7c12f3272a7a673c391
 _md5_=dec1464c3524a16b15cd5e80eecaefbd

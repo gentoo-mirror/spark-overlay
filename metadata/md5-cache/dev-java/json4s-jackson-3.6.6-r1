@@ -5,12 +5,12 @@ DESCRIPTION=Json4s Jackson module
 EAPI=7
 HOMEPAGE=https://github.com/json4s/json4s
 INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven java-pkg-simple-plugins
-IUSE=+binary elibc_FreeBSD doc source test binary
+IUSE=+binary doc source test binary
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-1.8:* >=dev-java/jackson-databind-2.10.0:0 >=dev-java/json4s-core-3.6.6:2.12 >=dev-java/scala-common-bin-2.12.4:2.12 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 RESTRICT=!test? ( test )
 SLOT=2.12
 SRC_URI=https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.12/3.6.6/json4s-jackson_2.12-3.6.6-sources.jar -> json4s-jackson-3.6.6-sources.jar https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.12/3.6.6/json4s-jackson_2.12-3.6.6.jar -> json4s-jackson-3.6.6-bin.jar
-_eclasses_=java-utils-2	32fe52795e36e76dcbcf92d89bb1c4d0	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	329c923d8cd485185850dbee39db9b53
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	329c923d8cd485185850dbee39db9b53
 _md5_=8b75b1682656418ac53dc972c11f78f5

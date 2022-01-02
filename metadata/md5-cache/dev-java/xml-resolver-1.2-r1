@@ -4,12 +4,12 @@ DESCRIPTION=xml-commons provides an Apache-hosted set of DOM, SAX, and JAXP inte
 EAPI=7
 HOMEPAGE=http://xml.apache.org/commons/components/resolver/
 INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
-IUSE=elibc_FreeBSD doc source test binary
+IUSE=doc source test binary
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-1.8:* dev-java/junit:4 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2-sources.jar https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar -> xml-resolver-1.2-bin.jar
-_eclasses_=java-utils-2	32fe52795e36e76dcbcf92d89bb1c4d0	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=42893280b14e9ebd7f1e296b32d51eee

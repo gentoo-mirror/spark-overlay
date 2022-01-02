@@ -4,12 +4,12 @@ DESCRIPTION=XStream is a serialization library from Java objects to XML and back
 EAPI=7
 HOMEPAGE=http://codehaus.org/xstream-parent/xstream/
 INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
-IUSE=elibc_FreeBSD doc source test binary
+IUSE=doc source test binary
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=virtual/jre-1.8:* >=dev-java/xmlpull-1.1.3.1:0 >=dev-java/cglib-3.1:3 >=dev-java/dom4j-1.6.1:1 >=dev-java/jdom-1.1.3:0 >=dev-java/jdom-2.0.6:2 >=dev-java/jettison-1.3.7:0 >=dev-java/joda-time-2.7:0 >=dev-java/json-20150729:0 >=dev-java/kxml-2.3.0:2 >=dev-java/stax-1.2.0:0 >=dev-java/wstx-3.2.9:3.2 >=dev-java/xom-1.2.10:0 >=dev-java/xpp3-1.1.4c:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.7/xstream-1.4.7-sources.jar https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.7/xstream-1.4.7.jar -> xstream-1.4.7-bin.jar
-_eclasses_=java-utils-2	32fe52795e36e76dcbcf92d89bb1c4d0	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=b3c73438275573b8d7f17b92ce6365fa

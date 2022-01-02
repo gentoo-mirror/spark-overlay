@@ -5,12 +5,12 @@ DESCRIPTION=RNGOM is an open-source Java library for parsing RELAX NG grammars.
 EAPI=7
 HOMEPAGE=http://rngom.java.net/
 INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
-IUSE=elibc_FreeBSD doc source binary test
+IUSE=doc source binary test
 KEYWORDS=~amd64 ~ppc64 ~x86
 LICENSE=MIT
 RDEPEND=>=virtual/jre-1.8:* >=dev-java/relaxng-datatype-1.0:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/kohsuke/rngom/rngom/201605/rngom-201605-sources.jar -> rngom-20160500-sources.jar https://repo1.maven.org/maven2/org/kohsuke/rngom/rngom/201605/rngom-201605.jar -> rngom-20160500-bin.jar
-_eclasses_=java-utils-2	32fe52795e36e76dcbcf92d89bb1c4d0	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=6626ed65e959ab0c566622b4d073d05b

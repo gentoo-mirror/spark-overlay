@@ -4,12 +4,12 @@ DESCRIPTION=Py4J enables Python programs running in a Python interpreter to dyna
 EAPI=7
 HOMEPAGE=http://nexus.sonatype.org/oss-repository-hosting.html/py4j
 INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
-IUSE=elibc_FreeBSD doc source test binary
+IUSE=doc source test binary
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/net/sf/py4j/py4j/0.10.8.1/py4j-0.10.8.1-sources.jar https://repo1.maven.org/maven2/net/sf/py4j/py4j/0.10.8.1/py4j-0.10.8.1.jar -> py4j-0.10.8.1-bin.jar
-_eclasses_=java-utils-2	32fe52795e36e76dcbcf92d89bb1c4d0	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=10e2f4b0c7acd9ade053425c927ff8a3

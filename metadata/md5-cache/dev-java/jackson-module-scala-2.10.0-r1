@@ -4,12 +4,12 @@ DESCRIPTION=Jackson Module for Scala
 EAPI=7
 HOMEPAGE=https://wiki.fasterxml.com/JacksonModuleScala
 INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven java-pkg-simple-plugins
-IUSE=+binary elibc_FreeBSD doc source test binary
+IUSE=+binary doc source test binary
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-1.8:* >=dev-java/jackson-databind-2.10.0:0 >=dev-java/jackson-module-paranamer-2.10.0:0 >=dev-java/jackson-2.11.0:2 >=dev-java/jackson-annotations-2.11.0:2 dev-lang/scala:2.12 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 RESTRICT=!test? ( test )
 SLOT=2.12
 SRC_URI=https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.0/jackson-module-scala_2.12-2.10.0-sources.jar -> jackson-module-scala-2.10.0-sources.jar https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.0/jackson-module-scala_2.12-2.10.0.jar -> jackson-module-scala-2.10.0-bin.jar
-_eclasses_=java-utils-2	32fe52795e36e76dcbcf92d89bb1c4d0	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	329c923d8cd485185850dbee39db9b53
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	329c923d8cd485185850dbee39db9b53
 _md5_=a2f2a0e22febd21ead0ab526303df90e

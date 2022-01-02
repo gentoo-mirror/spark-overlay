@@ -4,12 +4,12 @@ DESCRIPTION=A fast and flexible deduplication engine
 EAPI=8
 HOMEPAGE=https://github.com/larsga/Duke
 INHERIT=java-pkg-2 java-pkg-simple
-IUSE=elibc_FreeBSD doc source test
+IUSE=doc source test
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-1.8:* dev-java/lucene:4.0 dev-java/lucene-analyzers-common:4.0 dev-java/lucene-spatial:4.0 dev-java/mapdb:0.9.9 >=dev-java/commonj-1.1.1:0 java-virtuals/servlet-api:2.4 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/larsga/Duke/archive/refs/tags/duke-1.2.tar.gz
-_eclasses_=java-utils-2	32fe52795e36e76dcbcf92d89bb1c4d0	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118
 _md5_=78be01d6516e48f83ec5dad8e02dd722
