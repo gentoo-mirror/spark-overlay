@@ -1,7 +1,7 @@
-# Copyright 2021 Gentoo Authors
+# Copyright 2021-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 JAVA_PKG_IUSE="source test"
 MAVEN_ID="org.apache.lucene:${PN}:${PV}"
@@ -41,6 +41,7 @@ RDEPEND="
 # Do not descend into 'queries' because build artifacts will be placed
 # in the top-level directory
 S="${WORKDIR}/lucene-${PV}"
+EANT_BUILD_XML="queries/build.xml"
 
 JAVA_ANT_REWRITE_CLASSPATH="true"
 JAVA_PKG_BSFIX_NAME="common-build.xml"
@@ -61,13 +62,7 @@ src_prepare() {
 	fi
 }
 
-src_compile() {
-	cd queries || die "Failed to enter directory for additional analyzers"
-	java-pkg-2_src_compile
-}
-
 src_test() {
-	cd queries || die "Failed to enter directory for additional analyzers"
 	java-pkg-2_src_test
 }
 
