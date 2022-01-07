@@ -9,7 +9,6 @@ dev-java/amqp-client 5.5.3-r1: The RabbitMQ Java client library allows Java appl
 dev-java/android-all 10.5803371: APIs for Applications written for the Google Android Platform
 dev-java/animal-sniffer 1.19: Animal Sniffer.
 dev-java/animal-sniffer-annotations 1.19: Animal Sniffer Parent POM.
-dev-java/ant-ivy 2.4.0: Ivy is a free java based dependency manager
 dev-java/ant-launcher 1.9.4-r1: Standalone Apache Ant Launcher package
 dev-java/aopalliance-repackaged 2.6.1-r1: Dependency Injection Kernel
 dev-java/apache-rat-tasks 0.6-r1: Ant tasks for running RAT
@@ -77,7 +76,7 @@ dev-java/dependency-check-ant 4.0.2-r1: dependency-check-ant is an Ant Task that
 dev-java/dependency-check-core 4.0.2-r3: Identify and report publicly disclosed vulnerabilities in project's dependencies
 dev-java/dependency-check-utils 4.0.2-r3: Utilities used within dependency-check that might be useful in other projects
 dev-java/disruptor 3.4.2: Disruptor - Concurrent Programming Framework
-dev-java/duke 1.2 1.2-r1: A fast and flexible deduplication engine
+dev-java/duke 1.2-r1: A fast and flexible deduplication engine
 dev-java/ehcache 2.6.11 2.10.4: Cache used to boost performance, offload database and simplify scalability
 dev-java/error-prone-annotations 2.4.0: Java annotations for the Error Prone static analysis tool
 dev-java/failureaccess 1.0.1-r1: Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes is conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).
@@ -101,19 +100,19 @@ dev-java/groovy-all 2.4.0-r2: Groovy: A powerful, dynamic language for the JVM
 dev-java/guava 29.0: Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.
 dev-java/guice-servlet 4.1: Guice servlet extension
 dev-java/h2 1.4.196-r2: H2 Database Engine
-dev-java/h2o 3.32.1.7 3.34.0.4 3.34.0.7: Meta package for H2O, a distributed, fast & scalable machine learning platform
-dev-java/h2o-algos 3.32.1.7 3.34.0.4 3.34.0.7: H2O Algorithms
-dev-java/h2o-app 3.32.1.7 3.34.0.4 3.34.0.7: H2O Application Runner
-dev-java/h2o-core 3.32.1.7 3.34.0.4 3.34.0.7: The core module of H2O, a distributed, fast & scalable machine learning platform
-dev-java/h2o-ext-target-encoder 3.32.1.7 3.34.0.4 3.34.0.7: H2O Target Encoder plugin
+dev-java/h2o 3.32.1.7 3.34.0.7: Meta package for H2O, a distributed, fast & scalable machine learning platform
+dev-java/h2o-algos 3.32.1.7 3.34.0.7: H2O Algorithms
+dev-java/h2o-app 3.32.1.7 3.34.0.7: H2O Application Runner
+dev-java/h2o-core 3.32.1.7 3.34.0.7: The core module of H2O, a distributed, fast & scalable machine learning platform
+dev-java/h2o-ext-target-encoder 3.32.1.7 3.34.0.7: H2O Target Encoder plugin
 dev-java/h2o-flow 0.2.10: Web based interactive computing environment for H2O
-dev-java/h2o-genmodel 3.32.1.7 3.34.0.4 3.34.0.7: H2O GenModel
-dev-java/h2o-jaas-pam 3.32.1.7 3.34.0.4 3.34.0.7: H2O JAAS PAM Module
-dev-java/h2o-jetty9 3.32.1.7 3.34.0.4 3.34.0.7: H2O Jetty 9
-dev-java/h2o-logger 3.32.1.7 3.34.0.4 3.34.0.7: H2O Logger
-dev-java/h2o-logging-impl-classic 3.32.1.7 3.34.0.4 3.34.0.7: H2O logging implementation based on Log4j 1.x
+dev-java/h2o-genmodel 3.32.1.7 3.34.0.7: H2O GenModel
+dev-java/h2o-jaas-pam 3.32.1.7 3.34.0.7: H2O JAAS PAM Module
+dev-java/h2o-jetty9 3.32.1.7 3.34.0.7: H2O Jetty 9
+dev-java/h2o-logger 3.32.1.7 3.34.0.7: H2O Logger
+dev-java/h2o-logging-impl-classic 3.32.1.7 3.34.0.7: H2O logging implementation based on Log4j 1.x
 dev-java/h2o-tree-api 0.3.18: Pure Java implementation of XGBoost predictor for online prediction tasks
-dev-java/h2o-webserver-iface 3.32.1.7 3.34.0.4 3.34.0.7: Module isolating H2O functionality from specific HTTP server implementation
+dev-java/h2o-webserver-iface 3.32.1.7 3.34.0.7: Module isolating H2O functionality from specific HTTP server implementation
 dev-java/hadoop-annotations 2.7.4-r1: Apache Hadoop Annotations
 dev-java/hadoop-auth 2.7.4-r2: Apache Hadoop Auth - Java HTTP SPNEGO
 dev-java/hadoop-client 2.7.4-r1: Apache Hadoop Client
@@ -201,7 +200,7 @@ dev-java/jcl-over-slf4j 1.7.16-r1: JCL 1.1.1 implemented over SLF4J
 dev-java/jcodings 1.0.13: Byte based encoding support library for java
 dev-java/jcsp 1.1_rc5: This library contains classes realizing Communicating Sequential Processes (CSP) for use in Java code.
 dev-java/jctools-core 1.2.1 2.1.2: Java Concurrency Tools Core Library
-dev-java/jdeb 1.1.1-r2: Create Debian packages from Java builds in a truly cross platform manner
+dev-java/jdeb 1.1.1-r3: Create Debian packages from Java builds in a truly cross platform manner
 dev-java/jdeparser 2.0.2-r1: Parent POM for JBoss projects. Provides default project build configuration.
 dev-java/jdiff 1.0.9: jdiff:jdiff:1.0.9
 dev-java/jeromq 0.3.5: Pure Java implementation of libzmq
@@ -271,7 +270,7 @@ dev-java/jts 1.12: API for modelling and manipulating 2-dimensional linear geome
 dev-java/jts-core 1.14-r1 1.17.0: The JTS Topology Suite is an API for 2D linear geometry predicates and functions.
 dev-java/jug 2.0.0: org.safehaus.jug:jug:2.0.0
 dev-java/jul-to-slf4j 1.7.16-r1: JUL to SLF4J bridge
-dev-java/kafka-clients 0.10.0.1 1.1.1: Apache Kafka distributed event streaming platform
+dev-java/kafka-clients 1.1.1: Apache Kafka distributed event streaming platform
 dev-java/kotlin-annotations-jvm 1.4.32 1.5.31: Kotlin annotations for JVM
 dev-java/kotlin-common-bin 1.3.72 1.3.72-r1: Kotlin Common Libraries
 dev-java/kotlin-core-builtins 1.4.32 1.5.31: Kotlin library component kotlin-core-builtins
@@ -307,12 +306,12 @@ dev-java/log4j-over-slf4j 1.7.32: Log4j implemented over SLF4J
 dev-java/logback-classic 1.2.3-r1: logback-classic module
 dev-java/logback-core 1.2.3-r2: logback-core module
 dev-java/lombok 1.16.16-r1: Automatic resource management and method generation
-dev-java/lucene 4.0.0 4.0.0-r1 7.6.0: Apache Lucene Java Core
-dev-java/lucene-analyzers-common 4.0.0 4.0.0-r1 7.6.0-r1: Additional Analyzers
-dev-java/lucene-queries 4.0.0 4.0.0-r1 7.6.0-r1: Lucene Queries Module
+dev-java/lucene 4.0.0-r1 7.6.0: Apache Lucene Java Core
+dev-java/lucene-analyzers-common 4.0.0-r1 7.6.0-r1: Additional Analyzers
+dev-java/lucene-queries 4.0.0-r1 7.6.0-r1: Lucene Queries Module
 dev-java/lucene-queryparser 3.6.2-r1 7.6.0-r1: Lucene QueryParsers module
 dev-java/lucene-sandbox 7.6.0-r1: Lucene Sandbox
-dev-java/lucene-spatial 4.0.0 4.0.0-r1: Spatial Strategies for Apache Lucene
+dev-java/lucene-spatial 4.0.0-r1: Spatial Strategies for Apache Lucene
 dev-java/lz4-java 1.8.0: LZ4 compression for Java
 dev-java/lzma-java 1.3-r1: LZMA library for Java
 dev-java/mahout-math 0.13.0-r1: High performance scientific and technical computing data structures and methods, mostly based on CERN's Colt Java API
@@ -350,7 +349,7 @@ dev-java/multiverse-core 0.7.0-r1: The Multiverse core
 dev-java/mvel 2.3.2: MVFLEX Expression Language
 dev-java/nailgun-server 0.9.1-r1: Nailgun is a client, protocol, and server for running Java programs from the command line without incurring the JVM startup overhead. Programs run in the server (which is implemented in Java), and are triggered by the client (written in C), which handles all I/O. This project contains the SERVER ONLY.
 dev-java/nekohtml 1.9.18-r1: A simple HTML scanner and tag balancer using standard XML interfaces
-dev-java/netty 3.2.9-r1 3.5.13-r1 3.7.0-r1 3.10.6-r1: The Netty project is an effort to provide an asynchronous event-driven network application framework and tools for rapid development of maintainable high performance and high scalability protocol servers and clients. In other words, Netty is a NIO client server framework which enables quick and easy development of network applications such as protocol servers and clients. It greatly simplifies and streamlines network programming such as TCP and UDP socket server.
+dev-java/netty 3.2.9-r1 3.5.13-r1 3.7.0-r1 3.10.6-r2: NIO client-server framework for quick and easy network applications development
 dev-java/netty-all 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/netty-buffer 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/netty-codec 4.1.42-r1: Asynchronous event-driven network application framework
@@ -417,7 +416,7 @@ dev-java/simpleclient 0.0.16: Core instrumentation library for the simpleclient.
 dev-java/slf4j-ext 1.7.30: Extensions to the SLF4J API
 dev-java/slf4j-jdk14 1.5.10-r1 1.6.1-r1: The slf4j JDK14 binding
 dev-java/slf4j-log4j12 1.7.32: SLF4J LOG4J-12 Binding
-dev-java/snappy 1.1.7.5 1.1.7.8: Snappy compressor/decompressor for Java
+dev-java/snappy 1.1.7.8: Snappy compressor/decompressor for Java
 dev-java/spark-core 3.0.0-r2: Unified analytics engine for large-scale data processing
 dev-java/spark-demo 0.1: A demo that uses spark-core to perform Monte Carlo simulations
 dev-java/spark-kvstore 3.0.0-r1: The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.
@@ -426,7 +425,7 @@ dev-java/spark-network-common 3.0.0-r2: Spark Project Networking
 dev-java/spark-network-shuffle 3.0.0-r1: Spark Project Shuffle Streaming Service
 dev-java/spark-tags 3.0.0-r1: The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.
 dev-java/spark-unsafe 3.0.0-r1: The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.
-dev-java/spatial4j 0.3 0.3-r1: A Geospatial Library for Java
+dev-java/spatial4j 0.3-r1: A Geospatial Library for Java
 dev-java/spotbugs-annotations 3.1.9-r1: Annotations the SpotBugs tool supports
 dev-java/stax 1.2.0-r1: StAX is the reference implementation of the StAX API
 dev-java/stax-ex 1.8.3: Extensions to complement JSR-173 StAX API
@@ -477,7 +476,7 @@ dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.31: Statically typed programming
 dev-libs/apache-arrow 3.0.0 4.0.1: A cross-language development platform for in-memory data.
 dev-libs/bitshuffle 0.3.5: Bitshuffle C library
 dev-libs/thrift 0.14.2: Software framework for cross-language services development
-dev-python/h2o-py 3.32.1.7 3.34.0.4 3.34.0.7: H2O Python Package
+dev-python/h2o-py 3.32.1.7 3.34.0.7: H2O Python Package
 dev-python/py4j 0.10.9.2-r1: Apache Spark Python API
 dev-python/pyarrow 3.0.0 4.0.1: Python library for Apache Arrow
 dev-python/pyspark 3.1.2: Apache Spark Python API
