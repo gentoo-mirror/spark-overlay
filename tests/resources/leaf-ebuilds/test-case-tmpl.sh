@@ -9,8 +9,9 @@ run_test() {
     echo "[gentoo]" >> /etc/portage/repos.conf/gentoo.conf
     echo "location = /var/db/repos/gentoo" >> /etc/portage/repos.conf/gentoo.conf
 
-    # Update pre-installed packages with required USE flags and versions
-    emerge -1 net-misc/openssh
+    # If keywords are accepted, update libffi and rebuild reverse dependencies
+    emerge -1 ">=dev-libs/libffi-3.4" || true
+    emerge @preserved-rebuild
 
     # Install Kotlin 1.4
     USE="binary" emerge -1 dev-java/kotlin-{stdlib,reflect}:1.4

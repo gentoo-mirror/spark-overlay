@@ -17,7 +17,7 @@ jobs:
         test-case:
           - spark
           - h2o
-        unstable: ["", "~amd64"]
+        unstable: ['', '~amd64']
         # The Kotlin ebuilds do not depend on too many ebuilds in ::gentoo,
         # accepting the unstable keyword globally is trivial
         include:
@@ -25,24 +25,11 @@ jobs:
           - test-case: kotlin-1.4
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.9
       - uses: ./.github/actions/run-test-case
         env:
           UNSTABLE: ${{ matrix.unstable }}
         with:
-          path: ./tests/test-cases/${{ matrix.test-case }}.sh
-      - name: Export ebuild logs if test case failed
-        if: ${{ failure() }}
-        run: |
-          (docker exec $(docker ps -lq) tar -cJvf - /var/log/emerge || true) \
-          > emerge.tar.xz; [[ -s emerge.tar.xz ]] || rm emerge.tar.xz
-      - uses: actions/upload-artifact@v2
-        if: ${{ failure() }}
-        with:
-          name: ${{ matrix.test-case }}${{ matrix.unstable }}-ebuild-logs
-          path: emerge.tar.xz
+          test-case: ${{ matrix.test-case }}
 
   leaf-ebuilds:
     runs-on: ubuntu-latest
@@ -53,37 +40,24 @@ jobs:
         test-case:
           - leaf-ebuilds
           - leaf-ebuilds-binary
-        unstable: ["", "~amd64"]
+        unstable: ['', '~amd64']
         may-fail: [false]
         include:
           - test-case: leaf-ebuilds-test
             may-fail: true
           - test-case: leaf-ebuilds-test
-            unstable: "~amd64"
+            unstable: '~amd64'
             may-fail: true
           - test-case: leaf-ebuilds-binary-test
             may-fail: true
           - test-case: leaf-ebuilds-binary-test
-            unstable: "~amd64"
+            unstable: '~amd64'
             may-fail: true
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.9
       - uses: ./.github/actions/setup-leaf-ebuilds-job
       - uses: ./.github/actions/run-test-case
         env:
           UNSTABLE: ${{ matrix.unstable }}
         with:
-          path: ./tests/test-cases/${{ matrix.test-case }}.sh
-      - name: Export ebuild logs if test case failed
-        if: ${{ failure() }}
-        run: |
-          (docker exec $(docker ps -lq) tar -cJvf - /var/log/emerge || true) \
-          > emerge.tar.xz; [[ -s emerge.tar.xz ]] || rm emerge.tar.xz
-      - uses: actions/upload-artifact@v2
-        if: ${{ failure() }}
-        with:
-          name: ${{ matrix.test-case }}${{ matrix.unstable }}-ebuild-logs
-          path: emerge.tar.xz
+          test-case: ${{ matrix.test-case }}
