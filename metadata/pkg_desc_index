@@ -100,19 +100,20 @@ dev-java/groovy-all 2.4.0-r2: Groovy: A powerful, dynamic language for the JVM
 dev-java/guava 29.0: Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.
 dev-java/guice-servlet 4.1: Guice servlet extension
 dev-java/h2 1.4.196-r2: H2 Database Engine
-dev-java/h2o 3.32.1.7 3.34.0.7: Meta package for H2O, a distributed, fast & scalable machine learning platform
-dev-java/h2o-algos 3.32.1.7 3.34.0.7: H2O Algorithms
-dev-java/h2o-app 3.32.1.7 3.34.0.7: H2O Application Runner
-dev-java/h2o-core 3.32.1.7 3.34.0.7: The core module of H2O, a distributed, fast & scalable machine learning platform
-dev-java/h2o-ext-target-encoder 3.32.1.7 3.34.0.7: H2O Target Encoder plugin
+dev-java/h2o 3.32.1.7 3.34.0.7 3.36.0.1: Meta package for H2O, a distributed, fast & scalable machine learning platform
+dev-java/h2o-algos 3.32.1.7 3.34.0.7 3.36.0.1: H2O Algorithms
+dev-java/h2o-app 3.32.1.7 3.34.0.7 3.36.0.1: H2O Application Runner
+dev-java/h2o-core 3.32.1.7 3.34.0.7 3.36.0.1: The core module of H2O, a distributed, fast & scalable machine learning platform
+dev-java/h2o-ext-target-encoder 3.32.1.7 3.34.0.7 3.36.0.1: H2O Target Encoder plugin
 dev-java/h2o-flow 0.2.10: Web based interactive computing environment for H2O
-dev-java/h2o-genmodel 3.32.1.7 3.34.0.7: H2O GenModel
-dev-java/h2o-jaas-pam 3.32.1.7 3.34.0.7: H2O JAAS PAM Module
-dev-java/h2o-jetty9 3.32.1.7 3.34.0.7: H2O Jetty 9
-dev-java/h2o-logger 3.32.1.7 3.34.0.7: H2O Logger
-dev-java/h2o-logging-impl-classic 3.32.1.7 3.34.0.7: H2O logging implementation based on Log4j 1.x
+dev-java/h2o-genmodel 3.32.1.7 3.34.0.7 3.36.0.1: H2O GenModel
+dev-java/h2o-jaas-pam 3.32.1.7 3.34.0.7 3.36.0.1: H2O JAAS PAM Module
+dev-java/h2o-jetty9 3.32.1.7 3.34.0.7 3.36.0.1: H2O Jetty 9
+dev-java/h2o-jetty9-minimal 3.36.0.1: H2O Jetty 9 Minimal
+dev-java/h2o-logger 3.32.1.7 3.34.0.7 3.36.0.1: H2O Logger
+dev-java/h2o-logging-impl-classic 3.32.1.7 3.34.0.7 3.36.0.1: H2O logging implementation based on Log4j 1.x
 dev-java/h2o-tree-api 0.3.18: Pure Java implementation of XGBoost predictor for online prediction tasks
-dev-java/h2o-webserver-iface 3.32.1.7 3.34.0.7: Module isolating H2O functionality from specific HTTP server implementation
+dev-java/h2o-webserver-iface 3.32.1.7 3.34.0.7 3.36.0.1: Module isolating H2O functionality from specific HTTP server implementation
 dev-java/hadoop-annotations 2.7.4-r1: Apache Hadoop Annotations
 dev-java/hadoop-auth 2.7.4-r2: Apache Hadoop Auth - Java HTTP SPNEGO
 dev-java/hadoop-client 2.7.4-r1: Apache Hadoop Client
@@ -143,7 +144,7 @@ dev-java/hpack 0.10.1-r1: Header Compression for HTTP/2
 dev-java/htrace-core 3.1.0-r1: A tracing framework for use with distributed systems written in java
 dev-java/hystrix-core 1.5.12-r1: hystrix-core
 dev-java/icu4j 67.1: A set of Java libraries providing Unicode and Globalization support
-dev-java/istack-commons-runtime 4.0.0: istack common utility code
+dev-java/istack-commons-runtime 4.0.0 4.0.0-r1: istack common utility code
 dev-java/j2objc-annotations 1.3: Annotations for the J2ObjC Java to Objective-C translator
 dev-java/jackson 2.11.0 2.13.0: High-performance JSON processor
 dev-java/jackson-annotations 2.11.0 2.13.0: Annotations for the Java Jackson data processor
@@ -153,7 +154,7 @@ dev-java/jackson-dataformat-xml 2.13.0: Data format extension for Jackson for se
 dev-java/jackson-dataformat-yaml 2.13.0: Jackson textual format backend for YAML
 dev-java/jackson-jaxrs 1.9.13-r1: Jax-RS provider for JSON content type
 dev-java/jackson-mapper-asl 1.9.13-r1: Data Mapper package is a high-performance data binding package built on Jackson JSON processor
-dev-java/jackson-module-jaxb-annotations 2.13.0: Jackson extension module for JAXB annotations support
+dev-java/jackson-module-jaxb-annotations 2.13.0 2.13.0-r1: Jackson extension module for JAXB annotations support
 dev-java/jackson-module-paranamer 2.10.0-r1 2.13.0: Jackson extension module for creator method names detection with Paranamer
 dev-java/jackson-module-scala 2.10.0-r1 2.13.0: Jackson Module for Scala
 dev-java/jackson-xc 1.8.3-r1 1.9.13-r1: Extensions that provide interoperability support for Jackson JSON processor's data binding functionality.
@@ -166,7 +167,7 @@ dev-java/jakarta-persistence-api 2.2.3-r1: Eclipse Enterprise for Java (EE4J) is
 dev-java/jakarta-servlet-api 4.0.3-r1: Eclipse Enterprise for Java (EE4J) is an open source initiative to create standard APIs, implementations of those APIs, and technology compatibility kits for Java runtimes that enable development, deployment, and management of server-side and cloud-native applications.
 dev-java/jakarta-validation-api 2.0.2-r1: Jakarta Bean Validation API
 dev-java/jakarta-ws-rs-api 2.1.6: Jakarta RESTful Web Services API
-dev-java/jakarta-xml-bind-api 3.0.0-r1: Jakarta XML Binding API
+dev-java/jakarta-xml-bind-api 3.0.0-r1 3.0.0-r2: Jakarta XML Binding API
 dev-java/jama 1.0.3-r2: A Java Matrix Package
 dev-java/jandex 2.0.3-r1: Parent POM for JBoss projects. Provides default project build configuration.
 dev-java/janino 3.0.6: Janino is a super-small, super-fast Java compiler.
@@ -221,36 +222,36 @@ dev-java/jets3t 0.9.0-r2: Java toolkit and application suite for Amazon S3, Clou
 dev-java/jettison 1.3.7: A JSON StAX implementation
 dev-java/jetty 6.1.26-r1: Jetty server core
 dev-java/jetty-alpn-api 1.1.3_p20160715: Administrative parent pom for Jetty modules
-dev-java/jetty-client 9.4.11_p20180605: Jetty Asynchronous HTTP Client
-dev-java/jetty-continuation 9.4.11_p20180605: Jetty Asynchronous API
-dev-java/jetty-http 9.4.8_p20171121-r1 9.4.11_p20180605: Jetty HTTP Utility
-dev-java/jetty-io 9.4.8_p20171121-r1 9.4.11_p20180605: Jetty IO Utility
-dev-java/jetty-jaas 9.4.11_p20180605: Jetty JAAS support
-dev-java/jetty-jmx 9.4.8_p20171121-r1 9.4.11_p20180605: JMX management artifact for Jetty
+dev-java/jetty-client 9.4.11_p20180605 9.4.44_p20210927: Jetty Asynchronous HTTP Client
+dev-java/jetty-continuation 9.4.11_p20180605 9.4.44_p20210927: Jetty Asynchronous API
+dev-java/jetty-http 9.4.8_p20171121-r1 9.4.11_p20180605 9.4.44_p20210927: Jetty HTTP Utility
+dev-java/jetty-io 9.4.8_p20171121-r1 9.4.11_p20180605 9.4.44_p20210927: Jetty IO Utility
+dev-java/jetty-jaas 9.4.11_p20180605 9.4.44_p20210927: Jetty JAAS support
+dev-java/jetty-jmx 9.4.8_p20171121-r1 9.4.11_p20180605 9.4.44_p20210927: JMX management artifact for Jetty
 dev-java/jetty-npn-api 1.1.1_p20141010: Administrative parent pom for Jetty modules
-dev-java/jetty-proxy 9.4.11_p20180605: Jetty Proxy
-dev-java/jetty-security 9.4.11_p20180605: Jetty security infrastructure
-dev-java/jetty-server 9.4.8_p20171121-r1 9.4.11_p20180605: The core Jetty server artifact
-dev-java/jetty-servlet 9.4.11_p20180605: Jetty Servlet Container
-dev-java/jetty-servlets 9.4.11_p20180605: Utility Servlets from Jetty
+dev-java/jetty-proxy 9.4.11_p20180605 9.4.44_p20210927: Jetty Proxy
+dev-java/jetty-security 9.4.11_p20180605 9.4.44_p20210927: Jetty security infrastructure
+dev-java/jetty-server 9.4.8_p20171121-r1 9.4.11_p20180605 9.4.44_p20210927: The core Jetty server artifact
+dev-java/jetty-servlet 9.4.11_p20180605 9.4.44_p20210927: Jetty Servlet Container
+dev-java/jetty-servlets 9.4.11_p20180605 9.4.44_p20210927: Utility Servlets from Jetty
 dev-java/jetty-sslengine 6.1.26-r1: Parent pom for Jetty at Codehaus
-dev-java/jetty-util 6.1.26-r1 9.4.8_p20171121-r2 9.4.11_p20180605: Utility classes for Jetty
-dev-java/jetty-webapp 9.4.11_p20180605: Jetty web application support
-dev-java/jetty-xml 9.4.11_p20180605: Jetty XML Utilities
+dev-java/jetty-util 6.1.26-r1 9.4.8_p20171121-r2 9.4.11_p20180605 9.4.44_p20210927: Utility classes for Jetty
+dev-java/jetty-util-ajax 9.4.44_p20210927: JSON/Ajax Utility classes for Jetty
+dev-java/jetty-webapp 9.4.11_p20180605 9.4.44_p20210927: Jetty web application support
+dev-java/jetty-xml 9.4.11_p20180605 9.4.44_p20210927: Jetty XML Utilities
 dev-java/jffi 1.0.6 1.0.8: Java wrapper around libffi
 dev-java/jlargearrays 1.6: Library of one-dimensional arrays that can store up to 2^63 elements.
 dev-java/jline 1.0-r2: Handle console input in Java
 dev-java/jmh-generator-annprocess 1.32: JMH benchmark generator, based on annotation processors
 dev-java/jnr-enxio 0.9-r1: Native I/O access for java
-dev-java/jnr-netdb 1.0.3: Lookup TCP and UDP services from java
 dev-java/jnr-posix 3.0.12-r1: Common cross-project/cross-platform POSIX APIs
-dev-java/jnr-unixsocket 0.8-r1: Native I/O access for java
+dev-java/jnr-unixsocket 0.8-r1 0.8-r2: Native I/O access for java
 dev-java/jnr-x86asm 1.0.0: A pure-java X86 and X86_64 assembler
 dev-java/joda-timezones 2013: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/joni 2.1.3-r1: Java port of Oniguruma that uses byte arrays directly
 dev-java/jruby 1.7.22-r1: The effort to recreate the Ruby interpreter in Java
 dev-java/jruby-complete 1.7.22-r1 1.7.22-r2: JRuby is the effort to recreate the Ruby (http://www.ruby-lang.org) interpreter in Java.
-dev-java/jruby-core 1.7.22-r4: The effort to recreate the Ruby interpreter in Java
+dev-java/jruby-core 1.7.22-r4 1.7.22-r5: The effort to recreate the Ruby interpreter in Java
 dev-java/jruby-jnr-posix 1.1.9: Common cross-project/cross-platform POSIX APIs
 dev-java/jruby-stdlib 1.7.22-r1: JRuby Standard Library
 dev-java/jsch-agent-proxy 0.0.8: a proxy to ssh-agent and Pageant in Java.
@@ -433,7 +434,7 @@ dev-java/stax2-api 4.2.1: Extended Stax (STandard Api for Xml procesing) API
 dev-java/stream 2.9.8-r1: A library for summarizing data in streams for which it is infeasible to store all events
 dev-java/svm 19.2.1-r1: SubstrateVM image builder components
 dev-java/t-digest 3.1-r1: Data structure which allows accurate estimation of quantiles and related rank statistics
-dev-java/terracotta-toolkit-api 2.7 3.2.0: org.terracotta.toolkit:terracotta-toolkit-api:3.2.0
+dev-java/terracotta-toolkit-api 2.7 3.2.0 3.2.0-r1: Terracotta Toolkit API
 dev-java/terracotta-toolkit-api-internal 2.2.0-r1: Terracotta Toolkit API Internal
 dev-java/tomcat-annotations-api 8.5.28-r1: Annotations Package
 dev-java/tomcat-embed-core 8.5.28-r1: Core Tomcat implementation
@@ -450,11 +451,11 @@ dev-java/wagon-http-lightweight 1.0_beta6-r1: Wagon that gets and puts artifacts
 dev-java/wagon-http-shared 1.0_beta6-r1: Shared Library for the wagon-http, and wagon-http-lightweight wagon providers.
 dev-java/wagon-http-shared4 2.4-r2: Shared Library for the wagon-http and wagon-http-lightweight wagon providers
 dev-java/wagon-provider-api 1.0_beta6-r1 2.4-r1: Maven Wagon API that defines the contract between different Wagon implementations
-dev-java/websocket-api 9.4.11_p20180605: Jetty Websocket API
-dev-java/websocket-client 9.4.11_p20180605: Jetty Websocket Client
-dev-java/websocket-common 9.4.11_p20180605: Jetty Websocket Common
-dev-java/websocket-server 9.4.11_p20180605: Jetty Websocket Server
-dev-java/websocket-servlet 9.4.11_p20180605: Jetty Websocket Servlet
+dev-java/websocket-api 9.4.11_p20180605 9.4.44_p20210927: Jetty Websocket API
+dev-java/websocket-client 9.4.11_p20180605 9.4.44_p20210927: Jetty Websocket Client
+dev-java/websocket-common 9.4.11_p20180605 9.4.44_p20210927: Jetty Websocket Common
+dev-java/websocket-server 9.4.11_p20180605 9.4.44_p20210927: Jetty Websocket Server
+dev-java/websocket-servlet 9.4.11_p20180605 9.4.44_p20210927: Jetty Websocket Servlet
 dev-java/weld-api 1.1-r1: Weld specifc extensions to the CDI API
 dev-java/weld-core 1.1.0-r1: Weld's implementation of CDI
 dev-java/weld-osgi-bundle 1.1.0-r1: Weld runtime packaged as an OSGi bundle
@@ -476,7 +477,7 @@ dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.31: Statically typed programming
 dev-libs/apache-arrow 3.0.0 4.0.1: A cross-language development platform for in-memory data.
 dev-libs/bitshuffle 0.3.5: Bitshuffle C library
 dev-libs/thrift 0.14.2: Software framework for cross-language services development
-dev-python/h2o-py 3.32.1.7 3.34.0.7: H2O Python Package
+dev-python/h2o-py 3.32.1.7 3.34.0.7 3.36.0.1: H2O Python Package
 dev-python/py4j 0.10.9.2-r1: Apache Spark Python API
 dev-python/pyarrow 3.0.0 4.0.1: Python library for Apache Arrow
 dev-python/pyspark 3.1.2: Apache Spark Python API

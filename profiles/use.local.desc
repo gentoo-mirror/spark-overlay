@@ -62,6 +62,7 @@ dev-java/groovy-all:binary - install binary jar from maven central.
 dev-java/guava:binary - install binary jar from maven central.
 dev-java/h2:binary - install binary jar from maven central.
 dev-java/h2o:flow - Enable H2O Flow, a web-based interactive computational environment for H2O
+dev-java/h2o:jetty9-full - Use dev-java/h2o-jetty9 instead of dev-java/h2o-jetty9-minimal as H2O's Jetty module; more dependencies will be pulled
 dev-java/h2o:target-encoder - Enable the H2O Target Encoder plugin
 dev-java/hadoop-annotations:binary - install binary jar from maven central.
 dev-java/hadoop-auth:binary - install binary jar from maven central.

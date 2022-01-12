@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* !binary? ( ~dev-java/jetty-http-9.4.44_p20210927:9 ~dev-java/jetty-io-9.4.44_p20210927:9 ~dev-java/jetty-jmx-9.4.44_p20210927:9 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Jetty Asynchronous HTTP Client
+EAPI=8
+HOMEPAGE=https://www.eclipse.org/jetty
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 EPL-1.0
+RDEPEND=>=virtual/jre-1.8:* ~dev-java/jetty-http-9.4.44_p20210927:9 ~dev-java/jetty-io-9.4.44_p20210927:9 ~dev-java/jetty-jmx-9.4.44_p20210927:9 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=9
+SRC_URI=https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.44.v20210927/jetty-client-9.4.44.v20210927-sources.jar -> jetty-client-9.4.44_p20210927-sources.jar https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.44.v20210927/jetty-client-9.4.44.v20210927.jar -> jetty-client-9.4.44_p20210927-bin.jar
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=af1393db4a019ad59598f293617f7209
