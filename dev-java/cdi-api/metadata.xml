@@ -2,14 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>zzy2529420793@gmail.com</email>
-		<name>zongyu</name>
-	</maintainer>
-	<maintainer type="person">
 		<email>liaoyuan@gmail.com</email>
 		<name>Yuan Liao</name>
 	</maintainer>
-	<upstream>
-		<remote-id type="github">kohsuke/args4j</remote-id>
-	</upstream>
 </pkgmetadata>
