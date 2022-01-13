@@ -19,7 +19,6 @@ dev-java/api-i18n:binary - install binary jar from maven central.
 dev-java/api-ldap-model:binary - install binary jar from maven central.
 dev-java/api-util:binary - install binary jar from maven central.
 dev-java/archaius-core:binary - install binary jar from maven central.
-dev-java/args4j:binary - install binary jar from maven central.
 dev-java/asm-debug-all:binary - install binary jar from maven central.
 dev-java/audience-annotations:binary - install binary jar from maven central.
 dev-java/avro:binary - install binary jar from maven central.

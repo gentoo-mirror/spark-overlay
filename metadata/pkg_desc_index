@@ -20,7 +20,7 @@ dev-java/api-i18n 1.0.0-r1: Internationalization of errors and other messages
 dev-java/api-ldap-model 1.0.0-r1: Common LDAP Model used by clients and servers
 dev-java/api-util 1.0.0-r1: Utilities shared across this top level project
 dev-java/archaius-core 0.4.1-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
-dev-java/args4j 1.0: args4j is a small Java class library that makes it easy to parse command line options/arguments in your CUI application.
+dev-java/args4j 1.0-r1 2.33-r1: args4j is a Java command line arguments parser
 dev-java/arpack-combined-all-bin 0.1: Java APIs for the BLAS, LAPACK, and ARPACK Fortran libraries
 dev-java/asm 3.3.1-r2 8.0.1: ASM, a very small and fast Java bytecode manipulation framework
 dev-java/asm-debug-all 5.0-r1: A very small and fast Java bytecode manipulation framework
@@ -41,6 +41,7 @@ dev-java/c3p0 0.9.5.4: JDBC drivers with JNDI-bindable DataSources
 dev-java/cache-api 1.0.0-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/caffeine 2.6.1-r1: A high performance caching library for Java 8+
 dev-java/cal10n 0.8.1: java library for writing localized messages using resource bundle
+dev-java/cdi-api 1.2-r2: Contexts and Dependency Injection for the Java EE platform
 dev-java/charts4j 1.3-r1: charts4j is a free, lightweight charts and graphs Java API. It enables developers to programmatically create the charts available in the Google Chart API through a straightforward and intuitive Java API.
 dev-java/checker-qual 2.11.1-r1: Checker Qual is the set of annotations (qualifiers) and supporting classes used by the Checker Framework to type check Java source code. Please see artifact: org.checkerframework:checker
 dev-java/chill 0.9.3-r3: Scala extensions for the Kryo serialization library

@@ -1,0 +1,15 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=args4j is a Java command line arguments parser
+EAPI=8
+HOMEPAGE=https://args4j.kohsuke.org/
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=doc source binary
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+SLOT=2
+SRC_URI=https://repo1.maven.org/maven2/args4j/args4j/2.33/args4j-2.33-sources.jar https://repo1.maven.org/maven2/args4j/args4j/2.33/args4j-2.33.jar -> args4j-2.33-bin.jar
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=6ebdccefaee0c54e25940e4bf6be5ee5
