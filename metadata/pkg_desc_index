@@ -77,7 +77,7 @@ dev-java/dependency-check-ant 4.0.2-r1: dependency-check-ant is an Ant Task that
 dev-java/dependency-check-core 4.0.2-r3: Identify and report publicly disclosed vulnerabilities in project's dependencies
 dev-java/dependency-check-utils 4.0.2-r3: Utilities used within dependency-check that might be useful in other projects
 dev-java/disruptor 3.4.2: Disruptor - Concurrent Programming Framework
-dev-java/duke 1.2-r1: A fast and flexible deduplication engine
+dev-java/duke 1.2-r2: A fast and flexible deduplication engine
 dev-java/ehcache 2.6.11 2.10.4: Cache used to boost performance, offload database and simplify scalability
 dev-java/error-prone-annotations 2.4.0: Java annotations for the Error Prone static analysis tool
 dev-java/failureaccess 1.0.1-r1: Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes is conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).
@@ -186,7 +186,7 @@ dev-java/javax-security-jacc-api 1.6: JACC API
 dev-java/javax-xml-rpc-api 1.1.2: Java APIs for XML based RPC
 dev-java/jaxb-api 2.2-r1 2.2.2-r2: JAXB (JSR 222) API
 dev-java/jaxb-impl 2.2.3.1 2.2.6: JAXB (JSR 222) reference implementation
-dev-java/jboss-ejb-api 1.0.0-r2: The Java EJB 3.1 API classes
+dev-java/jboss-ejb-api 1.0.0-r2 1.0.2: The Java EJB 3.1 API classes
 dev-java/jboss-interceptor-core 2.0.0-r1: JBoss EJB 3.1 Common Interceptor Library Parent
 dev-java/jboss-interceptor-spi 2.0.0-r1: JBoss EJB 3.1 Common Interceptor Library Parent
 dev-java/jboss-interceptors-api 1.0.0-r1 1.0.1-r1: The Java(TM) EE Interceptors 1.2 API classes from JSR 318.
@@ -494,5 +494,5 @@ java-virtuals/servlet-api 4.0: Virtual for servlet api
 java-virtuals/stax-api 1-r4: Virtual for Streaming API for XML (StAX)
 java-virtuals/transaction-api 1.1 1.3: Virtual for Transaction API (javax.transaction)
 java-virtuals/ws-rs-api 2.1: Virtual for RESTful Web Services
-java-virtuals/xmlrpc-api 0: Virtual for XML RPC API (javax.xml.rpc)
+java-virtuals/xmlrpc-api 0 0-r1: Virtual for XML RPC API (javax.xml.rpc)
 virtual/kotlin 1.3 1.4 1.5: Virtual for Kotlin compiler

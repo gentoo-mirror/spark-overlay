@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=dev-java/java-config
+DESCRIPTION=Virtual for XML RPC API (javax.xml.rpc)
+EAPI=8
+HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
+INHERIT=java-virtuals-2
+KEYWORDS=~amd64
+LICENSE=public-domain
+RDEPEND=|| ( dev-java/javax-xml-rpc-api:0 dev-java/glassfish-xmlrpc-api:0 ) dev-java/java-config
+SLOT=0
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-virtuals-2	672acdea04ae2dbb866cb9d257f6cf5f
+_md5_=5e95113024675fd562234a7bd3870f0c

@@ -116,7 +116,6 @@ dev-java/javax-mail:binary - install binary jar from maven central.
 dev-java/javax-persistence:binary - install binary jar from maven central.
 dev-java/jaxb-api:binary - install binary jar from maven central.
 dev-java/jaxb-impl:binary - install binary jar from maven central.
-dev-java/jboss-ejb-api:binary - install binary jar from maven central.
 dev-java/jboss-interceptor-core:binary - install binary jar from maven central.
 dev-java/jboss-interceptor-spi:binary - install binary jar from maven central.
 dev-java/jboss-interceptors-api:binary - install binary jar from maven central.
