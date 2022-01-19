@@ -51,6 +51,7 @@ dev-java/classworlds 1.1_alpha2: classworlds:classworlds:1.1-alpha-2
 dev-java/clover 4.2.1-r1: Code coverage and testing tool for Java and Groovy
 dev-java/cmdreader 1.5: Easy Command Line option reading in Java
 dev-java/codemodel 2.6: The core functionality of the CodeModel java source code generation library
+dev-java/colt 1.2.0-r4: Java Libraries for High Performance Scientific and Technical Computing
 dev-java/commonj 1.1.1: CommonJ API
 dev-java/commons-collections 4.4: The Apache Commons Collections package contains types that extend and augment the Java Collections Framework.
 dev-java/commons-compiler 3.0.6-r1: Janino is a super-small, super-fast Java compiler.
