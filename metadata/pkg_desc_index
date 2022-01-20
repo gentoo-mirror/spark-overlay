@@ -300,6 +300,7 @@ dev-java/kotlin-test-js 1.4.32 1.5.31: Kotlin Test for JS
 dev-java/kotlin-test-junit 1.4.32 1.5.31: Kotlin Test Support for JUnit 4
 dev-java/kotlinx-coroutines-core-bin 1.3.8-r1 1.5.0: Coroutines support libraries for Kotlin
 dev-java/kryo-shaded 4.0.2-r1: Fast, efficient Java serialization. This contains the shaded reflectasm jar to prevent conflicts with other versions of asm.
+dev-java/kxml 2.3.0-r1: Small XML Pull Parser
 dev-java/leveldb-api 0.6-r1: High level Java API for LevelDB
 dev-java/leveldbjni 1.8-r1 1.8-r2: A JNI library for acessing leveldb
 dev-java/libpam4j 1.11: Java binding for libpam.so
@@ -315,7 +316,7 @@ dev-java/lucene-queries 4.0.0-r1 7.6.0-r1: Lucene Queries Module
 dev-java/lucene-queryparser 3.6.2-r1 7.6.0-r1: Lucene QueryParsers module
 dev-java/lucene-sandbox 7.6.0-r1: Lucene Sandbox
 dev-java/lucene-spatial 4.0.0-r1: Spatial Strategies for Apache Lucene
-dev-java/lz4-java 1.8.0: LZ4 compression for Java
+dev-java/lz4-java 1.8.0-r1: LZ4 compression for Java
 dev-java/lzma-java 1.3-r1: LZMA library for Java
 dev-java/mahout-math 0.13.0-r1: High performance scientific and technical computing data structures and methods, mostly based on CERN's Colt Java API
 dev-java/mail 1.4-r1: The JavaMail API provides a platform-independent and protocol-independent framework to build mail and messaging applications.
@@ -349,7 +350,6 @@ dev-java/msv 20130601: Multi-Schema XML Validator, a Java tool for validating XM
 dev-java/msv-rngconverter 2013.6.1: MSV RNG Converter
 dev-java/multiverse-beta 0.7: org.multiverse:multiverse-beta:0.7-RC-1
 dev-java/multiverse-core 0.7.0-r1: The Multiverse core
-dev-java/mvel 2.3.2: MVFLEX Expression Language
 dev-java/nailgun-server 0.9.1-r1: Nailgun is a client, protocol, and server for running Java programs from the command line without incurring the JVM startup overhead. Programs run in the server (which is implemented in Java), and are triggered by the client (written in C), which handles all I/O. This project contains the SERVER ONLY.
 dev-java/nekohtml 1.9.18-r1: A simple HTML scanner and tag balancer using standard XML interfaces
 dev-java/netty 3.2.9-r1 3.5.13-r1 3.7.0-r1 3.10.6-r2: NIO client-server framework for quick and easy network applications development
@@ -419,7 +419,7 @@ dev-java/simpleclient 0.0.16: Core instrumentation library for the simpleclient.
 dev-java/slf4j-ext 1.7.30: Extensions to the SLF4J API
 dev-java/slf4j-jdk14 1.5.10-r1 1.6.1-r1: The slf4j JDK14 binding
 dev-java/slf4j-log4j12 1.7.32: SLF4J LOG4J-12 Binding
-dev-java/snappy 1.1.7.8: Snappy compressor/decompressor for Java
+dev-java/snappy 1.1.7.8-r1: Snappy compressor/decompressor for Java
 dev-java/spark-core 3.0.0-r2: Unified analytics engine for large-scale data processing
 dev-java/spark-demo 0.1: A demo that uses spark-core to perform Monte Carlo simulations
 dev-java/spark-kvstore 3.0.0-r1: The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.
@@ -477,7 +477,6 @@ dev-java/yecht 1.0-r1: The "Yecht" implementation of Ruby 1.8's yaml parser "Syc
 dev-java/zookeeper 3.4.14-r2: org.apache.zookeeper:zookeeper:3.4.14
 dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.31: Statically typed programming language for modern multiplatform applications
 dev-libs/apache-arrow 3.0.0 4.0.1: A cross-language development platform for in-memory data.
-dev-libs/bitshuffle 0.3.5: Bitshuffle C library
 dev-libs/thrift 0.14.2: Software framework for cross-language services development
 dev-python/h2o-py 3.32.1.7 3.34.0.7 3.36.0.1: H2O Python Package
 dev-python/py4j 0.10.9.2-r1: Apache Spark Python API

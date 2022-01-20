@@ -1,9 +1,9 @@
 DEFINED_PHASES=compile configure install preinst prepare setup test
-DEPEND=>=virtual/jdk-1.8:* dev-java/cpptasks:0 ~dev-java/mvel-2.3.2:0 dev-libs/xxhash test? ( dev-java/junit:4 dev-java/randomized-runner:0 ) app-arch/lz4 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) >=dev-java/ant-core-1.8.2:0 dev-java/javatoolkit
+DEPEND=>=virtual/jdk-1.8:* dev-java/mvel:2.3 dev-libs/xxhash test? ( dev-java/junit:4 dev-java/randomized-runner:0 ) app-arch/lz4 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) >=dev-java/ant-core-1.8.2:0 dev-java/javatoolkit
 DESCRIPTION=LZ4 compression for Java
 EAPI=8
 HOMEPAGE=https://github.com/lz4/lz4-java
-INHERIT=java-pkg-2 java-ant-2
+INHERIT=java-pkg-2 java-ant-2 toolchain-funcs
 IUSE=doc source test
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
@@ -12,4 +12,4 @@ RESTRICT=test !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/lz4/lz4-java/archive/refs/tags/1.8.0.tar.gz -> lz4-java-1.8.0.tar.gz
 _eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	multilib	de4beb52bfa93c4c5d96792a6b5e1784	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	java-ant-2	262d853e2dd1056dc103b953dfc113b9
-_md5_=c3442840cc2984526434bedc4a7f2148
+_md5_=c431d1eb58b1e58948050b4b9fc22a08
