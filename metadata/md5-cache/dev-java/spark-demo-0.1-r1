@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* dev-java/spark-core:2.12 >=dev-java/java-config-2.2.0-r3
+DESCRIPTION=A demo that uses spark-core to perform Monte Carlo simulations
+EAPI=8
+HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-simple-plugins
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* dev-java/spark-core:2.12 >=dev-java/java-config-2.2.0-r3
+SLOT=2.12
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-simple-plugins	329c923d8cd485185850dbee39db9b53
+_md5_=4a7095568814142d9b92988d9c58b328

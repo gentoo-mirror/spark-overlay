@@ -1,8 +1,8 @@
 BDEPEND=app-arch/unzip
 DEFINED_PHASES=compile install preinst prepare setup test unpack
 DEPEND=>=virtual/jdk-1.8:* !binary? ( dev-java/conscrypt-constants:2.4.0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
-DESCRIPTION=Conscrypt: OpenJdk UberJAR
-EAPI=7
+DESCRIPTION=Conscrypt: OpenJDK UberJAR
+EAPI=8
 HOMEPAGE=https://conscrypt.org/
 INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
 IUSE=doc source test binary
@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=2.4
 SRC_URI=https://repo1.maven.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.4.0/conscrypt-openjdk-uber-2.4.0-sources.jar https://repo1.maven.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.4.0/conscrypt-openjdk-uber-2.4.0.jar -> conscrypt-openjdk-uber-2.4.0-bin.jar
 _eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
-_md5_=aff80ab22335d5abea60814de6e75eea
+_md5_=fcda927eadfae74c7654c200e6abe199

@@ -1,8 +1,9 @@
+BDEPEND=app-arch/unzip
 DEFINED_PHASES=compile install preinst prepare setup test unpack
-DEPEND=>=virtual/jdk-1.8:* app-arch/unzip !binary? ( >=dev-java/hadoop-annotations-2.7.4:0 >=dev-java/hadoop-yarn-api-2.7.4:0 >=dev-java/hadoop-yarn-common-2.7.4:0 >=dev-java/zookeeper-3.4.6:0 >=dev-java/commons-logging-1.2:0 >=dev-java/guava-29.0:0 >=dev-java/leveldbjni-1.8:0 >=dev-java/protobuf-java-3.11.4:0 >=dev-java/hadoop-common-2.7.4:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
-DESCRIPTION=Apache Hadoop Project POM
-EAPI=7
-HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
+DEPEND=>=virtual/jdk-1.8:* !binary? ( >=dev-java/hadoop-annotations-2.7.4:0 >=dev-java/hadoop-yarn-api-2.7.4:0 >=dev-java/hadoop-yarn-common-2.7.4:0 >=dev-java/zookeeper-3.4.6:0 >=dev-java/commons-logging-1.2:0 >=dev-java/guava-29.0:0 >=dev-java/leveldbjni-1.8:0 >=dev-java/protobuf-java-3.11.4:0 >=dev-java/hadoop-common-2.7.4:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Apache Hadoop YARN Server Common
+EAPI=8
+HOMEPAGE=https://hadoop.apache.org/docs/stable/hadoop-yarn/hadoop-yarn-site/YARN.html
 INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
 IUSE=doc source test binary
 KEYWORDS=~amd64
@@ -12,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.7.4/hadoop-yarn-server-common-2.7.4-sources.jar https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.7.4/hadoop-yarn-server-common-2.7.4.jar -> hadoop-yarn-server-common-2.7.4-bin.jar
 _eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
-_md5_=7b785875c4bc109b7317c5ffe4bc8e18
+_md5_=09ced868093480cba6848fea48af97f3

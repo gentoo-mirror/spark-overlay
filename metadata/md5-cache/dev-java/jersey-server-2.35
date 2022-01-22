@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* ~dev-java/jersey-client-2.35:2 ~dev-java/jersey-common-2.35:2 ~dev-java/jersey-media-jaxb-2.35:2 dev-java/jakarta-annotation-api:0 dev-java/jakarta-validation-api:0 java-virtuals/ws-rs-api:0 dev-java/jaxb-api:2 dev-java/osgi-core:6 test? ( ~dev-java/jersey-hk2-2.35:2 ~dev-java/jersey-media-jaxb-2.35:2 dev-java/hamcrest-library:1.3 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( dev-java/junit:4 )
+DESCRIPTION=Jersey core server implementation
+EAPI=8
+HOMEPAGE=https://projects.eclipse.org/projects/ee4j.jersey
+INHERIT=java-pkg-2 java-pkg-simple
+IUSE=doc source test
+KEYWORDS=~amd64
+LICENSE=|| ( EPL-2.0 GPL-2-with-classpath-exception ) Apache-2.0 BSD W3C
+RDEPEND=>=virtual/jre-1.8:* ~dev-java/jersey-client-2.35:2 ~dev-java/jersey-common-2.35:2 ~dev-java/jersey-media-jaxb-2.35:2 dev-java/jakarta-annotation-api:0 dev-java/jakarta-validation-api:0 java-virtuals/ws-rs-api:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=test !test? ( test )
+SLOT=2
+SRC_URI=https://github.com/eclipse-ee4j/jersey/archive/refs/tags/2.35.tar.gz -> jersey-2.35.tar.gz https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.35/jersey-server-2.35-sources.jar
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118
+_md5_=f633b45cc6eaef16de2263ba387dd6c5

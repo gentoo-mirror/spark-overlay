@@ -1,0 +1,10 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Utility for bulk rebuilding Java packages when switching from Java 11 back to 8
+EAPI=8
+HOMEPAGE=https://github.com/Leo3418/spark-overlay/discussions/1
+INHERIT=prefix
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+SLOT=0
+_eclasses_=prefix	d04f14b297013ad1410550c0757f14f8
+_md5_=0b3d23e9949c887288bad47ebbbdc2b3

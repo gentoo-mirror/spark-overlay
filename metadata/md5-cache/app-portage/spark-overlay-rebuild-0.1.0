@@ -1,0 +1,10 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Utility for bulk rebuilding dev-java/*::spark-overlay packages
+EAPI=8
+HOMEPAGE=https://github.com/6-6-6/spark-overlay
+INHERIT=prefix
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+SLOT=0
+_eclasses_=prefix	d04f14b297013ad1410550c0757f14f8
+_md5_=8a9f76651dbea7c4e09e83fda12e0365
