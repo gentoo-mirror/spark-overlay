@@ -12,4 +12,4 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/xmlpull:0 dev-java/xpp3:0 >=dev-java/java-c
 SLOT=2
 SRC_URI=mirror://sourceforge/kxml/kxml2-src-2.3.0.zip
 _eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	multilib	de4beb52bfa93c4c5d96792a6b5e1784	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	java-ant-2	262d853e2dd1056dc103b953dfc113b9
-_md5_=86c357f26109ccb85083653edba6e0f9
+_md5_=7d22fb08ce3e7f615d9601b4ce7dc380
