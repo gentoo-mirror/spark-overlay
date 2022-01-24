@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* !binary? ( >=dev-java/fommil-netlib-core-1.1.2:0 >=dev-java/fommil-java-logging-1.1:0 dev-java/lombok-bin:0 ) test? ( >=dev-java/fommil-netlib-core-1.1.2:0 >=dev-java/fommil-java-logging-1.1:0 dev-java/lombok-bin:0 >=dev-java/guava-29.0:0 dev-java/opencsv:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( dev-java/junit:0 dev-java/junit:4 amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Matrix data structures, linear solvers, least squares methods, eigenvalue, SVDs
+EAPI=8
+HOMEPAGE=https://github.com/fommil/matrix-toolkits-java/
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=doc source test binary
+KEYWORDS=~amd64
+LICENSE=LGPL-3
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/fommil-netlib-core-1.1.2:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/fommil/matrix-toolkits-java/archive/refs/tags/mtj-1.0.4.tar.gz -> fommil-matrix-toolkits-1.0.4.tar.gz https://repo1.maven.org/maven2/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4.jar -> fommil-matrix-toolkits-1.0.4-bin.jar
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=b2a6ae8d2dc166672be7f4a2c680d371

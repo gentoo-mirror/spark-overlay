@@ -205,7 +205,6 @@ dev-java/netty-transport-udt:binary - install binary jar from maven central.
 dev-java/objectfile:binary - install binary jar from maven central.
 dev-java/osgi-cmpn:binary - install binary jar from maven central.
 dev-java/osgi-resource-locator:binary - install binary jar from maven central.
-dev-java/osgi-service-jdbc:binary - install binary jar from maven central.
 dev-java/paranamer:binary - install binary jar from maven central.
 dev-java/persistence-api:binary - install binary jar from maven central.
 dev-java/plexus-container-default:binary - install binary jar from maven central.

@@ -83,15 +83,16 @@ dev-java/disruptor 3.4.2: Disruptor - Concurrent Programming Framework
 dev-java/duke 1.2-r2: A fast and flexible deduplication engine
 dev-java/ehcache 2.6.11 2.10.4: Cache used to boost performance, offload database and simplify scalability
 dev-java/error-prone-annotations 2.4.0: Java annotations for the Error Prone static analysis tool
+dev-java/f2jutil 0.8.1_p1: Helper routines for compiling or running any f2j-generated Java code
 dev-java/failureaccess 1.0.1-r1: Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes is conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).
 dev-java/fastinfoset 1.2.18: Open Source implementation of the Fast Infoset Standard for Binary XML
 dev-java/fastutil 8.1.1: fastutil extends the Java Collections Framework by providing type-specific maps, sets, lists and priority queues with a small memory footprint and fast access and insertion; provides also big (64-bit) arrays, sets and lists, and fast, practical I/O classes for binary and text files.
 dev-java/findbugs-annotations 3.0.12: Annotation the FindBugs tool supports
 dev-java/fommil-java-logging 1.1: A variety of java.util.logging formatters, adapters and filters
 dev-java/fommil-jniloader 1.1 1.1-r1: Lightweight convenience library for loading JNI natives
-dev-java/fommil-matrix-toolkits 1.0.4 1.0.4-r1: Matrix data structures, linear solvers, least squares methods, eigenvalue, SVDs
+dev-java/fommil-matrix-toolkits 1.0.4 1.0.4-r1 1.0.4-r2: Matrix data structures, linear solvers, least squares methods, eigenvalue, SVDs
 dev-java/fommil-netlib-all 1.1.2: Meta Package for installing all netlib-java components
-dev-java/fommil-netlib-core 1.1.2 1.1.2-r1: Mission-critical components for linear algebra systems
+dev-java/fommil-netlib-core 1.1.2 1.1.2-r1 1.1.2-r2: Mission-critical components for linear algebra systems
 dev-java/fommil-netlib-native-ref 1.1 1.1-r1: Mission-critical components for linear algebra systems
 dev-java/fommil-netlib-native-system 1.1 1.1-r1: Mission-critical components for linear algebra systems
 dev-java/freemarker 2.3.23-r1: A generic tool to generate text output based on templates
@@ -105,7 +106,7 @@ dev-java/guava 29.0: Guava is a suite of core and expanded libraries that includ
 dev-java/guice-servlet 4.1: Guice servlet extension
 dev-java/h2 1.4.196-r2: H2 Database Engine
 dev-java/h2o 3.32.1.7 3.34.0.7 3.36.0.1: Meta package for H2O, a distributed, fast & scalable machine learning platform
-dev-java/h2o-algos 3.32.1.7 3.34.0.7 3.36.0.1: H2O Algorithms
+dev-java/h2o-algos 3.32.1.7 3.32.1.7-r1 3.34.0.7 3.34.0.7-r1 3.36.0.1 3.36.0.1-r1: H2O Algorithms
 dev-java/h2o-app 3.32.1.7 3.34.0.7 3.36.0.1: H2O Application Runner
 dev-java/h2o-core 3.32.1.7 3.34.0.7 3.36.0.1: The core module of H2O, a distributed, fast & scalable machine learning platform
 dev-java/h2o-ext-target-encoder 3.32.1.7 3.34.0.7 3.36.0.1: H2O Target Encoder plugin
@@ -177,6 +178,7 @@ dev-java/jakarta-xml-ws-api 2.3.3: JAX-WS API (Eclipse Project for JAX-WS)
 dev-java/jama 1.0.3-r2: A Java Matrix Package
 dev-java/jandex 2.0.3-r1: Parent POM for JBoss projects. Provides default project build configuration.
 dev-java/janino 3.0.6: Janino is a super-small, super-fast Java compiler.
+dev-java/jarpack 0.1: Java translation of the ARPACK libraries
 dev-java/jasper-compiler 5.5.23 5.5.23-r1: Jasper Compiler
 dev-java/java-xmlbuilder 0.4-r1: XML Builder is a utility that creates simple XML documents using relatively sparse Java code
 dev-java/java9-concurrent-backport 2.0.0-r1: Backport of Java 9 CompletableFuture, Flow and SubmissionPublisher API for Java 8
@@ -246,6 +248,7 @@ dev-java/jetty-util-ajax 9.4.44_p20210927: JSON/Ajax Utility classes for Jetty
 dev-java/jetty-webapp 9.4.11_p20180605 9.4.44_p20210927: Jetty web application support
 dev-java/jetty-xml 9.4.11_p20180605 9.4.44_p20210927: Jetty XML Utilities
 dev-java/jffi 1.0.6 1.0.8: Java wrapper around libffi
+dev-java/jlapack 0.8: Java translation of the BLAS and LAPACK libraries
 dev-java/jlargearrays 1.6 1.6-r1: Library of one-dimensional arrays that can store up to 2^63 elements
 dev-java/jline 1.0-r2: Handle console input in Java
 dev-java/jmh-generator-annprocess 1.32: JMH benchmark generator, based on annotation processors
@@ -395,7 +398,7 @@ dev-java/osgi-cmpn 6.0.0-r1: OSGi Compendium Release 6, Interfaces and Classes f
 dev-java/osgi-core 1.4.0 4.0 4.0-r1 6.0.0: OSGi Core Release 6, Interfaces and Classes for use in compiling bundles.
 dev-java/osgi-framework 1.8.0 1.9.0: OSGi Companion Code for org.osgi.framework Version 1.9.0
 dev-java/osgi-resource-locator 1.0.3-r1: Used by various API providers that rely on META-INF/services mechanism to locate providers.
-dev-java/osgi-service-jdbc 1.0.0: OSGi Companion Code for org.osgi.service.jdbc Version 1.0.0.
+dev-java/osgi-service-jdbc 1.0.0 1.0.1: OSGi Companion Code for org.osgi.service.jdbc
 dev-java/paranamer 2.8-r1: Paranamer allows runtime access to constructor and method parameter names for Java classes
 dev-java/persistence-api 1.0-r1: The Enterprise JavaBeans architecture is a component architecture for the development and deployment of component-based business applications. The purpose of Enterprise JavaBeans (EJB) 3.0 is to improve the EJB architecture by reducing its complexity from the developer's point of view.
 dev-java/plexus-container-default 1.0.9.1-r1: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1
@@ -472,14 +475,16 @@ dev-java/xbean-asm7-shaded 4.15-r1: Repackaged and shaded asm jars
 dev-java/xercesMinimal 1.9.6.2 1.9.6.2-r1: NekoHTML Xerces minimal
 dev-java/xml-apis 1.0-r1: An Apache-hosted set of DOM, SAX, and JAXP interfaces
 dev-java/xml-resolver 1.2-r1: xml-commons provides an Apache-hosted set of DOM, SAX, and JAXP interfaces for use in other xml-based projects. Our hope is that we can standardize on both a common version and packaging scheme for these critical XML standards interfaces to make the lives of both our developers and users easier.
-dev-java/xmlenc 0.52 0.52-r1: Lightweight XML encoding library for Java, optimized for performance
+dev-java/xmlenc 0.52 0.52-r1 0.52-r2: Lightweight XML encoding library for Java, optimized for performance
 dev-java/xmlpull 1.1.3.1 1.1.3.1-r1: XML Pull Parsing API
 dev-java/xsom 20140925-r1: A Java library that allows for easy parsing and inspection of XML schema docs
 dev-java/xstream 1.4.7-r2: XStream is a serialization library from Java objects to XML and back
 dev-java/yecht 1.0-r1 1.1: The "Yecht" implementation of Ruby 1.8's yaml parser "Syck"
 dev-java/zookeeper 3.4.14-r2: org.apache.zookeeper:zookeeper:3.4.14
+dev-lang/f2j 0.8.1_p1: Fortran-to-Java translator, especially for BLAS, LAPACK and ARPACK
 dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.31: Statically typed programming language for modern multiplatform applications
 dev-libs/apache-arrow 3.0.0 4.0.1: A cross-language development platform for in-memory data.
+dev-libs/libbytecode 0.8.1_p1: C API for creating and generating Java Class files
 dev-libs/thrift 0.14.2: Software framework for cross-language services development
 dev-python/h2o-py 3.32.1.7 3.34.0.7 3.36.0.1: H2O Python Package
 dev-python/py4j 0.10.9.2-r1: Apache Spark Python API

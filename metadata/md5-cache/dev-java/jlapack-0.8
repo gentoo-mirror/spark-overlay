@@ -1,0 +1,15 @@
+BDEPEND=dev-lang/f2j
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=Java translation of the BLAS and LAPACK libraries
+EAPI=8
+HOMEPAGE=http://icl.cs.utk.edu/f2j/
+INHERIT=java-pkg-2 java-pkg-simple
+IUSE=source
+KEYWORDS=~amd64
+LICENSE=BSD-4 GPL-2
+RDEPEND=>=virtual/jre-1.8:* dev-java/f2jutil:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=https://github.com/Leo3418/f2j/archive/refs/tags/jlapack-0.8.tar.gz
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118
+_md5_=b31111c13bef0609aeb1afe4dab25e7e
