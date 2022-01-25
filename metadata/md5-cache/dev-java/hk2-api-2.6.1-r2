@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* ~dev-java/hk2-utils-2.6.1:0 dev-java/aopalliance-rep
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/eclipse-ee4j/glassfish-hk2/archive/refs/tags/2.6.1.tar.gz -> glassfish-hk2-2.6.1.tar.gz
-_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118
 _md5_=bc8e4eceaff5ba5a2dc1f3bfdd298ae2

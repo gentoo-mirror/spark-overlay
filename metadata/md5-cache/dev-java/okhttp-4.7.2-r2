@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/kotlin-stdlib:1.4 dev-java/okio:2.6 dev-jav
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/square/okhttp/archive/refs/tags/parent-4.7.2.tar.gz -> okhttp-4.7.2.tar.gz
-_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	fcbcab86b33485bfaa8ac8d44d7d4439	kotlin	1eb50981c320a7c12f3272a7a673c391
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	fcbcab86b33485bfaa8ac8d44d7d4439	kotlin	1eb50981c320a7c12f3272a7a673c391
 _md5_=5900672d36c52227a2a2a17988d2920b
