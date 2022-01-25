@@ -452,7 +452,7 @@ dev-java/truffle-nfi 20.1.0: Native function interface for the Truffle framework
 dev-java/unsafe-mock 8.0-r1 8.92.1: A mock of sun.misc.Unsafe for building against
 dev-java/unused 1.0.0-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/validation-api 2.0.1: Bean Validation API
-dev-java/velocity 1.7: General purpose template engine
+dev-java/velocity 1.7 1.7-r1: General purpose template engine
 dev-java/wagon-file 1.0_beta6-r1: Wagon that gets and puts artifacts using file system protocol
 dev-java/wagon-http 2.4-r2: Wagon that gets and puts artifacts through http using Apache httpclient-4.x.
 dev-java/wagon-http-lightweight 1.0_beta6-r1: Wagon that gets and puts artifacts through http using standard Java library
@@ -468,7 +468,7 @@ dev-java/weld-api 1.1-r1: Weld specifc extensions to the CDI API
 dev-java/weld-core 1.1.0-r1: Weld's implementation of CDI
 dev-java/weld-osgi-bundle 1.1.0-r1: Weld runtime packaged as an OSGi bundle
 dev-java/weld-spi 1.1-r1: APIs for Weld, the reference implementation of JSR 299: Contexts and Dependency Injection for Java EE
-dev-java/werken-xpath 0.9.4 0.9.4-r1: Werken JDOM XPath Engine
+dev-java/werken-xpath 0.9.4 0.9.4-r1 0.9.4-r2: Werken JDOM XPath Engine
 dev-java/woodstox-core 5.0.2-r1: XML processor that implements Stax (JSR-173), SAX2 and Stax2 APIs
 dev-java/wstx 3.2.9-r1: Woodstox is a high-performance validating namespace-aware XML-processor
 dev-java/xbean-asm7-shaded 4.15-r1: Repackaged and shaded asm jars
