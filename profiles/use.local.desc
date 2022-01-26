@@ -10,7 +10,6 @@ dev-java/aalto-xml:binary - install binary jar from maven central.
 dev-java/amqp-client:binary - install binary jar from maven central.
 dev-java/ant-launcher:binary - install binary jar from maven central.
 dev-java/aopalliance-repackaged:binary - install binary jar from maven central.
-dev-java/apache-rat-tasks:binary - install binary jar from maven central.
 dev-java/apacheds-i18n:binary - install binary jar from maven central.
 dev-java/apacheds-kerberos-codec:binary - install binary jar from maven central.
 dev-java/api-asn1-api:binary - install binary jar from maven central.
@@ -34,9 +33,6 @@ dev-java/chill-java:binary - install binary jar from maven central.
 dev-java/clover:binary - install binary jar from maven central.
 dev-java/commons-compiler:binary - install binary jar from maven central.
 dev-java/commons-configuration:binary - install binary jar from maven central.
-dev-java/commons-csv:binary - install binary jar from maven central.
-dev-java/commons-math:binary - install binary jar from maven central.
-dev-java/commons-text:binary - install binary jar from maven central.
 dev-java/compiler:binary - install binary jar from maven central.
 dev-java/compress-lzf:binary - install binary jar from maven central.
 dev-java/conversantmedia-disruptor:binary - install binary jar from maven central.
@@ -87,7 +83,6 @@ dev-java/istack-commons-runtime:binary - install binary jar from maven central.
 dev-java/jackson-core-asl:binary - install binary jar from maven central.
 dev-java/jackson-jaxrs:binary - install binary jar from maven central.
 dev-java/jakarta-activation:binary - install binary jar from maven central.
-dev-java/jakarta-activation-api:binary - install binary jar from maven central.
 dev-java/jakarta-annotation-api:binary - install binary jar from maven central.
 dev-java/jakarta-inject:binary - install binary jar from maven central.
 dev-java/jakarta-persistence-api:binary - install binary jar from maven central.
@@ -137,7 +132,6 @@ dev-java/jsr166y:binary - install binary jar from maven central.
 dev-java/jsr292-mock:binary - install binary jar from maven central.
 dev-java/jta:binary - install binary jar from maven central.
 dev-java/jts-core:binary - install binary jar from maven central.
-dev-java/jug:binary - install binary jar from maven central.
 dev-java/jul-to-slf4j:binary - install binary jar from maven central.
 dev-java/leveldb-api:binary - install binary jar from maven central.
 dev-java/log4j-api:binary - install binary jar from maven central.
