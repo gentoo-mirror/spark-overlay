@@ -28,17 +28,24 @@ BDEPEND="
 S="${WORKDIR}/f2j-f2j-${PV}/${PN}"
 
 src_prepare() {
-	default
-	eautoconf
+	cp "${FILESDIR}/${P}-Makefile.am" "Makefile.am" ||
+		die "Failed to copy Makefile.am"
+	eapply -p2 "${FILESDIR}/${P}-libtool.patch"
+	eapply_user
+	eautoreconf
 }
 
 src_compile() {
 	default
-	use doc && PACKAGE_NAME="${PN}" PACKAGE_VERSION="${PV}" emake docs
+	if use doc; then
+		PACKAGE_NAME="${PN}" PACKAGE_VERSION="${PV}" doxygen ||
+			die "Failed to generate documentation"
+	fi
 }
 
 src_install() {
-	emake F2J_LIBDIR="${ED}/usr/$(get_libdir)" install
+	emake DESTDIR="${D}" install
+	find "${ED}" -name "*.la" -delete || die "Failed to remove libtool files"
 	doheader *.h
 	if use doc; then
 		dodoc -r html
