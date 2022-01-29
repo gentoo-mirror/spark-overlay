@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* !binary? ( dev-java/xml-commons-resolver:0 >=dev-java/commons-beanutils-1.9.2:1.7 >=dev-java/commons-codec-1.7:0 >=dev-java/commons-collections-3.2.1:0 >=dev-java/commons-digester-1.8.1:0 >=dev-java/commons-jexl-2.1.1:2 >=dev-java/commons-jxpath-1.3:0 >=dev-java/commons-lang-2.6:2.1 >=dev-java/commons-logging-1.2:0 >=dev-java/commons-vfs-2.0:2 >=dev-java/log4j-1.2.17:0 dev-java/sax:0 java-virtuals/servlet-api:2.4 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Tools to assist in reading of configuration/preferences files in various formats
+EAPI=8
+HOMEPAGE=https://commons.apache.org/configuration/
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=doc source binary test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* dev-java/xml-commons-resolver:0 >=dev-java/commons-beanutils-1.9.2:1.7 >=dev-java/commons-codec-1.7:0 >=dev-java/commons-collections-3.2.1:0 >=dev-java/commons-digester-1.8.1:0 >=dev-java/commons-jexl-2.1.1:2 >=dev-java/commons-jxpath-1.3:0 >=dev-java/commons-lang-2.6:2.1 >=dev-java/commons-logging-1.2:0 >=dev-java/commons-vfs-2.0:2 >=dev-java/log4j-1.2.17:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.10/commons-configuration-1.10-sources.jar https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar -> commons-configuration-1.10-bin.jar
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=994d5b282beb9570dab87e05eca88873

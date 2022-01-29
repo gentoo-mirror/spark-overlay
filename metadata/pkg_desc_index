@@ -48,12 +48,12 @@ dev-java/chill-java 0.9.3-r1: chill-java
 dev-java/classmate 1.5.1: Zero-dependency Java library for accurately introspecting type information
 dev-java/classworlds 1.1_alpha2-r1: A framework for developers who require complex manipulation of ClassLoaders
 dev-java/clover 4.2.1-r1: Code coverage and testing tool for Java and Groovy
-dev-java/cmdreader 1.5: Easy Command Line option reading in Java
+dev-java/cmdreader 1.5 1.5-r1: Easy Command Line option reading in Java
 dev-java/codemodel 2.6: The core functionality of the CodeModel java source code generation library
 dev-java/colt 1.2.0-r4: Java Libraries for High Performance Scientific and Technical Computing
 dev-java/commonj 1.1.1: CommonJ API
 dev-java/commons-compiler 3.0.6-r1: Janino is a super-small, super-fast Java compiler.
-dev-java/commons-configuration 1.8: Tools to assist in the reading of configuration/preferences files in various formats
+dev-java/commons-configuration 1.8 1.10: Tools to assist in reading of configuration/preferences files in various formats
 dev-java/commons-crypto 1.0.0: Apache Commons Crypto is a cryptographic library optimized with AES-NI (Advanced Encryption Standard New Instructions).
 dev-java/commons-jexl 2.1.1-r1: Expression language engine, can be embedded in applications and frameworks
 dev-java/commons-lang 3.10: Commons components to manipulate core java classes
@@ -68,7 +68,7 @@ dev-java/curator-framework 2.7.1-r1: High-level API that greatly simplifies usin
 dev-java/curator-recipes 2.8.0: All of the recipes listed on the ZooKeeper recipes doc
 dev-java/dec 0.1.2-r1: Brotli is a generic-purpose lossless compression algorithm.
 dev-java/dependency-check-ant 4.0.2-r1: dependency-check-ant is an Ant Task that uses dependency-check-core to detect publicly disclosed vulnerabilities associated with the project's dependencies. The task will generate a report listing the dependency, any identified Common Platform Enumeration (CPE) identifiers, and the associated Common Vulnerability and Exposure (CVE) entries.
-dev-java/dependency-check-core 4.0.2-r4: Identify and report publicly disclosed vulnerabilities in project's dependencies
+dev-java/dependency-check-core 4.0.2-r4 4.0.2-r5 4.0.2-r6: Identify and report publicly disclosed vulnerabilities in project's dependencies
 dev-java/dependency-check-utils 4.0.2-r3: Utilities used within dependency-check that might be useful in other projects
 dev-java/disruptor 3.4.2: Disruptor - Concurrent Programming Framework
 dev-java/duke 1.2-r2: A fast and flexible deduplication engine
@@ -113,7 +113,7 @@ dev-java/h2o-webserver-iface 3.32.1.7 3.34.0.7 3.36.0.1: Module isolating H2O fu
 dev-java/hadoop-annotations 2.7.4-r2: Apache Hadoop Annotations
 dev-java/hadoop-auth 2.7.4-r2: Apache Hadoop Auth - Java HTTP SPNEGO
 dev-java/hadoop-client 2.7.4-r1: Apache Hadoop Client
-dev-java/hadoop-common 2.7.4-r2 2.7.4-r3: Apache Hadoop Common
+dev-java/hadoop-common 2.7.4-r2 2.7.4-r3 2.7.4-r4: Apache Hadoop Common
 dev-java/hadoop-hdfs 2.7.4-r1: Apache Hadoop HDFS
 dev-java/hadoop-mapreduce-client-app 2.7.4-r2: Apache Hadoop MapReduce App
 dev-java/hadoop-mapreduce-client-common 2.7.4-r2: Apache Hadoop Project POM
@@ -122,9 +122,9 @@ dev-java/hadoop-mapreduce-client-jobclient 2.7.4-r2: Apache Hadoop Project POM
 dev-java/hadoop-mapreduce-client-shuffle 2.7.4-r2: Apache Hadoop Project POM
 dev-java/hadoop-yarn-api 2.7.4-r1: Apache Hadoop Project POM
 dev-java/hadoop-yarn-client 2.7.4-r1: Apache Hadoop Project POM
-dev-java/hadoop-yarn-common 2.7.4-r1: Apache Hadoop YARN Common
+dev-java/hadoop-yarn-common 2.7.4-r1 2.7.4-r2: Apache Hadoop YARN Common
 dev-java/hadoop-yarn-server-common 2.7.4-r1: Apache Hadoop YARN Server Common
-dev-java/hadoop-yarn-server-nodemanager 2.7.4-r1: Apache Hadoop YARN Server NodeManager
+dev-java/hadoop-yarn-server-nodemanager 2.7.4-r1 2.7.4-r2: Apache Hadoop YARN Server NodeManager
 dev-java/hadoop-yarn-server-web-proxy 2.7.4-r1: Apache Hadoop YARN Server Web Proxy
 dev-java/hazelcast 3.8.9-r1: Core Hazelcast Module
 dev-java/hazelcast-code-generator 1.6.0-r1: Client Protocol of Hazelcast In-Memory DataGrid
@@ -181,7 +181,7 @@ dev-java/javax-persistence 2.1.0-r1: EclipseLink build based upon Git transactio
 dev-java/javax-security-jacc-api 1.6: JACC API
 dev-java/javax-xml-rpc-api 1.1.2: Java APIs for XML based RPC
 dev-java/jaxb-api 2.2-r1 2.2.2-r2: JAXB (JSR 222) API
-dev-java/jaxb-impl 2.2.6-r1: JAXB (JSR 222) reference implementation
+dev-java/jaxb-impl 2.2.6-r1 2.2.6-r2: JAXB (JSR 222) reference implementation
 dev-java/jboss-ejb-api 1.0.2 1.0.2-r1: The Java EJB 3.1 API classes
 dev-java/jboss-interceptor-core 2.0.0-r1: JBoss EJB 3.1 Common Interceptor Library Parent
 dev-java/jboss-interceptor-spi 2.0.0-r1: JBoss EJB 3.1 Common Interceptor Library Parent
@@ -206,13 +206,13 @@ dev-java/jersey-client 1.9-r1 2.35: Jersey core client implementation
 dev-java/jersey-common 2.35: Jersey core common packages
 dev-java/jersey-container-servlet 2.35: Jersey core Servlet 3.x implementation
 dev-java/jersey-container-servlet-core 2.35: Jersey core Servlet 2.x implementation
-dev-java/jersey-core 1.9-r1: Jersey is the open source (under dual CDDL+GPL license) JAX-RS (JSR 311) production quality Reference Implementation for building RESTful Web services.
+dev-java/jersey-core 1.9-r1 1.9-r2: Jersey Core
 dev-java/jersey-guice 1.9-r1: Guice module for starting Jetty based rest server with Jersey
 dev-java/jersey-hk2 2.35: HK2 InjectionManager implementation
 dev-java/jersey-json 1.9-r1: Jersey is the open source (under dual CDDL+GPL license) JAX-RS (JSR 311) production quality Reference Implementation for building RESTful Web services.
 dev-java/jersey-media-jaxb 2.35: JAX-RS features based upon JAX-B
 dev-java/jersey-media-sse 2.35: Jersey Server Sent Events entity providers support module
-dev-java/jersey-server 1.9-r1 2.35: Jersey core server implementation
+dev-java/jersey-server 1.9-r1 1.9-r2 2.35: Jersey core server implementation
 dev-java/jetbrains-annotations 13.0-r1 21.0.1: A set of annotations used for code inspection support and code documentation.
 dev-java/jetbrains-trove 1.0.20200330: Fork of trove4j library used in IntelliJ Platform
 dev-java/jets3t 0.9.0-r2: Java toolkit and application suite for Amazon S3, CloudFront and Google Storage
@@ -241,9 +241,9 @@ dev-java/jlapack 0.8: Java translation of the BLAS and LAPACK libraries
 dev-java/jlargearrays 1.6 1.6-r1: Library of one-dimensional arrays that can store up to 2^63 elements
 dev-java/jline 1.0-r2: Handle console input in Java
 dev-java/jmh-generator-annprocess 1.32: JMH benchmark generator, based on annotation processors
-dev-java/jnr-enxio 0.9-r1: Native I/O access for java
+dev-java/jnr-enxio 0.9-r1 0.32.13: Native I/O access for java
 dev-java/jnr-posix 3.0.12-r1: Common cross-project/cross-platform POSIX APIs
-dev-java/jnr-unixsocket 0.8-r2: Native I/O access for java
+dev-java/jnr-unixsocket 0.8-r2 0.38.17: Native I/O access for java
 dev-java/jnr-x86asm 1.0.0: A pure-java X86 and X86_64 assembler
 dev-java/joda-timezones 2013-r1: Precompiled Timezone data for joda-time
 dev-java/joni 2.1.3-r2: Java port of Oniguruma that uses byte arrays directly
@@ -295,7 +295,7 @@ dev-java/kotlin-test-junit 1.4.32 1.5.31: Kotlin Test Support for JUnit 4
 dev-java/kotlinx-coroutines-core-bin 1.3.8-r1 1.5.0: Coroutines support libraries for Kotlin
 dev-java/kryo-shaded 4.0.2-r1 4.0.2-r2: Java binary serialization and cloning: fast, efficient, automatic
 dev-java/kxml 2.3.0-r1: Small XML Pull Parser
-dev-java/leveldb-api 0.6-r1: High level Java API for LevelDB
+dev-java/leveldb-api 0.6-r1 0.12: High level Java API for LevelDB
 dev-java/leveldbjni 1.8-r2: A JNI library for acessing leveldb
 dev-java/libpam4j 1.11: Java binding for libpam.so
 dev-java/log4j-api 2.3-r1 2.7: The Apache Log4j API
@@ -314,7 +314,7 @@ dev-java/lucene-spatial 4.0.0-r1: Spatial Strategies for Apache Lucene
 dev-java/lz4-java 1.8.0-r1: LZ4 compression for Java
 dev-java/lzma-java 1.3-r1: LZMA library for Java
 dev-java/mahout-math 0.13.0-r1: High performance scientific and technical computing data structures and methods, mostly based on CERN's Colt Java API
-dev-java/mail 1.4-r1: The JavaMail API provides a platform-independent and protocol-independent framework to build mail and messaging applications.
+dev-java/mail 1.4-r1 1.4-r2: Platform- and protocol-independent framework for mail and messaging applications
 dev-java/mailapi 1.6.7: Jakarta Mail API (no providers)
 dev-java/mapdb 0.9.9: Concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory
 dev-java/maven-ant-tasks 2.1.3-r1: Ant Tasks used for Maven integration
@@ -347,7 +347,7 @@ dev-java/multiverse-beta 0.7: org.multiverse:multiverse-beta:0.7-RC-1
 dev-java/multiverse-core 0.7.0-r1: The Multiverse core
 dev-java/nailgun-server 0.9.1-r1: Nailgun is a client, protocol, and server for running Java programs from the command line without incurring the JVM startup overhead. Programs run in the server (which is implemented in Java), and are triggered by the client (written in C), which handles all I/O. This project contains the SERVER ONLY.
 dev-java/nekohtml 1.9.18-r1: A simple HTML scanner and tag balancer using standard XML interfaces
-dev-java/netty 3.2.9-r1 3.10.6-r2: NIO client-server framework for quick and easy network applications development
+dev-java/netty 3.2.9-r1 3.10.6-r2 3.10.6-r3: NIO client-server framework for quick and easy network applications development
 dev-java/netty-all 4.1.42: The package for all Netty components
 dev-java/netty-buffer 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/netty-codec 4.1.42-r1: Asynchronous event-driven network application framework
@@ -363,7 +363,7 @@ dev-java/netty-codec-socks 4.1.42: Netty is an asynchronous event-driven network
 dev-java/netty-codec-stomp 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/netty-codec-xml 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/netty-common 4.1.42: Asynchronous event-driven network application framework
-dev-java/netty-example 4.1.42-r1: Asynchronous event-driven network application framework
+dev-java/netty-example 4.1.42-r1 4.1.42-r2: Asynchronous event-driven network application framework
 dev-java/netty-handler 4.1.42: Netty Handler
 dev-java/netty-handler-proxy 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/netty-resolver 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
@@ -414,7 +414,7 @@ dev-java/slf4j-ext 1.7.30: Extensions to the SLF4J API
 dev-java/slf4j-jdk14 1.5.10-r1 1.6.1-r1: The slf4j JDK14 binding
 dev-java/slf4j-log4j12 1.7.32: SLF4J LOG4J-12 Binding
 dev-java/snappy 1.1.7.8-r1: Snappy compressor/decompressor for Java
-dev-java/spark-core 3.0.0-r2: Unified analytics engine for large-scale data processing
+dev-java/spark-core 3.0.0-r2 3.0.0-r3: Unified analytics engine for large-scale data processing
 dev-java/spark-demo 0.1-r1: A demo that uses spark-core to perform Monte Carlo simulations
 dev-java/spark-kvstore 3.0.0-r1: The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.
 dev-java/spark-launcher 3.0.0-r1: The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.
@@ -433,7 +433,7 @@ dev-java/t-digest 3.1-r1: Data structure which allows accurate estimation of qua
 dev-java/terracotta-toolkit-api 3.2.0-r1: Terracotta Toolkit API
 dev-java/terracotta-toolkit-api-internal 2.2.0-r1: Terracotta Toolkit API Internal
 dev-java/tomcat-annotations-api 8.5.73: Tomcat Annotations Package
-dev-java/tomcat-embed-core 8.5.73: Core Tomcat implementation
+dev-java/tomcat-embed-core 8.5.73 8.5.73-r1: Core Tomcat implementation
 dev-java/tomcat-jni 10.0.0-r1: Interface code to the native connector
 dev-java/truffle-api 20.1.0: Truffle is a multi-language framework for executing dynamic languages that achieves high performance when combined with Graal.
 dev-java/truffle-nfi 20.1.0: Native function interface for the Truffle framework.
@@ -469,10 +469,10 @@ dev-java/xsom 20140925-r1: A Java library that allows for easy parsing and inspe
 dev-java/xstream 1.4.7-r2: XStream is a serialization library from Java objects to XML and back
 dev-java/yecht 1.1: The "Yecht" implementation of Ruby 1.8's yaml parser "Syck"
 dev-java/zookeeper 3.4.14-r2: org.apache.zookeeper:zookeeper:3.4.14
-dev-lang/f2j 0.8.1_p1: Fortran-to-Java translator, especially for BLAS, LAPACK and ARPACK
+dev-lang/f2j 0.8.1_p1-r1: Fortran-to-Java translator, especially for BLAS, LAPACK and ARPACK
 dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.31: Statically typed programming language for modern multiplatform applications
 dev-libs/apache-arrow 3.0.0 4.0.1: A cross-language development platform for in-memory data.
-dev-libs/libbytecode 0.8.1_p1: C API for creating and generating Java Class files
+dev-libs/libbytecode 0.8.1_p1-r1: C API for creating and generating Java Class files
 dev-libs/thrift 0.14.2: Software framework for cross-language services development
 dev-python/h2o-py 3.32.1.7 3.34.0.7 3.36.0.1: H2O Python Package
 dev-python/py4j 0.10.9.2-r1: Apache Spark Python API

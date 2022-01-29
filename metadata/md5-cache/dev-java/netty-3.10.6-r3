@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* !binary? ( dev-java/jakarta-activation-api:1 >=dev-java/bcpkix-1.50:0 >=dev-java/commons-logging-1.2:0 >=dev-java/jboss-logging-3.4.0:0 >=dev-java/jboss-marshalling-1.3.18:0 >=dev-java/jetty-npn-api-1.1.1:0 >=dev-java/log4j-1.2.17:0 >=dev-java/netty-tcnative-1.1.33.15:0 >=dev-java/osgi-compendium-4.3.1:0 >=dev-java/osgi-core-1.4.0:1 >=dev-java/protobuf-java-3.11.4:0 >=dev-java/slf4j-api-1.7.7:0 java-virtuals/servlet-api:4.0 dev-java/tomcat-jni:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=NIO client-server framework for quick and easy network applications development
+EAPI=8
+HOMEPAGE=https://netty.io/
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* dev-java/jakarta-activation-api:1 >=dev-java/bcpkix-1.50:0 >=dev-java/commons-logging-1.2:0 >=dev-java/jboss-logging-3.4.0:0 >=dev-java/jboss-marshalling-1.3.18:0 >=dev-java/jetty-npn-api-1.1.1:0 >=dev-java/log4j-1.2.17:0 >=dev-java/netty-tcnative-1.1.33.15:0 >=dev-java/osgi-compendium-4.3.1:0 >=dev-java/osgi-core-1.4.0:1 >=dev-java/protobuf-java-3.11.4:0 >=dev-java/slf4j-api-1.7.7:0 java-virtuals/servlet-api:4.0 dev-java/tomcat-jni:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar -> netty-3.10.6-sources.jar https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar -> netty-3.10.6-bin.jar
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=24b0161d2afffb60a36e32d682fb16ea

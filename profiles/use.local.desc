@@ -32,7 +32,6 @@ dev-java/chill:binary - install binary jar from maven central.
 dev-java/chill-java:binary - install binary jar from maven central.
 dev-java/clover:binary - install binary jar from maven central.
 dev-java/commons-compiler:binary - install binary jar from maven central.
-dev-java/commons-configuration:binary - install binary jar from maven central.
 dev-java/compiler:binary - install binary jar from maven central.
 dev-java/compress-lzf:binary - install binary jar from maven central.
 dev-java/conversantmedia-disruptor:binary - install binary jar from maven central.

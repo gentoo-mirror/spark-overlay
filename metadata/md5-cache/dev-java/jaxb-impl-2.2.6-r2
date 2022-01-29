@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* !binary? ( dev-java/ant-core:0 dev-java/args4j:2 dev-java/codemodel:2 dev-java/fastinfoset:0 dev-java/jakarta-activation:2 dev-java/jaxb-api:2 dev-java/junit:4 dev-java/rngom:0 dev-java/stax-ex:1 dev-java/wsdl4j:0 dev-java/xsom:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=JAXB (JSR 222) reference implementation
+EAPI=8
+HOMEPAGE=https://javaee.github.io/jaxb-v2/
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=doc source binary test
+KEYWORDS=~amd64
+LICENSE=|| ( CDDL-1.1 GPL-2-with-classpath-exception )
+RDEPEND=>=virtual/jre-1.8:* dev-java/ant-core:0 dev-java/args4j:2 dev-java/codemodel:2 dev-java/fastinfoset:0 dev-java/jakarta-activation:2 dev-java/jaxb-api:2 dev-java/junit:4 dev-java/rngom:0 dev-java/stax-ex:1 dev-java/wsdl4j:0 dev-java/xsom:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.6/jaxb-impl-2.2.6-sources.jar https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.6/jaxb-impl-2.2.6.jar -> jaxb-impl-2.2.6-bin.jar
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=ccc65ac6e3e4456ae80454efc7827a0e
