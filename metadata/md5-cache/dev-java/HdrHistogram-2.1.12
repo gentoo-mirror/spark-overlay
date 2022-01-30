@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=A High Dynamic Range (HDR) Histogram
+EAPI=8
+HOMEPAGE=https://hdrhistogram.github.io/HdrHistogram/
+INHERIT=java-pkg-2 java-pkg-simple
+IUSE=doc source
+KEYWORDS=~amd64
+LICENSE=|| ( public-domain BSD-2 )
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=https://github.com/HdrHistogram/HdrHistogram/archive/refs/tags/HdrHistogram-2.1.12.tar.gz
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118
+_md5_=957b602b2b23725866836ae5428d87e5

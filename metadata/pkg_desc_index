@@ -2,7 +2,7 @@ app-eselect/eselect-kotlin 0.1.0 9999: Eselect module for management of multiple
 app-portage/java-11to8-rebuild 0.1.0: Utility for bulk rebuilding Java packages when switching from Java 11 back to 8
 app-portage/spark-overlay-rebuild 0.1.0: Utility for bulk rebuilding dev-java/*::spark-overlay packages
 dev-cpp/xsimd 7.5.0: C++ wrappers for SIMD intrinsics and math implementations
-dev-java/HdrHistogram 2.1.10-r1: HdrHistogram supports the recording and analyzing sampled data value counts across a configurable integer value range with configurable value precision within the range. Value precision is expressed as the number of significant digits in the value recording, and provides control over value quantization behavior across the value range and the subsequent value resolution at any given level.
+dev-java/HdrHistogram 2.1.10-r1 2.1.12: A High Dynamic Range (HDR) Histogram
 dev-java/HikariCP-java7 2.4.13: Ultimate JDBC Connection Pool
 dev-java/LatencyUtils 2.0.3-r1: LatencyUtils is a package that provides latency recording and reporting utilities.
 dev-java/RoaringBitmap 0.7.45-r1: Roaring bitmaps are compressed bitmaps (also called bitsets) which tend to outperform conventional compressed bitmaps such as WAH or Concise.
@@ -35,7 +35,7 @@ dev-java/bcpg 1.52: Java cryptography APIs
 dev-java/bcpkix-jdk15on 1.54: The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation. This jar contains APIs for JDK 1.5 to JDK 1.8. The APIs can be used in conjunction with a JCE/JCA provider such as the one provided with the Bouncy Castle Cryptography APIs.
 dev-java/bcprov 1.52 1.54 1.68: Java cryptography APIs
 dev-java/bctls-jdk15on 1.65: The Bouncy Castle Java APIs for TLS and DTLS, including a provider for the JSSE.
-dev-java/byte-buddy 1.6.14-r1 1.6.14-r2: Java library for creating Java classes at run time
+dev-java/byte-buddy 1.6.14-r2: Java library for creating Java classes at run time
 dev-java/bytelist 1.0.15-r2: JRuby support library
 dev-java/cache-api 1.0.0-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/caffeine 2.6.1-r1: A high performance caching library for Java 8+
@@ -88,7 +88,7 @@ dev-java/fommil-netlib-native-ref 1.1 1.1-r1: Mission-critical components for li
 dev-java/fommil-netlib-native-system 1.1 1.1-r1: Mission-critical components for linear algebra systems
 dev-java/freemarker 2.3.23-r1: A generic tool to generate text output based on templates
 dev-java/geronimo-jms 1.0-r1: Apache Geronimo Java Message Service
-dev-java/glassfish-ejb-api 3.2-r1 3.2-r2: Project GlassFish Enterprise JavaBean API
+dev-java/glassfish-ejb-api 3.2-r2: Project GlassFish Enterprise JavaBean API
 dev-java/gpars 1.2.1-r1: The GPars concurrency and parallelism framework for the JVM
 dev-java/graal-sdk 19.2.1-r1 20.1.0-r1: GraalVM is an ecosystem for compiling and running applications written in multiple languages. GraalVM removes the isolation between programming languages and enables interoperability in a shared runtime.
 dev-java/graalvm-compiler 19.2.1-r1: The GraalVM compiler and the Graal-truffle optimizer.
@@ -132,10 +132,10 @@ dev-java/headius-options 1.4: Sonatype helps open source projects to set up Mave
 dev-java/hibernate-commons-annotations 5.0.1-r1: Common reflection code used in support of annotation processing
 dev-java/hibernate-core 5.2.13-r1: The core O/RM functionality as provided by Hibernate
 dev-java/hibernate-jpa 1.0.2-r1: Clean-room definition of JPA APIs intended for use in developing Hibernate JPA implementation. See README.md for details
-dev-java/hibernate-validator 6.0.10-r1 6.0.22: Hibernate's Bean Validation (JSR-380) reference implementation
-dev-java/hk2-api 2.6.1-r1 2.6.1-r2: HK2 API module
-dev-java/hk2-locator 2.6.1-r1 2.6.1-r2: HK2 ServiceLocator Default Implementation
-dev-java/hk2-utils 2.6.1-r1 2.6.1-r2: HK2 Implementation Utilities
+dev-java/hibernate-validator 6.0.22: Hibernate's Bean Validation (JSR-380) reference implementation
+dev-java/hk2-api 2.6.1-r2: HK2 API module
+dev-java/hk2-locator 2.6.1-r2: HK2 ServiceLocator Default Implementation
+dev-java/hk2-utils 2.6.1-r2: HK2 Implementation Utilities
 dev-java/hpack 0.10.1-r1: Header Compression for HTTP/2
 dev-java/htrace-core 3.1.0-r1: A tracing framework for use with distributed systems written in java
 dev-java/hystrix-core 1.5.12-r1: hystrix-core
@@ -148,7 +148,7 @@ dev-java/jackson-databind 2.13.0: General data-binding functionality for Jackson
 dev-java/jackson-dataformat-xml 2.13.0: Data format extension for Jackson for serializing and deserializing POJOs as XML
 dev-java/jackson-dataformat-yaml 2.13.0: Jackson textual format backend for YAML
 dev-java/jackson-jaxrs 1.9.13-r1: Jax-RS provider for JSON content type
-dev-java/jackson-mapper-asl 1.9.13-r1 1.9.13-r2: High-performance data binding package built on Jackson JSON processor
+dev-java/jackson-mapper-asl 1.9.13-r2: High-performance data binding package built on Jackson JSON processor
 dev-java/jackson-module-jaxb-annotations 2.13.0-r2: Jackson extension module for JAXB annotations support
 dev-java/jackson-module-paranamer 2.13.0: Jackson extension module for creator method names detection with Paranamer
 dev-java/jackson-module-scala 2.13.0: Jackson Module for Scala
@@ -182,7 +182,7 @@ dev-java/javax-security-jacc-api 1.6: JACC API
 dev-java/javax-xml-rpc-api 1.1.2: Java APIs for XML based RPC
 dev-java/jaxb-api 2.2-r1 2.2.2-r2: JAXB (JSR 222) API
 dev-java/jaxb-impl 2.2.6-r1 2.2.6-r2: JAXB (JSR 222) reference implementation
-dev-java/jboss-ejb-api 1.0.2 1.0.2-r1: The Java EJB 3.1 API classes
+dev-java/jboss-ejb-api 1.0.2-r1: The Java EJB 3.1 API classes
 dev-java/jboss-interceptor-core 2.0.0-r1: JBoss EJB 3.1 Common Interceptor Library Parent
 dev-java/jboss-interceptor-spi 2.0.0-r1: JBoss EJB 3.1 Common Interceptor Library Parent
 dev-java/jboss-interceptors-api 1.0.0-r1 1.0.1-r1: The Java(TM) EE Interceptors 1.2 API classes from JSR 318.
@@ -216,7 +216,7 @@ dev-java/jersey-server 1.9-r1 1.9-r2 2.35: Jersey core server implementation
 dev-java/jetbrains-annotations 13.0-r1 21.0.1: A set of annotations used for code inspection support and code documentation.
 dev-java/jetbrains-trove 1.0.20200330: Fork of trove4j library used in IntelliJ Platform
 dev-java/jets3t 0.9.0-r2: Java toolkit and application suite for Amazon S3, CloudFront and Google Storage
-dev-java/jettison 1.3.7 1.4.1: A JSON StAX implementation
+dev-java/jettison 1.4.1: A JSON StAX implementation
 dev-java/jetty 6.1.26-r1: Jetty server core
 dev-java/jetty-alpn-api 1.1.3_p20160715: Administrative parent pom for Jetty modules
 dev-java/jetty-client 9.4.44_p20210927: Jetty Asynchronous HTTP Client
@@ -238,7 +238,7 @@ dev-java/jetty-webapp 9.4.44_p20210927: Jetty web application support
 dev-java/jetty-xml 9.4.44_p20210927: Jetty XML Utilities
 dev-java/jffi 1.0.8: Java wrapper around libffi
 dev-java/jlapack 0.8: Java translation of the BLAS and LAPACK libraries
-dev-java/jlargearrays 1.6 1.6-r1: Library of one-dimensional arrays that can store up to 2^63 elements
+dev-java/jlargearrays 1.6-r1: Library of one-dimensional arrays that can store up to 2^63 elements
 dev-java/jline 1.0-r2: Handle console input in Java
 dev-java/jmh-generator-annprocess 1.32: JMH benchmark generator, based on annotation processors
 dev-java/jnr-enxio 0.9-r1 0.32.13: Native I/O access for java
@@ -293,7 +293,7 @@ dev-java/kotlin-test 1.4.32 1.5.31: Kotlin Test Multiplatform library
 dev-java/kotlin-test-js 1.4.32 1.5.31: Kotlin Test for JS
 dev-java/kotlin-test-junit 1.4.32 1.5.31: Kotlin Test Support for JUnit 4
 dev-java/kotlinx-coroutines-core-bin 1.3.8-r1 1.5.0: Coroutines support libraries for Kotlin
-dev-java/kryo-shaded 4.0.2-r1 4.0.2-r2: Java binary serialization and cloning: fast, efficient, automatic
+dev-java/kryo-shaded 4.0.2-r2: Java binary serialization and cloning: fast, efficient, automatic
 dev-java/kxml 2.3.0-r1: Small XML Pull Parser
 dev-java/leveldb-api 0.6-r1 0.12: High level Java API for LevelDB
 dev-java/leveldbjni 1.8-r2: A JNI library for acessing leveldb
@@ -383,7 +383,7 @@ dev-java/opencsv 2.3-r1: A very simple csv (comma-separated values) parser libra
 dev-java/openjsse 1.1.0: OpenJSSE delivers a TLS 1.3 JSSE provider for Java SE 8
 dev-java/osgi-annotation 6.0.0: OSGi Annotation Release 6, Annotations for use in compiling bundles.
 dev-java/osgi-cmpn 6.0.0-r1: OSGi Compendium Release 6, Interfaces and Classes for use in compiling bundles.
-dev-java/osgi-core 1.4.0 4.0 4.0-r1 6.0.0: OSGi Core Release 6, Interfaces and Classes for use in compiling bundles.
+dev-java/osgi-core 1.4.0 4.0-r1 6.0.0: OSGi Core Release 6, Interfaces and Classes for use in compiling bundles.
 dev-java/osgi-framework 1.8.0 1.9.0: OSGi Companion Code for org.osgi.framework Version 1.9.0
 dev-java/osgi-resource-locator 1.0.3-r1: Used by various API providers that rely on META-INF/services mechanism to locate providers.
 dev-java/osgi-service-jdbc 1.0.0 1.0.1: OSGi Companion Code for org.osgi.service.jdbc
@@ -482,11 +482,9 @@ java-virtuals/antlr 4.8: Virtual for servlet api
 java-virtuals/ejb-api 0: Virtual for Enterprise JavaBeans API (javax.ejb)
 java-virtuals/el-api 3.0: Virtual for servlet api
 java-virtuals/interceptor-api 0: Virtual for Interceptor API (javax.interceptor)
-java-virtuals/jms 1.1: Virtual for Java Message Service (JMS) API
 java-virtuals/jmx 1.0-r4: Virtual for Java Management Extensions (JMX)
 java-virtuals/jsp-api 2.3: Virtual for servlet api
 java-virtuals/saaj-api 1.3-r3: Virtual for SAAJ 1.3 (AKA JSR-67 MR3) API
-java-virtuals/script-api 1.0-r1: Virtual for Java Scripting API (jsr223)
 java-virtuals/servlet-api 4.0: Virtual for servlet api
 java-virtuals/stax-api 1-r4: Virtual for Streaming API for XML (StAX)
 java-virtuals/transaction-api 1.1 1.3: Virtual for Transaction API (javax.transaction)
