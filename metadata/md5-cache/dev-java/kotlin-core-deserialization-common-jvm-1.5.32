@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=~dev-java/kotlin-annotations-jvm-1.5.32:1.5 ~dev-java/kotlin-core-compiler-common-1.5.32:1.5 ~dev-java/kotlin-core-compiler-common-jvm-1.5.32:1.5 ~dev-java/kotlin-core-deserialization-common-1.5.32:1.5 ~dev-java/kotlin-core-metadata-1.5.32:1.5 ~dev-java/kotlin-core-metadata-jvm-1.5.32:1.5 ~dev-java/kotlin-core-util-runtime-1.5.32:1.5 ~dev-java/kotlin-stdlib-1.5.32:1.5 dev-java/jetbrains-annotations:13 >=dev-java/kotlin-protobuf-lite-2.6.1:0 >=dev-java/java-config-2.2.0-r3 >=virtual/jdk-1.8:* kotlin_single_target_kotlin1-5? ( virtual/kotlin:1.5 ) source? ( app-arch/zip )
+DESCRIPTION=Kotlin library build-time dependency kotlin-core-deserialization-common-jvm
+EAPI=8
+HOMEPAGE=https://kotlinlang.org
+INHERIT=kotlin-core-deps
+IUSE=+kotlin_single_target_kotlin1-5 source
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 BSD MIT NPL-1.1
+RDEPEND=>=dev-java/java-config-2.2.0-r3 >=virtual/jre-1.8:*
+REQUIRED_USE=^^ ( kotlin_single_target_kotlin1-5 )
+SLOT=1.5
+SRC_URI=https://github.com/JetBrains/kotlin/archive/v1.5.32.tar.gz -> kotlin-1.5.32.tar.gz
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	9c377a7e44d13491d478533f550415c8	kotlin-libs	44e38b97c48faf55b8c903c7c44f09fe	kotlin-core-deps	834c427bf4e664430a1e0d8a748c8fae
+_md5_=e9f309d7dd342f38804d06322f103740

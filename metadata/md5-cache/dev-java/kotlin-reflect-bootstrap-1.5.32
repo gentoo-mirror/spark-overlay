@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=Bootstrap package for dev-java/kotlin-reflect
+EAPI=8
+HOMEPAGE=https://kotlinlang.org
+INHERIT=readme.gentoo-r1
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 BSD MIT NPL-1.1
+RDEPEND=!dev-java/kotlin-reflect:1.5
+SLOT=1.5
+SRC_URI=https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.5.32/kotlin-reflect-1.5.32.jar
+_eclasses_=readme.gentoo-r1	eebd0164fe61f4f7b64a683e83fdceb1
+_md5_=27dcdd91d281ffc9a4fe107f744f368d

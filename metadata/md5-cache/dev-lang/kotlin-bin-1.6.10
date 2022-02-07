@@ -1,0 +1,14 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install postinst postrm preinst prepare setup
+DEPEND=>=virtual/jdk-1.8:* || ( ~dev-java/kotlin-stdlib-bootstrap-1.6.10:1.6 ~dev-java/kotlin-stdlib-1.6.10:1.6 ) || ( ~dev-java/kotlin-reflect-bootstrap-1.6.10:1.6 ~dev-java/kotlin-reflect-1.6.10:1.6 ) dev-java/kotlinx-coroutines-core-bin:1.5.0 dev-java/jetbrains-annotations:13 dev-java/jetbrains-trove:0 >=dev-java/java-config-2.2.0-r3
+DESCRIPTION=Statically typed programming language for modern multiplatform applications
+EAPI=8
+HOMEPAGE=https://kotlinlang.org/
+INHERIT=java-pkg-2 kotlin-compiler optfeature
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 BSD MIT NPL-1.1
+RDEPEND=>=virtual/jdk-1.8:* || ( ~dev-java/kotlin-stdlib-bootstrap-1.6.10:1.6 ~dev-java/kotlin-stdlib-1.6.10:1.6 ) || ( ~dev-java/kotlin-reflect-bootstrap-1.6.10:1.6 ~dev-java/kotlin-reflect-1.6.10:1.6 ) dev-java/kotlinx-coroutines-core-bin:1.5.0 dev-java/jetbrains-annotations:13 dev-java/jetbrains-trove:0 >=dev-java/java-config-2.2.0-r3 app-eselect/eselect-kotlin
+SLOT=1.6
+SRC_URI=https://github.com/JetBrains/kotlin/releases/download/v1.6.10/kotlin-compiler-1.6.10.zip
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	kotlin-compiler	705c76fdbd3376d0e182ac3a045beb7c	optfeature	30ce9dec2b8943338c9b015bd32bac6a
+_md5_=04831040bd2b2a38cd3dc163a1f4abb5

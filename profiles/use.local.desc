@@ -248,6 +248,5 @@ dev-java/xml-apis:binary - install binary jar from maven central.
 dev-java/xml-resolver:binary - install binary jar from maven central.
 dev-java/xstream:binary - install binary jar from maven central.
 dev-java/zookeeper:binary - install binary jar from maven central.
-dev-lang/kotlin-bin:javascript - Add dependency on dev-java/kotlin-stdlib-js for Kotlin/JS support and the kotlinc-js command
 dev-libs/apache-arrow:parquet - Build with Parquet data format support
 dev-python/pyarrow:parquet - Build with Parquet data format support
