@@ -1,4 +1,4 @@
-# Copyright 2021 Gentoo Authors
+# Copyright 2021-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: kotlin-compiler.eclass
@@ -26,8 +26,10 @@ esac
 # @DEFAULT_UNSET
 # @REQUIRED
 # @DESCRIPTION:
-# The installation target path for the Kotlin compiler. Default is unset, must
-# be overridden from ebuild BEFORE the pkg_preinst phase.
+# The installation target path for the Kotlin compiler after EPREFIX
+# (${EPREFIX} will be automatically prepended when the path is used in this
+# eclass). Default is unset, must be overridden from ebuild BEFORE the
+# pkg_preinst phase.
 
 # @ECLASS-VARIABLE: KOTLIN_COMPILER_VER
 # @PRE_INHERIT
@@ -41,10 +43,6 @@ RDEPEND="
 	app-eselect/eselect-kotlin
 "
 
-PDEPEND="
-	virtual/kotlin:${KOTLIN_COMPILER_VER}
-"
-
 EXPORT_FUNCTIONS pkg_preinst pkg_postinst pkg_postrm
 
 # @FUNCTION: kotlin-compiler_pkg_preinst
@@ -55,7 +53,7 @@ kotlin-compiler_pkg_preinst() {
 	# If KOTLIN_COMPILER_HOME is not set, symbolic links to ${EPREFIX}/ will
 	# be created by the Kotlin eselect module. This not only breaks normal
 	# functionalities but also introduces risks of removing the entire system
-	# in the same way as the infamous 'rm -rf /'. Therefore, fail fast here to
+	# in the same way as the infamous 'rm -rf /*'. Therefore, fail fast here to
 	# prevent more serious issues.
 	if [[ -z "${KOTLIN_COMPILER_HOME}" ]]; then
 		eerror "The ebuild for this package inherits kotlin-compiler.eclass"
@@ -70,7 +68,7 @@ kotlin-compiler_pkg_preinst() {
 	local pkg_desc="${KOTLIN_COMPILER_HOME##*/}"
 	insinto "/usr/share/eselect-kotlin/pkgs/${KOTLIN_COMPILER_VER}"
 	newins - "${pkg_desc}" <<- _EOF_
-		GENTOO_KOTLIN_HOME="${EPREFIX}/${KOTLIN_COMPILER_HOME}"
+		GENTOO_KOTLIN_HOME="${EPREFIX%/}/${KOTLIN_COMPILER_HOME#/}"
 		_EOF_
 }
 

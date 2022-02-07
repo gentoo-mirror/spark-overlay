@@ -1,4 +1,4 @@
-# Copyright 2021 Gentoo Authors
+# Copyright 2021-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: kotlin.eclass
@@ -6,7 +6,7 @@
 # Yuan Liao <liaoyuan@gmail.com>
 # @AUTHOR:
 # Yuan Liao <liaoyuan@gmail.com>
-# @SUPPORTED_EAPIS: 6 7
+# @SUPPORTED_EAPIS: 6 7 8
 # @PROVIDES: kotlin-utils
 # @BLURB: The eclass for Kotlin packages
 # @DESCRIPTION:
@@ -17,7 +17,7 @@
 # how the package is built.
 
 case "${EAPI:-0}" in
-	6|7) ;;
+	6|7|8) ;;
 	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
 
@@ -28,7 +28,7 @@ esac
 inherit kotlin-utils
 
 DEPEND="
-	$(kotlin-utils_kotlin_depend)
+	${KOTLIN_UTILS_DEPS}
 	$(kotlin-utils_iuse_depend)
 "
 
@@ -67,6 +67,7 @@ kotlin_src_test() {
 # JAVA_MAIN_CLASS is set.
 kotlin_src_install() {
 	java-pkg_dojar "${JAVA_JAR_FILENAME}"
+	einstalldocs
 
 	if [[ -n "${JAVA_MAIN_CLASS}" ]]; then
 		java-pkg_dolauncher "${JAVA_LAUNCHER_FILENAME}" \

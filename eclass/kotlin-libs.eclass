@@ -1,4 +1,4 @@
-# Copyright 2021 Gentoo Authors
+# Copyright 2021-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: kotlin-libs.eclass
@@ -6,7 +6,7 @@
 # Yuan Liao <liaoyuan@gmail.com>
 # @AUTHOR:
 # Yuan Liao <liaoyuan@gmail.com>
-# @SUPPORTED_EAPIS: 6 7
+# @SUPPORTED_EAPIS: 6 7 8
 # @PROVIDES: kotlin-utils
 # @BLURB: An eclass for building Kotlin library packages
 # @DESCRIPTION:
@@ -15,7 +15,7 @@
 # recognizes variables declared by that eclass when appropriate.
 
 case "${EAPI:-0}" in
-	6|7) ;;
+	6|7|8) ;;
 	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
 
@@ -66,8 +66,6 @@ esac
 
 # Testing
 
-_KOTLIN_LIBS_REQUIRED_USE=""
-
 if [[ -n "${KOTLIN_LIBS_BINJAR_SRC_URI}" ]]; then
 	# The binary JAR can be used for pkgdiff tests when the package is built
 	# from source
@@ -76,10 +74,11 @@ if [[ -n "${KOTLIN_LIBS_BINJAR_SRC_URI}" ]]; then
 	KOTLIN_TESTING_FRAMEWORKS+=" pkgdiff"
 	if [[ -z "${KOTLIN_LIBS_SRCJAR_SRC_URI}" ]]; then
 		# No source JAR is available for the binary JAR, disable the USE flag
-		_KOTLIN_LIBS_REQUIRED_USE="binary? ( !source )"
+		REQUIRED_USE="binary? ( !source )"
 	fi
 fi
 
+KOTLIN_COMPAT=( "kotlin$(ver_cut 1)-$(ver_cut 2)" )
 inherit kotlin-utils
 
 # ebuild metadata variables
@@ -90,17 +89,13 @@ inherit kotlin-utils
 : ${SLOT:="$(ver_cut 1-2)"}
 
 IUSE="source"
-REQUIRED_USE="
-	${_KOTLIN_LIBS_REQUIRED_USE}
-	${REQUIRED_USE}
-"
 
 S="${WORKDIR}/kotlin-${PV}"
 
 # Source URI
 
 _KOTLIN_LIBS_DEFAULT_SRC_URI="
-	https://github.com/JetBrains/kotlin/archive/refs/tags/v${PV}.tar.gz -> kotlin-${PV}.tar.gz
+	https://github.com/JetBrains/kotlin/archive/v${PV}.tar.gz -> kotlin-${PV}.tar.gz
 "
 if has binary ${JAVA_PKG_IUSE}; then
 	: ${SRC_URI:=""}
@@ -128,40 +123,19 @@ fi
 DEPEND=">=virtual/jdk-1.8:*"
 RDEPEND=">=virtual/jre-1.8:*"
 
-case "${SLOT}" in
-	1.4)
-		_KOTLIN_LIBS_KOTLIN_VERSIONS=">=1.4"
-		_KOTLIN_LIBS_PREF_ORDER=( 1.{4..6} )
-		;;
-	1.5)
-		_KOTLIN_LIBS_KOTLIN_VERSIONS=">=1.5"
-		_KOTLIN_LIBS_PREF_ORDER=( 1.{5..6} )
-		;;
-	# Provision for the next feature release
-	1.6)
-		_KOTLIN_LIBS_KOTLIN_VERSIONS=">=1.6"
-		_KOTLIN_LIBS_PREF_ORDER=( 1.6 )
-		;;
-esac
-KOTLIN_VERSIONS="${KOTLIN_VERSIONS:-"${_KOTLIN_LIBS_KOTLIN_VERSIONS}"}"
-KOTLIN_VERSIONS_PREF_ORDER=(
-	"${KOTLIN_VERSIONS_PREF_ORDER[@]:-"${_KOTLIN_LIBS_PREF_ORDER[@]}"}"
-)
-
-_KOTLIN_LIBS_DEPEND="$(kotlin-utils_kotlin_depend)"
 if has binary ${JAVA_PKG_IUSE}; then
 	# Depend on the compiler only when building from source
 	DEPEND+=" !binary? (
-		${_KOTLIN_LIBS_DEPEND}
+		${KOTLIN_UTILS_DEPS}
 		source? ( app-arch/zip )
 	)"
 	if has junit-4 ${KOTLIN_TESTING_FRAMEWORKS}; then
-		DEPEND+=" test? ( ${_KOTLIN_LIBS_DEPEND} )"
+		DEPEND+=" test? ( ${KOTLIN_UTILS_DEPS} )"
 	fi
 else
 	# No option to use pre-built binary; always depend on the compiler
 	DEPEND+="
-		${_KOTLIN_LIBS_DEPEND}
+		${KOTLIN_UTILS_DEPS}
 		source? ( app-arch/zip )
 	"
 fi
@@ -178,12 +152,8 @@ KOTLIN_TEST_KOTLINC_JAVA_OPTS="${KOTLIN_KOTLINC_JAVA_OPTS}"
 
 # Unset temporary variables
 
-unset _KOTLIN_LIBS_REQUIRED_USE
 unset _KOTLIN_LIBS_DEFAULT_SRC_URI
 unset _KOTLIN_LIBS_TEST_SRC
-unset _KOTLIN_LIBS_KOTLIN_VERSIONS
-unset _KOTLIN_LIBS_PREF_ORDER
-unset _KOTLIN_LIBS_DEPEND
 
 EXPORT_FUNCTIONS pkg_setup src_unpack src_compile src_test src_install
 
@@ -192,9 +162,10 @@ EXPORT_FUNCTIONS pkg_setup src_unpack src_compile src_test src_install
 # Selects the Kotlin compiler to be used for building this package.
 kotlin-libs_pkg_setup() {
 	java-pkg-2_pkg_setup
-	if ! has binary ${JAVA_PKG_IUSE} || ! use binary; then
-		kotlin-utils_pkg_setup
+	if has binary ${JAVA_PKG_IUSE} && use binary; then
+		KOTLIN_SKIP_COMPILER_SETUP="true"
 	fi
+	kotlin-utils_pkg_setup
 }
 
 # @FUNCTION: kotlin-libs_src_unpack

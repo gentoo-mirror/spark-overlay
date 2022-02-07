@@ -1,4 +1,4 @@
-# Copyright 2021 Gentoo Authors
+# Copyright 2021-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: kotlin-core-deps.eclass
@@ -6,7 +6,7 @@
 # Yuan Liao <liaoyuan@gmail.com>
 # @AUTHOR:
 # Yuan Liao <liaoyuan@gmail.com>
-# @SUPPORTED_EAPIS: 6 7
+# @SUPPORTED_EAPIS: 6 7 8
 # @PROVIDES: kotlin-libs
 # @BLURB: An eclass for building dev-java/kotlin-core-* packages
 # @DESCRIPTION:
@@ -24,17 +24,21 @@
 # another Java package.
 
 case "${EAPI:-0}" in
-	6|7) ;;
+	6|7|8) ;;
 	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
 
 # @ECLASS-VARIABLE: KOTLIN_CORE_DEPS_MODULE_NAME
-# @DEFAULT_UNSET
 # @PRE_INHERIT
 # @DESCRIPTION:
 # The value for KOTLIN_MODULE_NAME. This variable will be used to determine the
-# path to the sources. Default is unset, must be overridden from ebuild BEFORE
-# inheriting this eclass unless the ebuild sets KOTLIN_SRC_DIR itself.
+# path to the sources. Defaults to PN with any "kotlin-core-" prefix removed
+# and then dashes ("-") replaced by dots ("."), can be overridden from ebuild
+# BEFORE inheriting this eclass.
+if ! declare -p KOTLIN_CORE_DEPS_MODULE_NAME &> /dev/null; then
+	KOTLIN_CORE_DEPS_MODULE_NAME="${PN#kotlin-core-}"
+	KOTLIN_CORE_DEPS_MODULE_NAME="${KOTLIN_CORE_DEPS_MODULE_NAME//-/.}"
+fi
 
 # @ECLASS-VARIABLE: KOTLIN_CORE_DEPS_SKIP_JAVAC
 # @DEFAULT_UNSET
@@ -89,15 +93,28 @@ if [[ -z "${KOTLIN_KOTLINC_ARGS[@]}" ]]; then
 		-Xjvm-default=compatibility
 		-Xno-kotlin-nothing-value-exception
 		-Xno-optimized-callable-references
-		-Xnormalize-constructor-calls=enable
 		-Xopt-in=kotlin.RequiresOptIn
-		-Xread-deserialized-contracts
-		-Xuse-ir
 	)
+
 	if ver_test -ge "1.5"; then
 		# Additional options for Kotlin >=1.5
 		KOTLIN_KOTLINC_ARGS+=(
 			-Xsuppress-deprecated-jvm-target-warning
+		)
+	fi
+
+	if ver_test -ge "1.6"; then
+		# Additional options for Kotlin >=1.6
+		KOTLIN_KOTLINC_ARGS+=(
+			-Xskip-runtime-version-check
+			-Werror
+		)
+	else
+		# Additional options for Kotlin <1.6
+		KOTLIN_KOTLINC_ARGS+=(
+			-Xnormalize-constructor-calls=enable
+			-Xread-deserialized-contracts
+			-Xuse-ir
 		)
 	fi
 fi
@@ -109,6 +126,13 @@ if [[ -z "${KOTLIN_JAVAC_ARGS[@]}" ]]; then
 		-proc:none
 		-XDuseUnsharedTable=true
 	)
+	if ver_test -ge "1.6"; then
+		# Additional options for Kotlin >=1.6
+		KOTLIN_JAVAC_ARGS+=(
+			-Xlint:deprecation
+			-Xlint:unchecked
+		)
+	fi
 fi
 
 EXPORT_FUNCTIONS src_prepare

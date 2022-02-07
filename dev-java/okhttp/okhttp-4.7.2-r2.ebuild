@@ -1,15 +1,14 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-MAVEN_ID="com.squareup.okhttp3:okhttp:4.7.2"
+MAVEN_ID="com.squareup.okhttp3:${PN}:${PV}"
 
 KOTLIN_IUSE="source test"
 KOTLIN_TESTING_FRAMEWORKS="junit-4"
 
-KOTLIN_VERSIONS=">=1.4"
-KOTLIN_VERSIONS_PREF_ORDER=( 1.{4..5} )
+KOTLIN_COMPAT=( kotlin1-{4..5} )
 
 inherit kotlin
 
@@ -25,8 +24,13 @@ KEYWORDS="~amd64"
 # Disable all tests until an ebuild for the artifact is available
 RESTRICT="test"
 
+KOTLIN_LIBS='
+	dev-java/kotlin-stdlib:${KOTLIN_SLOT_DEP}
+'
+
+KOTLIN_DEPEND="$(kotlin-utils_gen_slot_dep "${KOTLIN_LIBS}")"
+
 CP_DEPEND="
-	dev-java/kotlin-stdlib:1.4
 	dev-java/okio:2.6
 	dev-java/android-all:0
 	>=dev-java/bctls-jdk15on-1.65:0
@@ -36,18 +40,22 @@ CP_DEPEND="
 
 DEPEND="
 	>=virtual/jdk-1.8:*
+	${KOTLIN_DEPEND}
 	${CP_DEPEND}
 	dev-java/jetbrains-annotations:13
 	dev-java/animal-sniffer-annotations:0
 	test? (
-		dev-java/kotlin-test:1.4
-		dev-java/kotlin-test-junit:1.4
+		$(kotlin-utils_gen_slot_dep '
+			dev-java/kotlin-test:${KOTLIN_SLOT_DEP}
+			dev-java/kotlin-test-junit:${KOTLIN_SLOT_DEP}
+		')
 		dev-java/assertj-core:2
 	)
 "
 
 RDEPEND="
 	>=virtual/jre-1.8:*
+	${KOTLIN_DEPEND}
 	${CP_DEPEND}
 "
 
@@ -60,8 +68,6 @@ JAVA_CLASSPATH_EXTRA="
 	animal-sniffer-annotations
 "
 JAVA_TEST_GENTOO_CLASSPATH="
-	kotlin-test-1.4
-	kotlin-test-junit-1.4
 	assertj-core-2
 "
 JAVA_RESOURCE_DIRS=( "${PN}/src/main/resources" )
@@ -83,6 +89,17 @@ KOTLIN_TEST_KOTLINC_ARGS=(
 	"${KOTLIN_KOTLINC_ARGS[@]}"
 	-Xfriend-paths="${JAVA_JAR_FILENAME}"
 )
+
+DOCS=( BUG-BOUNTY.md CHANGELOG.md README.md docs )
+
+pkg_setup() {
+	kotlin_pkg_setup
+	JAVA_GENTOO_CLASSPATH="$(kotlin-utils_gen_slot_cp "${KOTLIN_LIBS}")"
+	JAVA_TEST_GENTOO_CLASSPATH+=" $(kotlin-utils_gen_slot_cp '
+		kotlin-test-${KOTLIN_SLOT_DEP}
+		kotlin-test-junit-${KOTLIN_SLOT_DEP}
+	')"
+}
 
 src_prepare() {
 	default
@@ -106,21 +123,21 @@ src_test() {
 	JAVA_GENTOO_CLASSPATH_EXTRA="${T}/okhttp-testing-support"
 	kotlin-utils_kotlinc \
 		-d "${JAVA_GENTOO_CLASSPATH_EXTRA}" \
-		${classpath:+-classpath ${classpath}} \
-		"$(find "okhttp-testing-support/src/main" -name "*.kt")"
+		${classpath:+-classpath "${classpath}"} \
+		$(find "okhttp-testing-support/src/main" -name "*.kt")
 
 	kotlin_src_test
 }
 
 src_install() {
-	kotlin_src_install
-
-	dodoc BUG-BOUNTY.md CHANGELOG.md README.md
 	# releasing.md not relevant to users
-	rm docs/release.md
+	rm docs/releasing.md || die "Failed to remove extraneous DOCS files"
 	# security.md does not necessarily contain up-to-date information, which
 	# might mislead users into thinking that the version they are using is
 	# still supported
-	rm docs/security.md
-	dodoc docs/*.md
+	rm docs/security.md || die "Failed to remove extraneous DOCS files"
+	# CSS not needed
+	rm -r docs/css || die "Failed to remove extraneous DOCS files"
+
+	kotlin_src_install
 }
