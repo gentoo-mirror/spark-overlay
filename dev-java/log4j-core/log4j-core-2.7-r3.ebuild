@@ -51,7 +51,7 @@ CDEPEND="
 	>=dev-java/woodstox-core-5.0.2:0
 	>=dev-java/commons-compress-1.20:0
 	>=dev-java/disruptor-3.4.2:0
-	>=dev-java/jackson-2.9.10:2
+	>=dev-java/jackson-core-2.9.10:0
 	>=dev-java/jackson-databind-2.10.0:0
 	>=dev-java/jackson-dataformat-xml-2.8.3:0
 	>=dev-java/jackson-dataformat-yaml-2.8.3:0
@@ -83,7 +83,7 @@ RDEPEND="
 
 S="${WORKDIR}"
 
-JAVA_GENTOO_CLASSPATH="jcommander,conversantmedia-disruptor,jackson-2,jackson-databind,jackson-dataformat-xml,jackson-dataformat-yaml,woodstox-core,disruptor,javax-mail,commons-compress,commons-csv,kafka-clients,log4j-api,javax-persistence,jansi,jctools-core,jeromq"
+JAVA_GENTOO_CLASSPATH="jcommander,conversantmedia-disruptor,jackson-core,jackson-databind,jackson-dataformat-xml,jackson-dataformat-yaml,woodstox-core,disruptor,javax-mail,commons-compress,commons-csv,kafka-clients,log4j-api,javax-persistence,jansi,jctools-core,jeromq"
 JAVA_CLASSPATH_EXTRA="jboss-jms-api-1.1_spec,osgi-core-api"
 JAVA_SRC_DIR="src/main/java"
 JAVA_BINJAR_FILENAME="${P}-bin.jar"

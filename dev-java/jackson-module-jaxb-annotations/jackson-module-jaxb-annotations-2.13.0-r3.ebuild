@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 CP_DEPEND="
-	~dev-java/jackson-${PV}:2
-	~dev-java/jackson-annotations-${PV}:2
-	~dev-java/jackson-databind-${PV}:0
+	>=dev-java/jackson-core-${PV}:0
+	>=dev-java/jackson-annotations-${PV}:2
+	>=dev-java/jackson-databind-${PV}:0
 	dev-java/jakarta-activation-api:1
 	dev-java/jaxb-api:2
 "
