@@ -95,7 +95,6 @@ dev-java/javax-activation:binary - install binary jar from maven central.
 dev-java/javax-el:binary - install binary jar from maven central.
 dev-java/javax-json:binary - install binary jar from maven central.
 dev-java/javax-json-api:binary - install binary jar from maven central.
-dev-java/javax-mail:binary - install binary jar from maven central.
 dev-java/javax-persistence:binary - install binary jar from maven central.
 dev-java/jaxb-api:binary - install binary jar from maven central.
 dev-java/jaxb-impl:binary - install binary jar from maven central.
@@ -119,7 +118,6 @@ dev-java/jetty:binary - install binary jar from maven central.
 dev-java/jetty-sslengine:binary - install binary jar from maven central.
 dev-java/jruby:binary - install binary jar from maven central.
 dev-java/jruby-complete:binary - install binary jar from maven central.
-dev-java/jruby-core:binary - install binary jar from maven central.
 dev-java/jruby-stdlib:binary - install binary jar from maven central.
 dev-java/jsf-api:binary - install binary jar from maven central.
 dev-java/json4s-ast:binary - install binary jar from maven central.
@@ -242,7 +240,6 @@ dev-java/weld-api:binary - install binary jar from maven central.
 dev-java/weld-core:binary - install binary jar from maven central.
 dev-java/weld-osgi-bundle:binary - install binary jar from maven central.
 dev-java/weld-spi:binary - install binary jar from maven central.
-dev-java/woodstox-core:binary - install binary jar from maven central.
 dev-java/xbean-asm7-shaded:binary - install binary jar from maven central.
 dev-java/xml-apis:binary - install binary jar from maven central.
 dev-java/xml-resolver:binary - install binary jar from maven central.

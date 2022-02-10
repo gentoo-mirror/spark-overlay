@@ -11,5 +11,5 @@ RDEPEND=>=dev-java/java-config-2.2.0-r3 >=virtual/jre-1.8:*
 REQUIRED_USE=^^ ( kotlin_single_target_kotlin1-6 )
 SLOT=1.6
 SRC_URI=https://github.com/JetBrains/kotlin/archive/v1.6.10.tar.gz -> kotlin-1.6.10.tar.gz
-_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	9c377a7e44d13491d478533f550415c8	kotlin-libs	44e38b97c48faf55b8c903c7c44f09fe	kotlin-core-deps	834c427bf4e664430a1e0d8a748c8fae
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	9c377a7e44d13491d478533f550415c8	kotlin-libs	44e38b97c48faf55b8c903c7c44f09fe	kotlin-core-deps	b80571d22028a0d170d2a8aa529ce1a1
 _md5_=d3cf1302769f795f2caa1c7e71fead98
