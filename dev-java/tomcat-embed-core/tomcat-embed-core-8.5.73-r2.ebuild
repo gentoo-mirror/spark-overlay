@@ -25,9 +25,9 @@ RESTRICT="test"
 CP_DEPEND="
 	~dev-java/tomcat-annotations-api-${PV}:0
 	dev-java/javax-mail:0
+	dev-java/jakarta-ejb-api:3
 	dev-java/jakarta-xml-ws-api:2
 	dev-java/javax-persistence:0
-	java-virtuals/ejb-api:0
 	java-virtuals/servlet-api:4.0
 "
 

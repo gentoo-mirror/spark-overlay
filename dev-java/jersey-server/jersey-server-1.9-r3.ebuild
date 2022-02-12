@@ -19,6 +19,10 @@ LICENSE="|| ( CDDL-1.1 GPL-2-with-classpath-exception )"
 SLOT="1"
 KEYWORDS="~amd64"
 
+# com/sun/jersey/server/impl/build.properties in pre-built JAR contains time
+# stamp, making generated JAR impossible to be consistent
+RESTRICT="test"
+
 CP_DEPEND="
 	>=dev-java/jersey-core-1.9:1
 	>=dev-java/asm-3.1:3
@@ -33,12 +37,12 @@ DEPEND="
 	!binary? (
 		${CP_DEPEND}
 		>=dev-java/jaxb-api-2.2:2
+		dev-java/jakarta-ejb-api:3
 		>=dev-java/mail-1.4:0
 		>=dev-java/persistence-api-1.0:0
 		>=dev-java/weld-osgi-bundle-1.1.0:0
 		>=dev-java/ant-core-1.10.7:0
 		>=dev-java/osgi-core-4.0:4
-		java-virtuals/ejb-api:0
 		java-virtuals/jsp-api:2.3
 		java-virtuals/servlet-api:4.0
 	)
@@ -58,7 +62,7 @@ JAVA_CLASSPATH_EXTRA="
 	servlet-api-4.0
 	jsp-api-2.3
 	jaxb-api-2
-	ejb-api
+	jakarta-ejb-api-3
 	weld-osgi-bundle
 	osgi-core-4
 "

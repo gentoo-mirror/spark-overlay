@@ -1,10 +1,10 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 JAVA_PKG_IUSE="doc source binary test"
-MAVEN_ID="net.sf.ehcache:ehcache:2.10.4"
+MAVEN_ID="net.sf.ehcache:${PN}:${PV}"
 JAVA_TESTING_FRAMEWORKS="pkgdiff"
 
 inherit java-pkg-2 java-pkg-simple java-pkg-maven
@@ -24,14 +24,14 @@ KEYWORDS="~amd64"
 # org.hibernate.{cache,config}
 IUSE="+binary"
 
-CDEPEND="
+CP_DEPEND="
 	>=dev-java/slf4j-api-1.7.7:0
 
 	java-virtuals/ws-rs-api:0
+	dev-java/jta:0
 	dev-java/quartz:0
 	dev-java/jersey-server:2
 	dev-java/jersey-media-sse:2
-	java-virtuals/transaction-api:0
 "
 
 BDEPEND="
@@ -40,17 +40,18 @@ BDEPEND="
 
 DEPEND="
 	>=virtual/jdk-1.8:*
-	${CDEPEND}
+	!binary? (
+		${CP_DEPEND}
+	)
 "
 
 RDEPEND="
 	>=virtual/jre-1.8:*
-	${CDEPEND}
+	${CP_DEPEND}
 "
 
 S="${WORKDIR}"
 
 JAVA_NEEDS_TOOLS=1
-JAVA_GENTOO_CLASSPATH="quartz,slf4j-api,ws-rs-api,jersey-server-2,jersey-media-sse-2,transaction-api"
 JAVA_SRC_DIR="src/main/java"
 JAVA_BINJAR_FILENAME="${P}-bin.jar"
