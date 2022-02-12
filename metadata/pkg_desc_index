@@ -72,7 +72,7 @@ dev-java/dependency-check-core 4.0.2-r6: Identify and report publicly disclosed 
 dev-java/dependency-check-utils 4.0.2-r3: Utilities used within dependency-check that might be useful in other projects
 dev-java/disruptor 3.4.2: Disruptor - Concurrent Programming Framework
 dev-java/duke 1.2-r2: A fast and flexible deduplication engine
-dev-java/ehcache 2.6.11 2.10.4: Cache used to boost performance, offload database and simplify scalability
+dev-java/ehcache 2.10.4-r1: Cache used to boost performance, offload database and simplify scalability
 dev-java/error-prone-annotations 2.4.0: Java annotations for the Error Prone static analysis tool
 dev-java/f2jutil 0.8.1_p1: Helper routines for compiling or running any f2j-generated Java code
 dev-java/failureaccess 1.0.1-r1: Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes is conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).
@@ -154,6 +154,7 @@ dev-java/jackson-xc 1.8.3-r1 1.9.13-r2: Extensions for Jackson JSON processor's 
 dev-java/jaffl 0.5.11: An abstracted interface to invoking native functions from java
 dev-java/jakarta-activation 2.0.1: Jakarta Activation
 dev-java/jakarta-annotation-api 1.3.5-r1: Jakarta Annotations API
+dev-java/jakarta-ejb-api 3.2.6: Jakarta Enterprise Beans
 dev-java/jakarta-inject 2.6.1-r1: Injection API (JSR 330) version 2.6.1 repackaged as OSGi bundle
 dev-java/jakarta-jws-api 2.1.0: JWS API (Eclipse Project for JAX-WS)
 dev-java/jakarta-persistence-api 2.2.3-r1: Eclipse Enterprise for Java (EE4J) is an open source initiative to create standard APIs, implementations of those APIs, and technology compatibility kits for Java runtimes that enable development, deployment, and management of server-side and cloud-native applications.
@@ -209,7 +210,7 @@ dev-java/jersey-hk2 2.35: HK2 InjectionManager implementation
 dev-java/jersey-json 1.9-r1: Jersey is the open source (under dual CDDL+GPL license) JAX-RS (JSR 311) production quality Reference Implementation for building RESTful Web services.
 dev-java/jersey-media-jaxb 2.35: JAX-RS features based upon JAX-B
 dev-java/jersey-media-sse 2.35: Jersey Server Sent Events entity providers support module
-dev-java/jersey-server 1.9-r2 2.35: Jersey core server implementation
+dev-java/jersey-server 1.9-r3 2.35: Jersey core server implementation
 dev-java/jetbrains-annotations 13.0-r1 21.0.1: A set of annotations used for code inspection support and code documentation.
 dev-java/jetbrains-trove 1.0.20200330: Fork of trove4j library used in IntelliJ Platform
 dev-java/jets3t 0.9.0-r2: Java toolkit and application suite for Amazon S3, CloudFront and Google Storage
@@ -392,7 +393,7 @@ dev-java/pointsto 19.2.1-r1: SubstrateVM static analysis to find ahead-of-time t
 dev-java/protobuf-javanano 3.0.0_alpha5: Protocol Buffers are a way of encoding structured data in an efficient yet extensible format.
 dev-java/py4j 0.10.8.1-r1: Py4J enables Python programs running in a Python interpreter to dynamically access Java objects in a Java Virtual Machine. Methods are called as if the Java objects resided in the Python interpreter and Java collections can be accessed through standard Python collection methods. Py4J also enables Java programs to call back Python objects.
 dev-java/pyrolite 4.30-r1: This library allows your Java program to interface very easily with the Python world. It uses the Pyro protocol to call methods on remote objects. (See https://github.com/irmen/Pyro4). To that end, it also contains and uses a feature complete pickle protocol implementation -read and write- to exchange data with Pyro/Python. Pyrolite only implements part of the client side Pyro library, hence its name 'lite'... But because Pyrolite has no dependencies, it is a much lighter way to use Pyro from Java/.NET than a solution with jython+pyro or IronPython+Pyro would provide. So if you don't need Pyro's full feature set, and don't require your Java/.NET code to host Pyro objects itself, Pyrolite may be a good choice to connect java or .NET and python. (More info about Pyro itself: https://pyro4.readthedocs.io/ ) Version 4.30 changes: Support for unpickling protocol 5 pickles with out-of-band buffers (Python 3.8)
-dev-java/quartz 2.3.2: Enterprise Job Scheduler
+dev-java/quartz 2.3.2-r1: Enterprise Job Scheduler
 dev-java/reactive-streams 1.0.2-r1: A Protocol for Asynchronous Non-Blocking Data Sequence
 dev-java/reactor-core 3.1.4-r1 3.1.4-r2: Non-Blocking Reactive Foundation for the JVM
 dev-java/reflectasm 1.11.9: High performance Java reflection
@@ -427,7 +428,7 @@ dev-java/t-digest 3.1-r1: Data structure which allows accurate estimation of qua
 dev-java/terracotta-toolkit-api 3.2.0-r1: Terracotta Toolkit API
 dev-java/terracotta-toolkit-api-internal 2.2.0-r1: Terracotta Toolkit API Internal
 dev-java/tomcat-annotations-api 8.5.73: Tomcat Annotations Package
-dev-java/tomcat-embed-core 8.5.73-r1: Core Tomcat implementation
+dev-java/tomcat-embed-core 8.5.73-r2: Core Tomcat implementation
 dev-java/tomcat-jni 10.0.0-r1: Interface code to the native connector
 dev-java/truffle-api 20.1.0: Truffle is a multi-language framework for executing dynamic languages that achieves high performance when combined with Graal.
 dev-java/truffle-nfi 20.1.0: Native function interface for the Truffle framework.
