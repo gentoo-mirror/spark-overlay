@@ -151,7 +151,6 @@ dev-java/maven-profile:binary - install binary jar from maven central.
 dev-java/maven-project:binary - install binary jar from maven central.
 dev-java/maven-repository-metadata:binary - install binary jar from maven central.
 dev-java/maven-settings:binary - install binary jar from maven central.
-dev-java/mchange-commons:binary - install binary jar from maven central.
 dev-java/metrics-core:binary - install binary jar from maven central.
 dev-java/metrics-graphite:binary - install binary jar from maven central.
 dev-java/metrics-healthchecks:binary - install binary jar from maven central.

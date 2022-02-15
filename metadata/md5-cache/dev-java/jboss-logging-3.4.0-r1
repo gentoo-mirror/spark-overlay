@@ -1,8 +1,9 @@
+BDEPEND=app-arch/unzip
 DEFINED_PHASES=compile install preinst prepare setup test unpack
-DEPEND=>=virtual/jdk-1.8:* app-arch/unzip >=dev-java/log4j-api-2.3:0 >=dev-java/jboss-logmanager-1.5.2:0 >=dev-java/log4j-1.2.17:0 >=dev-java/slf4j-api-1.7.7:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DEPEND=>=virtual/jdk-1.8:* >=dev-java/log4j-api-2.3:2 >=dev-java/jboss-logmanager-1.5.2:0 >=dev-java/log4j-1.2.17:0 >=dev-java/slf4j-api-1.7.7:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 DESCRIPTION=The JBoss Logging Framework
-EAPI=7
-HOMEPAGE=http://www.jboss.org
+EAPI=8
+HOMEPAGE=https://www.jboss.org
 INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
 IUSE=doc source
 KEYWORDS=~amd64
@@ -11,4 +12,4 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/z
 SLOT=0
 SRC_URI=https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.0.Final/jboss-logging-3.4.0.Final-sources.jar -> jboss-logging-3.4.0-sources.jar
 _eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
-_md5_=d017a52f40edabb650327c6e08ff074a
+_md5_=404c97e5a1b9542956239c11ed3bb2cc

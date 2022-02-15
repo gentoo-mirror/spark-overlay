@@ -1,6 +1,6 @@
 BDEPEND=app-arch/unzip
 DEFINED_PHASES=compile install preinst prepare setup test unpack
-DEPEND=>=virtual/jdk-1.8:* !binary? ( dev-java/terracotta-toolkit-api:0 dev-java/terracotta-toolkit-api-internal:0 >=dev-java/HikariCP-java7-2.4.13:0 >=dev-java/c3p0-0.9.5.4:0 dev-java/jta:0 >=dev-java/mchange-commons-0.2.15:0 >=dev-java/slf4j-api-1.7.7:0 java-virtuals/servlet-api:4.0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DEPEND=>=virtual/jdk-1.8:* !binary? ( dev-java/terracotta-toolkit-api:0 dev-java/terracotta-toolkit-api-internal:0 >=dev-java/HikariCP-java7-2.4.13:0 >=dev-java/c3p0-0.9.5.4:0 dev-java/jta:0 dev-java/mchange-commons:0 >=dev-java/slf4j-api-1.7.7:0 java-virtuals/servlet-api:4.0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
 DESCRIPTION=Enterprise Job Scheduler
 EAPI=8
 HOMEPAGE=https://www.quartz-scheduler.org/quartz
@@ -8,9 +8,9 @@ INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
 IUSE=+binary doc source test binary
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
-RDEPEND=>=virtual/jre-1.8:* dev-java/terracotta-toolkit-api:0 dev-java/terracotta-toolkit-api-internal:0 >=dev-java/HikariCP-java7-2.4.13:0 >=dev-java/c3p0-0.9.5.4:0 dev-java/jta:0 >=dev-java/mchange-commons-0.2.15:0 >=dev-java/slf4j-api-1.7.7:0 java-virtuals/servlet-api:4.0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RDEPEND=>=virtual/jre-1.8:* dev-java/terracotta-toolkit-api:0 dev-java/terracotta-toolkit-api-internal:0 >=dev-java/HikariCP-java7-2.4.13:0 >=dev-java/c3p0-0.9.5.4:0 dev-java/jta:0 dev-java/mchange-commons:0 >=dev-java/slf4j-api-1.7.7:0 java-virtuals/servlet-api:4.0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/quartz-scheduler/quartz/2.3.2/quartz-2.3.2-sources.jar https://repo1.maven.org/maven2/org/quartz-scheduler/quartz/2.3.2/quartz-2.3.2.jar -> quartz-2.3.2-bin.jar
 _eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
-_md5_=f9fa55454eb2684ad42143cd354a36db
+_md5_=526e897f81d2712e5b41b612db081018

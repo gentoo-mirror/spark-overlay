@@ -126,7 +126,7 @@ dev-java/hadoop-yarn-common 2.7.4-r2: Apache Hadoop YARN Common
 dev-java/hadoop-yarn-server-common 2.7.4-r1: Apache Hadoop YARN Server Common
 dev-java/hadoop-yarn-server-nodemanager 2.7.4-r2: Apache Hadoop YARN Server NodeManager
 dev-java/hadoop-yarn-server-web-proxy 2.7.4-r1: Apache Hadoop YARN Server Web Proxy
-dev-java/hazelcast 3.8.9-r1: Core Hazelcast Module
+dev-java/hazelcast 3.8.9-r2: Core Hazelcast Module
 dev-java/hazelcast-code-generator 1.6.0-r1: Client Protocol of Hazelcast In-Memory DataGrid
 dev-java/headius-options 1.4: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/hibernate-commons-annotations 5.0.1-r1: Common reflection code used in support of annotation processing
@@ -185,7 +185,7 @@ dev-java/jboss-interceptor-core 2.0.0-r1: JBoss EJB 3.1 Common Interceptor Libra
 dev-java/jboss-interceptor-spi 2.0.0-r1: JBoss EJB 3.1 Common Interceptor Library Parent
 dev-java/jboss-interceptors-api 1.0.0-r1 1.0.1-r1: The Java(TM) EE Interceptors 1.2 API classes from JSR 318.
 dev-java/jboss-jms-api 1.0.1-r1: JSR-000914: Java(TM) Message Service (JMS) 1.1 API
-dev-java/jboss-logging 3.4.0: The JBoss Logging Framework
+dev-java/jboss-logging 3.4.0-r1: The JBoss Logging Framework
 dev-java/jboss-logging-annotations 2.1.0-r1: Parent POM for JBoss projects. Provides default project build configuration.
 dev-java/jboss-logging-processor 2.1.0-r1: Parent POM for JBoss projects. Provides default project build configuration.
 dev-java/jboss-logging-spi 2.1.2-r1: The JBoss Logging Framework Programming Interface
@@ -195,7 +195,7 @@ dev-java/jboss-transaction-api 1.0.0-r2 1.0.1-r2: The Java Transaction 1.2 API c
 dev-java/jcl-over-slf4j 1.7.16-r1: JCL 1.1.1 implemented over SLF4J
 dev-java/jcodings 1.0.13: Byte based encoding support library for java
 dev-java/jcsp 1.1_rc5-r1: Communicating Sequential Processes (CSP) for use in Java
-dev-java/jctools-core 1.2.1 2.1.2: Java Concurrency Tools Core Library
+dev-java/jctools-core 2.1.2: Java Concurrency Tools Core Library
 dev-java/jdeb 1.1.1-r3: Create Debian packages from Java builds in a truly cross platform manner
 dev-java/jdeparser 2.0.3: JDeparser, a Java source code generating library
 dev-java/jdiff 1.0.9-r1: An HTML Report of API Differences
@@ -327,7 +327,6 @@ dev-java/maven-profile 2.2.1-r1: Maven is a project development management and c
 dev-java/maven-project 2.2.1-r1: Read Maven POM files, assemble inheritence, and retrieve remote models
 dev-java/maven-repository-metadata 2.2.1-r1: Per-directory repository metadata.
 dev-java/maven-settings 2.2.1-r1: Maven is a project development management and comprehension tool. Based on the concept of a project object model: builds, dependency management, documentation creation, site publication, and distribution publication are all controlled from the declarative file. Maven can be extended by plugins to utilise a number of other development tools for reporting or the build process.
-dev-java/mchange-commons 0.2.15: mchange-commons-java
 dev-java/metrics-core 2.2.0-r1 4.1.1-r1: Metrics is a Java library which gives you unparalleled insight into what your code does in production. Metrics provides a powerful toolkit of ways to measure the behavior of critical components in your production environment.
 dev-java/metrics-graphite 4.1.1-r1: A reporter for Metrics which announces measurements to a Graphite server.
 dev-java/metrics-healthchecks 4.1.1-r1: An addition to Metrics which provides the ability to run application-specific health checks, allowing you to check your application's heath in production.
@@ -359,7 +358,7 @@ dev-java/netty-codec-smtp 4.1.42: Netty is an asynchronous event-driven network 
 dev-java/netty-codec-socks 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/netty-codec-stomp 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/netty-codec-xml 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
-dev-java/netty-common 4.1.42: Asynchronous event-driven network application framework
+dev-java/netty-common 4.1.42-r1: Asynchronous event-driven network application framework
 dev-java/netty-example 4.1.42-r2: Asynchronous event-driven network application framework
 dev-java/netty-handler 4.1.42: Netty Handler
 dev-java/netty-handler-proxy 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
