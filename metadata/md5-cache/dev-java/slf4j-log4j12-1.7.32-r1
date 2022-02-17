@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* dev-java/log4j-12-api:2 >=dev-java/slf4j-api-1.7.32:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( dev-java/junit:4 amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=SLF4J LOG4J-12 Binding
+EAPI=8
+HOMEPAGE=https://www.slf4j.org
+INHERIT=java-pkg-2 java-pkg-simple
+IUSE=doc source test binary
+KEYWORDS=~amd64 ~arm64 ~ppc64 ~x86
+LICENSE=MIT
+RDEPEND=>=virtual/jre-1.8:* dev-java/log4j-12-api:2 >=dev-java/slf4j-api-1.7.32:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/qos-ch/slf4j/archive/refs/tags/v_1.7.32.tar.gz -> slf4j-1.7.32-sources.tar.gz https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.32/slf4j-log4j12-1.7.32.jar -> slf4j-log4j12-1.7.32-bin.jar
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118
+_md5_=3f325e272e22a235ce1de867607172e7
