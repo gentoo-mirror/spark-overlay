@@ -1,7 +1,7 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=8
+EAPI=7
 
 MAVEN_ID="ai.h2o:${PN}:${PV}"
 
@@ -24,7 +24,7 @@ CP_DEPEND="
 	~dev-java/h2o-genmodel-${PV}:${SLOT}
 	~dev-java/h2o-jaas-pam-${PV}:${SLOT}
 	~dev-java/h2o-logger-${PV}:${SLOT}
-	~dev-java/h2o-logging-impl-classic-${PV}:${SLOT}
+	~dev-java/h2o-logging-impl-log4j2-${PV}:${SLOT}
 	~dev-java/h2o-webserver-iface-${PV}:${SLOT}
 	>=dev-java/commons-io-2.4:1
 	>=dev-java/commons-lang-2.6:2.1
