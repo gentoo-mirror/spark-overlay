@@ -109,7 +109,6 @@ dev-java/jboss-marshalling:binary - install binary jar from maven central.
 dev-java/jboss-transaction-api:binary - install binary jar from maven central.
 dev-java/jcl-over-slf4j:binary - install binary jar from maven central.
 dev-java/jdeb:binary - install binary jar from maven central.
-dev-java/jeromq:binary - install binary jar from maven central.
 dev-java/jersey-core:binary - install binary jar from maven central.
 dev-java/jersey-guice:binary - install binary jar from maven central.
 dev-java/jersey-json:binary - install binary jar from maven central.

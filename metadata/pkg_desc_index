@@ -145,7 +145,6 @@ dev-java/istack-commons-runtime 4.0.0-r1: istack common utility code
 dev-java/j2objc-annotations 1.3: Annotations for the J2ObjC Java to Objective-C translator
 dev-java/jackson 2.13.0: High-performance JSON processor
 dev-java/jackson-core-asl 1.9.13-r1: Jackson is a high-performance JSON processor (parser, generator)
-dev-java/jackson-dataformat-xml 2.13.0-r1: Data format extension for Jackson for serializing and deserializing POJOs as XML
 dev-java/jackson-jaxrs 1.9.13-r1: Jax-RS provider for JSON content type
 dev-java/jackson-mapper-asl 1.9.13-r2: High-performance data binding package built on Jackson JSON processor
 dev-java/jackson-module-jaxb-annotations 2.13.0-r3: Jackson extension module for JAXB annotations support
@@ -200,7 +199,6 @@ dev-java/jctools-core 2.1.2: Java Concurrency Tools Core Library
 dev-java/jdeb 1.1.1-r3: Create Debian packages from Java builds in a truly cross platform manner
 dev-java/jdeparser 2.0.3: JDeparser, a Java source code generating library
 dev-java/jdiff 1.0.9-r1: An HTML Report of API Differences
-dev-java/jeromq 0.3.5: Pure Java implementation of libzmq
 dev-java/jersey-client 1.9-r1 2.35: Jersey core client implementation
 dev-java/jersey-common 2.35: Jersey core common packages
 dev-java/jersey-container-servlet 2.35: Jersey core Servlet 3.x implementation

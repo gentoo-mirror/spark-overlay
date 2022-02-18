@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=1.6
 SRC_URI=!binary? ( https://github.com/JetBrains/kotlin/archive/v1.6.10.tar.gz -> kotlin-1.6.10.tar.gz test? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-annotations-jvm/1.6.10/kotlin-annotations-jvm-1.6.10.jar ) ) binary? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-annotations-jvm/1.6.10/kotlin-annotations-jvm-1.6.10.jar source? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-annotations-jvm/1.6.10/kotlin-annotations-jvm-1.6.10-sources.jar ) )
 _eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	9c377a7e44d13491d478533f550415c8	kotlin-libs	44e38b97c48faf55b8c903c7c44f09fe
-_md5_=b7673a5950cd93d55864c1cf1254bbf1
+_md5_=1092c7071bdc331564fe4caa266c572b
