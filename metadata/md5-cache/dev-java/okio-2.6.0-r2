@@ -1,16 +1,16 @@
 DEFINED_PHASES=compile install preinst prepare setup test
-DEPEND=>=virtual/jdk-1.8:* kotlin_single_target_kotlin1-4? ( dev-java/kotlin-stdlib:1.4 ) kotlin_single_target_kotlin1-5? ( dev-java/kotlin-stdlib:1.5 ) dev-java/animal-sniffer-annotations:0 dev-java/jetbrains-annotations:13 test? ( kotlin_single_target_kotlin1-4? ( dev-java/kotlin-test:1.4 dev-java/kotlin-test-junit:1.4 ) kotlin_single_target_kotlin1-5? ( dev-java/kotlin-test:1.5 dev-java/kotlin-test-junit:1.5 ) dev-java/assertj-core:2 ) >=dev-java/java-config-2.2.0-r3 kotlin_single_target_kotlin1-4? ( virtual/kotlin:1.4 ) kotlin_single_target_kotlin1-5? ( virtual/kotlin:1.5 ) source? ( app-arch/zip ) test? ( dev-java/junit:4 )
+DEPEND=>=virtual/jdk-1.8:* kotlin_single_target_kotlin1-4? ( dev-java/kotlin-stdlib:1.4 ) kotlin_single_target_kotlin1-5? ( dev-java/kotlin-stdlib:1.5 ) kotlin_single_target_kotlin1-6? ( dev-java/kotlin-stdlib:1.6 ) dev-java/animal-sniffer-annotations:0 dev-java/jetbrains-annotations:13 test? ( kotlin_single_target_kotlin1-4? ( dev-java/kotlin-test-junit:1.4 ) kotlin_single_target_kotlin1-5? ( dev-java/kotlin-test-junit:1.5 ) kotlin_single_target_kotlin1-6? ( dev-java/kotlin-test-junit:1.6 ) dev-java/assertj-core:2 ) >=dev-java/java-config-2.2.0-r3 kotlin_single_target_kotlin1-4? ( virtual/kotlin:1.4 ) kotlin_single_target_kotlin1-5? ( virtual/kotlin:1.5 ) kotlin_single_target_kotlin1-6? ( virtual/kotlin:1.6 ) source? ( app-arch/zip ) test? ( dev-java/junit:4 )
 DESCRIPTION=A modern I/O library for Android, Kotlin, and Java
 EAPI=8
 HOMEPAGE=https://square.github.io/okio/
 INHERIT=kotlin
-IUSE=source test kotlin_single_target_kotlin1-4 kotlin_single_target_kotlin1-5
+IUSE=source test kotlin_single_target_kotlin1-4 kotlin_single_target_kotlin1-5 kotlin_single_target_kotlin1-6
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
-RDEPEND=>=virtual/jre-1.8:* kotlin_single_target_kotlin1-4? ( dev-java/kotlin-stdlib:1.4 ) kotlin_single_target_kotlin1-5? ( dev-java/kotlin-stdlib:1.5 ) >=dev-java/java-config-2.2.0-r3
-REQUIRED_USE=^^ ( kotlin_single_target_kotlin1-4 kotlin_single_target_kotlin1-5 )
+RDEPEND=>=virtual/jre-1.8:* kotlin_single_target_kotlin1-4? ( dev-java/kotlin-stdlib:1.4 ) kotlin_single_target_kotlin1-5? ( dev-java/kotlin-stdlib:1.5 ) kotlin_single_target_kotlin1-6? ( dev-java/kotlin-stdlib:1.6 ) >=dev-java/java-config-2.2.0-r3
+REQUIRED_USE=^^ ( kotlin_single_target_kotlin1-4 kotlin_single_target_kotlin1-5 kotlin_single_target_kotlin1-6 )
 RESTRICT=!test? ( test )
 SLOT=2.6
 SRC_URI=https://github.com/square/okio/archive/refs/tags/parent-2.6.0.tar.gz -> okio-2.6.0.tar.gz
-_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	9c377a7e44d13491d478533f550415c8	kotlin	6080f31b72e02cb401cacc1f9be8c95b
-_md5_=8ebf2308457b135c6c7446068a8e40af
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	fbc07317c4b16d46520479a2c4621d02	kotlin	a2d3bb37a76c3e0b775ea1780a19b4d2
+_md5_=67080cff40cccae89c524203b076a2ac

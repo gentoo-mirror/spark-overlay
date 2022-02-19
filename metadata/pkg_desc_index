@@ -433,7 +433,7 @@ dev-java/truffle-nfi 20.1.0: Native function interface for the Truffle framework
 dev-java/unsafe-mock 8.92.1: A mock of sun.misc.Unsafe for building against
 dev-java/unused 1.0.0-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/validation-api 2.0.1: Bean Validation API
-dev-java/velocity 1.7-r1 1.7-r2: General purpose template engine
+dev-java/velocity 1.7-r1 1.7-r3: General purpose template engine
 dev-java/wagon-file 1.0_beta6-r1: Wagon that gets and puts artifacts using file system protocol
 dev-java/wagon-http 2.4-r2: Wagon that gets and puts artifacts through http using Apache httpclient-4.x.
 dev-java/wagon-http-lightweight 1.0_beta6-r1: Wagon that gets and puts artifacts through http using standard Java library
