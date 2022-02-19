@@ -22,6 +22,10 @@
 # pure Kotlin packages should inherit kotlin.eclass, which exports various
 # phase functions that automatically call functions in this eclass and is thus
 # more convenient to use.
+#
+# For more information about creating a Kotlin package using this eclass,
+# please consult the Kotlin Package Maintainer Guide:
+# https://wiki.gentoo.org/wiki/User:Leo3418/Kotlin/Package_Maintainer_Guide
 
 case "${EAPI:-0}" in
 	6|7|8) ;;
@@ -333,11 +337,27 @@ readonly KOTLIN_UTILS_CLASSES
 _KOTLIN_UTILS_ALL_VERSIONS=( kotlin1-{4..6} )
 readonly _KOTLIN_UTILS_ALL_VERSIONS
 
+# @ECLASS-VARIABLE: _KOTLIN_UTILS_LIBS_ONLY_VERSIONS
+# @INTERNAL
+# @DESCRIPTION:
+# An array of identifiers for Kotlin compiler feature release versions
+# available on Gentoo that are exclusively for building Kotlin library
+# packages. Other Kotlin packages may not be built with these versions.
+_KOTLIN_UTILS_LIBS_ONLY_VERSIONS=()
+readonly _KOTLIN_UTILS_LIBS_ONLY_VERSIONS
+
 # @ECLASS-VARIABLE: _KOTLIN_UTILS_SUPPORTED_VERSIONS
 # @INTERNAL
 # @DESCRIPTION:
 # An array of identifiers for all Kotlin compiler feature release versions
 # supported by the ebuild according to the value of KOTLIN_COMPAT.
+
+# @ECLASS-VARIABLE: _KOTLIN_UTILS_KOTLIN_LIBS_ECLASS
+# @INTERNAL
+# @PRE_INHERIT
+# @DESCRIPTION:
+# A non-empty value indicates that kotlin-libs.eclass is being inherited.
+# Should only be set by kotlin-libs.eclass BEFORE inheriting this eclass.
 
 inherit java-pkg-2 java-pkg-simple
 
@@ -527,6 +547,16 @@ _kotlin-utils_process_kotlin_compat() {
 			_KOTLIN_UTILS_SUPPORTED_VERSIONS+=( "${ver}" )
 		fi
 	done
+	if [[ "${_KOTLIN_UTILS_KOTLIN_LIBS_ECLASS}" ]]; then
+		for ver in "${_KOTLIN_UTILS_LIBS_ONLY_VERSIONS[@]}"; do
+			if has "${ver}" "${KOTLIN_COMPAT[@]}"; then
+				_KOTLIN_UTILS_SUPPORTED_VERSIONS+=( "${ver}" )
+			fi
+		done
+	fi
+
+	[[ -n "${_KOTLIN_UTILS_SUPPORTED_VERSIONS[@]}" ]] ||
+		die "No supported version in KOTLIN_COMPAT"
 
 	local iuse=(
 		"${_KOTLIN_UTILS_SUPPORTED_VERSIONS[@]/#/kotlin_single_target_}"
@@ -646,7 +676,7 @@ kotlin-utils_kotlinc() {
 
 	# Prepare arguments whose values should be separated by comma
 	local OLD_IFS="${IFS}"
-	if [[ -n "${KOTLIN_COMMON_SOURCES_DIR}" ]]; then
+	if [[ -n "${KOTLIN_COMMON_SOURCES_DIR[@]}" ]]; then
 		local common_sources_files=(
 			$(find "${KOTLIN_COMMON_SOURCES_DIR[@]}" -name "*.kt")
 		)
