@@ -1,15 +1,16 @@
 BDEPEND=app-arch/unzip
 DEFINED_PHASES=compile install preinst prepare setup test unpack
-DEPEND=>=virtual/jdk-1.8:* !binary? ( dev-java/javax-inject:0 dev-java/glassfish-interceptor-api:0 java-virtuals/servlet-api:3.0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DEPEND=>=virtual/jdk-1.8:* !binary? ( dev-java/javax-inject:0 dev-java/glassfish-interceptor-api:0 java-virtuals/servlet-api:3.0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
 DESCRIPTION=Contexts and Dependency Injection for the Java EE platform
 EAPI=8
 HOMEPAGE=https://www.cdi-spec.org/
 INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
-IUSE=doc source binary
+IUSE=doc source test binary
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-1.8:* dev-java/javax-inject:0 dev-java/glassfish-interceptor-api:0 java-virtuals/servlet-api:3.0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=test !test? ( test )
 SLOT=1.2
 SRC_URI=https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2-sources.jar https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar -> cdi-api-1.2-bin.jar
 _eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
-_md5_=d65aa12e430034bdb52f7ae0741d61eb
+_md5_=8354efd9e1e511c67f666795193799fd
