@@ -12,5 +12,5 @@ REQUIRED_USE=^^ ( kotlin_single_target_kotlin1-4 kotlin_single_target_kotlin1-5 
 RESTRICT=!test? ( test )
 SLOT=2.6
 SRC_URI=https://github.com/square/okio/archive/refs/tags/parent-2.6.0.tar.gz -> okio-2.6.0.tar.gz
-_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	7bbc8510cc9f7bbcbb24030e733ff4bd	kotlin	a2d3bb37a76c3e0b775ea1780a19b4d2
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	kotlin-utils	e064b0d59686612f8d82b8dfa92a317f	kotlin	6a263b2334aadba867de53e30250bb94
 _md5_=67080cff40cccae89c524203b076a2ac
