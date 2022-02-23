@@ -192,7 +192,7 @@ dev-java/jboss-logging-spi 2.1.2-r1: The JBoss Logging Framework Programming Int
 dev-java/jboss-logmanager 1.5.2: JBoss logging framework
 dev-java/jboss-marshalling 1.3.18 1.3.18-r1 1.4.11: JBoss Marshalling API
 dev-java/jboss-transaction-api 1.0.0-r2 1.0.1-r2: The Java Transaction 1.2 API classes
-dev-java/jcl-over-slf4j 1.7.16-r1: JCL 1.1.1 implemented over SLF4J
+dev-java/jcl-over-slf4j 1.7.16-r1 1.7.32: JCL 1.2 implemented over SLF4J
 dev-java/jcodings 1.0.13: Byte based encoding support library for java
 dev-java/jcsp 1.1_rc5-r1: Communicating Sequential Processes (CSP) for use in Java
 dev-java/jctools-core 2.1.2: Java Concurrency Tools Core Library
@@ -263,7 +263,7 @@ dev-java/jtransforms 3.1: Multithreaded FFT library written in pure Java
 dev-java/jts 1.12: API for modelling and manipulating 2-dimensional linear geometry
 dev-java/jts-core 1.14-r1 1.17.0: The JTS Topology Suite is an API for 2D linear geometry predicates and functions.
 dev-java/jug 2.0.0-r1: Java UUID Generator
-dev-java/jul-to-slf4j 1.7.16-r1: JUL to SLF4J bridge
+dev-java/jul-to-slf4j 1.7.16-r1 1.7.32: java.util.logging to SLF4J bridge
 dev-java/kotlin-annotations-jvm 1.4.32 1.5.32 1.6.10: Kotlin annotations for JVM
 dev-java/kotlin-common-bin 1.3.72 1.3.72-r1: Kotlin Common Libraries
 dev-java/kotlin-core-builtins 1.4.32 1.5.32 1.6.10: Kotlin library component kotlin-core-builtins
@@ -298,7 +298,7 @@ dev-java/leveldbjni 1.8-r2: A JNI library for acessing leveldb
 dev-java/libpam4j 1.11: Java binding for libpam.so
 dev-java/log4j-api 2.3-r1 2.7: The Apache Log4j API
 dev-java/log4j-core 2.7-r3: The Apache Log4j Implementation
-dev-java/log4j-over-slf4j 1.7.32: Log4j implemented over SLF4J
+dev-java/log4j-over-slf4j 1.7.32 1.7.32-r1: Log4j implemented over SLF4J
 dev-java/logback-classic 1.2.3-r2: logback-classic module
 dev-java/logback-core 1.2.3-r2: logback-core module
 dev-java/lombok 1.16.16-r1: Automatic resource management and method generation
@@ -405,9 +405,9 @@ dev-java/serpent 1.23-r1: Serpent serializes an object tree into a Python ast.li
 dev-java/servlet-api 2.5.20081211-r1: Servlet Specification API
 dev-java/shims 0.7.45-r1: Roaring bitmaps are compressed bitmaps (also called bitsets) which tend to outperform conventional compressed bitmaps such as WAH or Concise.
 dev-java/simpleclient 0.0.16: Core instrumentation library for the simpleclient.
-dev-java/slf4j-ext 1.7.30: Extensions to the SLF4J API
-dev-java/slf4j-jdk14 1.5.10-r1 1.6.1-r1: The slf4j JDK14 binding
-dev-java/slf4j-log4j12 1.7.32 1.7.32-r1: SLF4J LOG4J-12 Binding
+dev-java/slf4j-ext 1.7.30 1.7.32: Extensions to the SLF4J API
+dev-java/slf4j-jdk14 1.5.10-r1 1.6.1-r1 1.7.32: SLF4J binding for java.util.logging, which was added in JDK 1.4
+dev-java/slf4j-log4j12 1.7.32 1.7.32-r1: SLF4J Log4j 1.2 binding
 dev-java/spark-core 3.0.0-r3 3.0.0-r4: Unified analytics engine for large-scale data processing
 dev-java/spark-demo 0.1-r1: A demo that uses spark-core to perform Monte Carlo simulations
 dev-java/spark-kvstore 3.0.0-r2: Spark Project Local DB

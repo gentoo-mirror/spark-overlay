@@ -107,7 +107,6 @@ dev-java/jboss-logging-processor:binary - install binary jar from maven central.
 dev-java/jboss-logging-spi:binary - install binary jar from maven central.
 dev-java/jboss-marshalling:binary - install binary jar from maven central.
 dev-java/jboss-transaction-api:binary - install binary jar from maven central.
-dev-java/jcl-over-slf4j:binary - install binary jar from maven central.
 dev-java/jdeb:binary - install binary jar from maven central.
 dev-java/jersey-core:binary - install binary jar from maven central.
 dev-java/jersey-guice:binary - install binary jar from maven central.
@@ -127,7 +126,6 @@ dev-java/jsr166y:binary - install binary jar from maven central.
 dev-java/jsr292-mock:binary - install binary jar from maven central.
 dev-java/jta:binary - install binary jar from maven central.
 dev-java/jts-core:binary - install binary jar from maven central.
-dev-java/jul-to-slf4j:binary - install binary jar from maven central.
 dev-java/leveldb-api:binary - install binary jar from maven central.
 dev-java/log4j-api:binary - install binary jar from maven central.
 dev-java/log4j-core:binary - install binary jar from maven central.
@@ -213,7 +211,6 @@ dev-java/serpent:binary - install binary jar from maven central.
 dev-java/servlet-api:binary - install binary jar from maven central.
 dev-java/shims:binary - install binary jar from maven central.
 dev-java/simpleclient:binary - install binary jar from maven central.
-dev-java/slf4j-jdk14:binary - install binary jar from maven central.
 dev-java/spark-core:binary - install binary jar from maven central.
 dev-java/spark-kvstore:binary - install binary jar from maven central.
 dev-java/spark-launcher:binary - install binary jar from maven central.
