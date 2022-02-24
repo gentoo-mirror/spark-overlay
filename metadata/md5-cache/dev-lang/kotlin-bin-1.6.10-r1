@@ -11,4 +11,4 @@ RDEPEND=>=virtual/jdk-1.8:* || ( ~dev-java/kotlin-stdlib-bootstrap-1.6.10:1.6 ~d
 SLOT=1.6
 SRC_URI=https://github.com/JetBrains/kotlin/releases/download/v1.6.10/kotlin-compiler-1.6.10.zip
 _eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	kotlin-compiler	a1b33667ce308edb3a7ee248258c94cf	optfeature	30ce9dec2b8943338c9b015bd32bac6a
-_md5_=04831040bd2b2a38cd3dc163a1f4abb5
+_md5_=f2f02577b99bd69c7247f72a46be563c
