@@ -114,16 +114,16 @@ dev-java/h2o-webserver-iface 3.32.1.7 3.34.0.8 3.36.0.3: Module isolating H2O fu
 dev-java/hadoop-annotations 2.7.4-r2: Apache Hadoop Annotations
 dev-java/hadoop-auth 2.7.4-r2 2.7.4-r3: Apache Hadoop Auth - Java HTTP SPNEGO
 dev-java/hadoop-client 2.7.4-r1: Apache Hadoop Client
-dev-java/hadoop-common 2.7.4-r4 2.7.4-r5: Apache Hadoop Common
-dev-java/hadoop-hdfs 2.7.4-r1 2.7.4-r2: Apache Hadoop HDFS
+dev-java/hadoop-common 2.7.4-r4 2.7.4-r6: Apache Hadoop Common
+dev-java/hadoop-hdfs 2.7.4-r1 2.7.4-r3: Apache Hadoop HDFS
 dev-java/hadoop-mapreduce-client-app 2.7.4-r2: Apache Hadoop MapReduce App
 dev-java/hadoop-mapreduce-client-common 2.7.4-r2: Apache Hadoop Project POM
-dev-java/hadoop-mapreduce-client-core 2.7.4-r2 2.7.4-r3: Apache Hadoop MapReduce Client Core
+dev-java/hadoop-mapreduce-client-core 2.7.4-r2 2.7.4-r4: Apache Hadoop MapReduce Client Core
 dev-java/hadoop-mapreduce-client-jobclient 2.7.4-r2: Apache Hadoop Project POM
 dev-java/hadoop-mapreduce-client-shuffle 2.7.4-r2: Apache Hadoop Project POM
 dev-java/hadoop-yarn-api 2.7.4-r1: Apache Hadoop Project POM
 dev-java/hadoop-yarn-client 2.7.4-r1 2.7.4-r2: Apache Hadoop YARN Client
-dev-java/hadoop-yarn-common 2.7.4-r2 2.7.4-r3: Apache Hadoop YARN Common
+dev-java/hadoop-yarn-common 2.7.4-r2 2.7.4-r4: Apache Hadoop YARN Common
 dev-java/hadoop-yarn-server-common 2.7.4-r1: Apache Hadoop YARN Server Common
 dev-java/hadoop-yarn-server-nodemanager 2.7.4-r2: Apache Hadoop YARN Server NodeManager
 dev-java/hadoop-yarn-server-web-proxy 2.7.4-r1: Apache Hadoop YARN Server Web Proxy
@@ -133,7 +133,7 @@ dev-java/headius-options 1.4: Sonatype helps open source projects to set up Mave
 dev-java/hibernate-commons-annotations 5.0.1-r1: Common reflection code used in support of annotation processing
 dev-java/hibernate-core 5.2.13-r1: The core O/RM functionality as provided by Hibernate
 dev-java/hibernate-jpa 1.0.2-r1: Clean-room definition of JPA APIs intended for use in developing Hibernate JPA implementation. See README.md for details
-dev-java/hibernate-validator 6.0.22: Hibernate's Bean Validation (JSR-380) reference implementation
+dev-java/hibernate-validator 6.0.22 6.0.22-r1: Hibernate's Bean Validation (JSR-380) reference implementation
 dev-java/hk2-api 2.6.1-r2: HK2 API module
 dev-java/hk2-locator 2.6.1-r2: HK2 ServiceLocator Default Implementation
 dev-java/hk2-utils 2.6.1-r2: HK2 Implementation Utilities
@@ -334,7 +334,7 @@ dev-java/metrics-json 4.1.1-r1: A set of Jackson modules which provide serialize
 dev-java/metrics-jvm 4.1.1-r1: A set of classes which allow you to monitor critical aspects of your Java Virtual Machine using Metrics.
 dev-java/microemu-cldc 2.0.4-r1: cldc interfaces
 dev-java/micrometer-core 1.0.2-r1: Application monitoring instrumentation facade
-dev-java/mina-core 2.0.22: Apache MINA Project
+dev-java/mina-core 2.0.22 2.1.6: Apache MINA Project
 dev-java/minlog 1.3.1: Minimal overhead Java logging
 dev-java/money-api 1.0.1-r1: JSR 354 provides an API for representing, transporting, and performing comprehensive calculations with Money and Currency.
 dev-java/msv-rngconverter 2013.6.1: MSV RNG Converter
@@ -460,7 +460,7 @@ dev-java/xmlpull 1.1.3.1-r1: XML Pull Parsing API
 dev-java/xsom 20140925-r1: A Java library that allows for easy parsing and inspection of XML schema docs
 dev-java/xstream 1.4.7-r2: XStream is a serialization library from Java objects to XML and back
 dev-java/yecht 1.1: The "Yecht" implementation of Ruby 1.8's yaml parser "Syck"
-dev-java/zookeeper 3.4.14-r2 3.4.14-r3: Server which enables highly reliable distributed coordination
+dev-java/zookeeper 3.4.14-r2 3.4.14-r4 3.5.9: Server which enables highly reliable distributed coordination
 dev-lang/f2j 0.8.1_p1-r1: Fortran-to-Java translator, especially for BLAS, LAPACK and ARPACK
 dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.32-r1 1.6.10-r1: Statically typed programming language for modern multiplatform applications
 dev-libs/apache-arrow 3.0.0 4.0.1: A cross-language development platform for in-memory data.

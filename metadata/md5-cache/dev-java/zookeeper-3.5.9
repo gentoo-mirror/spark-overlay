@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* dev-java/audience-annotations:0 dev-java/commons-cli:1 dev-java/jackson-core:0 dev-java/jackson-databind:0 dev-java/jetty-http:9 dev-java/jetty-io:9 dev-java/jetty-security:9 dev-java/jetty-server:9 dev-java/jetty-servlet:9 dev-java/jetty-util:9 dev-java/jetty-util-ajax:9 dev-java/jline:2 dev-java/netty-buffer:0 dev-java/netty-codec:0 dev-java/netty-common:0 dev-java/netty-handler:0 dev-java/netty-resolver:0 dev-java/netty-transport:0 dev-java/netty-transport-native-epoll:0 dev-java/netty-transport-native-unix-common:0 dev-java/slf4j-api:0 dev-java/spotbugs-annotations:0 java-virtuals/servlet-api:3.1 dev-java/javacc:0 test? ( dev-java/junit:4 dev-java/bcpkix:0 dev-java/bcprov:0 dev-java/commons-collections:0 dev-java/commons-io:1 dev-java/commons-lang:2.1 dev-java/hamcrest-library:1.3 dev-java/mockito:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) >=dev-java/ant-core-1.8.2:0 dev-java/javatoolkit
+DESCRIPTION=Server which enables highly reliable distributed coordination
+EAPI=8
+HOMEPAGE=https://zookeeper.apache.org/
+INHERIT=java-pkg-2 java-ant-2
+IUSE=doc source test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* dev-java/audience-annotations:0 dev-java/commons-cli:1 dev-java/jackson-core:0 dev-java/jackson-databind:0 dev-java/jetty-http:9 dev-java/jetty-io:9 dev-java/jetty-security:9 dev-java/jetty-server:9 dev-java/jetty-servlet:9 dev-java/jetty-util:9 dev-java/jetty-util-ajax:9 dev-java/jline:2 dev-java/netty-buffer:0 dev-java/netty-codec:0 dev-java/netty-common:0 dev-java/netty-handler:0 dev-java/netty-resolver:0 dev-java/netty-transport:0 dev-java/netty-transport-native-epoll:0 dev-java/netty-transport-native-unix-common:0 dev-java/slf4j-api:0 dev-java/spotbugs-annotations:0 java-virtuals/servlet-api:3.1 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=test !test? ( test )
+SLOT=0
+SRC_URI=mirror://apache/zookeeper/zookeeper-3.5.9/apache-zookeeper-3.5.9.tar.gz
+_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	multilib	de4beb52bfa93c4c5d96792a6b5e1784	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	java-ant-2	262d853e2dd1056dc103b953dfc113b9
+_md5_=22f2b254a5a5967bd1f4491ca6feb9d6
