@@ -42,7 +42,10 @@ DEPEND="
 	>=virtual/jdk-1.8:*
 	!binary? (
 		${CP_DEPEND}
-		dev-java/openjfx:8
+		|| (
+			dev-java/openjfx:11
+			dev-java/openjfx:8
+		)
 		>=dev-java/javax-el-3.0.1_beta09:0
 		>=dev-java/jboss-logging-annotations-2.1.0:0
 		>=dev-java/jboss-logging-processor-2.1.0:0
@@ -66,18 +69,40 @@ JAVA_BINJAR_FILENAME="${P}-bin.jar"
 
 pkg_setup() {
 	java-pkg-2_pkg_setup
-	# OpenJFX 8 is installed into the home of dev-java/openjdk:8
-	local java_home="$(
-		eval "$(java-config -P openjdk-8)"
-		echo "${JAVA_HOME}"
-	)"
-	JAVA_GENTOO_CLASSPATH_EXTRA="${java_home}/jre/lib/ext/jfxrt.jar"
+	[[ "${MERGE_TYPE}" == binary ]] && return
+	use binary && return
+	# Set up classpath for JavaFX
+	if has_version -d "dev-java/openjfx:11" &&
+		ver_test "$(java-config -g PROVIDES_VERSION)" -ge 11; then
+		# Use OpenJFX 11 only if the JDK used to build this package supports
+		# the version of class files in OpenJFX 11's JARs, which is 54.0
+		einfo "Using: openjfx-11"
+		JAVA_GENTOO_CLASSPATH_EXTRA="${ESYSROOT}/usr/$(get_libdir)/openjfx-11/lib/javafx.base.jar"
+	elif has_version -d "dev-java/openjfx:8"; then
+		einfo "Using: openjfx-8"
+		# OpenJFX 8 is installed into the home of dev-java/openjdk:8
+		local java_home="$(
+			eval "$(java-config -P openjdk-8)"
+			echo "${JAVA_HOME}"
+		)"
+		JAVA_GENTOO_CLASSPATH_EXTRA="${java_home}/jre/lib/ext/jfxrt.jar"
+	else
+		eerror
+		eerror "JDK 8 is being used to build this package, but"
+		eerror "dev-java/openjfx:8 could not be found. Please"
+		eerror "either switch to a JDK whose version matches"
+		eerror "the OpenJFX version installed on the system,"
+		eerror "or install dev-java/openjfx:8."
+		eerror
+		die "Could not find a supported version of OpenJFX"
+	fi
 }
 
 src_unpack() {
 	java-pkg-maven_src_unpack
 	use binary && return
-	# Extract files from the upstream's pre-built JAR for pkgdiff test
+	# Extract files from the upstream's pre-built JAR for
+	# Bean Validation provider registry file and pkgdiff test
 	mkdir binjar ||
 		die "Failed to create directory for files unpacked from binary JAR"
 	pushd binjar > /dev/null ||
@@ -90,10 +115,12 @@ src_unpack() {
 src_compile() {
 	java-pkg-simple_src_compile
 	use binary && return
-	# Add files included in the upstream's pre-built JAR
 	pushd binjar > /dev/null ||
 		die "Failed to enter directory for files unpacked from binary JAR"
+	# Register Bean Validation provider, and add
+	# files included in the upstream's pre-built JAR
 	jar -uf "${S}/${JAVA_JAR_FILENAME}" \
+		META-INF/services/javax.validation.spi.ValidationProvider \
 		org/hibernate/validator/internal/util/logging/{Log,Messages}.i18n.properties ||
 		die "Failed to add additional files to the JAR"
 	popd > /dev/null ||
