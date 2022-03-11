@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/qos-ch/slf4j/archive/v_1.7.32.tar.gz -> slf4j-1.7.32.tar.gz
 _eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118
-_md5_=4a39cab19ed9eb0d1de02abd121ed3eb
+_md5_=629c46949e2b30146b5797791a8e2ee1
