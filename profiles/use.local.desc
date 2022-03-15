@@ -33,7 +33,6 @@ dev-java/clover:binary - install binary jar from maven central.
 dev-java/commons-compiler:binary - install binary jar from maven central.
 dev-java/compiler:binary - install binary jar from maven central.
 dev-java/compress-lzf:binary - install binary jar from maven central.
-dev-java/conversantmedia-disruptor:binary - install binary jar from maven central.
 dev-java/coro-mock:binary - install binary jar from maven central.
 dev-java/curator-client:binary - install binary jar from maven central.
 dev-java/curator-framework:binary - install binary jar from maven central.
@@ -80,13 +79,11 @@ dev-java/hystrix-core:binary - install binary jar from maven central.
 dev-java/istack-commons-runtime:binary - install binary jar from maven central.
 dev-java/jackson-core-asl:binary - install binary jar from maven central.
 dev-java/jackson-jaxrs:binary - install binary jar from maven central.
-dev-java/jakarta-activation:binary - install binary jar from maven central.
 dev-java/jakarta-annotation-api:binary - install binary jar from maven central.
 dev-java/jakarta-inject:binary - install binary jar from maven central.
 dev-java/jakarta-persistence-api:binary - install binary jar from maven central.
 dev-java/jakarta-servlet-api:binary - install binary jar from maven central.
 dev-java/jakarta-validation-api:binary - install binary jar from maven central.
-dev-java/jakarta-xml-bind-api:binary - install binary jar from maven central.
 dev-java/jandex:binary - install binary jar from maven central.
 dev-java/java-xmlbuilder:binary - install binary jar from maven central.
 dev-java/java9-concurrent-backport:binary - install binary jar from maven central.
@@ -96,12 +93,10 @@ dev-java/javax-el:binary - install binary jar from maven central.
 dev-java/javax-json:binary - install binary jar from maven central.
 dev-java/javax-json-api:binary - install binary jar from maven central.
 dev-java/javax-persistence:binary - install binary jar from maven central.
-dev-java/jaxb-api:binary - install binary jar from maven central.
 dev-java/jaxb-impl:binary - install binary jar from maven central.
 dev-java/jboss-interceptor-core:binary - install binary jar from maven central.
 dev-java/jboss-interceptor-spi:binary - install binary jar from maven central.
 dev-java/jboss-interceptors-api:binary - install binary jar from maven central.
-dev-java/jboss-jms-api:binary - install binary jar from maven central.
 dev-java/jboss-logging-annotations:binary - install binary jar from maven central.
 dev-java/jboss-logging-processor:binary - install binary jar from maven central.
 dev-java/jboss-logging-spi:binary - install binary jar from maven central.
@@ -127,10 +122,7 @@ dev-java/jsr292-mock:binary - install binary jar from maven central.
 dev-java/jta:binary - install binary jar from maven central.
 dev-java/jts-core:binary - install binary jar from maven central.
 dev-java/leveldb-api:binary - install binary jar from maven central.
-dev-java/log4j-api:binary - install binary jar from maven central.
-dev-java/log4j-core:binary - install binary jar from maven central.
 dev-java/logback-core:binary - install binary jar from maven central.
-dev-java/lombok:binary - install binary jar from maven central.
 dev-java/lucene-queryparser:binary - install binary jar from maven central.
 dev-java/lucene-sandbox:binary - install binary jar from maven central.
 dev-java/lzma-java:binary - install binary jar from maven central.
@@ -236,8 +228,6 @@ dev-java/weld-core:binary - install binary jar from maven central.
 dev-java/weld-osgi-bundle:binary - install binary jar from maven central.
 dev-java/weld-spi:binary - install binary jar from maven central.
 dev-java/xbean-asm7-shaded:binary - install binary jar from maven central.
-dev-java/xml-apis:binary - install binary jar from maven central.
-dev-java/xml-resolver:binary - install binary jar from maven central.
 dev-java/xstream:binary - install binary jar from maven central.
 dev-libs/apache-arrow:parquet - Build with Parquet data format support
 dev-python/pyarrow:parquet - Build with Parquet data format support
