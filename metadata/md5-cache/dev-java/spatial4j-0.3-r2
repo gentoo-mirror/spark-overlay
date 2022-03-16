@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install preinst prepare setup test
-DEPEND=>=virtual/jdk-1.8:* dev-java/jts:1.12 test? ( dev-java/randomized-runner:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( dev-java/junit:4 )
+DEPEND=>=virtual/jdk-1.8:* dev-java/jts-core:0 test? ( dev-java/randomized-runner:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( dev-java/junit:4 )
 DESCRIPTION=A Geospatial Library for Java
 EAPI=8
 HOMEPAGE=https://projects.eclipse.org/projects/locationtech.spatial4j
@@ -7,9 +7,9 @@ INHERIT=java-pkg-2 java-pkg-simple
 IUSE=doc source test
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
-RDEPEND=>=virtual/jre-1.8:* dev-java/jts:1.12 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RDEPEND=>=virtual/jre-1.8:* dev-java/jts-core:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/locationtech/spatial4j/archive/refs/tags/spatial4j-0.3.tar.gz
 _eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118
-_md5_=b2de7d4d10d56f034d41defcc01eaf3c
+_md5_=077675a7b80b82960da38890c6f0b66d

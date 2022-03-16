@@ -52,7 +52,7 @@ dev-java/codemodel 2.6: The core functionality of the CodeModel java source code
 dev-java/colt 1.2.0-r4: Java Libraries for High Performance Scientific and Technical Computing
 dev-java/commonj 1.1.1: CommonJ API
 dev-java/commons-compiler 3.0.6-r1: Janino is a super-small, super-fast Java compiler.
-dev-java/commons-configuration 1.10-r1: Tools to assist in reading of configuration/preferences files in various formats
+dev-java/commons-configuration 1.10-r2: Tools to assist in reading of configuration/preferences files in various formats
 dev-java/commons-crypto 1.0.0: Apache Commons Crypto is a cryptographic library optimized with AES-NI (Advanced Encryption Standard New Instructions).
 dev-java/commons-jexl 2.1.1-r1: Expression language engine, can be embedded in applications and frameworks
 dev-java/commons-lang 3.10: Commons components to manipulate core java classes
@@ -86,7 +86,7 @@ dev-java/graalvm-compiler 19.2.1-r1: The GraalVM compiler and the Graal-truffle 
 dev-java/groovy-all 2.4.0-r2: Groovy: A powerful, dynamic language for the JVM
 dev-java/guava 29.0: Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.
 dev-java/guice-servlet 4.1: Guice servlet extension
-dev-java/h2 1.4.196-r2: H2 Database Engine
+dev-java/h2 2.0.206: H2 Database Engine
 dev-java/h2o 3.32.1.7 3.34.0.8 3.36.0.3: Meta package for H2O, a distributed, fast & scalable machine learning platform
 dev-java/h2o-algos 3.32.1.7-r1 3.34.0.8 3.36.0.3: H2O Algorithms
 dev-java/h2o-app 3.32.1.7 3.34.0.8 3.36.0.3: H2O Application Runner
@@ -240,7 +240,7 @@ dev-java/jstl 1.2-r1: Jakarta Standard Tag Library
 dev-java/jta 1.1-r2: The javax.transaction package
 dev-java/jtransforms 3.1: Multithreaded FFT library written in pure Java
 dev-java/jts 1.12: API for modelling and manipulating 2-dimensional linear geometry
-dev-java/jts-core 1.14-r1 1.17.0: The JTS Topology Suite is an API for 2D linear geometry predicates and functions.
+dev-java/jts-core 1.17.0 1.18.2: A Java library for creating and manipulating vector geometry
 dev-java/jug 2.0.0-r1: Java UUID Generator
 dev-java/jul-to-slf4j 1.7.32: java.util.logging to SLF4J bridge
 dev-java/kotlin-annotations-jvm 1.4.32 1.5.32 1.6.10: Kotlin annotations for JVM
@@ -346,8 +346,8 @@ dev-java/netty-transport-rxtx 4.1.42: Netty is an asynchronous event-driven netw
 dev-java/netty-transport-sctp 4.1.42: Netty Transport SCTP
 dev-java/netty-transport-udt 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/objectfile 19.2.1-r1: SubstrateVM object file writing library
-dev-java/okhttp 4.7.2 4.7.2-r1 4.7.2-r2: Square's meticulous HTTP client for Java and Kotlin
-dev-java/okio 2.6.0 2.6.0-r1 2.6.0-r2: A modern I/O library for Android, Kotlin, and Java
+dev-java/okhttp 4.7.2-r2: Square's meticulous HTTP client for Java and Kotlin
+dev-java/okio 2.6.0-r2: A modern I/O library for Android, Kotlin, and Java
 dev-java/opencsv 2.3-r1: A very simple csv (comma-separated values) parser library for Java
 dev-java/openjsse 1.1.0: OpenJSSE delivers a TLS 1.3 JSSE provider for Java SE 8
 dev-java/osgi-annotation 6.0.0: OSGi Annotation Release 6, Annotations for use in compiling bundles.
@@ -367,7 +367,7 @@ dev-java/py4j 0.10.8.1-r1: Py4J enables Python programs running in a Python inte
 dev-java/pyrolite 4.30-r1: This library allows your Java program to interface very easily with the Python world. It uses the Pyro protocol to call methods on remote objects. (See https://github.com/irmen/Pyro4). To that end, it also contains and uses a feature complete pickle protocol implementation -read and write- to exchange data with Pyro/Python. Pyrolite only implements part of the client side Pyro library, hence its name 'lite'... But because Pyrolite has no dependencies, it is a much lighter way to use Pyro from Java/.NET than a solution with jython+pyro or IronPython+Pyro would provide. So if you don't need Pyro's full feature set, and don't require your Java/.NET code to host Pyro objects itself, Pyrolite may be a good choice to connect java or .NET and python. (More info about Pyro itself: https://pyro4.readthedocs.io/ ) Version 4.30 changes: Support for unpickling protocol 5 pickles with out-of-band buffers (Python 3.8)
 dev-java/quartz 2.3.2-r1: Enterprise Job Scheduler
 dev-java/reactive-streams 1.0.2-r1: A Protocol for Asynchronous Non-Blocking Data Sequence
-dev-java/reactor-core 3.1.4-r1 3.1.4-r2: Non-Blocking Reactive Foundation for the JVM
+dev-java/reactor-core 3.1.4-r2: Non-Blocking Reactive Foundation for the JVM
 dev-java/reflectasm 1.11.9: High performance Java reflection
 dev-java/retirejs-core 3.0.1-r1: The root pom file aggregate the dependencies use by the Retire.js extensions.
 dev-java/rngom 20160500-r1: RNGOM is an open-source Java library for parsing RELAX NG grammars.
@@ -390,7 +390,7 @@ dev-java/spark-network-common 3.0.0-r2: Spark Project Networking
 dev-java/spark-network-shuffle 3.0.0-r1: Spark Project Shuffle Streaming Service
 dev-java/spark-tags 3.0.0-r1: The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.
 dev-java/spark-unsafe 3.0.0-r1: The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.
-dev-java/spatial4j 0.3-r1: A Geospatial Library for Java
+dev-java/spatial4j 0.3-r2: A Geospatial Library for Java
 dev-java/spotbugs-annotations 3.1.9-r1: Annotations the SpotBugs tool supports
 dev-java/stax 1.2.0-r1: StAX is the reference implementation of the StAX API
 dev-java/stax-ex 1.8.3 1.8.3-r1: Extensions to complement JSR-173 StAX API
@@ -412,7 +412,7 @@ dev-java/wagon-http 2.4-r2: Wagon that gets and puts artifacts through http usin
 dev-java/wagon-http-lightweight 1.0_beta6-r1: Wagon that gets and puts artifacts through http using standard Java library
 dev-java/wagon-http-shared 1.0_beta6-r1: Shared Library for the wagon-http, and wagon-http-lightweight wagon providers.
 dev-java/wagon-http-shared4 2.4-r2: Shared Library for the wagon-http and wagon-http-lightweight wagon providers
-dev-java/wagon-provider-api 1.0_beta6-r1 2.4-r1: Maven Wagon API that defines the contract between different Wagon implementations
+dev-java/wagon-provider-api 2.4-r1: Maven Wagon API that defines the contract between different Wagon implementations
 dev-java/websocket-api 9.4.44_p20210927: Jetty Websocket API
 dev-java/websocket-client 9.4.44_p20210927: Jetty Websocket Client
 dev-java/websocket-common 9.4.44_p20210927: Jetty Websocket Common

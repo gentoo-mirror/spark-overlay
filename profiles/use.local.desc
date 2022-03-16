@@ -49,7 +49,6 @@ dev-java/graal-sdk:binary - install binary jar from maven central.
 dev-java/graalvm-compiler:binary - install binary jar from maven central.
 dev-java/groovy-all:binary - install binary jar from maven central.
 dev-java/guava:binary - install binary jar from maven central.
-dev-java/h2:binary - install binary jar from maven central.
 dev-java/h2o:flow - Enable H2O Flow, a web-based interactive computational environment for H2O
 dev-java/h2o:jetty9-full - Use dev-java/h2o-jetty9 instead of dev-java/h2o-jetty9-minimal as H2O's Jetty module; more dependencies will be pulled
 dev-java/h2o:target-encoder - Enable the H2O Target Encoder plugin
@@ -120,7 +119,6 @@ dev-java/json4s-scalap:binary - install binary jar from maven central.
 dev-java/jsr166y:binary - install binary jar from maven central.
 dev-java/jsr292-mock:binary - install binary jar from maven central.
 dev-java/jta:binary - install binary jar from maven central.
-dev-java/jts-core:binary - install binary jar from maven central.
 dev-java/leveldb-api:binary - install binary jar from maven central.
 dev-java/logback-core:binary - install binary jar from maven central.
 dev-java/lucene-queryparser:binary - install binary jar from maven central.
