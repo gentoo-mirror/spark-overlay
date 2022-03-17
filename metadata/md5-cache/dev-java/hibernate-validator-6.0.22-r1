@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.0.22.Final/hibernate-validator-6.0.22.Final-sources.jar -> hibernate-validator-6.0.22-sources.jar https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.0.22.Final/hibernate-validator-6.0.22.Final.jar -> hibernate-validator-6.0.22-bin.jar
 _eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
-_md5_=968366ab84598452b22aee7c654241a4
+_md5_=33c8a4c517054713c71aa1032d29acc5
