@@ -39,7 +39,7 @@ dev-java/bytelist 1.0.15-r2: JRuby support library
 dev-java/cache-api 1.0.0-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/caffeine 2.6.1-r1: A high performance caching library for Java 8+
 dev-java/cal10n 0.8.1: java library for writing localized messages using resource bundle
-dev-java/cdi-api 1.2-r2: Contexts and Dependency Injection for the Java EE platform
+dev-java/cdi-api 1.2-r3: Contexts and Dependency Injection for the Java EE platform
 dev-java/charts4j 1.3-r1: charts4j is a free, lightweight charts and graphs Java API. It enables developers to programmatically create the charts available in the Google Chart API through a straightforward and intuitive Java API.
 dev-java/checker-qual 2.11.1-r1: Checker Qual is the set of annotations (qualifiers) and supporting classes used by the Checker Framework to type check Java source code. Please see artifact: org.checkerframework:checker
 dev-java/chill 0.9.3-r3: Scala extensions for the Kryo serialization library
@@ -87,7 +87,7 @@ dev-java/groovy-all 2.4.0-r2: Groovy: A powerful, dynamic language for the JVM
 dev-java/guava 29.0: Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.
 dev-java/guice-servlet 4.1: Guice servlet extension
 dev-java/h2 2.0.206: H2 Database Engine
-dev-java/h2o 3.32.1.7 3.34.0.8 3.36.0.3: Meta package for H2O, a distributed, fast & scalable machine learning platform
+dev-java/h2o 3.32.1.7 3.34.0.8 3.36.0.3: Metapackage for H2O, a distributed, fast & scalable machine learning platform
 dev-java/h2o-algos 3.32.1.7-r1 3.34.0.8 3.36.0.3: H2O Algorithms
 dev-java/h2o-app 3.32.1.7 3.34.0.8 3.36.0.3: H2O Application Runner
 dev-java/h2o-core 3.32.1.7-r1 3.34.0.8 3.36.0.3: The core module of H2O, a distributed, fast & scalable machine learning platform
@@ -119,6 +119,7 @@ dev-java/hadoop-yarn-server-common 2.7.4-r1: Apache Hadoop YARN Server Common
 dev-java/hadoop-yarn-server-nodemanager 2.7.4-r2: Apache Hadoop YARN Server NodeManager
 dev-java/hadoop-yarn-server-web-proxy 2.7.4-r1: Apache Hadoop YARN Server Web Proxy
 dev-java/hazelcast 3.8.9-r3: Core Hazelcast Module
+dev-java/hazelcast-bin 3.8.9: Binary package for the core Hazelcast module
 dev-java/hazelcast-code-generator 1.6.0-r1: Client Protocol of Hazelcast In-Memory DataGrid
 dev-java/headius-options 1.4: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/hibernate-commons-annotations 5.0.1-r1: Common reflection code used in support of annotation processing
@@ -144,6 +145,7 @@ dev-java/jackson-xc 1.9.13-r2: Extensions for Jackson JSON processor's data bind
 dev-java/jakarta-annotation-api 1.3.5-r1: Jakarta Annotations API
 dev-java/jakarta-ejb-api 3.2.6: Jakarta Enterprise Beans
 dev-java/jakarta-inject 2.6.1-r1: Injection API (JSR 330) version 2.6.1 repackaged as OSGi bundle
+dev-java/jakarta-interceptor-api 1.2.5: A means of interposing on business method invocations and specific events
 dev-java/jakarta-jws-api 2.1.0: JWS API (Eclipse Project for JAX-WS)
 dev-java/jakarta-persistence-api 2.2.3-r1: Eclipse Enterprise for Java (EE4J) is an open source initiative to create standard APIs, implementations of those APIs, and technology compatibility kits for Java runtimes that enable development, deployment, and management of server-side and cloud-native applications.
 dev-java/jakarta-servlet-api 4.0.3-r1: Eclipse Enterprise for Java (EE4J) is an open source initiative to create standard APIs, implementations of those APIs, and technology compatibility kits for Java runtimes that enable development, deployment, and management of server-side and cloud-native applications.
@@ -308,7 +310,7 @@ dev-java/metrics-jmx 4.1.1-r1: A set of classes which allow you to report metric
 dev-java/metrics-json 4.1.1-r1: A set of Jackson modules which provide serializers for most Metrics classes.
 dev-java/metrics-jvm 4.1.1-r1: A set of classes which allow you to monitor critical aspects of your Java Virtual Machine using Metrics.
 dev-java/microemu-cldc 2.0.4-r1: cldc interfaces
-dev-java/micrometer-core 1.0.2-r1: Application monitoring instrumentation facade
+dev-java/micrometer-core 1.0.2-r2: Application monitoring instrumentation facade
 dev-java/mina-core 2.1.6: Apache MINA Project
 dev-java/minlog 1.3.1: Minimal overhead Java logging
 dev-java/money-api 1.0.1-r1: JSR 354 provides an API for representing, transporting, and performing comprehensive calculations with Money and Currency.
