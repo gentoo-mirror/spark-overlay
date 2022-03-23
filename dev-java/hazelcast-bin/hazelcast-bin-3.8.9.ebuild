@@ -3,18 +3,18 @@
 
 EAPI=8
 
-MAVEN_ID="org.projectlombok:lombok:${PV}"
+MAVEN_ID="com.hazelcast:hazelcast:${PV}"
 
 inherit java-pkg-2 java-pkg-simple
 
 MY_PN="${PN%-bin}"
 MY_P="${MY_PN}-${PV}"
 
-DESCRIPTION="Binary package for Project Lombok"
-HOMEPAGE="https://projectlombok.org/"
-SRC_URI="https://repo1.maven.org/maven2/org/projectlombok/${MY_PN}/${PV}/${MY_P}.jar -> ${MY_P}-bin.jar"
+DESCRIPTION="Binary package for the core Hazelcast module"
+HOMEPAGE="https://www.hazelcast.com/"
+SRC_URI="https://repo1.maven.org/maven2/com/hazelcast/${MY_PN}/${PV}/${MY_P}.jar -> ${MY_P}-bin.jar"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
 
