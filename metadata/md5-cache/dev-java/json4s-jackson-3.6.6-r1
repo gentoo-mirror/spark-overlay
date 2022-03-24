@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jackson-databind-2.10.0:0 >=dev-java/json
 RESTRICT=!test? ( test )
 SLOT=2.12
 SRC_URI=https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.12/3.6.6/json4s-jackson_2.12-3.6.6-sources.jar -> json4s-jackson-3.6.6-sources.jar https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.12/3.6.6/json4s-jackson_2.12-3.6.6.jar -> json4s-jackson-3.6.6-bin.jar
-_eclasses_=java-utils-2	fe178a2da6b16798a2363acc5543dffa	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	java-pkg-simple	6b49cf40f97e7a6458469114e1712118	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	329c923d8cd485185850dbee39db9b53
+_eclasses_=java-utils-2	5faae27f317e090a61b74f53f5e0cbc9	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	8a2b8811bad7877b5ec349bddeceabb6	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	329c923d8cd485185850dbee39db9b53
 _md5_=9652b485ec3092dbb3b6a1ce76f0f797
