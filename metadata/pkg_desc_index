@@ -34,7 +34,7 @@ dev-java/bcpg 1.52: Java cryptography APIs
 dev-java/bcpkix-jdk15on 1.54: The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation. This jar contains APIs for JDK 1.5 to JDK 1.8. The APIs can be used in conjunction with a JCE/JCA provider such as the one provided with the Bouncy Castle Cryptography APIs.
 dev-java/bcprov 1.52 1.54 1.68: Java cryptography APIs
 dev-java/bctls-jdk15on 1.65: The Bouncy Castle Java APIs for TLS and DTLS, including a provider for the JSSE.
-dev-java/byte-buddy 1.6.14-r2: Java library for creating Java classes at run time
+dev-java/byte-buddy 1.6.14-r3: Java library for creating Java classes at run time
 dev-java/bytelist 1.0.15-r2: JRuby support library
 dev-java/cache-api 1.0.0-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/caffeine 2.6.1-r1: A high performance caching library for Java 8+
@@ -123,7 +123,7 @@ dev-java/hazelcast-bin 3.8.9: Binary package for the core Hazelcast module
 dev-java/hazelcast-code-generator 1.6.0-r1: Client Protocol of Hazelcast In-Memory DataGrid
 dev-java/headius-options 1.4: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/hibernate-commons-annotations 5.0.1-r1: Common reflection code used in support of annotation processing
-dev-java/hibernate-core 5.2.13-r1: The core O/RM functionality as provided by Hibernate
+dev-java/hibernate-core 5.2.13-r2: The core O/RM functionality as provided by Hibernate
 dev-java/hibernate-jpa 1.0.2-r1: Clean-room definition of JPA APIs intended for use in developing Hibernate JPA implementation. See README.md for details
 dev-java/hibernate-validator 6.0.22-r1: Hibernate's Bean Validation (JSR-380) reference implementation
 dev-java/hk2-api 2.6.1-r2: HK2 API module
