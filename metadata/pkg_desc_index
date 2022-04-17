@@ -26,7 +26,7 @@ dev-java/asm 3.3.1-r2 8.0.1: ASM, a very small and fast Java bytecode manipulati
 dev-java/asm-debug-all 5.0-r1: A very small and fast Java bytecode manipulation framework
 dev-java/audience-annotations 0.13.0: Annotations for defining API boundaries and tools for managing javadocs
 dev-java/avro 1.8.2-r1: Avro core components
-dev-java/avro-ipc 1.8.2-r1: Avro inter-process communication components
+dev-java/avro-ipc 1.8.2-r2: Avro inter-process communication components
 dev-java/avro-mapred 1.8.2-r1: An org.apache.hadoop.mapred compatible API for using Avro Serializatin in Hadoop
 dev-java/barchart-udt 2.3.0: Barchart UDT bundle
 dev-java/barebonesbrowserlaunch 3.1: Use the default browser to open a web page from a Swing application
@@ -316,7 +316,7 @@ dev-java/msv-rngconverter 2013.6.1: MSV RNG Converter
 dev-java/multiverse-core 0.7.0-r1: The Multiverse core
 dev-java/nailgun-server 0.9.1-r1: Nailgun is a client, protocol, and server for running Java programs from the command line without incurring the JVM startup overhead. Programs run in the server (which is implemented in Java), and are triggered by the client (written in C), which handles all I/O. This project contains the SERVER ONLY.
 dev-java/nekohtml 1.9.18-r1: A simple HTML scanner and tag balancer using standard XML interfaces
-dev-java/netty 3.2.9-r2 3.10.6-r4: NIO client-server framework for quick and easy network applications development
+dev-java/netty 3.2.9-r2 3.10.6-r5: NIO client-server framework for quick and easy network applications development
 dev-java/netty-all 4.1.42-r1: The package for all Netty components
 dev-java/netty-buffer 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/netty-codec 4.1.42-r1: Asynchronous event-driven network application framework

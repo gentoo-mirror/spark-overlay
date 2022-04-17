@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jackson-core-2.13.0:0 >=dev-java/jackson-
 RESTRICT=!test? ( test )
 SLOT=2.12
 SRC_URI=https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.13.0/jackson-module-scala_2.12-2.13.0-sources.jar -> jackson-module-scala-2.13.0-sources.jar https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.13.0/jackson-module-scala_2.12-2.13.0.jar -> jackson-module-scala-2.13.0-bin.jar
-_eclasses_=java-utils-2	92b5a4d196abffe2dbe3bdc1cf4ef2ae	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	8a2b8811bad7877b5ec349bddeceabb6	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	329c923d8cd485185850dbee39db9b53
+_eclasses_=java-utils-2	92b5a4d196abffe2dbe3bdc1cf4ef2ae	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	8a2b8811bad7877b5ec349bddeceabb6	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	d1f17c329c49bf7da0d1b7ae8732c2ce
 _md5_=43f3839d4d9aca56ebe35bfced6ed537
