@@ -31,14 +31,12 @@ dev-java/chill:binary - install binary jar from maven central.
 dev-java/chill-java:binary - install binary jar from maven central.
 dev-java/clover:binary - install binary jar from maven central.
 dev-java/commons-compiler:binary - install binary jar from maven central.
-dev-java/compiler:binary - install binary jar from maven central.
 dev-java/compress-lzf:binary - install binary jar from maven central.
 dev-java/coro-mock:binary - install binary jar from maven central.
 dev-java/curator-client:binary - install binary jar from maven central.
 dev-java/curator-framework:binary - install binary jar from maven central.
 dev-java/curator-recipes:binary - install binary jar from maven central.
 dev-java/dec:binary - install binary jar from maven central.
-dev-java/dependency-check-ant:binary - install binary jar from maven central.
 dev-java/dependency-check-utils:binary - install binary jar from maven central.
 dev-java/ehcache:binary - install binary jar from maven central.
 dev-java/failureaccess:binary - install binary jar from maven central.
@@ -67,7 +65,6 @@ dev-java/hadoop-yarn-common:binary - install binary jar from maven central.
 dev-java/hadoop-yarn-server-common:binary - install binary jar from maven central.
 dev-java/hadoop-yarn-server-nodemanager:binary - install binary jar from maven central.
 dev-java/hadoop-yarn-server-web-proxy:binary - install binary jar from maven central.
-dev-java/hazelcast:binary - install binary jar from maven central.
 dev-java/hazelcast-code-generator:binary - install binary jar from maven central.
 dev-java/hibernate-commons-annotations:binary - install binary jar from maven central.
 dev-java/hibernate-core:binary - install binary jar from maven central.
@@ -108,8 +105,6 @@ dev-java/jersey-json:binary - install binary jar from maven central.
 dev-java/jets3t:binary - install binary jar from maven central.
 dev-java/jetty:binary - install binary jar from maven central.
 dev-java/jetty-sslengine:binary - install binary jar from maven central.
-dev-java/jruby:binary - install binary jar from maven central.
-dev-java/jruby-complete:binary - install binary jar from maven central.
 dev-java/jruby-stdlib:binary - install binary jar from maven central.
 dev-java/jsf-api:binary - install binary jar from maven central.
 dev-java/json4s-ast:binary - install binary jar from maven central.
@@ -192,7 +187,6 @@ dev-java/py4j:binary - install binary jar from maven central.
 dev-java/pyrolite:binary - install binary jar from maven central.
 dev-java/quartz:binary - install binary jar from maven central.
 dev-java/reactive-streams:binary - install binary jar from maven central.
-dev-java/retirejs-core:binary - install binary jar from maven central.
 dev-java/rngom:binary - install binary jar from maven central.
 dev-java/rxjava:binary - install binary jar from maven central.
 dev-java/scala-xml:binary - install binary jar from maven central.

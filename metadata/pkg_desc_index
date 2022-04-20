@@ -56,7 +56,6 @@ dev-java/commons-configuration 1.10-r2: Tools to assist in reading of configurat
 dev-java/commons-crypto 1.0.0: Apache Commons Crypto is a cryptographic library optimized with AES-NI (Advanced Encryption Standard New Instructions).
 dev-java/commons-jexl 2.1.1-r1: Expression language engine, can be embedded in applications and frameworks
 dev-java/commons-lang 3.10: Commons components to manipulate core java classes
-dev-java/compiler 0.8.17-r1: Implementation of mustache.js for Java
 dev-java/compress-lzf 1.0.3-r1: Compression codec for LZF encoding for particularly encoding/decoding, with reasonable compression. Compressor is basic Lempel-Ziv codec, without Huffman (deflate/gzip) or statistical post-encoding. See "http://oldhome.schmorp.de/marc/liblzf.html" for more on original LZF package.
 dev-java/conscrypt-constants 1.3.0 2.4.0: Conscrypt: Constants
 dev-java/conscrypt-openjdk-uber 1.3.0 2.4.0: Conscrypt: OpenJDK UberJAR
@@ -65,8 +64,6 @@ dev-java/curator-client 2.7.1-r1: Low-level API
 dev-java/curator-framework 2.7.1-r1: High-level API that greatly simplifies using ZooKeeper.
 dev-java/curator-recipes 2.8.0: All of the recipes listed on the ZooKeeper recipes doc
 dev-java/dec 0.1.2-r1: Brotli is a generic-purpose lossless compression algorithm.
-dev-java/dependency-check-ant 4.0.2-r1: dependency-check-ant is an Ant Task that uses dependency-check-core to detect publicly disclosed vulnerabilities associated with the project's dependencies. The task will generate a report listing the dependency, any identified Common Platform Enumeration (CPE) identifiers, and the associated Common Vulnerability and Exposure (CVE) entries.
-dev-java/dependency-check-core 4.0.2-r6: Identify and report publicly disclosed vulnerabilities in project's dependencies
 dev-java/dependency-check-utils 4.0.2-r3: Utilities used within dependency-check that might be useful in other projects
 dev-java/duke 1.2-r2: A fast and flexible deduplication engine
 dev-java/ehcache 2.10.4-r1: Cache used to boost performance, offload database and simplify scalability
@@ -117,7 +114,6 @@ dev-java/hadoop-yarn-common 2.7.4-r4: Apache Hadoop YARN Common
 dev-java/hadoop-yarn-server-common 2.7.4-r1: Apache Hadoop YARN Server Common
 dev-java/hadoop-yarn-server-nodemanager 2.7.4-r2: Apache Hadoop YARN Server NodeManager
 dev-java/hadoop-yarn-server-web-proxy 2.7.4-r1: Apache Hadoop YARN Server Web Proxy
-dev-java/hazelcast 3.8.9-r3: Core Hazelcast Module
 dev-java/hazelcast-bin 3.8.9: Binary package for the core Hazelcast module
 dev-java/hazelcast-code-generator 1.6.0-r1: Client Protocol of Hazelcast In-Memory DataGrid
 dev-java/headius-options 1.4: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
@@ -224,9 +220,6 @@ dev-java/jmh-generator-annprocess 1.32: JMH benchmark generator, based on annota
 dev-java/jnr-enxio 0.32.13: Native I/O access for java
 dev-java/jnr-unixsocket 0.38.17: Native I/O access for java
 dev-java/joni 2.1.3-r2: Java port of Oniguruma that uses byte arrays directly
-dev-java/jruby 1.7.22-r1: The effort to recreate the Ruby interpreter in Java
-dev-java/jruby-complete 1.7.22-r1 1.7.22-r2: JRuby is the effort to recreate the Ruby (http://www.ruby-lang.org) interpreter in Java.
-dev-java/jruby-core 1.7.22-r6: The effort to recreate the Ruby interpreter in Java
 dev-java/jruby-stdlib 1.7.22-r1: JRuby Standard Library
 dev-java/jsf-api 2.0-r1: This is the master POM file for Sun's Implementation of the JSF 2.0 Specification.
 dev-java/json4s-ast 3.6.6-r1: json4s-ast
@@ -369,7 +362,6 @@ dev-java/quartz 2.3.2-r1: Enterprise Job Scheduler
 dev-java/reactive-streams 1.0.2-r1: A Protocol for Asynchronous Non-Blocking Data Sequence
 dev-java/reactor-core 3.1.4-r2: Non-Blocking Reactive Foundation for the JVM
 dev-java/reflectasm 1.11.9: High performance Java reflection
-dev-java/retirejs-core 3.0.1-r1: The root pom file aggregate the dependencies use by the Retire.js extensions.
 dev-java/rngom 20160500-r1: RNGOM is an open-source Java library for parsing RELAX NG grammars.
 dev-java/rxjava 1.2.0-r1: rxjava
 dev-java/scala-common-bin 2.12.4: Pseudo scala libs
@@ -419,9 +411,9 @@ dev-java/websocket-common 9.4.44_p20210927: Jetty Websocket Common
 dev-java/websocket-server 9.4.44_p20210927: Jetty Websocket Server
 dev-java/websocket-servlet 9.4.44_p20210927: Jetty Websocket Servlet
 dev-java/weld-api 1.1-r1: Weld specifc extensions to the CDI API
-dev-java/weld-core 1.1.0-r1: Weld's implementation of CDI
+dev-java/weld-core 1.1.0-r2: Weld's implementation of CDI
 dev-java/weld-osgi-bundle 1.1.0-r1: Weld runtime packaged as an OSGi bundle
-dev-java/weld-spi 1.1-r1: APIs for Weld, the reference implementation of JSR 299: Contexts and Dependency Injection for Java EE
+dev-java/weld-spi 1.1-r2: APIs for Weld, the reference implementation of JSR 299
 dev-java/werken-xpath 0.9.4-r2: Werken JDOM XPath Engine
 dev-java/wstx 3.2.9-r1: Woodstox is a high-performance validating namespace-aware XML-processor
 dev-java/xbean-asm7-shaded 4.15-r1: Repackaged and shaded asm jars
@@ -430,7 +422,6 @@ dev-java/xmlenc 0.52-r2: Lightweight XML encoding library for Java, optimized fo
 dev-java/xmlpull 1.1.3.1-r1: XML Pull Parsing API
 dev-java/xsom 20140925-r1: A Java library that allows for easy parsing and inspection of XML schema docs
 dev-java/xstream 1.4.7-r2: XStream is a serialization library from Java objects to XML and back
-dev-java/yecht 1.1: The "Yecht" implementation of Ruby 1.8's yaml parser "Syck"
 dev-java/zookeeper 3.4.14-r4 3.5.9: Server which enables highly reliable distributed coordination
 dev-lang/f2j 0.8.1_p1-r1: Fortran-to-Java translator, especially for BLAS, LAPACK and ARPACK
 dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.32-r1 1.6.10-r1: Statically typed programming language for modern multiplatform applications
@@ -442,7 +433,6 @@ dev-python/py4j 0.10.9.2-r1: Apache Spark Python API
 dev-python/pyarrow 3.0.0 4.0.1: Python library for Apache Arrow
 dev-python/pyspark 3.1.2: Apache Spark Python API
 java-virtuals/el-api 3.0: Virtual for servlet api
-java-virtuals/interceptor-api 0: Virtual for Interceptor API (javax.interceptor)
 java-virtuals/jmx 1.0-r4: Virtual for Java Management Extensions (JMX)
 java-virtuals/jsp-api 2.3: Virtual for servlet api
 java-virtuals/saaj-api 1.3-r3: Virtual for SAAJ 1.3 (AKA JSR-67 MR3) API
