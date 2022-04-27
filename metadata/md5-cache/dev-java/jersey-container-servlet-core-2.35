@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* ~dev-java/jersey-server-2.35:2 dev-java/jakarta-inje
 RESTRICT=!test? ( test )
 SLOT=2
 SRC_URI=https://github.com/eclipse-ee4j/jersey/archive/refs/tags/2.35.tar.gz -> jersey-2.35.tar.gz https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.35/jersey-container-servlet-core-2.35-sources.jar
-_eclasses_=java-utils-2	92b5a4d196abffe2dbe3bdc1cf4ef2ae	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	8a2b8811bad7877b5ec349bddeceabb6
+_eclasses_=java-utils-2	2eba11a89c0e37f9c9be15c34884aaa3	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	8a2b8811bad7877b5ec349bddeceabb6
 _md5_=5c638d2165839f33f7c93765bc2b93e9
