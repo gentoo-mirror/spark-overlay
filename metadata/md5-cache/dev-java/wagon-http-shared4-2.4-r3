@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* !binary? ( >=dev-java/wagon-provider-api-2.4:0 >=dev-java/commons-io-2.4:1 >=dev-java/commons-logging-1.2:0 >=dev-java/httpcomponents-client-4.5:4 >=dev-java/httpcore-4.4.1:0 >=dev-java/jsoup-1.8.3:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Shared Library for the wagon-http and wagon-http-lightweight wagon providers
+EAPI=8
+HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/wagon-provider-api-2.4:0 >=dev-java/commons-io-2.4:1 >=dev-java/commons-logging-1.2:0 >=dev-java/httpcomponents-client-4.5:4 >=dev-java/httpcore-4.4.1:0 >=dev-java/jsoup-1.8.3:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-shared4/2.4/wagon-http-shared4-2.4-sources.jar https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-shared4/2.4/wagon-http-shared4-2.4.jar -> wagon-http-shared4-2.4-bin.jar
+_eclasses_=java-utils-2	e38ea02d8ed864a74078ecf46aa06f30	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	95922adb58696025c86c401d825178a7	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=0e638e48f3f81b3ef5a64ca6312ed671
