@@ -1,7 +1,7 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 MAVEN_ID="org.openjdk.jmh:${PN}:${PV}"
 
@@ -20,10 +20,8 @@ LICENSE="GPL-2-with-classpath-exception"
 SLOT="0"
 KEYWORDS="~amd64"
 
-# Incompatible with 1.34+ due to
-# https://github.com/openjdk/jmh/commit/f13a2d08c9c49c07ad4461391ff02af8fd27f8bf
 CP_DEPEND="
-	<dev-java/jmh-core-1.34:0
+	>=dev-java/jmh-core-${PV}:0
 "
 
 BDEPEND="
