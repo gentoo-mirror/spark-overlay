@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( dev-java/testng:0 )
+DESCRIPTION=Jakarta Bean Validation API
+EAPI=8
+HOMEPAGE=https://beanvalidation.org/2.0/
+INHERIT=java-pkg-2 java-pkg-simple
+IUSE=doc source test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=2.0
+SRC_URI=https://github.com/eclipse-ee4j/beanvalidation-api/archive/refs/tags/2.0.2.tar.gz -> validation-api-2.0.2.tar.gz
+_eclasses_=java-utils-2	e38ea02d8ed864a74078ecf46aa06f30	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	95922adb58696025c86c401d825178a7
+_md5_=49303e8aa2c2960f4f7a7d0aeb336934

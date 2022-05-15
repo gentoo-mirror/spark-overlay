@@ -119,12 +119,12 @@ dev-java/hazelcast-bin 3.8.9: Binary package for the core Hazelcast module
 dev-java/hazelcast-code-generator 1.6.0-r1: Client Protocol of Hazelcast In-Memory DataGrid
 dev-java/headius-options 1.4: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/hibernate-commons-annotations 5.0.1-r1: Common reflection code used in support of annotation processing
-dev-java/hibernate-core 5.2.13-r2: The core O/RM functionality as provided by Hibernate
+dev-java/hibernate-core 5.2.13-r2 5.2.13-r3: The core O/RM functionality as provided by Hibernate
 dev-java/hibernate-jpa 1.0.2-r1: Clean-room definition of JPA APIs intended for use in developing Hibernate JPA implementation. See README.md for details
-dev-java/hibernate-validator 6.0.22-r1: Hibernate's Bean Validation (JSR-380) reference implementation
+dev-java/hibernate-validator 6.0.22-r1 6.0.22-r2: Hibernate's Bean Validation (JSR-380) reference implementation
 dev-java/hk2-api 2.6.1-r2: HK2 API module
 dev-java/hk2-locator 2.6.1-r2: HK2 ServiceLocator Default Implementation
-dev-java/hk2-utils 2.6.1-r2: HK2 Implementation Utilities
+dev-java/hk2-utils 2.6.1-r2 2.6.1-r3: HK2 Implementation Utilities
 dev-java/hpack 0.10.1-r1: Header Compression for HTTP/2
 dev-java/htrace-core 3.1.0-r2: A tracing framework for use with distributed systems written in java
 dev-java/hystrix-core 1.5.12-r1: hystrix-core
@@ -190,7 +190,7 @@ dev-java/jersey-hk2 2.35: HK2 InjectionManager implementation
 dev-java/jersey-json 1.9-r1: Jersey is the open source (under dual CDDL+GPL license) JAX-RS (JSR 311) production quality Reference Implementation for building RESTful Web services.
 dev-java/jersey-media-jaxb 2.35: JAX-RS features based upon JAX-B
 dev-java/jersey-media-sse 2.35: Jersey Server Sent Events entity providers support module
-dev-java/jersey-server 1.9-r3 2.35: Jersey core server implementation
+dev-java/jersey-server 1.9-r3 2.35 2.35-r1: Jersey core server implementation
 dev-java/jetbrains-annotations 13.0-r1 21.0.1: A set of annotations used for code inspection support and code documentation.
 dev-java/jetbrains-trove 1.0.20200330: Fork of trove4j library used in IntelliJ Platform
 dev-java/jets3t 0.9.0-r3: Java toolkit and application suite for Amazon S3, CloudFront and Google Storage
@@ -222,7 +222,7 @@ dev-java/jnr-enxio 0.32.13: Native I/O access for java
 dev-java/jnr-unixsocket 0.38.17: Native I/O access for java
 dev-java/joni 2.1.3-r2: Java port of Oniguruma that uses byte arrays directly
 dev-java/jruby-stdlib 1.7.22-r1: JRuby Standard Library
-dev-java/jsf-api 2.0-r1: This is the master POM file for Sun's Implementation of the JSF 2.0 Specification.
+dev-java/jsf-api 2.0-r1 2.0-r2: Sun's implementation of the JSF 2.0 specification
 dev-java/json4s-ast 3.6.6-r1: json4s-ast
 dev-java/json4s-core 3.6.6-r1: json4s-core
 dev-java/json4s-jackson 3.6.6-r1: Json4s Jackson module
@@ -398,7 +398,7 @@ dev-java/tomcat-jni 10.0.0-r1: Interface code to the native connector
 dev-java/truffle-api 20.1.0: Truffle is a multi-language framework for executing dynamic languages that achieves high performance when combined with Graal.
 dev-java/truffle-nfi 20.1.0: Native function interface for the Truffle framework.
 dev-java/unused 1.0.0-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
-dev-java/validation-api 2.0.1: Bean Validation API
+dev-java/validation-api 2.0.1 2.0.2: Jakarta Bean Validation API
 dev-java/velocity 1.7-r3: General purpose template engine
 dev-java/wagon-file 1.0_beta6-r1: Wagon that gets and puts artifacts using file system protocol
 dev-java/wagon-http 2.4-r3: Wagon that gets and puts artifacts through http using Apache httpclient-4.x
