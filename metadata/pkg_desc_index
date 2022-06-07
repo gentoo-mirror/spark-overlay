@@ -217,7 +217,7 @@ dev-java/jetty-xml 9.4.44_p20210927: Jetty XML Utilities
 dev-java/jlapack 0.8: Java translation of the BLAS and LAPACK libraries
 dev-java/jlargearrays 1.6-r1: Library of one-dimensional arrays that can store up to 2^63 elements
 dev-java/jline 1.0-r2: Handle console input in Java
-dev-java/jmh-generator-annprocess 1.32 1.35: JMH benchmark generator, based on annotation processors
+dev-java/jmh-generator-annprocess 1.35: JMH benchmark generator, based on annotation processors
 dev-java/jnr-enxio 0.32.13: Native I/O access for java
 dev-java/jnr-unixsocket 0.38.17: Native I/O access for java
 dev-java/joni 2.1.3-r2: Java port of Oniguruma that uses byte arrays directly
