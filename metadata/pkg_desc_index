@@ -423,7 +423,7 @@ dev-java/xmlenc 0.52-r2: Lightweight XML encoding library for Java, optimized fo
 dev-java/xmlpull 1.1.3.1-r1: XML Pull Parsing API
 dev-java/xsom 20140925-r1: A Java library that allows for easy parsing and inspection of XML schema docs
 dev-java/xstream 1.4.7-r2: XStream is a serialization library from Java objects to XML and back
-dev-java/zookeeper 3.4.14-r4 3.5.9: Server which enables highly reliable distributed coordination
+dev-java/zookeeper 3.4.14-r4 3.5.10: Server which enables highly reliable distributed coordination
 dev-lang/f2j 0.8.1_p1-r1: Fortran-to-Java translator, especially for BLAS, LAPACK and ARPACK
 dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.32-r1 1.6.10-r1: Statically typed programming language for modern multiplatform applications
 dev-libs/apache-arrow 3.0.0 4.0.1: A cross-language development platform for in-memory data.
