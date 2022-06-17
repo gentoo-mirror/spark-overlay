@@ -119,12 +119,12 @@ dev-java/hazelcast-bin 3.8.9: Binary package for the core Hazelcast module
 dev-java/hazelcast-code-generator 1.6.0-r1: Client Protocol of Hazelcast In-Memory DataGrid
 dev-java/headius-options 1.4: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/hibernate-commons-annotations 5.0.1-r1: Common reflection code used in support of annotation processing
-dev-java/hibernate-core 5.2.13-r2 5.2.13-r3: The core O/RM functionality as provided by Hibernate
+dev-java/hibernate-core 5.2.13-r3: The core O/RM functionality as provided by Hibernate
 dev-java/hibernate-jpa 1.0.2-r1: Clean-room definition of JPA APIs intended for use in developing Hibernate JPA implementation. See README.md for details
-dev-java/hibernate-validator 6.0.22-r1 6.0.22-r2: Hibernate's Bean Validation (JSR-380) reference implementation
+dev-java/hibernate-validator 6.0.22-r2: Hibernate's Bean Validation (JSR-380) reference implementation
 dev-java/hk2-api 2.6.1-r2: HK2 API module
 dev-java/hk2-locator 2.6.1-r2: HK2 ServiceLocator Default Implementation
-dev-java/hk2-utils 2.6.1-r2 2.6.1-r3: HK2 Implementation Utilities
+dev-java/hk2-utils 2.6.1-r3: HK2 Implementation Utilities
 dev-java/hpack 0.10.1-r1: Header Compression for HTTP/2
 dev-java/htrace-core 3.1.0-r2: A tracing framework for use with distributed systems written in java
 dev-java/hystrix-core 1.5.12-r1: hystrix-core
@@ -190,7 +190,7 @@ dev-java/jersey-hk2 2.35: HK2 InjectionManager implementation
 dev-java/jersey-json 1.9-r1: Jersey is the open source (under dual CDDL+GPL license) JAX-RS (JSR 311) production quality Reference Implementation for building RESTful Web services.
 dev-java/jersey-media-jaxb 2.35: JAX-RS features based upon JAX-B
 dev-java/jersey-media-sse 2.35: Jersey Server Sent Events entity providers support module
-dev-java/jersey-server 1.9-r3 2.35 2.35-r1: Jersey core server implementation
+dev-java/jersey-server 1.9-r3 2.35-r1: Jersey core server implementation
 dev-java/jetbrains-annotations 13.0-r1 21.0.1: A set of annotations used for code inspection support and code documentation.
 dev-java/jetbrains-trove 1.0.20200330: Fork of trove4j library used in IntelliJ Platform
 dev-java/jets3t 0.9.0-r3: Java toolkit and application suite for Amazon S3, CloudFront and Google Storage
@@ -222,7 +222,7 @@ dev-java/jnr-enxio 0.32.13: Native I/O access for java
 dev-java/jnr-unixsocket 0.38.17: Native I/O access for java
 dev-java/joni 2.1.3-r2: Java port of Oniguruma that uses byte arrays directly
 dev-java/jruby-stdlib 1.7.22-r1: JRuby Standard Library
-dev-java/jsf-api 2.0-r1 2.0-r2: Sun's implementation of the JSF 2.0 specification
+dev-java/jsf-api 2.0-r2: Sun's implementation of the JSF 2.0 specification
 dev-java/json4s-ast 3.6.6-r1: json4s-ast
 dev-java/json4s-core 3.6.6-r1: json4s-core
 dev-java/json4s-jackson 3.6.6-r1: Json4s Jackson module
@@ -426,13 +426,13 @@ dev-java/xstream 1.4.7-r2: XStream is a serialization library from Java objects 
 dev-java/zookeeper 3.4.14-r4 3.5.10: Server which enables highly reliable distributed coordination
 dev-lang/f2j 0.8.1_p1-r1: Fortran-to-Java translator, especially for BLAS, LAPACK and ARPACK
 dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.32-r1 1.6.10-r1: Statically typed programming language for modern multiplatform applications
-dev-libs/apache-arrow 3.0.0 4.0.1: A cross-language development platform for in-memory data.
+dev-libs/apache-arrow 3.0.0 4.0.1 4.0.1-r1: A cross-language development platform for in-memory data
 dev-libs/libbytecode 0.8.1_p1-r1: C API for creating and generating Java Class files
 dev-libs/thrift 0.14.2: Software framework for cross-language services development
 dev-python/h2o-py 3.32.1.7 3.34.0.8 3.36.1.1 3.36.1.2: H2O Python Package
-dev-python/py4j 0.10.9.2-r1: Apache Spark Python API
-dev-python/pyarrow 3.0.0 4.0.1: Python library for Apache Arrow
-dev-python/pyspark 3.1.2: Apache Spark Python API
+dev-python/py4j 0.10.9.2-r1 0.10.9.5: A bridge between Python and Java
+dev-python/pyarrow 3.0.0 4.0.1 4.0.1-r1: Python library for Apache Arrow
+dev-python/pyspark 3.1.2 3.1.2-r1: Apache Spark Python API
 java-virtuals/el-api 3.0: Virtual for servlet api
 java-virtuals/jmx 1.0-r4: Virtual for Java Management Extensions (JMX)
 java-virtuals/jsp-api 2.3: Virtual for servlet api
