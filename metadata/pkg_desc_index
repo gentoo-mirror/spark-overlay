@@ -83,7 +83,7 @@ dev-java/graal-sdk 19.2.1-r1 20.1.0-r1: GraalVM is an ecosystem for compiling an
 dev-java/graalvm-compiler 19.2.1-r1: The GraalVM compiler and the Graal-truffle optimizer.
 dev-java/groovy-all 2.4.0-r2: Groovy: A powerful, dynamic language for the JVM
 dev-java/guava 29.0: Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.
-dev-java/guice-servlet 4.1: Guice servlet extension
+dev-java/guice-servlet 4.1-r1: Guice servlet extension
 dev-java/h2 2.0.206: H2 Database Engine
 dev-java/h2o 3.32.1.7 3.34.0.8 3.36.1.1 3.36.1.2: Metapackage for H2O, a distributed, fast & scalable machine learning platform
 dev-java/h2o-algos 3.32.1.7-r1 3.34.0.8 3.36.1.1 3.36.1.2: H2O Algorithms
