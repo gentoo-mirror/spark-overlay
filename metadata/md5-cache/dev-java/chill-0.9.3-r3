@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/chill-java-0.9.3:0 >=dev-java/kryo-shaded
 RESTRICT=!test? ( test )
 SLOT=2.12
 SRC_URI=https://repo1.maven.org/maven2/com/twitter/chill_2.12/0.9.3/chill_2.12-0.9.3-sources.jar -> chill-0.9.3-sources.jar binary? ( https://repo1.maven.org/maven2/com/twitter/chill_2.12/0.9.3/chill_2.12-0.9.3.jar -> chill-0.9.3-bin.jar )
-_eclasses_=java-utils-2	e38ea02d8ed864a74078ecf46aa06f30	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	95922adb58696025c86c401d825178a7	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	d1f17c329c49bf7da0d1b7ae8732c2ce
+_eclasses_=java-utils-2	cfb5f6911bb70204c94ceafd0372c716	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	95922adb58696025c86c401d825178a7	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	d1f17c329c49bf7da0d1b7ae8732c2ce
 _md5_=a819366fd3a92e97656beb5dea668e6b
