@@ -145,7 +145,6 @@ dev-java/jakarta-interceptor-api 1.2.5: A means of interposing on business metho
 dev-java/jakarta-jws-api 2.1.0: JWS API (Eclipse Project for JAX-WS)
 dev-java/jakarta-persistence-api 2.2.3-r1: Eclipse Enterprise for Java (EE4J) is an open source initiative to create standard APIs, implementations of those APIs, and technology compatibility kits for Java runtimes that enable development, deployment, and management of server-side and cloud-native applications.
 dev-java/jakarta-servlet-api 4.0.3-r1: Eclipse Enterprise for Java (EE4J) is an open source initiative to create standard APIs, implementations of those APIs, and technology compatibility kits for Java runtimes that enable development, deployment, and management of server-side and cloud-native applications.
-dev-java/jakarta-validation-api 2.0.2-r1: Jakarta Bean Validation API
 dev-java/jakarta-ws-rs-api 2.1.6-r1: Jakarta RESTful Web Services API
 dev-java/jakarta-xml-ws-api 2.3.3: JAX-WS API (Eclipse Project for JAX-WS)
 dev-java/jama 1.0.3-r2: A Java Matrix Package
@@ -398,7 +397,7 @@ dev-java/tomcat-jni 10.0.0-r1: Interface code to the native connector
 dev-java/truffle-api 20.1.0: Truffle is a multi-language framework for executing dynamic languages that achieves high performance when combined with Graal.
 dev-java/truffle-nfi 20.1.0: Native function interface for the Truffle framework.
 dev-java/unused 1.0.0-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
-dev-java/validation-api 2.0.1 2.0.2: Jakarta Bean Validation API
+dev-java/validation-api 2.0.2: Jakarta Bean Validation API
 dev-java/velocity 1.7-r3: General purpose template engine
 dev-java/wagon-file 1.0_beta6-r1: Wagon that gets and puts artifacts using file system protocol
 dev-java/wagon-http 2.4-r3: Wagon that gets and puts artifacts through http using Apache httpclient-4.x
