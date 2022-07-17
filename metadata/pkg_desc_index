@@ -425,12 +425,12 @@ dev-java/xstream 1.4.7-r2: XStream is a serialization library from Java objects 
 dev-java/zookeeper 3.4.14-r4 3.5.10: Server which enables highly reliable distributed coordination
 dev-lang/f2j 0.8.1_p1-r1: Fortran-to-Java translator, especially for BLAS, LAPACK and ARPACK
 dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.32-r1 1.6.10-r1: Statically typed programming language for modern multiplatform applications
-dev-libs/apache-arrow 3.0.0 4.0.1 4.0.1-r1: A cross-language development platform for in-memory data
+dev-libs/apache-arrow 3.0.0 4.0.1-r1: A cross-language development platform for in-memory data
 dev-libs/libbytecode 0.8.1_p1-r1: C API for creating and generating Java Class files
 dev-libs/thrift 0.14.2: Software framework for cross-language services development
 dev-python/h2o-py 3.32.1.7 3.34.0.8 3.36.1.2 3.36.1.3: H2O Python Package
-dev-python/py4j 0.10.9.2-r1 0.10.9.5: A bridge between Python and Java
-dev-python/pyarrow 3.0.0 4.0.1 4.0.1-r1: Python library for Apache Arrow
+dev-python/py4j 0.10.9.5: A bridge between Python and Java
+dev-python/pyarrow 3.0.0 4.0.1-r1: Python library for Apache Arrow
 dev-python/pyspark 3.1.2-r1: Apache Spark Python API
 java-virtuals/el-api 3.0: Virtual for servlet api
 java-virtuals/jmx 1.0-r4: Virtual for Java Management Extensions (JMX)
