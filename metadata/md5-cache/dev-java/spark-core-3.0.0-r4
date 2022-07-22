@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/RoaringBitmap-0.7.45:0 dev-java/jakarta-a
 RESTRICT=!test? ( test )
 SLOT=2.12
 SRC_URI=https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.12/3.0.0-preview2/spark-core_2.12-3.0.0-preview2-sources.jar -> spark-core-3.0.0-sources.jar https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.12/3.0.0-preview2/spark-core_2.12-3.0.0-preview2.jar -> spark-core-3.0.0-bin.jar
-_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	20f7aa09b49045020177a457e5a1a883	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	d1f17c329c49bf7da0d1b7ae8732c2ce
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	50b11e64e7ffa307c4cd0347711a69fb	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33	java-pkg-simple-plugins	d1f17c329c49bf7da0d1b7ae8732c2ce
 _md5_=f8653d9216b04dbb71b665bdd1e28bc5
