@@ -385,7 +385,7 @@ dev-java/spark-unsafe 3.0.0-r1: The Apache Software Foundation provides support 
 dev-java/spatial4j 0.3-r2: A Geospatial Library for Java
 dev-java/spotbugs-annotations 3.1.9-r1: Annotations the SpotBugs tool supports
 dev-java/stax 1.2.0-r1: StAX is the reference implementation of the StAX API
-dev-java/stax-ex 1.8.3 1.8.3-r1: Extensions to complement JSR-173 StAX API
+dev-java/stax-ex 1.8.3-r1: Extensions to complement JSR-173 StAX API
 dev-java/stream 2.9.8-r1: A library for summarizing data in streams for which it is infeasible to store all events
 dev-java/svm 19.2.1-r1: SubstrateVM image builder components
 dev-java/t-digest 3.1-r1: Data structure which allows accurate estimation of quantiles and related rank statistics
