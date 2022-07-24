@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jboss-transaction-api-1.0.0:1.1_spec >=de
 RESTRICT=!test? ( test )
 SLOT=3.1_spec
 SRC_URI=https://repo1.maven.org/maven2/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.2.Final/jboss-ejb-api_3.1_spec-1.0.2.Final-sources.jar -> jboss-ejb-api-1.0.2-sources.jar https://repo1.maven.org/maven2/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.2.Final/jboss-ejb-api_3.1_spec-1.0.2.Final.jar -> jboss-ejb-api-1.0.2-bin.jar
-_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	50b11e64e7ffa307c4cd0347711a69fb	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	cc510ad15292e222d436a547adffe6a9	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=2157e0c73706695d0ff85c9b4ada087e

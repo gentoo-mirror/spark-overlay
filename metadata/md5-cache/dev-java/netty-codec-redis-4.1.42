@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/netty-buffer-4.1.42:0 >=dev-java/netty-co
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/io/netty/netty-codec-redis/4.1.42.Final/netty-codec-redis-4.1.42.Final-sources.jar -> netty-codec-redis-4.1.42-sources.jar https://repo1.maven.org/maven2/io/netty/netty-codec-redis/4.1.42.Final/netty-codec-redis-4.1.42.Final.jar -> netty-codec-redis-4.1.42-bin.jar
-_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	50b11e64e7ffa307c4cd0347711a69fb	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	cc510ad15292e222d436a547adffe6a9	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=a949504366f7a9d7145ba00b40f1b2b8
