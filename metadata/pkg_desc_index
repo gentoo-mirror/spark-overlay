@@ -324,7 +324,7 @@ dev-java/netty-codec-smtp 4.1.42: Netty is an asynchronous event-driven network 
 dev-java/netty-codec-socks 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/netty-codec-stomp 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/netty-codec-xml 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
-dev-java/netty-common 4.1.42-r2: Asynchronous event-driven network application framework
+dev-java/netty-common 4.1.42-r3: Asynchronous event-driven network application framework
 dev-java/netty-example 4.1.42-r2: Asynchronous event-driven network application framework
 dev-java/netty-handler 4.1.42: Netty Handler
 dev-java/netty-handler-proxy 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
