@@ -12,5 +12,5 @@ REQUIRED_USE=^^ ( kotlin_single_target_kotlin1-5 )
 RESTRICT=!test? ( test )
 SLOT=1.5
 SRC_URI=!binary? ( https://github.com/JetBrains/kotlin/archive/v1.5.32.tar.gz -> kotlin-1.5.32.tar.gz test? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-test-junit/1.5.32/kotlin-test-junit-1.5.32.jar ) ) binary? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-test-junit/1.5.32/kotlin-test-junit-1.5.32.jar source? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-test-junit/1.5.32/kotlin-test-junit-1.5.32-sources.jar ) test? ( https://github.com/JetBrains/kotlin/archive/v1.5.32.tar.gz -> kotlin-1.5.32.tar.gz ) )
-_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	cc510ad15292e222d436a547adffe6a9	kotlin-utils	657a5ae336aca0955c97fcc310d0f138	kotlin-libs	62e765e76faa44849b777fc07908cf42
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	343e153526b31b64f7efec0fdfa0f33b	kotlin-utils	657a5ae336aca0955c97fcc310d0f138	kotlin-libs	62e765e76faa44849b777fc07908cf42
 _md5_=8b320455abd6b397054f39deb5e34b8d

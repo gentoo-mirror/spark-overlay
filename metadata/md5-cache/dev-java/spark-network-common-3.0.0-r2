@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jackson-databind-2.10.0:0 >=dev-java/metr
 RESTRICT=!test? ( test )
 SLOT=2.12
 SRC_URI=https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.12/3.0.0-preview2/spark-network-common_2.12-3.0.0-preview2-sources.jar -> spark-network-common-3.0.0-sources.jar https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.12/3.0.0-preview2/spark-network-common_2.12-3.0.0-preview2.jar -> spark-network-common-3.0.0-bin.jar
-_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	cc510ad15292e222d436a547adffe6a9	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	343e153526b31b64f7efec0fdfa0f33b	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=0090aa298511266e98d709c9b80fe1ce

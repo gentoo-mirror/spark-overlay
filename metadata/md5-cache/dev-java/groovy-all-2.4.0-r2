@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/xstream-1.4.7:0 >=dev-java/ant-core-1.10.
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-all/2.4.0/groovy-all-2.4.0-sources.jar https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-all/2.4.0/groovy-all-2.4.0.jar -> groovy-all-2.4.0-bin.jar
-_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	cc510ad15292e222d436a547adffe6a9	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	343e153526b31b64f7efec0fdfa0f33b	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=a825269a529b29448e672399b30c16e7
