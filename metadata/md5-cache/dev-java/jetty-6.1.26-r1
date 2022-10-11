@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jetty-util-6.1.26:6 >=dev-java/servlet-ap
 RESTRICT=!test? ( test )
 SLOT=6
 SRC_URI=https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26-sources.jar https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar -> jetty-6.1.26-bin.jar
-_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	f12881bcef20aecfcb172218e0b260f7	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	257a59d157060d7bd51a13e68c614dd5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=f8d17717134bfd82efc0fb1cff71e65e

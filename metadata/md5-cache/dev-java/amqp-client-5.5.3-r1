@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jackson-databind-2.10.0:0 >=dev-java/metr
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.5.3/amqp-client-5.5.3-sources.jar https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.5.3/amqp-client-5.5.3.jar -> amqp-client-5.5.3-bin.jar
-_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	f12881bcef20aecfcb172218e0b260f7	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	257a59d157060d7bd51a13e68c614dd5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=6f7942d313292b7a621390ea8d2acf3c
