@@ -221,4 +221,5 @@ dev-java/weld-spi:binary - install binary jar from maven central.
 dev-java/xbean-asm7-shaded:binary - install binary jar from maven central.
 dev-java/xstream:binary - install binary jar from maven central.
 dev-libs/apache-arrow:parquet - Build with Parquet data format support
+dev-python/pyarrow:dataset - Build with Parquet dataset support
 dev-python/pyarrow:parquet - Build with Parquet data format support
