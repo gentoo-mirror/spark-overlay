@@ -10,5 +10,5 @@ LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-1.8:* dev-java/ant-core:0 dev-java/avalon-logkit:2.0 dev-java/commons-collections:0 dev-java/commons-lang:2.1 dev-java/commons-logging:0 dev-java/jakarta-oro:2.0 dev-java/jdom:0 dev-java/log4j-12-api:2 dev-java/log4j-core:2 dev-java/werken-xpath:0 java-virtuals/servlet-api:4.0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 SLOT=1.7
 SRC_URI=https://archive.apache.org/dist/velocity/engine/1.7/velocity-1.7.tar.gz
-_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	java-ant-2	5cf479aa9e0ac9cc55899f2762c2aaa0
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	959e1d99122907eb98a3a660297a967e	java-ant-2	5cf479aa9e0ac9cc55899f2762c2aaa0
 _md5_=2f06a1efa9b1b00f2b50b934496b57e1
