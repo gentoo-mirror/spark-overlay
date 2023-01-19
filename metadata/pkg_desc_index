@@ -103,7 +103,7 @@ dev-java/hadoop-annotations 2.7.4-r2: Apache Hadoop Annotations
 dev-java/hadoop-auth 2.7.4-r4: Apache Hadoop Auth - Java HTTP SPNEGO
 dev-java/hadoop-client 2.7.4-r1: Apache Hadoop Client
 dev-java/hadoop-common 2.7.4-r6: Apache Hadoop Common
-dev-java/hadoop-hdfs 2.7.4-r3 2.7.4-r4: Apache Hadoop HDFS
+dev-java/hadoop-hdfs 2.7.4-r4: Apache Hadoop HDFS
 dev-java/hadoop-mapreduce-client-app 2.7.4-r2: Apache Hadoop MapReduce App
 dev-java/hadoop-mapreduce-client-common 2.7.4-r2: Apache Hadoop Project POM
 dev-java/hadoop-mapreduce-client-core 2.7.4-r4: Apache Hadoop MapReduce Client Core
@@ -430,7 +430,10 @@ dev-libs/libbytecode 0.8.1_p1-r1: C API for creating and generating Java Class f
 dev-libs/thrift 0.14.2: Software framework for cross-language services development
 dev-python/h2o-py 3.32.1.7 3.34.0.8 3.36.1.2 3.36.1.3: H2O Python Package
 dev-python/py4j 0.10.9.5: A bridge between Python and Java
-dev-python/pyarrow 3.0.0 4.0.1-r1 9.0.0-r1: Python library for Apache Arrow
+dev-python/pyarrow 4.0.1-r1 9.0.0-r1: Python library for Apache Arrow
 dev-python/pyspark 3.1.2-r1 3.1.2-r2: Apache Spark Python API
+java-virtuals/el-api 3.0: Virtual for servlet api
+java-virtuals/jsp-api 2.3: Virtual for servlet api
+java-virtuals/servlet-api 4.0: Virtual for servlet api
 java-virtuals/ws-rs-api 2.1: Virtual for RESTful Web Services
 virtual/kotlin 1.3 1.4 1.5 1.6: Virtual for Kotlin compiler
