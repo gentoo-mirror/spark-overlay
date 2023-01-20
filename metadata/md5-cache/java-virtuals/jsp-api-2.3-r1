@@ -4,9 +4,9 @@ DESCRIPTION=Virtual for servlet api
 EAPI=8
 HOMEPAGE=https://jcp.org/en/jsr/detail?id=340
 INHERIT=java-virtuals-2
-KEYWORDS=amd64 ~arm64 ppc64 x86
+KEYWORDS=~amd64 ~arm64 ~ppc64 ~x86
 LICENSE=public-domain
-RDEPEND=|| ( dev-java/tomcat-servlet-api:4.0 ) dev-java/java-config
+RDEPEND=|| ( dev-java/tomcat-jsp-api:2.3 ) dev-java/java-config
 SLOT=2.3
 _eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-virtuals-2	80385d4bf7cd873a5de3785354ead6c4
-_md5_=fe5e4b83ebfc41abd4720bba4a7d078a
+_md5_=c4d4cfe53260264a42d490d8610f05d1

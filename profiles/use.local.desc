@@ -141,7 +141,6 @@ dev-java/metrics-jvm:binary - install binary jar from maven central.
 dev-java/microemu-cldc:binary - install binary jar from maven central.
 dev-java/micrometer-core:binary - install binary jar from maven central.
 dev-java/money-api:binary - install binary jar from maven central.
-dev-java/msv-rngconverter:binary - install binary jar from maven central.
 dev-java/multiverse-core:binary - install binary jar from maven central.
 dev-java/nailgun-server:binary - install binary jar from maven central.
 dev-java/netty:binary - install binary jar from maven central.
