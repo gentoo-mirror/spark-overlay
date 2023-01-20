@@ -2,14 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>zzy2529420793@gmail.com</email>
-		<name>zongyu</name>
-	</maintainer>
-	<maintainer type="person">
 		<email>liaoyuan@gmail.com</email>
 		<name>Yuan Liao</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">xmlark/msv</remote-id>
+		<bugs-to>https://jira.qos.ch/projects/SLF4J/issues</bugs-to>
+		<changelog>https://www.slf4j.org/news.html</changelog>
+		<doc>https://www.slf4j.org/docs.html</doc>
+		<remote-id type="github">qos-ch/slf4j</remote-id>
 	</upstream>
 </pkgmetadata>
