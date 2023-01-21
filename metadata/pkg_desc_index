@@ -192,7 +192,7 @@ dev-java/jersey-media-sse 2.35: Jersey Server Sent Events entity providers suppo
 dev-java/jersey-server 1.9-r3 2.35-r1: Jersey core server implementation
 dev-java/jetbrains-annotations 13.0-r1 21.0.1: A set of annotations used for code inspection support and code documentation.
 dev-java/jetbrains-trove 1.0.20200330: Fork of trove4j library used in IntelliJ Platform
-dev-java/jets3t 0.9.0-r3: Java toolkit and application suite for Amazon S3, CloudFront and Google Storage
+dev-java/jets3t 0.9.7: Java toolkit and application suite for Amazon S3, CloudFront and Google Storage
 dev-java/jettison 1.4.1: A JSON StAX implementation
 dev-java/jetty 6.1.26-r1: Jetty server core
 dev-java/jetty-alpn-api 1.1.3_p20160715: Administrative parent pom for Jetty modules
