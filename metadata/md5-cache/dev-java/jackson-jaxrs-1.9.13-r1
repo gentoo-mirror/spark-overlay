@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jackson-core-asl-1.9.13:0 >=dev-java/jack
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13-sources.jar https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.jar -> jackson-jaxrs-1.9.13-bin.jar
-_eclasses_=java-utils-2	7b583ddc65574e378a6cc934f7c114a8	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	257a59d157060d7bd51a13e68c614dd5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	a1aaea49eac8b420d567ba197e9322b7	java-pkg-2	a6b42ffd8b6827abbd8cf09329c2c8fb	java-pkg-simple	257a59d157060d7bd51a13e68c614dd5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=6f07530b6e483eac766085dba7fbe507

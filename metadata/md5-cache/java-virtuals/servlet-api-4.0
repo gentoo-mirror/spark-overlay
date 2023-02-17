@@ -8,5 +8,5 @@ KEYWORDS=amd64 ~arm64 ppc64 x86
 LICENSE=public-domain
 RDEPEND=|| ( dev-java/tomcat-servlet-api:4.0 ) dev-java/java-config
 SLOT=4.0
-_eclasses_=java-utils-2	7b583ddc65574e378a6cc934f7c114a8	java-virtuals-2	80385d4bf7cd873a5de3785354ead6c4
+_eclasses_=java-utils-2	a1aaea49eac8b420d567ba197e9322b7	java-virtuals-2	80385d4bf7cd873a5de3785354ead6c4
 _md5_=d1ee872d009bc5e282c6608218976248
