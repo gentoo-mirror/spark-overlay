@@ -1,10 +1,10 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 JAVA_PKG_IUSE="doc source test binary"
-MAVEN_ID="org.eclipse.jetty:jetty-http:9.4.44.v20210927"
+MAVEN_ID="org.eclipse.jetty.websocket:websocket-servlet:9.4.44.v20210927"
 JAVA_TESTING_FRAMEWORKS="pkgdiff"
 
 inherit java-pkg-2 java-pkg-simple java-pkg-maven
@@ -12,19 +12,19 @@ inherit java-pkg-2 java-pkg-simple java-pkg-maven
 MY_PV="${PV/_p/.v}"
 MY_P="${PN}-${MY_PV}"
 
-DESCRIPTION="Jetty HTTP Utility"
+DESCRIPTION="Jetty Websocket Servlet"
 HOMEPAGE="https://www.eclipse.org/jetty"
 SRC_URI="
-	https://repo1.maven.org/maven2/org/eclipse/jetty/${PN}/${MY_PV}/${MY_P}-sources.jar -> ${P}-sources.jar
-	https://repo1.maven.org/maven2/org/eclipse/jetty/${PN}/${MY_PV}/${MY_P}.jar -> ${P}-bin.jar
+	https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/${PN}/${MY_PV}/${MY_P}-sources.jar -> ${P}-sources.jar
+	https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/${PN}/${MY_PV}/${MY_P}.jar -> ${P}-bin.jar
 "
 LICENSE="Apache-2.0 EPL-1.0"
 SLOT="9"
 KEYWORDS="~amd64"
 
 CP_DEPEND="
-	~dev-java/jetty-io-${PV}:9
-	~dev-java/jetty-util-${PV}:9
+	~dev-java/websocket-api-${PV}:9
+	dev-java/tomcat-servlet-api:3.1
 "
 
 BDEPEND="
@@ -35,7 +35,6 @@ DEPEND="
 	>=virtual/jdk-1.8:*
 	!binary? (
 		${CP_DEPEND}
-		java-virtuals/servlet-api:3.1
 	)
 "
 
@@ -46,7 +45,6 @@ RDEPEND="
 
 S="${WORKDIR}"
 
-JAVA_CLASSPATH_EXTRA="servlet-api-3.1"
 JAVA_SRC_DIR="src/main/java"
 JAVA_BINJAR_FILENAME="${P}-bin.jar"
 
