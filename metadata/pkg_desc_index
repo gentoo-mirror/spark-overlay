@@ -29,7 +29,6 @@ dev-java/avro 1.8.2-r1: Avro core components
 dev-java/avro-ipc 1.8.2-r2: Avro inter-process communication components
 dev-java/avro-mapred 1.8.2-r1: An org.apache.hadoop.mapred compatible API for using Avro Serializatin in Hadoop
 dev-java/barchart-udt 2.3.0: Barchart UDT bundle
-dev-java/barebonesbrowserlaunch 3.1: Use the default browser to open a web page from a Swing application
 dev-java/bcpg 1.52: Java cryptography APIs
 dev-java/bcpkix-jdk15on 1.54: The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation. This jar contains APIs for JDK 1.5 to JDK 1.8. The APIs can be used in conjunction with a JCE/JCA provider such as the one provided with the Bouncy Castle Cryptography APIs.
 dev-java/bcprov 1.52 1.54 1.68: Java cryptography APIs
@@ -52,11 +51,12 @@ dev-java/codemodel 2.6: The core functionality of the CodeModel java source code
 dev-java/colt 1.2.0-r4: Java Libraries for High Performance Scientific and Technical Computing
 dev-java/commonj 1.1.1: CommonJ API
 dev-java/commons-compiler 3.0.6-r1: Janino is a super-small, super-fast Java compiler.
-dev-java/commons-configuration 1.10-r2: Tools to assist in reading of configuration/preferences files in various formats
+dev-java/commons-configuration 1.10-r3: Tools to assist in reading of configuration/preferences files in various formats
 dev-java/commons-crypto 1.0.0: Apache Commons Crypto is a cryptographic library optimized with AES-NI (Advanced Encryption Standard New Instructions).
 dev-java/commons-jexl 2.1.1-r1: Expression language engine, can be embedded in applications and frameworks
 dev-java/commons-jxpath 1.3-r6: Applies XPath expressions to graphs of objects of all kinds
 dev-java/commons-lang 3.10: Commons components to manipulate core java classes
+dev-java/commons-text 1.10.0-r1: A Java library focused on algorithms working on strings
 dev-java/compress-lzf 1.0.3-r1: Compression codec for LZF encoding for particularly encoding/decoding, with reasonable compression. Compressor is basic Lempel-Ziv codec, without Huffman (deflate/gzip) or statistical post-encoding. See "http://oldhome.schmorp.de/marc/liblzf.html" for more on original LZF package.
 dev-java/conscrypt-constants 1.3.0 2.4.0: Conscrypt: Constants
 dev-java/conscrypt-openjdk-uber 1.3.0 2.4.0: Conscrypt: OpenJDK UberJAR
@@ -66,7 +66,7 @@ dev-java/curator-framework 2.7.1-r1: High-level API that greatly simplifies usin
 dev-java/curator-recipes 2.8.0: All of the recipes listed on the ZooKeeper recipes doc
 dev-java/dec 0.1.2-r1: Brotli is a generic-purpose lossless compression algorithm.
 dev-java/dependency-check-utils 4.0.2-r3: Utilities used within dependency-check that might be useful in other projects
-dev-java/duke 1.2-r2: A fast and flexible deduplication engine
+dev-java/duke 1.2-r3: A fast and flexible deduplication engine
 dev-java/ehcache 2.10.4-r1: Cache used to boost performance, offload database and simplify scalability
 dev-java/error-prone-annotations 2.4.0: Java annotations for the Error Prone static analysis tool
 dev-java/f2jutil 0.8.1_p1: Helper routines for compiling or running any f2j-generated Java code
@@ -98,7 +98,7 @@ dev-java/h2o-jetty9-minimal 3.36.1.2 3.36.1.3: H2O Jetty 9 Minimal
 dev-java/h2o-logger 3.32.1.7 3.34.0.8 3.36.1.2 3.36.1.3: H2O Logger
 dev-java/h2o-logging-impl-log4j2 3.32.1.7 3.34.0.8 3.36.1.2 3.36.1.3: H2O logging implementation based on Log4j 1.x
 dev-java/h2o-tree-api 0.3.18: Pure Java implementation of XGBoost predictor for online prediction tasks
-dev-java/h2o-webserver-iface 3.32.1.7 3.34.0.8 3.36.1.2 3.36.1.3: Module isolating H2O functionality from specific HTTP server implementation
+dev-java/h2o-webserver-iface 3.32.1.7-r1 3.34.0.8-r1 3.36.1.2-r1 3.36.1.3-r1: Module isolating H2O functionality from specific HTTP server implementation
 dev-java/hadoop-annotations 2.7.4-r2: Apache Hadoop Annotations
 dev-java/hadoop-auth 2.7.4-r4: Apache Hadoop Auth - Java HTTP SPNEGO
 dev-java/hadoop-client 2.7.4-r1: Apache Hadoop Client
@@ -172,6 +172,7 @@ dev-java/jboss-logging-spi 2.1.2-r1: The JBoss Logging Framework Programming Int
 dev-java/jboss-logmanager 1.5.2: JBoss logging framework
 dev-java/jboss-marshalling 1.3.18 1.3.18-r1 1.4.11: JBoss Marshalling API
 dev-java/jboss-transaction-api 1.0.0-r2 1.0.1-r2: The Java Transaction 1.2 API classes
+dev-java/jcip-annotations 1.0.1-r2: Clean room implementation of the JCIP Annotations
 dev-java/jcl-over-slf4j 1.7.32: JCL 1.2 implemented over SLF4J
 dev-java/jcodings 1.0.13: Byte based encoding support library for java
 dev-java/jcsp 1.1_rc5-r1: Communicating Sequential Processes (CSP) for use in Java
@@ -192,25 +193,25 @@ dev-java/jersey-media-sse 2.35: Jersey Server Sent Events entity providers suppo
 dev-java/jersey-server 1.9-r3 2.35-r1: Jersey core server implementation
 dev-java/jetbrains-annotations 13.0-r1 21.0.1: A set of annotations used for code inspection support and code documentation.
 dev-java/jetbrains-trove 1.0.20200330: Fork of trove4j library used in IntelliJ Platform
-dev-java/jets3t 0.9.7: Java toolkit and application suite for Amazon S3, CloudFront and Google Storage
+dev-java/jets3t 0.9.7-r1: Java toolkit and application suite for Amazon S3, CloudFront and Google Storage
 dev-java/jettison 1.4.1: A JSON StAX implementation
 dev-java/jetty 6.1.26-r1: Jetty server core
 dev-java/jetty-alpn-api 1.1.3_p20160715: Administrative parent pom for Jetty modules
 dev-java/jetty-client 9.4.44_p20210927: Jetty Asynchronous HTTP Client
-dev-java/jetty-continuation 9.4.44_p20210927: Jetty Asynchronous API
-dev-java/jetty-http 9.4.44_p20210927: Jetty HTTP Utility
+dev-java/jetty-continuation 9.4.44_p20210927-r1: Jetty Asynchronous API
+dev-java/jetty-http 9.4.44_p20210927-r1: Jetty HTTP Utility
 dev-java/jetty-io 9.4.44_p20210927: Jetty IO Utility
 dev-java/jetty-jaas 9.4.44_p20210927: Jetty JAAS support
 dev-java/jetty-jmx 9.4.44_p20210927: JMX management artifact for Jetty
 dev-java/jetty-npn-api 1.1.1_p20141010: Administrative parent pom for Jetty modules
-dev-java/jetty-proxy 9.4.44_p20210927: Jetty Proxy
+dev-java/jetty-proxy 9.4.44_p20210927-r1: Jetty Proxy
 dev-java/jetty-security 9.4.44_p20210927: Jetty security infrastructure
-dev-java/jetty-server 9.4.44_p20210927: The core Jetty server artifact
+dev-java/jetty-server 9.4.44_p20210927-r1: The core Jetty server artifact
 dev-java/jetty-servlet 9.4.44_p20210927: Jetty Servlet Container
-dev-java/jetty-servlets 9.4.44_p20210927: Utility Servlets from Jetty
+dev-java/jetty-servlets 9.4.44_p20210927-r1: Utility Servlets from Jetty
 dev-java/jetty-sslengine 6.1.26-r1: Parent pom for Jetty at Codehaus
-dev-java/jetty-util 6.1.26-r1 9.4.44_p20210927: Utility classes for Jetty
-dev-java/jetty-util-ajax 9.4.44_p20210927: JSON/Ajax Utility classes for Jetty
+dev-java/jetty-util 6.1.26-r1 9.4.44_p20210927-r1: Utility classes for Jetty
+dev-java/jetty-util-ajax 9.4.44_p20210927-r1: JSON/Ajax Utility classes for Jetty
 dev-java/jetty-webapp 9.4.44_p20210927: Jetty web application support
 dev-java/jetty-xml 9.4.44_p20210927: Jetty XML Utilities
 dev-java/jlapack 0.8: Java translation of the BLAS and LAPACK libraries
@@ -409,8 +410,8 @@ dev-java/wagon-provider-api 2.4-r1: Maven Wagon API that defines the contract be
 dev-java/websocket-api 9.4.44_p20210927: Jetty Websocket API
 dev-java/websocket-client 9.4.44_p20210927: Jetty Websocket Client
 dev-java/websocket-common 9.4.44_p20210927: Jetty Websocket Common
-dev-java/websocket-server 9.4.44_p20210927: Jetty Websocket Server
-dev-java/websocket-servlet 9.4.44_p20210927: Jetty Websocket Servlet
+dev-java/websocket-server 9.4.44_p20210927-r1: Jetty Websocket Server
+dev-java/websocket-servlet 9.4.44_p20210927-r1: Jetty Websocket Servlet
 dev-java/weld-api 1.1-r1: Weld specifc extensions to the CDI API
 dev-java/weld-core 1.1.0-r2: Weld's implementation of CDI
 dev-java/weld-osgi-bundle 1.1.0-r1: Weld runtime packaged as an OSGi bundle
@@ -423,7 +424,7 @@ dev-java/xmlenc 0.52-r2: Lightweight XML encoding library for Java, optimized fo
 dev-java/xmlpull 1.1.3.1-r1: XML Pull Parsing API
 dev-java/xsom 20140925-r1: A Java library that allows for easy parsing and inspection of XML schema docs
 dev-java/xstream 1.4.7-r2: XStream is a serialization library from Java objects to XML and back
-dev-java/zookeeper 3.4.14-r4 3.5.10: Server which enables highly reliable distributed coordination
+dev-java/zookeeper 3.4.14-r4 3.5.10-r1: Server which enables highly reliable distributed coordination
 dev-lang/f2j 0.8.1_p1-r1: Fortran-to-Java translator, especially for BLAS, LAPACK and ARPACK
 dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.32-r1 1.6.10-r1: Statically typed programming language for modern multiplatform applications
 dev-libs/apache-arrow 9.0.0-r3: A cross-language development platform for in-memory data
@@ -432,7 +433,7 @@ dev-libs/thrift 0.14.2: Software framework for cross-language services developme
 dev-python/h2o-py 3.32.1.7 3.34.0.8 3.36.1.2 3.36.1.3: H2O Python Package
 dev-python/py4j 0.10.9.5: A bridge between Python and Java
 dev-python/pyarrow 9.0.0-r1: Python library for Apache Arrow
-dev-python/pyspark 3.1.2-r1 3.1.2-r2: Apache Spark Python API
+dev-python/pyspark 3.1.2-r2: Apache Spark Python API
 java-virtuals/el-api 3.0: Virtual for servlet api
 java-virtuals/jsp-api 2.3-r1: Virtual for servlet api
 java-virtuals/servlet-api 4.0: Virtual for servlet api

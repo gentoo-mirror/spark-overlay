@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install preinst prepare setup test
-DEPEND=>=virtual/jdk-1.8:* dev-java/lucene:4.0 dev-java/lucene-analyzers-common:4.0 dev-java/lucene-spatial:4.0 dev-java/mapdb:0.9.9 >=dev-java/commonj-1.1.1:0 java-virtuals/servlet-api:2.4 test? ( dev-java/h2:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( dev-java/junit:4 )
+DEPEND=>=virtual/jdk-1.8:* dev-java/lucene:4.0 dev-java/lucene-analyzers-common:4.0 dev-java/lucene-spatial:4.0 dev-java/mapdb:0.9.9 >=dev-java/commonj-1.1.1:0 dev-java/tomcat-servlet-api:2.4 test? ( dev-java/h2:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( dev-java/junit:4 )
 DESCRIPTION=A fast and flexible deduplication engine
 EAPI=8
 HOMEPAGE=https://github.com/larsga/Duke
@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/larsga/Duke/archive/refs/tags/duke-1.2.tar.gz
 _eclasses_=java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-2	a6b42ffd8b6827abbd8cf09329c2c8fb	java-pkg-simple	257a59d157060d7bd51a13e68c614dd5
-_md5_=2db6f5c16df6421998ac1243b7b143ab
+_md5_=fa122d85eceb06f3251d9697e2e8d107
