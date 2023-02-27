@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/hadoop-annotations-2.7.4:0 >=dev-java/had
 RESTRICT=test !test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4-sources.jar https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.jar -> hadoop-yarn-common-2.7.4-bin.jar
-_eclasses_=java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-2	a6b42ffd8b6827abbd8cf09329c2c8fb	java-pkg-simple	257a59d157060d7bd51a13e68c614dd5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-2	a6b42ffd8b6827abbd8cf09329c2c8fb	java-pkg-simple	0389d2b96f7da44c3dbabe920bbe5531	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=9dd9be5151d42e80790755195911a9d4

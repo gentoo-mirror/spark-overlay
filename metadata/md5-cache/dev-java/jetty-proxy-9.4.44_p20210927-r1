@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* ~dev-java/jetty-client-9.4.44_p20210927:9 ~dev-java/
 RESTRICT=!test? ( test )
 SLOT=9
 SRC_URI=https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-proxy/9.4.44.v20210927/jetty-proxy-9.4.44.v20210927-sources.jar -> jetty-proxy-9.4.44_p20210927-sources.jar https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-proxy/9.4.44.v20210927/jetty-proxy-9.4.44.v20210927.jar -> jetty-proxy-9.4.44_p20210927-bin.jar
-_eclasses_=java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-2	a6b42ffd8b6827abbd8cf09329c2c8fb	java-pkg-simple	257a59d157060d7bd51a13e68c614dd5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-2	a6b42ffd8b6827abbd8cf09329c2c8fb	java-pkg-simple	0389d2b96f7da44c3dbabe920bbe5531	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=4c8c565e32b80efcfc78f5a1677004ff

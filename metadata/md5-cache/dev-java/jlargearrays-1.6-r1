@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/commons-math:3 >=dev-java/java-config-2.2.0
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://gitlab.com/visnow.org/JLargeArrays/-/archive/JLargeArrays-1.6/JLargeArrays-JLargeArrays-1.6.tar.gz -> jlargearrays-1.6.tar.gz
-_eclasses_=java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-2	a6b42ffd8b6827abbd8cf09329c2c8fb	java-pkg-simple	257a59d157060d7bd51a13e68c614dd5	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
+_eclasses_=java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-2	a6b42ffd8b6827abbd8cf09329c2c8fb	java-pkg-simple	0389d2b96f7da44c3dbabe920bbe5531	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
 _md5_=7a61ec97608b963139012532ed859721

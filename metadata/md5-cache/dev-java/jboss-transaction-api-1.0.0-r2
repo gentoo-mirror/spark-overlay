@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/z
 RESTRICT=!test? ( test )
 SLOT=1.1_spec
 SRC_URI=https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Beta1/jboss-transaction-api_1.1_spec-1.0.0.Beta1-sources.jar -> jboss-transaction-api-1.0.0-sources.jar https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Beta1/jboss-transaction-api_1.1_spec-1.0.0.Beta1.jar -> jboss-transaction-api-1.0.0-bin.jar
-_eclasses_=java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-2	a6b42ffd8b6827abbd8cf09329c2c8fb	java-pkg-simple	257a59d157060d7bd51a13e68c614dd5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-2	a6b42ffd8b6827abbd8cf09329c2c8fb	java-pkg-simple	0389d2b96f7da44c3dbabe920bbe5531	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=8b605ac2807c4955ff09688ec6e3ebec
