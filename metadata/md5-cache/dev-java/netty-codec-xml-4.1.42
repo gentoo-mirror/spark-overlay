@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/aalto-xml-1.0.0:0 >=dev-java/netty-buffer
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/io/netty/netty-codec-xml/4.1.42.Final/netty-codec-xml-4.1.42.Final-sources.jar -> netty-codec-xml-4.1.42-sources.jar https://repo1.maven.org/maven2/io/netty/netty-codec-xml/4.1.42.Final/netty-codec-xml-4.1.42.Final.jar -> netty-codec-xml-4.1.42-bin.jar
-_eclasses_=java-utils-2	8c72ea36a4935f626b13a30141d0d39c	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	7dacd744ab3fb5ec581318fefaa7a9e5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	8c72ea36a4935f626b13a30141d0d39c	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	59f084da80b4bf4a5620f970054669ed	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=4d531e83af10a3426731352d87e4b458

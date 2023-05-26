@@ -10,5 +10,5 @@ LICENSE=UPL-1.0
 RDEPEND=>=virtual/jre-1.8:* >=dev-java/graal-sdk-20.1.0:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 SLOT=0
 SRC_URI=https://repo.maven.apache.org/maven2/org/graalvm/truffle/truffle-api/20.1.0/truffle-api-20.1.0-sources.jar
-_eclasses_=java-utils-2	8c72ea36a4935f626b13a30141d0d39c	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	7dacd744ab3fb5ec581318fefaa7a9e5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	8c72ea36a4935f626b13a30141d0d39c	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	59f084da80b4bf4a5620f970054669ed	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=02259906c03b182b1c442f43d00d5b7d
