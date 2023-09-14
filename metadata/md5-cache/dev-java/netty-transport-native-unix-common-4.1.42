@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/netty-buffer-4.1.42:0 >=dev-java/netty-co
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.42.Final/netty-transport-native-unix-common-4.1.42.Final-sources.jar -> netty-transport-native-unix-common-4.1.42-sources.jar https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.42.Final/netty-transport-native-unix-common-4.1.42.Final.jar -> netty-transport-native-unix-common-4.1.42-bin.jar
-_eclasses_=java-utils-2	8c72ea36a4935f626b13a30141d0d39c	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	1c8a695f6cae6a50261276f4b3da9914	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	7311f5500eba17e0a599cd934f9db152	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	1c8a695f6cae6a50261276f4b3da9914	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=1a23eb5e3fd30fa215397f84977d3b16
