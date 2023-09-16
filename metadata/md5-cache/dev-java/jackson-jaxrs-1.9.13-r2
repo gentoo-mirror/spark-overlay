@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* !binary? ( >=dev-java/jackson-core-asl-1.9.13:0 >=dev-java/jackson-mapper-asl-1.9.13:0 dev-java/jakarta-ws-rs-api:0 >=dev-java/jackson-xc-1.9.13:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Jax-RS provider for JSON content type
+EAPI=8
+HOMEPAGE=http://jackson.codehaus.org
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 LGPL-2.1
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/jackson-core-asl-1.9.13:0 >=dev-java/jackson-mapper-asl-1.9.13:0 dev-java/jakarta-ws-rs-api:0 >=dev-java/jackson-xc-1.9.13:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13-sources.jar https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.jar -> jackson-jaxrs-1.9.13-bin.jar
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	1c8a695f6cae6a50261276f4b3da9914	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=cb92fc650ee9c005fc521eaa99d5bded

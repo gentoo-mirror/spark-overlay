@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install postinst preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8:* dev-java/jakarta-annotation-api:0 dev-java/jakarta-inject:0 dev-java/jakarta-ws-rs-api:0 dev-java/osgi-resource-locator:0 dev-java/osgi-core:6 test? ( dev-java/hamcrest-library:1.3 dev-java/mockito:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( dev-java/junit:4 )
+DESCRIPTION=Jersey core common packages
+EAPI=8
+HOMEPAGE=https://projects.eclipse.org/projects/ee4j.jersey
+INHERIT=java-pkg-2 java-pkg-simple readme.gentoo-r1
+IUSE=doc source test
+KEYWORDS=~amd64
+LICENSE=|| ( EPL-2.0 GPL-2-with-classpath-exception ) Apache-2.0 CC0-1.0
+RDEPEND=>=virtual/jre-1.8:* dev-java/jakarta-annotation-api:0 dev-java/jakarta-inject:0 dev-java/jakarta-ws-rs-api:0 dev-java/osgi-resource-locator:0 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=2
+SRC_URI=https://github.com/eclipse-ee4j/jersey/archive/refs/tags/2.35.tar.gz -> jersey-2.35.tar.gz https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.35/jersey-common-2.35-sources.jar
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	1c8a695f6cae6a50261276f4b3da9914	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3
+_md5_=4625c313438827520b87aae0c25de934

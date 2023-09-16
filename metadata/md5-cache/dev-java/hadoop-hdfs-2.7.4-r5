@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* !binary? ( >=dev-java/htrace-core-3.1.0:0 >=dev-java/jackson-core-asl-1.9.13:0 >=dev-java/jackson-mapper-asl-1.9.13:0 dev-java/jakarta-servlet-api:4 >=dev-java/jersey-core-1.9:1 >=dev-java/jersey-server-1.9:1 >=dev-java/jetty-6.1.26:6 >=dev-java/jetty-util-6.1.26:6 >=dev-java/netty-3.7.0:0 >=dev-java/xmlenc-0.52:0 >=dev-java/commons-cli-1.3.1:1 >=dev-java/commons-codec-1.7:0 >=dev-java/commons-daemon-1.0.15:0 >=dev-java/commons-io-2.4:1 >=dev-java/commons-lang-2.6:2.1 >=dev-java/commons-logging-1.2:0 >=dev-java/guava-29.0:0 >=dev-java/leveldbjni-1.8:0 >=dev-java/log4j-12-api-2.18.0:2 >=dev-java/netty-all-4.0.24:0 >=dev-java/protobuf-java-3.11.4:0 >=dev-java/xerces-2.12.0:2 >=dev-java/hadoop-annotations-2.7.4:0 >=dev-java/hadoop-auth-2.7.4:0 >=dev-java/hadoop-common-2.7.4:0 >=dev-java/slf4j-log4j12-1.7.28:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DESCRIPTION=Apache Hadoop HDFS
+EAPI=8
+HOMEPAGE=https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html
+INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
+IUSE=doc source test binary
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/htrace-core-3.1.0:0 >=dev-java/jackson-core-asl-1.9.13:0 >=dev-java/jackson-mapper-asl-1.9.13:0 dev-java/jakarta-servlet-api:4 >=dev-java/jersey-core-1.9:1 >=dev-java/jersey-server-1.9:1 >=dev-java/jetty-6.1.26:6 >=dev-java/jetty-util-6.1.26:6 >=dev-java/netty-3.7.0:0 >=dev-java/xmlenc-0.52:0 >=dev-java/commons-cli-1.3.1:1 >=dev-java/commons-codec-1.7:0 >=dev-java/commons-daemon-1.0.15:0 >=dev-java/commons-io-2.4:1 >=dev-java/commons-lang-2.6:2.1 >=dev-java/commons-logging-1.2:0 >=dev-java/guava-29.0:0 >=dev-java/leveldbjni-1.8:0 >=dev-java/log4j-12-api-2.18.0:2 >=dev-java/netty-all-4.0.24:0 >=dev-java/protobuf-java-3.11.4:0 >=dev-java/xerces-2.12.0:2 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4-sources.jar https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4.jar -> hadoop-hdfs-2.7.4-bin.jar
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	1c8a695f6cae6a50261276f4b3da9914	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_md5_=c36d1149218b2d086ca83fdf83582fa1
