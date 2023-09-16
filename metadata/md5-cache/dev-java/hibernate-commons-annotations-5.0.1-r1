@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jboss-logging-3.4.0:0 dev-java/jboss-logg
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final-sources.jar -> hibernate-commons-annotations-5.0.1-sources.jar https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar -> hibernate-commons-annotations-5.0.1-bin.jar
-_eclasses_=java-utils-2	7311f5500eba17e0a599cd934f9db152	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	1c8a695f6cae6a50261276f4b3da9914	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	1c8a695f6cae6a50261276f4b3da9914	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=25b7ac44a4b24a7080d04e05f9be7f74

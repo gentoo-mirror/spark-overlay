@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/z
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/5.0_BETA/asm-debug-all-5.0_BETA-sources.jar -> asm-debug-all-5.0-sources.jar https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/5.0_BETA/asm-debug-all-5.0_BETA.jar -> asm-debug-all-5.0-bin.jar
-_eclasses_=java-utils-2	7311f5500eba17e0a599cd934f9db152	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	1c8a695f6cae6a50261276f4b3da9914	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	1c8a695f6cae6a50261276f4b3da9914	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=739ef4b184951cb3b2403ed349c5529c
