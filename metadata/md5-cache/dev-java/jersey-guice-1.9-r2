@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jersey-server-1.9:1 >=dev-java/guice-4.1:
 RESTRICT=!test? ( test )
 SLOT=1
 SRC_URI=https://repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9-sources.jar https://repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar -> jersey-guice-1.9-bin.jar
-_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	1c8a695f6cae6a50261276f4b3da9914	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	9a7bbbced122721dc7e8a73cd66fcc02	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=c173a895253cd6d22822884a2fc05da6

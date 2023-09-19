@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/log4j-12-api:2 dev-java/xml-commons-resolve
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.10/commons-configuration-1.10-sources.jar https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar -> commons-configuration-1.10-bin.jar
-_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	1c8a695f6cae6a50261276f4b3da9914	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	9a7bbbced122721dc7e8a73cd66fcc02	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=94a50bccec91bf15deacfdfc01f4dc4b
