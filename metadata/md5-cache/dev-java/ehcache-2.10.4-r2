@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/slf4j-api-1.7.7:0 dev-java/jakarta-ws-rs-
 RESTRICT=!test? ( test )
 SLOT=2
 SRC_URI=https://repo1.maven.org/maven2/net/sf/ehcache/ehcache/2.10.4/ehcache-2.10.4-sources.jar https://repo1.maven.org/maven2/net/sf/ehcache/ehcache/2.10.4/ehcache-2.10.4.jar -> ehcache-2.10.4-bin.jar
-_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	9a7bbbced122721dc7e8a73cd66fcc02	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	32813b3fb0bbb9e49918f690bc58fdd5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=62e212be35484a9f25ab982870b59074

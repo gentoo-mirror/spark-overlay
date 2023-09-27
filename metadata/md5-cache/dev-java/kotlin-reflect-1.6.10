@@ -13,5 +13,5 @@ REQUIRED_USE=^^ ( kotlin_single_target_kotlin1-6 )
 RESTRICT=test !test? ( test )
 SLOT=1.6
 SRC_URI=!binary? ( https://github.com/JetBrains/kotlin/archive/v1.6.10.tar.gz -> kotlin-1.6.10.tar.gz test? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.jar ) ) binary? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.jar source? ( https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10-sources.jar ) )
-_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	9a7bbbced122721dc7e8a73cd66fcc02	kotlin-utils	657a5ae336aca0955c97fcc310d0f138	kotlin-libs	62e765e76faa44849b777fc07908cf42	kotlin-core-deps	1e18f00d415c6a0c5e89a0c992e8ede2
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	32813b3fb0bbb9e49918f690bc58fdd5	kotlin-utils	657a5ae336aca0955c97fcc310d0f138	kotlin-libs	62e765e76faa44849b777fc07908cf42	kotlin-core-deps	1e18f00d415c6a0c5e89a0c992e8ede2
 _md5_=87a12145279e9e8af4dfbb904ab7ebdc

@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/commons-logging-1.2:0 dev-java/log4j-12-a
 RESTRICT=test !test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final-sources.jar -> netty-common-4.1.42-sources.jar https://repo1.maven.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.jar -> netty-common-4.1.42-bin.jar
-_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	9a7bbbced122721dc7e8a73cd66fcc02	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	32813b3fb0bbb9e49918f690bc58fdd5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=c208cf00f0189e93a1c606ba7787155e
