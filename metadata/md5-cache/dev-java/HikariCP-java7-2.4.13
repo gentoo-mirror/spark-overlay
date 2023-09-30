@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/javassist-3.21.0:3 >=dev-java/slf4j-api-1
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/com/zaxxer/HikariCP-java7/2.4.13/HikariCP-java7-2.4.13-sources.jar https://repo1.maven.org/maven2/com/zaxxer/HikariCP-java7/2.4.13/HikariCP-java7-2.4.13.jar -> HikariCP-java7-2.4.13-bin.jar
-_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	32813b3fb0bbb9e49918f690bc58fdd5	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	52d47d4db4f2c870e1d8f23700ee5e0a	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=08b232e38cd9a638ce5d6a45552e1663

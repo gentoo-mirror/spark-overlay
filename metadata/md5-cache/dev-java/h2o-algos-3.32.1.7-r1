@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* ~dev-java/h2o-core-3.32.1.7:3.32 dev-java/fommil-net
 RESTRICT=!test? ( test )
 SLOT=3.32
 SRC_URI=https://github.com/h2oai/h2o-3/archive/refs/tags/jenkins-3.32.1.7.tar.gz -> h2o-3.32.1.7.tar.gz https://repo1.maven.org/maven2/ai/h2o/h2o-algos/3.32.1.7/h2o-algos-3.32.1.7.jar -> h2o-algos-3.32.1.7-bin.jar
-_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	32813b3fb0bbb9e49918f690bc58fdd5
+_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	52d47d4db4f2c870e1d8f23700ee5e0a
 _md5_=cddc90b4bb5fa1144966e08a47827048
