@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/zookeeper-3.4.6:0 >=dev-java/guava-29.0:0
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1-sources.jar https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar -> curator-client-2.7.1-bin.jar
-_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	52d47d4db4f2c870e1d8f23700ee5e0a	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	30b5d143e64d691346fcdd85eef1c614	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	b0070ace51ab296c51f93ef99c467be3	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=1511cfdd409aabb2c83ebff564f4fedb

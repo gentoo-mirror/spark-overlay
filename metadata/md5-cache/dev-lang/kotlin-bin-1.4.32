@@ -10,5 +10,5 @@ LICENSE=Apache-2.0 BSD MIT NPL-1.1
 RDEPEND=>=virtual/jdk-1.8:* || ( ~dev-java/kotlin-stdlib-bootstrap-1.4.32:1.4 ~dev-java/kotlin-stdlib-1.4.32:1.4 ) || ( ~dev-java/kotlin-reflect-bootstrap-1.4.32:1.4 ~dev-java/kotlin-reflect-1.4.32:1.4 ) dev-java/kotlinx-coroutines-core-bin:1.3.8 dev-java/jetbrains-annotations:13 dev-java/jetbrains-trove:0 >=dev-java/java-config-2.2.0-r3 app-eselect/eselect-kotlin
 SLOT=1.4
 SRC_URI=https://github.com/JetBrains/kotlin/releases/download/v1.4.32/kotlin-compiler-1.4.32.zip
-_eclasses_=java-utils-2	d051ecd608488854eb9252d64d396140	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	kotlin-compiler	a1b33667ce308edb3a7ee248258c94cf	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=java-utils-2	30b5d143e64d691346fcdd85eef1c614	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	kotlin-compiler	a1b33667ce308edb3a7ee248258c94cf	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
 _md5_=05537ad931f1c7c9a3cc53c532956dfe
