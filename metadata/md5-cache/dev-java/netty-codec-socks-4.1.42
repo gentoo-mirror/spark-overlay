@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/netty-buffer-4.1.42:0 >=dev-java/netty-co
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.42.Final/netty-codec-socks-4.1.42.Final-sources.jar -> netty-codec-socks-4.1.42-sources.jar https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.42.Final/netty-codec-socks-4.1.42.Final.jar -> netty-codec-socks-4.1.42-bin.jar
-_eclasses_=java-utils-2	30b5d143e64d691346fcdd85eef1c614	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	4ab397252045e0aeb290efb05ea956c7	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	c04e82b700f977924b211c7cdbc2f096	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	4ab397252045e0aeb290efb05ea956c7	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=36e050c8eb7dba9e43b0529961a3aa4a

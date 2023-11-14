@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* ~dev-java/tomcat-annotations-api-8.5.73:0 dev-java/j
 RESTRICT=test !test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.73/tomcat-embed-core-8.5.73-sources.jar https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.73/tomcat-embed-core-8.5.73.jar -> tomcat-embed-core-8.5.73-bin.jar
-_eclasses_=java-utils-2	30b5d143e64d691346fcdd85eef1c614	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	4ab397252045e0aeb290efb05ea956c7	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	c04e82b700f977924b211c7cdbc2f096	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	4ab397252045e0aeb290efb05ea956c7	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=1f45262d8a405baea661e30be1b07f5f
