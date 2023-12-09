@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/lucene-7.6.0:0 >=dev-java/java-config-2.2
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/7.6.0/lucene-queries-7.6.0-sources.jar https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/7.6.0/lucene-queries-7.6.0.jar -> lucene-queries-7.6.0-bin.jar
-_eclasses_=java-utils-2	c04e82b700f977924b211c7cdbc2f096	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	4ab397252045e0aeb290efb05ea956c7	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	7c4c66a18e7b619373f3a3bcff542907	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	4ab397252045e0aeb290efb05ea956c7	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=1560afebcb840f0f647dcb965cf5580e

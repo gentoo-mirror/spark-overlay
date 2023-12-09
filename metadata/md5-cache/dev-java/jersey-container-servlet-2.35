@@ -11,5 +11,5 @@ LICENSE=|| ( EPL-2.0 GPL-2-with-classpath-exception )
 RDEPEND=>=virtual/jre-1.8:* ~dev-java/jersey-container-servlet-core-2.35:2 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 SLOT=2
 SRC_URI=https://github.com/eclipse-ee4j/jersey/archive/refs/tags/2.35.tar.gz -> jersey-2.35.tar.gz https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.35/jersey-container-servlet-2.35-sources.jar
-_eclasses_=java-utils-2	c04e82b700f977924b211c7cdbc2f096	java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	4ab397252045e0aeb290efb05ea956c7
+_eclasses_=java-utils-2	7c4c66a18e7b619373f3a3bcff542907	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	4ab397252045e0aeb290efb05ea956c7
 _md5_=2f1383a2dbfa4d3b7ba1f2db36546ad5
