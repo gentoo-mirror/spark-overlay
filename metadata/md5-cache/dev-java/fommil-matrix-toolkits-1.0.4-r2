@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/fommil-netlib-core-1.1.2:0 >=dev-java/jav
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/fommil/matrix-toolkits-java/archive/refs/tags/mtj-1.0.4.tar.gz -> fommil-matrix-toolkits-1.0.4.tar.gz https://repo1.maven.org/maven2/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4.jar -> fommil-matrix-toolkits-1.0.4-bin.jar
-_eclasses_=java-utils-2	0fd5b6616cd66c8099a941608e2e0242	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	7420278ca3baf272711c56c3b435ac99	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
+_eclasses_=java-utils-2	0fd5b6616cd66c8099a941608e2e0242	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	67f37f8db9bdf7868f26504fd7bcbb22	java-pkg-maven	b39544481c5c6e8b18353e9d02b02a33
 _md5_=b2a6ae8d2dc166672be7f4a2c680d371
