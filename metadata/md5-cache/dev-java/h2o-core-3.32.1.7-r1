@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* ~dev-java/h2o-genmodel-3.32.1.7:3.32 ~dev-java/h2o-j
 RESTRICT=!test? ( test )
 SLOT=3.32
 SRC_URI=https://github.com/h2oai/h2o-3/archive/refs/tags/jenkins-3.32.1.7.tar.gz -> h2o-3.32.1.7.tar.gz https://repo1.maven.org/maven2/ai/h2o/h2o-core/3.32.1.7/h2o-core-3.32.1.7.jar -> h2o-core-3.32.1.7-bin.jar
-_eclasses_=java-utils-2	0fd5b6616cd66c8099a941608e2e0242	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	67f37f8db9bdf7868f26504fd7bcbb22
+_eclasses_=java-utils-2	b346c3901e71ba37137bae0b25b00221	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	67f37f8db9bdf7868f26504fd7bcbb22
 _md5_=55f2df6eff4272e70f0161accc14e00e
