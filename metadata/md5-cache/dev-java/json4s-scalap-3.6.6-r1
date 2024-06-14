@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/scala-common-bin-2.12.4:2.12 >=dev-java/j
 RESTRICT=!test? ( test )
 SLOT=2.12
 SRC_URI=https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.12/3.6.6/json4s-scalap_2.12-3.6.6-sources.jar -> json4s-scalap-3.6.6-sources.jar https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.12/3.6.6/json4s-scalap_2.12-3.6.6.jar -> json4s-scalap-3.6.6-bin.jar
-_eclasses_=java-utils-2	b346c3901e71ba37137bae0b25b00221	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	742531b28b0ce82ba9425bd2c28654f9	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce	java-pkg-simple-plugins	d1f17c329c49bf7da0d1b7ae8732c2ce
+_eclasses_=java-utils-2	78c5b72c402cd1341461475b24a7c1f4	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	742531b28b0ce82ba9425bd2c28654f9	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce	java-pkg-simple-plugins	d1f17c329c49bf7da0d1b7ae8732c2ce
 _md5_=ca5cf0999ab132a88298c4bcf381c724

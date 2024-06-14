@@ -12,5 +12,5 @@ RDEPEND=~dev-java/kotlin-common-bin-1.3.72:1.3 dev-java/jetbrains-annotations:13
 RESTRICT=!test? ( test )
 SLOT=1.3
 SRC_URI=https://github.com/JetBrains/kotlin/releases/download/v1.3.72/kotlin-compiler-1.3.72.zip test? ( https://github.com/JetBrains/kotlin/archive/refs/tags/v1.3.72.tar.gz -> kotlin-1.3.72.tar.gz )
-_eclasses_=java-utils-2	b346c3901e71ba37137bae0b25b00221	java-pkg-2	b6d755b4f6afabfd933932be28b46368	kotlin-compiler	a1b33667ce308edb3a7ee248258c94cf
+_eclasses_=java-utils-2	78c5b72c402cd1341461475b24a7c1f4	java-pkg-2	b6d755b4f6afabfd933932be28b46368	kotlin-compiler	a1b33667ce308edb3a7ee248258c94cf
 _md5_=b9fbf9c43fd286baf8caf960986bdb6e
