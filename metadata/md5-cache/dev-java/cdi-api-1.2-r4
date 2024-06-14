@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/javax-inject:0 dev-java/jakarta-interceptor
 RESTRICT=test !test? ( test )
 SLOT=1.2
 SRC_URI=https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2-sources.jar https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar -> cdi-api-1.2-bin.jar
-_eclasses_=java-utils-2	78c5b72c402cd1341461475b24a7c1f4	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	742531b28b0ce82ba9425bd2c28654f9	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	09d793abe112f655cd781e4467a6fc10	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	742531b28b0ce82ba9425bd2c28654f9	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=eaf374948d2dcfe9a8a7d6d38c1c9da9
