@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/jakarta-annotation-api:0 dev-java/jakarta-i
 RESTRICT=!test? ( test )
 SLOT=2
 SRC_URI=https://github.com/eclipse-ee4j/jersey/archive/refs/tags/2.35.tar.gz -> jersey-2.35.tar.gz https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.35/jersey-common-2.35-sources.jar
-_eclasses_=java-utils-2	09d793abe112f655cd781e4467a6fc10	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	742531b28b0ce82ba9425bd2c28654f9	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3
+_eclasses_=java-utils-2	09d793abe112f655cd781e4467a6fc10	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	742531b28b0ce82ba9425bd2c28654f9	readme.gentoo-r1	b8c7a61664027641d79dcfc04bd366f4
 _md5_=4625c313438827520b87aae0c25de934
