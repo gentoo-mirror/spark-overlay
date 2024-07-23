@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/jnr-constants:0 dev-java/jnr-ffi:2 >=dev-ja
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/jnr/jnr-enxio/archive/refs/tags/jnr-enxio-0.32.13.tar.gz
-_eclasses_=java-utils-2	d2bf348d35fd96d97944269dfbaf0f97	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	742531b28b0ce82ba9425bd2c28654f9
+_eclasses_=java-utils-2	d2bf348d35fd96d97944269dfbaf0f97	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	8221818a4df90800de803a44fd0875b4
 _md5_=42fa5f36f55eff614e2b1204fece9c28
