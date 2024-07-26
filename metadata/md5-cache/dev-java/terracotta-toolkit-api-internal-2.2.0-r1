@@ -9,5 +9,5 @@ LICENSE=Apache-2.0 LGPL-2.1
 RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3
 SLOT=0
 SRC_URI=https://repo.terracotta.org/maven2/org/terracotta/toolkit/terracotta-toolkit-api-internal/2.2.0/terracotta-toolkit-api-internal-2.2.0.jar
-_eclasses_=java-utils-2	d2bf348d35fd96d97944269dfbaf0f97	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-binjar	8defcc77070fc68fa13d547bacfca0d2
+_eclasses_=java-utils-2	2f361564ef86de2315882621bf05eb9c	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-binjar	8defcc77070fc68fa13d547bacfca0d2
 _md5_=8841acd4cecf4d776fcf3591554c8dee

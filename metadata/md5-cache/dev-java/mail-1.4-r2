@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/jakarta-activation-api:1 >=dev-java/java-co
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/javax/mail/mail/1.4/mail-1.4-sources.jar https://repo1.maven.org/maven2/javax/mail/mail/1.4/mail-1.4.jar -> mail-1.4-bin.jar
-_eclasses_=java-utils-2	d2bf348d35fd96d97944269dfbaf0f97	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	2f361564ef86de2315882621bf05eb9c	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=f11cff071e752bda1826375086473e4d

@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/audience-annotations:0 dev-java/commons-cli
 RESTRICT=test !test? ( test )
 SLOT=0
 SRC_URI=mirror://apache/zookeeper/zookeeper-3.5.10/apache-zookeeper-3.5.10.tar.gz
-_eclasses_=java-utils-2	d2bf348d35fd96d97944269dfbaf0f97	java-pkg-2	b6d755b4f6afabfd933932be28b46368	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	java-ant-2	d3f6ffc6629499cbc0d4cd71b9d7e7dc
+_eclasses_=java-utils-2	2f361564ef86de2315882621bf05eb9c	java-pkg-2	b6d755b4f6afabfd933932be28b46368	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	java-ant-2	d3f6ffc6629499cbc0d4cd71b9d7e7dc
 _md5_=fcaf3b525de4f451cc155774e06d4f32
