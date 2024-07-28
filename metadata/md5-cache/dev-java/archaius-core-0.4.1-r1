@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/commons-configuration-1.8:0 >=dev-java/sl
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1-sources.jar https://repo1.maven.org/maven2/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.jar -> archaius-core-0.4.1-bin.jar
-_eclasses_=java-utils-2	2f361564ef86de2315882621bf05eb9c	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	098b99f0d5d0caeed4c24a9334375dcd	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=9a4c47b97b83312edfae77975ff391aa

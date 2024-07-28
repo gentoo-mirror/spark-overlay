@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/osgi-framework:1 >=dev-java/java-config-2.2
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0-sources.jar -> javax-persistence-2.1.0-sources.jar https://repo1.maven.org/maven2/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar -> javax-persistence-2.1.0-bin.jar
-_eclasses_=java-utils-2	2f361564ef86de2315882621bf05eb9c	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	098b99f0d5d0caeed4c24a9334375dcd	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=5a8858dbcd939df03f447ac88e89e90f
