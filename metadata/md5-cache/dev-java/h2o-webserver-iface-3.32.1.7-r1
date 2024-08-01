@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/commons-codec:0 dev-java/tomcat-servlet-api
 RESTRICT=!test? ( test )
 SLOT=3.32
 SRC_URI=https://github.com/h2oai/h2o-3/archive/refs/tags/jenkins-3.32.1.7.tar.gz -> h2o-3.32.1.7.tar.gz https://repo1.maven.org/maven2/ai/h2o/h2o-webserver-iface/3.32.1.7/h2o-webserver-iface-3.32.1.7.jar -> h2o-webserver-iface-3.32.1.7-bin.jar
-_eclasses_=java-utils-2	098b99f0d5d0caeed4c24a9334375dcd	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	8221818a4df90800de803a44fd0875b4
+_eclasses_=java-utils-2	b2e92a8220dc7b1bd2062ca11774798a	java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	8221818a4df90800de803a44fd0875b4
 _md5_=518111f94abc485d581e0f38fc5900ee
