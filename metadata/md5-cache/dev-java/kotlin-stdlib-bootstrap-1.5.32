@@ -8,5 +8,5 @@ LICENSE=Apache-2.0 BSD MIT NPL-1.1
 RDEPEND=!dev-java/kotlin-stdlib:1.5
 SLOT=1.5
 SRC_URI=https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.5.32/kotlin-stdlib-1.5.32.jar
-_eclasses_=readme.gentoo-r1	b8c7a61664027641d79dcfc04bd366f4
+_eclasses_=readme.gentoo-r1	32b48460d813533d85f082897cec1b80
 _md5_=27dcdd91d281ffc9a4fe107f744f368d

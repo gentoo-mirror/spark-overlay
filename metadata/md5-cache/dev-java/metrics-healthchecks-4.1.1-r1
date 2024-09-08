@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/metrics-jvm-4.1.1:0 >=dev-java/slf4j-api-
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-healthchecks/4.1.1/metrics-healthchecks-4.1.1-sources.jar https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-healthchecks/4.1.1/metrics-healthchecks-4.1.1.jar -> metrics-healthchecks-4.1.1-bin.jar
-_eclasses_=java-utils-2	868752320f3c0e66b5fa5dc3602d7486	java-pkg-2	9076f1296e19e8cc3f51e613f5fddbf5	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	4d4ed3633ff7d706ae7d81e5fe4e94fc	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=68cca49ded4c5f80ee03cfe1fef710e0

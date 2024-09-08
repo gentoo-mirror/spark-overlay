@@ -6,5 +6,5 @@ INHERIT=prefix
 KEYWORDS=~amd64
 LICENSE=GPL-3+
 SLOT=0
-_eclasses_=prefix	eab3c99d77fe00506c109c8a736186f7
+_eclasses_=prefix	629161311cdf29bf8596fdd036826a2c
 _md5_=0b3d23e9949c887288bad47ebbbdc2b3
