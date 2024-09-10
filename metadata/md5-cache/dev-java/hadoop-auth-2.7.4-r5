@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/apacheds-kerberos-codec-2.0.0:0 >=dev-jav
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4-sources.jar https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4.jar -> hadoop-auth-2.7.4-bin.jar
-_eclasses_=java-utils-2	504ec83d568c22f28aa6399df0c96de8	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	505f237da61d30569dcc6d5df8c51262	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=37fe60e7637c0cf4bf7f44cda0e74fb4

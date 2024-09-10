@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* ~dev-java/jersey-common-2.35:2 dev-java/hk2-locator:
 RESTRICT=!test? ( test )
 SLOT=2
 SRC_URI=https://github.com/eclipse-ee4j/jersey/archive/refs/tags/2.35.tar.gz -> jersey-2.35.tar.gz https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.35/jersey-hk2-2.35-sources.jar
-_eclasses_=java-utils-2	504ec83d568c22f28aa6399df0c96de8	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	java-pkg-simple	8221818a4df90800de803a44fd0875b4
+_eclasses_=java-utils-2	505f237da61d30569dcc6d5df8c51262	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	java-pkg-simple	8221818a4df90800de803a44fd0875b4
 _md5_=f95785597d949fad5162f6c60244513b
