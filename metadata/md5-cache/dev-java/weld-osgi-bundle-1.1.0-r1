@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/jboss-interceptor-core-2.0.0:0 >=dev-java
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/jboss/weld/weld-osgi-bundle/1.1.0.Final/weld-osgi-bundle-1.1.0.Final-sources.jar -> weld-osgi-bundle-1.1.0-sources.jar https://repo1.maven.org/maven2/org/jboss/weld/weld-osgi-bundle/1.1.0.Final/weld-osgi-bundle-1.1.0.Final.jar -> weld-osgi-bundle-1.1.0-bin.jar
-_eclasses_=java-utils-2	4d4ed3633ff7d706ae7d81e5fe4e94fc	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	504ec83d568c22f28aa6399df0c96de8	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=ff5041436cf44e1c8cc1316e2ba3f6a1

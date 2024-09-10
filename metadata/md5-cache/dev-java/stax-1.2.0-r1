@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/z
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/stax/stax/1.2.0/stax-1.2.0-sources.jar https://repo1.maven.org/maven2/stax/stax/1.2.0/stax-1.2.0.jar -> stax-1.2.0-bin.jar
-_eclasses_=java-utils-2	4d4ed3633ff7d706ae7d81e5fe4e94fc	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	504ec83d568c22f28aa6399df0c96de8	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=a3bec8ec1d4c6fe0c639f8beb0be1fea
