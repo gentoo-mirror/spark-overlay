@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile configure install preinst prepare setup test
+DEFINED_PHASES=configure install preinst prepare setup test
 DEPEND=>=virtual/jdk-1.8:* test? ( dev-java/junit:0 dev-java/ant-junit:0 ) >=dev-java/xerces-2.7:2 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) >=dev-java/ant-1.10.14-r2:0 dev-java/javatoolkit
 DESCRIPTION=A simple HTML scanner and tag balancer using standard XML interfaces
 EAPI=7
@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/xerces-2.7:2 >=dev-java/java-config-2.2.0
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://sourceforge/nekohtml/nekohtml-1.9.18.tar.gz
-_eclasses_=java-utils-2	505f237da61d30569dcc6d5df8c51262	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	multilib	7e1347c006a76bb812f3a9f663b79991	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	java-ant-2	ad653f6ce057f94c49254ace4f0f8335
+_eclasses_=java-utils-2	f1da644b1cb86c9aca40b31a544a9906	java-pkg-2	cc4b7c2e885aaf57a8bbea685bd9fbe3	multilib	7e1347c006a76bb812f3a9f663b79991	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	java-ant-2	ad653f6ce057f94c49254ace4f0f8335
 _md5_=48e725ead407ed8e9381bb04acb5a807

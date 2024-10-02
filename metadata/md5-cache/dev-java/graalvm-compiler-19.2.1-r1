@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/graal-sdk-19.2.1:0 >=dev-java/truffle-api
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo.maven.apache.org/maven2/org/graalvm/compiler/compiler/19.2.1/compiler-19.2.1-sources.jar -> graalvm-compiler-19.2.1-sources.jar https://repo.maven.apache.org/maven2/org/graalvm/compiler/compiler/19.2.1/compiler-19.2.1.jar -> graalvm-compiler-19.2.1-bin.jar
-_eclasses_=java-utils-2	505f237da61d30569dcc6d5df8c51262	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	f1da644b1cb86c9aca40b31a544a9906	java-pkg-2	cc4b7c2e885aaf57a8bbea685bd9fbe3	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=e1ef36a47a43a067cc052d1d34e0c9dd

@@ -1,5 +1,5 @@
 BDEPEND=app-arch/unzip
-DEFINED_PHASES=compile install preinst prepare setup test
+DEFINED_PHASES=install preinst prepare setup test
 DEPEND=>=virtual/jre-1.8:* test? ( >=virtual/jdk-1.8:* dev-java/junit:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 DESCRIPTION=Kotlin Common Libraries
 EAPI=7
@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/z
 RESTRICT=!test? ( test )
 SLOT=1.3
 SRC_URI=https://github.com/JetBrains/kotlin/releases/download/v1.3.72/kotlin-compiler-1.3.72.zip test? ( https://github.com/JetBrains/kotlin/archive/refs/tags/v1.3.72.tar.gz -> kotlin-1.3.72.tar.gz )
-_eclasses_=java-utils-2	505f237da61d30569dcc6d5df8c51262	java-pkg-2	72587187cd548a5dcdb6a13453a3614d
+_eclasses_=java-utils-2	f1da644b1cb86c9aca40b31a544a9906	java-pkg-2	cc4b7c2e885aaf57a8bbea685bd9fbe3
 _md5_=5bb3a5b9be04f023e0f6fe9e3a0bb4ab
