@@ -7,28 +7,28 @@
 EAPI=7
 
 JAVA_PKG_IUSE="doc source test binary"
-MAVEN_ID="org.jboss:jandex:2.0.3.Final"
+MAVEN_ID="org.jboss:jandex:3.0.0.Final"
 JAVA_TESTING_FRAMEWORKS="pkgdiff"
 
 inherit java-pkg-2 java-pkg-simple java-pkg-maven
 
 DESCRIPTION="Parent POM for JBoss projects. Provides default project build configuration."
 HOMEPAGE="http://www.jboss.org/jandex"
-SRC_URI="https://repo1.maven.org/maven2/org/jboss/${PN}/${PV}.Final/${P}.Final-sources.jar -> ${P}-sources.jar
-	https://repo1.maven.org/maven2/org/jboss/${PN}/${PV}.Final/${P}.Final.jar -> ${P}-bin.jar"
+SRC_URI="https://repo1.maven.org/maven2/io/smallrye/${PN}/${PV}/${P}-sources.jar -> ${P}-sources.jar
+	https://repo1.maven.org/maven2/io/smallrye/${PN}/${PV}/${P}.jar -> ${P}-bin.jar"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
 
 # Compile dependencies
 # POM: /var/lib/java-ebuilder/poms/${P}.Final.pom
-# org.apache.ant:ant:1.8.1 -> >=dev-java/ant-1.10.14:0
+# org.apache.ant:ant:1.8.1 -> >=dev-java/ant-core-1.10.7:0
 
 DEPEND="
 	>=virtual/jdk-1.8:*
 	app-arch/unzip
 	!binary? (
-		>=dev-java/ant-1.10.14:0
+		>=dev-java/ant-1.10.7:0
 	)
 "
 
