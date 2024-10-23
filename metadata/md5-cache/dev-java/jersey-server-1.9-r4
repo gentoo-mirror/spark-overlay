@@ -1,6 +1,6 @@
 BDEPEND=app-arch/unzip
 DEFINED_PHASES=compile install preinst prepare setup test unpack
-DEPEND=>=virtual/jdk-1.8:* !binary? ( >=dev-java/jersey-core-1.9:1 >=dev-java/asm-3.1:3 >=dev-java/jaxb-api-2.2:2 dev-java/jakarta-ejb-api:3 dev-java/jakarta-servlet-api:4 dev-java/javax-jsp-api:2.2 >=dev-java/mail-1.4:0 >=dev-java/persistence-api-1.0:0 >=dev-java/weld-osgi-bundle-1.1.0:0 >=dev-java/ant-core-1.10.7:0 >=dev-java/osgi-core-4.0:4 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DEPEND=>=virtual/jdk-1.8:* !binary? ( >=dev-java/jersey-core-1.9:1 >=dev-java/asm-3.1:3 >=dev-java/jaxb-api-2.2:2 dev-java/jakarta-ejb-api:3 dev-java/jakarta-servlet-api:4 dev-java/javax-jsp-api:2.2 >=dev-java/mail-1.4:0 >=dev-java/persistence-api-1.0:0 >=dev-java/weld-osgi-bundle-1.1.0:0 >=dev-java/ant-1.10.14:0 >=dev-java/osgi-core-4.0:4 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
 DESCRIPTION=Jersey Server
 EAPI=8
 HOMEPAGE=https://eclipse-ee4j.github.io/jersey/
@@ -13,4 +13,4 @@ RESTRICT=test !test? ( test )
 SLOT=1
 SRC_URI=https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9-sources.jar https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar -> jersey-server-1.9-bin.jar
 _eclasses_=java-utils-2	4b88d12e899778ff681b67d7bcbb54f0	java-pkg-2	6e6478d8b78f18251c008bad32994df9	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
-_md5_=0971a9853b2aaddee81e56aafd61a592
+_md5_=805bb9a39f4043b2baa3514913b72911

@@ -1,6 +1,6 @@
 BDEPEND=app-arch/unzip
 DEFINED_PHASES=compile install preinst prepare setup test unpack
-DEPEND=>=virtual/jdk-1.8:* !binary? ( >=dev-java/maven-artifact-2.2.1:0 >=dev-java/maven-plugin-api-2.2.1:0 >=dev-java/maven-project-2.2.1:0 >=dev-java/plexus-utils-1.5.15:0 >=dev-java/ant-core-1.10.7:0 >=dev-java/bcpg-1.50:0 >=dev-java/commons-compress-1.10:0 >=dev-java/commons-io-2.4:1 >=dev-java/maven-bin-3.8.1:3.8 >=dev-java/maven-plugin-annotations-3.2:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
+DEPEND=>=virtual/jdk-1.8:* !binary? ( >=dev-java/maven-artifact-2.2.1:0 >=dev-java/maven-plugin-api-2.2.1:0 >=dev-java/maven-project-2.2.1:0 >=dev-java/plexus-utils-1.5.15:0 >=dev-java/ant-1.10.14:0 >=dev-java/bcpg-1.50:0 >=dev-java/commons-compress-1.10:0 >=dev-java/commons-io-2.4:1 >=dev-java/maven-bin-3.8.1:3.8 >=dev-java/maven-plugin-annotations-3.2:0 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip ) test? ( amd64? ( dev-util/pkgdiff dev-util/japi-compliance-checker ) )
 DESCRIPTION=Create Debian packages from Java builds in a truly cross platform manner
 EAPI=8
 HOMEPAGE=https://github.com/tcurdt/jdeb
@@ -8,9 +8,9 @@ INHERIT=java-pkg-2 java-pkg-simple java-pkg-maven
 IUSE=+binary doc source test binary
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
-RDEPEND=>=virtual/jre-1.8:* >=dev-java/maven-artifact-2.2.1:0 >=dev-java/maven-plugin-api-2.2.1:0 >=dev-java/maven-project-2.2.1:0 >=dev-java/plexus-utils-1.5.15:0 >=dev-java/ant-core-1.10.7:0 >=dev-java/bcpg-1.50:0 >=dev-java/commons-compress-1.10:0 >=dev-java/commons-io-2.4:1 >=dev-java/maven-bin-3.8.1:3.8 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/maven-artifact-2.2.1:0 >=dev-java/maven-plugin-api-2.2.1:0 >=dev-java/maven-project-2.2.1:0 >=dev-java/plexus-utils-1.5.15:0 >=dev-java/ant-1.10.14:0 >=dev-java/bcpg-1.50:0 >=dev-java/commons-compress-1.10:0 >=dev-java/commons-io-2.4:1 >=dev-java/maven-bin-3.8.1:3.8 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/vafer/jdeb/1.1.1/jdeb-1.1.1-sources.jar https://repo1.maven.org/maven2/org/vafer/jdeb/1.1.1/jdeb-1.1.1.jar -> jdeb-1.1.1-bin.jar
 _eclasses_=java-utils-2	4b88d12e899778ff681b67d7bcbb54f0	java-pkg-2	6e6478d8b78f18251c008bad32994df9	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
-_md5_=8bc2f14456c3db6ed9dce89274655d93
+_md5_=c9d2a495492343e4a679453952a8982a

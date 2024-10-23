@@ -33,9 +33,9 @@ dev-java/bcpg 1.52: Java cryptography APIs
 dev-java/bcpkix-jdk15on 1.54: The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation. This jar contains APIs for JDK 1.5 to JDK 1.8. The APIs can be used in conjunction with a JCE/JCA provider such as the one provided with the Bouncy Castle Cryptography APIs.
 dev-java/bcprov 1.52 1.54 1.68: Java cryptography APIs
 dev-java/bctls-jdk15on 1.65: The Bouncy Castle Java APIs for TLS and DTLS, including a provider for the JSSE.
-dev-java/byte-buddy 1.6.14-r3: Java library for creating Java classes at run time
+dev-java/byte-buddy 1.6.14-r3 1.14.18: Offers convenience for attaching an agent to the local or a remote VM
 dev-java/bytelist 1.0.15-r2: JRuby support library
-dev-java/cache-api 1.0.0-r1: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
+dev-java/cache-api 1.0.0-r1 1.0.0-r2 1.1.0: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/caffeine 2.6.1-r1: A high performance caching library for Java 8+
 dev-java/cal10n 0.8.1: java library for writing localized messages using resource bundle
 dev-java/cdi-api 1.2-r4: Contexts and Dependency Injection for the Java EE platform
@@ -118,8 +118,8 @@ dev-java/hadoop-yarn-server-web-proxy 2.7.4-r2: Apache Hadoop YARN Server Web Pr
 dev-java/hazelcast-bin 3.8.9: Binary package for the core Hazelcast module
 dev-java/hazelcast-code-generator 1.6.0-r1: Client Protocol of Hazelcast In-Memory DataGrid
 dev-java/headius-options 1.4: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
-dev-java/hibernate-commons-annotations 5.0.1-r1: Common reflection code used in support of annotation processing
-dev-java/hibernate-core 5.2.13-r3: The core O/RM functionality as provided by Hibernate
+dev-java/hibernate-commons-annotations 5.0.1-r1 7.0.1: Common reflection code used in support of annotation processing
+dev-java/hibernate-core 5.2.13-r3 6.6.1: The core O/RM functionality as provided by Hibernate
 dev-java/hibernate-jpa 1.0.2-r1: Clean-room definition of JPA APIs intended for use in developing Hibernate JPA implementation. See README.md for details
 dev-java/hibernate-validator 6.0.22-r2: Hibernate's Bean Validation (JSR-380) reference implementation
 dev-java/hk2-api 2.6.1-r2: HK2 API module
@@ -141,14 +141,20 @@ dev-java/jackson-xc 1.9.13-r2: Extensions for Jackson JSON processor's data bind
 dev-java/jakarta-annotation-api 1.3.5-r1: Jakarta Annotations API
 dev-java/jakarta-ejb-api 3.2.6-r1: Jakarta Enterprise Beans
 dev-java/jakarta-inject 2.6.1-r1: Injection API (JSR 330) version 2.6.1 repackaged as OSGi bundle
+dev-java/jakarta-inject-api 2.0.1: Jakarta Dependency Injection
 dev-java/jakarta-interceptor-api 1.2.5: A means of interposing on business method invocations and specific events
+dev-java/jakarta-json-api 2.1.3: JSR 374 (JSON Processing) API
+dev-java/jakarta-json-bind-api 3.0.1: Jakarta JSON Binding is a standard binding layer for converting Java objects to/from JSON documents.
 dev-java/jakarta-jws-api 2.1.0: JWS API (Eclipse Project for JAX-WS)
-dev-java/jakarta-persistence-api 2.2.3-r1: Eclipse Enterprise for Java (EE4J) is an open source initiative to create standard APIs, implementations of those APIs, and technology compatibility kits for Java runtimes that enable development, deployment, and management of server-side and cloud-native applications.
+dev-java/jakarta-persistence-api 2.2.3-r1 3.1.0: Eclipse Enterprise for Java (EE4J) is an open source initiative to create standard APIs, implementations of those APIs, and technology compatibility kits for Java runtimes that enable development, deployment, and management of server-side and cloud-native applications.
 dev-java/jakarta-servlet-api 4.0.3-r1: Eclipse Enterprise for Java (EE4J) is an open source initiative to create standard APIs, implementations of those APIs, and technology compatibility kits for Java runtimes that enable development, deployment, and management of server-side and cloud-native applications.
+dev-java/jakarta-transaction-api 2.0.1: Jakarta Transactions
+dev-java/jakarta-validation-api 3.0.2: Jakarta Bean Validation API
 dev-java/jakarta-ws-rs-api 2.1.6-r1: Jakarta RESTful Web Services API
+dev-java/jakarta-xml-bind-api 4.0.2: Jakarta XML Binding API
 dev-java/jakarta-xml-ws-api 2.3.3: JAX-WS API (Eclipse Project for JAX-WS)
 dev-java/jama 1.0.3-r2: A Java Matrix Package
-dev-java/jandex 2.0.3-r1: Parent POM for JBoss projects. Provides default project build configuration.
+dev-java/jandex 2.0.3-r1 3.0.0: Parent POM for JBoss projects. Provides default project build configuration.
 dev-java/janino 3.0.6: Janino is a super-small, super-fast Java compiler.
 dev-java/jarpack 0.1: Java translation of the ARPACK libraries
 dev-java/java-xmlbuilder 0.4-r1: XML Builder is a utility that creates simple XML documents using relatively sparse Java code
@@ -173,7 +179,7 @@ dev-java/jboss-logging-spi 2.1.2-r1: The JBoss Logging Framework Programming Int
 dev-java/jboss-logmanager 1.5.2: JBoss logging framework
 dev-java/jboss-marshalling 1.3.18 1.3.18-r1 1.4.11: JBoss Marshalling API
 dev-java/jboss-modules 1.3.3-r2: JBoss modular classloading system
-dev-java/jboss-transaction-api 1.0.0-r2 1.0.1-r2: The Java Transaction 1.2 API classes
+dev-java/jboss-transaction-api 1.0.0-r2 1.0.1-r2 1.0.1-r3: The Java Transaction 1.2 API classes
 dev-java/jcip-annotations 1.0.1-r2: Clean room implementation of the JCIP Annotations
 dev-java/jcl-over-slf4j 1.7.32: JCL 1.2 implemented over SLF4J
 dev-java/jcodings 1.0.13: Byte based encoding support library for java
@@ -342,6 +348,7 @@ dev-java/netty-transport-rxtx 4.1.42: Netty is an asynchronous event-driven netw
 dev-java/netty-transport-sctp 4.1.42: Netty Transport SCTP
 dev-java/netty-transport-udt 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
 dev-java/objectfile 19.2.1-r1: SubstrateVM object file writing library
+dev-java/ojdbc-bin 23.5.0.24.07: Oracle JDBC Driver compatible with JDK11, JDK17, JDK19, and JDK21
 dev-java/okhttp 4.7.2-r2: Square's meticulous HTTP client for Java and Kotlin
 dev-java/okio 2.6.0-r2: A modern I/O library for Android, Kotlin, and Java
 dev-java/opencsv 2.3-r1: A very simple csv (comma-separated values) parser library for Java
@@ -413,10 +420,10 @@ dev-java/websocket-client 9.4.44_p20210927: Jetty Websocket Client
 dev-java/websocket-common 9.4.44_p20210927: Jetty Websocket Common
 dev-java/websocket-server 9.4.44_p20210927-r1: Jetty Websocket Server
 dev-java/websocket-servlet 9.4.44_p20210927-r1: Jetty Websocket Servlet
-dev-java/weld-api 1.1-r2: Weld specifc extensions to the CDI API
+dev-java/weld-api 1.1-r2 1.1-r3: Weld specifc extensions to the CDI API
 dev-java/weld-core 1.1.0-r3: Weld's implementation of CDI
 dev-java/weld-osgi-bundle 1.1.0-r1: Weld runtime packaged as an OSGi bundle
-dev-java/weld-spi 1.1-r3: APIs for Weld, the reference implementation of JSR 299
+dev-java/weld-spi 1.1-r3 1.1-r4: APIs for Weld, the reference implementation of JSR 299
 dev-java/werken-xpath 0.9.4-r2: Werken JDOM XPath Engine
 dev-java/wstx 3.2.9-r1: Woodstox is a high-performance validating namespace-aware XML-processor
 dev-java/xbean-asm7-shaded 4.15-r1: Repackaged and shaded asm jars

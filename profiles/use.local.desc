@@ -79,6 +79,7 @@ dev-java/jakarta-annotation-api:binary - install binary jar from maven central.
 dev-java/jakarta-inject:binary - install binary jar from maven central.
 dev-java/jakarta-persistence-api:binary - install binary jar from maven central.
 dev-java/jakarta-servlet-api:binary - install binary jar from maven central.
+dev-java/jakarta-transaction-api:binary - install binary jar from maven central.
 dev-java/jandex:binary - install binary jar from maven central.
 dev-java/java-xmlbuilder:binary - install binary jar from maven central.
 dev-java/java9-concurrent-backport:binary - install binary jar from maven central.
