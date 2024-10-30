@@ -11,5 +11,5 @@ RDEPEND=>=dev-java/java-config-2.2.0-r3 >=virtual/jre-1.8:*
 REQUIRED_USE=^^ ( kotlin_single_target_kotlin1-5 )
 SLOT=1.5
 SRC_URI=https://github.com/JetBrains/kotlin/archive/v1.5.32.tar.gz -> kotlin-1.5.32.tar.gz
-_eclasses_=java-utils-2	4b88d12e899778ff681b67d7bcbb54f0	java-pkg-2	6e6478d8b78f18251c008bad32994df9	java-pkg-simple	8221818a4df90800de803a44fd0875b4	kotlin-utils	657a5ae336aca0955c97fcc310d0f138	kotlin-libs	62e765e76faa44849b777fc07908cf42	kotlin-core-deps	1e18f00d415c6a0c5e89a0c992e8ede2
+_eclasses_=java-utils-2	b32feef17ce1094c86bb2c088b7ce6d1	java-pkg-2	6e6478d8b78f18251c008bad32994df9	java-pkg-simple	8221818a4df90800de803a44fd0875b4	kotlin-utils	657a5ae336aca0955c97fcc310d0f138	kotlin-libs	62e765e76faa44849b777fc07908cf42	kotlin-core-deps	1e18f00d415c6a0c5e89a0c992e8ede2
 _md5_=e9f309d7dd342f38804d06322f103740
