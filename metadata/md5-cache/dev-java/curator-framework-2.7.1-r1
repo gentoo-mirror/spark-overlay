@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/curator-client-2.7.1:0 >=dev-java/zookeep
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1-sources.jar https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.jar -> curator-framework-2.7.1-bin.jar
-_eclasses_=java-utils-2	b32feef17ce1094c86bb2c088b7ce6d1	java-pkg-2	6e6478d8b78f18251c008bad32994df9	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	df5a29aeeb243804a2f5ef024c8467a9	java-pkg-2	6e6478d8b78f18251c008bad32994df9	java-pkg-simple	8221818a4df90800de803a44fd0875b4	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=e54f10d66650569315ac50500b221560

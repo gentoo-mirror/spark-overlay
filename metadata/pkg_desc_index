@@ -34,7 +34,6 @@ dev-java/bcpkix-jdk15on 1.54: The Bouncy Castle Java APIs for CMS, PKCS, EAC, TS
 dev-java/bcprov 1.52 1.54 1.68: Java cryptography APIs
 dev-java/bctls-jdk15on 1.65: The Bouncy Castle Java APIs for TLS and DTLS, including a provider for the JSSE.
 dev-java/byte-buddy 1.6.14-r3 1.14.18: Offers convenience for attaching an agent to the local or a remote VM
-dev-java/bytelist 1.0.15-r2: JRuby support library
 dev-java/cache-api 1.0.0-r1 1.0.0-r2 1.1.0: Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/
 dev-java/caffeine 2.6.1-r1: A high performance caching library for Java 8+
 dev-java/cal10n 0.8.1: java library for writing localized messages using resource bundle
@@ -48,7 +47,6 @@ dev-java/classworlds 1.1_alpha2-r1: A framework for developers who require compl
 dev-java/clover 4.2.1-r1: Code coverage and testing tool for Java and Groovy
 dev-java/cmdreader 1.5-r1: Easy Command Line option reading in Java
 dev-java/codemodel 2.6: The core functionality of the CodeModel java source code generation library
-dev-java/colt 1.2.0-r4: Java Libraries for High Performance Scientific and Technical Computing
 dev-java/commonj 1.1.1: CommonJ API
 dev-java/commons-compiler 3.0.6-r1: Janino is a super-small, super-fast Java compiler.
 dev-java/commons-configuration 1.10-r3: Tools to assist in reading of configuration/preferences files in various formats
@@ -83,7 +81,6 @@ dev-java/graal-sdk 19.2.1-r1 20.1.0-r1: GraalVM is an ecosystem for compiling an
 dev-java/graalvm-compiler 19.2.1-r1: The GraalVM compiler and the Graal-truffle optimizer.
 dev-java/groovy-all 2.4.0-r3: Groovy: A powerful, dynamic language for the JVM
 dev-java/guava 29.0: Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.
-dev-java/guice-servlet 4.1-r1: Guice servlet extension
 dev-java/h2 2.0.206-r1: H2 Database Engine
 dev-java/h2o 3.32.1.7 3.34.0.8 3.36.1.2 3.36.1.3: Metapackage for H2O, a distributed, fast & scalable machine learning platform
 dev-java/h2o-algos 3.32.1.7-r1 3.34.0.8 3.36.1.2 3.36.1.3: H2O Algorithms
@@ -224,7 +221,6 @@ dev-java/jetty-webapp 9.4.44_p20210927: Jetty web application support
 dev-java/jetty-xml 9.4.44_p20210927: Jetty XML Utilities
 dev-java/jlapack 0.8: Java translation of the BLAS and LAPACK libraries
 dev-java/jlargearrays 1.6-r1: Library of one-dimensional arrays that can store up to 2^63 elements
-dev-java/jline 1.0-r2: Handle console input in Java
 dev-java/jmh-generator-annprocess 1.35: JMH benchmark generator, based on annotation processors
 dev-java/jnr-enxio 0.32.13: Native I/O access for java
 dev-java/jnr-unixsocket 0.38.17: Native I/O access for java
@@ -273,7 +269,6 @@ dev-java/kotlin-test-js 1.4.32 1.5.32 1.6.10: Kotlin Test for JS
 dev-java/kotlin-test-junit 1.4.32 1.5.32 1.6.10: Kotlin Test Support for JUnit 4
 dev-java/kotlinx-coroutines-core-bin 1.3.8-r2 1.5.0-r2: Coroutines support libraries for Kotlin
 dev-java/kryo-shaded 4.0.2-r2: Java binary serialization and cloning: fast, efficient, automatic
-dev-java/kxml 2.3.0-r1: Small XML Pull Parser
 dev-java/leveldb-api 0.12: High level Java API for LevelDB
 dev-java/leveldbjni 1.8-r2: A JNI library for acessing leveldb
 dev-java/libpam4j 1.11: Java binding for libpam.so
@@ -286,7 +281,6 @@ dev-java/lucene-analyzers-common 4.0.0-r1 7.6.0-r1: Additional Analyzers
 dev-java/lucene-queries 4.0.0-r1 7.6.0-r1: Lucene Queries Module
 dev-java/lucene-queryparser 7.6.0-r1: Lucene QueryParsers module
 dev-java/lucene-sandbox 7.6.0-r1: Lucene Sandbox
-dev-java/lucene-spatial 4.0.0-r1: Spatial Strategies for Apache Lucene
 dev-java/lzma-java 1.3-r1: LZMA library for Java
 dev-java/mahout-math 0.13.0-r1: High performance scientific and technical computing data structures and methods, mostly based on CERN's Colt Java API
 dev-java/mail 1.4-r2: Platform- and protocol-independent framework for mail and messaging applications
@@ -317,7 +311,6 @@ dev-java/money-api 1.0.1-r1: JSR 354 provides an API for representing, transport
 dev-java/msv-rngconverter 2022.7: MSV RNG Converter
 dev-java/multiverse-core 0.7.0-r1: The Multiverse core
 dev-java/nailgun-server 0.9.1-r1: Nailgun is a client, protocol, and server for running Java programs from the command line without incurring the JVM startup overhead. Programs run in the server (which is implemented in Java), and are triggered by the client (written in C), which handles all I/O. This project contains the SERVER ONLY.
-dev-java/nekohtml 1.9.18-r1: A simple HTML scanner and tag balancer using standard XML interfaces
 dev-java/netty 3.2.9-r3 3.10.6-r6: NIO client-server framework for quick and easy network applications development
 dev-java/netty-all 4.1.42-r1: The package for all Netty components
 dev-java/netty-buffer 4.1.42: Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.
@@ -351,7 +344,6 @@ dev-java/objectfile 19.2.1-r1: SubstrateVM object file writing library
 dev-java/ojdbc-bin 23.5.0.24.07: Oracle JDBC Driver compatible with JDK11, JDK17, JDK19, and JDK21
 dev-java/okhttp 4.7.2-r2: Square's meticulous HTTP client for Java and Kotlin
 dev-java/okio 2.6.0-r2: A modern I/O library for Android, Kotlin, and Java
-dev-java/opencsv 2.3-r1: A very simple csv (comma-separated values) parser library for Java
 dev-java/openjsse 1.1.0: OpenJSSE delivers a TLS 1.3 JSSE provider for Java SE 8
 dev-java/osgi-annotation 6.0.0: OSGi Annotation Release 6, Annotations for use in compiling bundles.
 dev-java/osgi-cmpn 6.0.0-r2: OSGi Compendium Release 6, Interfaces and Classes for use in compiling bundles
@@ -424,15 +416,11 @@ dev-java/weld-api 1.1-r2 1.1-r3: Weld specifc extensions to the CDI API
 dev-java/weld-core 1.1.0-r3: Weld's implementation of CDI
 dev-java/weld-osgi-bundle 1.1.0-r1: Weld runtime packaged as an OSGi bundle
 dev-java/weld-spi 1.1-r3 1.1-r4: APIs for Weld, the reference implementation of JSR 299
-dev-java/werken-xpath 0.9.4-r2: Werken JDOM XPath Engine
-dev-java/wstx 3.2.9-r1: Woodstox is a high-performance validating namespace-aware XML-processor
 dev-java/xbean-asm7-shaded 4.15-r1: Repackaged and shaded asm jars
 dev-java/xercesMinimal 1.9.6.2-r1: NekoHTML Xerces minimal
-dev-java/xmlenc 0.52-r2: Lightweight XML encoding library for Java, optimized for performance
 dev-java/xmlpull 1.1.3.1-r1: XML Pull Parsing API
 dev-java/xsom 20140925-r1: A Java library that allows for easy parsing and inspection of XML schema docs
 dev-java/xstream 1.4.7-r2: XStream is a serialization library from Java objects to XML and back
-dev-java/zookeeper 3.4.14-r4 3.5.10-r1: Server which enables highly reliable distributed coordination
 dev-lang/f2j 0.8.1_p1-r1: Fortran-to-Java translator, especially for BLAS, LAPACK and ARPACK
 dev-lang/kotlin-bin 1.3.72 1.3.72-r1 1.4.32 1.5.32-r1 1.6.10-r1: Statically typed programming language for modern multiplatform applications
 dev-libs/apache-arrow 9.0.0-r3: A cross-language development platform for in-memory data
