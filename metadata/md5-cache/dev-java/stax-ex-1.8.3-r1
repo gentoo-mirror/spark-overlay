@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* dev-java/jakarta-activation-api:1 dev-java/jaxb-api:
 RESTRICT=!test? ( test )
 SLOT=1
 SRC_URI=https://github.com/eclipse-ee4j/jaxb-stax-ex/archive/refs/tags/1.8.3.tar.gz -> stax-ex-1.8.3.tar.gz https://repo1.maven.org/maven2/org/jvnet/staxex/stax-ex/1.8.3/stax-ex-1.8.3.jar -> stax-ex-1.8.3-bin.jar
-_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-2	6e6478d8b78f18251c008bad32994df9	java-pkg-simple	c346bc0ba9945618340315a1089a82ef
+_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	java-pkg-simple	c346bc0ba9945618340315a1089a82ef
 _md5_=9d1290dc20a1d1a36c82847ddf4d7e50

@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/hadoop-annotations-2.7.4:0 >=dev-java/had
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.7.4/hadoop-yarn-server-nodemanager-2.7.4-sources.jar https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.7.4/hadoop-yarn-server-nodemanager-2.7.4.jar -> hadoop-yarn-server-nodemanager-2.7.4-bin.jar
-_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-2	6e6478d8b78f18251c008bad32994df9	java-pkg-simple	c346bc0ba9945618340315a1089a82ef	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	java-pkg-simple	c346bc0ba9945618340315a1089a82ef	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=d16857ba7039d77c5b2d09221b438340

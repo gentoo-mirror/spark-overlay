@@ -119,7 +119,6 @@ dev-java/jts-core 1.18.2: A Java library for creating and manipulating vector ge
 dev-java/jug 2.0.0-r1: Java UUID Generator
 dev-java/jul-to-slf4j 1.7.32: java.util.logging to SLF4J bridge
 dev-java/kotlin-annotations-jvm 1.4.32 1.5.32 1.6.10: Kotlin annotations for JVM
-dev-java/kotlin-common-bin 1.3.72 1.3.72-r1: Kotlin Common Libraries
 dev-java/kotlin-core-builtins 1.4.32 1.5.32 1.6.10: Kotlin library component kotlin-core-builtins
 dev-java/kotlin-core-compiler-common 1.4.32 1.5.32 1.6.10: Kotlin library build-time dependency kotlin-core-compiler-common
 dev-java/kotlin-core-compiler-common-jvm 1.4.32 1.5.32 1.6.10: Kotlin library build-time dependency kotlin-core-compiler-common-jvm
