@@ -12,5 +12,5 @@ REQUIRED_USE=^^ ( kotlin_single_target_kotlin1-4 kotlin_single_target_kotlin1-5 
 RESTRICT=test !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/square/okhttp/archive/refs/tags/parent-4.7.2.tar.gz -> okhttp-4.7.2.tar.gz
-_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	java-pkg-simple	c346bc0ba9945618340315a1089a82ef	kotlin-utils	657a5ae336aca0955c97fcc310d0f138	kotlin	6a263b2334aadba867de53e30250bb94
+_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	java-pkg-simple	3dd4432a9f6bd6048ee5cbe00cba2171	kotlin-utils	657a5ae336aca0955c97fcc310d0f138	kotlin	6a263b2334aadba867de53e30250bb94
 _md5_=0e4eed8b82a0919dfb7d5909292c1e07
