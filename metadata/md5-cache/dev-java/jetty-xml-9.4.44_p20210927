@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* ~dev-java/jetty-util-9.4.44_p20210927:9 >=dev-java/j
 RESTRICT=!test? ( test )
 SLOT=9
 SRC_URI=https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.44.v20210927/jetty-xml-9.4.44.v20210927-sources.jar -> jetty-xml-9.4.44_p20210927-sources.jar https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.44.v20210927/jetty-xml-9.4.44.v20210927.jar -> jetty-xml-9.4.44_p20210927-bin.jar
-_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	java-pkg-simple	460c3cd928ba6e677d113a15c496017e	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	e2cdf66cd9c826ccda532772976d342d	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	java-pkg-simple	460c3cd928ba6e677d113a15c496017e	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=7aec7f7355e210f59efb3d718fb507cf
