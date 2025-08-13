@@ -10,5 +10,5 @@ LICENSE=Apache-2.0 BSD MIT NPL-1.1
 RDEPEND=>=virtual/jdk-1.8:* || ( ~dev-java/kotlin-stdlib-bootstrap-1.6.10:1.6 ~dev-java/kotlin-stdlib-1.6.10:1.6 ) || ( ~dev-java/kotlin-reflect-bootstrap-1.6.10:1.6 ~dev-java/kotlin-reflect-1.6.10:1.6 ) dev-java/kotlinx-coroutines-core-bin:1.5.0 dev-java/jetbrains-annotations:13 dev-java/jetbrains-trove:0 >=dev-java/java-config-2.2.0-r3 app-eselect/eselect-kotlin
 SLOT=1.6
 SRC_URI=https://github.com/JetBrains/kotlin/releases/download/v1.6.10/kotlin-compiler-1.6.10.zip
-_eclasses_=java-utils-2	e2cdf66cd9c826ccda532772976d342d	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	kotlin-compiler	a1b33667ce308edb3a7ee248258c94cf	optfeature	538bce96e5589935b57e178e8635f301
+_eclasses_=java-utils-2	a080d4947ca188a48725a375b6184bc5	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	kotlin-compiler	a1b33667ce308edb3a7ee248258c94cf	optfeature	538bce96e5589935b57e178e8635f301
 _md5_=f2f02577b99bd69c7247f72a46be563c

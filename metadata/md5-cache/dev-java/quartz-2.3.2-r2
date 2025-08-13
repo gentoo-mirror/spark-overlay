@@ -12,5 +12,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/c3p0-0.9.5.4:0 >=dev-java/HikariCP-java7-
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://repo1.maven.org/maven2/org/quartz-scheduler/quartz/2.3.2/quartz-2.3.2-sources.jar https://repo1.maven.org/maven2/org/quartz-scheduler/quartz/2.3.2/quartz-2.3.2.jar -> quartz-2.3.2-bin.jar
-_eclasses_=java-utils-2	e2cdf66cd9c826ccda532772976d342d	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	java-pkg-simple	460c3cd928ba6e677d113a15c496017e	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
+_eclasses_=java-utils-2	a080d4947ca188a48725a375b6184bc5	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	java-pkg-simple	460c3cd928ba6e677d113a15c496017e	java-pkg-maven	abf27287f2ae6b952bdbb04a98f32cce
 _md5_=a53cd1429bbf5cb2672830d5d8a83f26
